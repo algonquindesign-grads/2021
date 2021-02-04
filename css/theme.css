@@ -1,0 +1,29 @@
+:root {
+  --color-primary: #333132;
+  --color-branding: #00b0d5;
+  --color-illustration: #f98bc0;
+  --color-motion: #82c86a;
+  --color-print: #ffc500;
+  --color-uxui: #e13a31;
+  --color-web: #0e64cc;
+  --color-secondary: #f2f2f2;
+  --color-secondary-light: #fff;
+  --color-secondary-dark: #000;
+
+  --font-primary: Barlow, sans-serif;
+  --font-secondary: Bungee, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
+}
