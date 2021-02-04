@@ -9,6 +9,13 @@ The 2021 Algonquin Design Grad website.
 ## Team Members
 
 - [@thomasjbradley](https://github.com/thomasjbradley)
+- [@MacKenzieRose](https://github.com/MacKenzieRose)
+- [@JessJodoin](https://github.com/JessJodoin)
+- [@jen-power](https://github.com/jen-power)
+- [@Maggie2744](https://github.com/Maggie2744)
+- [@trebird](https://github.com/trebird)
+- [@akhoinguyen](https://github.com/akhoinguyen)
+
 
 ---
 
