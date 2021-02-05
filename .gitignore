@@ -9,14 +9,6 @@ _site
 # Temporary files
 tmp
 
-# Raster graphics
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.svgz
-*.webp
-
 # Adobe files
 *.pdf
 *.ai

@@ -1,0 +1,4 @@
+I"ÿ<p>The <code class="language-plaintext highlighter-rouge">.list-group-inline</code> class that will force the <code class="language-plaintext highlighter-rouge">&lt;li&gt;</code> tags onto the same line.</p>
+
+<p>When added to the <code class="language-plaintext highlighter-rouge">&lt;dl&gt;</code> tag, the <code class="language-plaintext highlighter-rouge">&lt;dt&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;dd&gt;</code> tags will sit on the same line if there is enough space.</p>
+:ET
