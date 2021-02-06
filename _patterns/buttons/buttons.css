@@ -1,40 +1,39 @@
-
-i {
-    background-color: var(--color-secondary-light);
+.social-icon {
+  color: var(--color-secondary-light);
 }
 
-i:hover,
-i:focus{
-    background-color: var(--color-secondary-dark);
+.social-icon:hover,
+.social-icon:focus {
+  color: var(--color-secondary-dark);
 }
 
 /* Use these classes for the color include to define button color*/
 .color-branding {
-    background-color: var(--color-branding); 
-    border-color: var(--color-branding);
+  background-color: var(--color-branding);
+  border-color: var(--color-branding);
 }
 
 .color-illustration {
-    background-color: var(--color-illustration); 
-    border-color: var(--color-illustration);
+  background-color: var(--color-illustration);
+  border-color: var(--color-illustration);
 }
 
 .color-motion {
-    background-color: var(--color-motion); 
-    border-color: var(--color-motion);
+  background-color: var(--color-motion);
+  border-color: var(--color-motion);
 }
 
 .color-print {
-    background-color: var(--color-print); 
-    border-color: var(--color-print);
+  background-color: var(--color-print);
+  border-color: var(--color-print);
 }
 
 .color-uxui {
-    background-color: var(--color-uxui); 
-    border-color: var(--color-uxui);
+  background-color: var(--color-uxui);
+  border-color: var(--color-uxui);
 }
 
 .color-web {
-    background-color: var(--color-web); 
-    border-color: var(--color-web);
+  background-color: var(--color-web);
+  border-color: var(--color-web);
 }
