@@ -1,5 +1,52 @@
 title: Buttons
 description: |
-
+  This is a list of all the styles of buttons that appear on the website.
 
 patterns:
+  portfolio:
+    title: "Portfolio Button"
+    description: |
+      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites.
+    width: 10em
+    fields:
+      - name: color
+        type: string
+        example: "color-web"
+      - name: portfolio-url
+        type: url
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button links to this student's portfolio site"
+  calendly:
+    title: "Book With Calendly Button"
+    description: |
+      This button is used as a call-to-action to encourage site visitors to book a meeting with students.
+    width: 10em
+    fields:
+      - name: color
+        type: string
+        example: "color-web"
+      - name: student-username
+        type: string
+        example: "bulk0002"
+      - name: meeting-length
+        type: string
+        example: "15min"
+      - name: aria
+        type: string
+        example: "This button allows you to book a virtual meeting with this student"
+  icon:
+    title: "Clickable Icons"
+    description: |
+      These buttons are used to link to external site content, including student's social media accounts.
+    fields:
+      - name: url
+        type: url
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button navigates you to this student's instagram account"
+      - name: id
+        type: string
+        example: "instagram"
