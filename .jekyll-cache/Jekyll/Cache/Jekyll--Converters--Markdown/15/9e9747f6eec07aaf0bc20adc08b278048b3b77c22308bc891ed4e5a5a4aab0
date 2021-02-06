@@ -1,0 +1,12 @@
+I"f<p>These colors serve different functions.</p>
+
+<p>Greyed text allows enough value contrast to be readable against the background, but does not distract from more important information on the page. It is ideal for, amongst other things, form placeholders.</p>
+
+<p>Accent is used to draw attention to the most important calls-to-action on a page, and as such, is only found in particular button instances, and to highlight links.</p>
+
+<p>Banners is used in headers and footers to create some subtle aesthetic variation on the page, and more generally appeals to the target demographic of the site. It is still light enough to maintain readability of text.</p>
+
+<p>Background serves as a base colour for the page. It is also employed in hover states for maximal value contrast.</p>
+
+<p>Alarm is the colour used to indicate page errors, such as incomplete form fields.</p>
+:ET

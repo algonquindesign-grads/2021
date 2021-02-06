@@ -2,4 +2,26 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Gen A"
+  description: |
+    The website hosting all the code and content to represent the graphic design graduating class of 2021.
   font_url: "https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&family=Bungee&display=swap"
+
+  colors:
+    background: "--color-secondary-light"
+    sidebar: "--color-secondary"
+    accent: "--color-web"
+    patterns:
+      buttons.icon: "--color-secondary"
+
+  rationales:
+    colors.primary: |
+      This primary color was chosen to for its readability on the given backgrounds. However, it is not as extreme in contrast as a pure black, when set on light backgrounds.
+    colors.secondary: |
+      The secondary colors serve to create contrasting hover states and readable navigations in the headers and footers of the site.
+    colors.accent: |
+      These colors serve to indicate students' primary design specialty.
+    typefaces.primary: |
+      Barlow was selected as the primary typeface for this site for its friendly typographic personality, as well as to match the preselected header font.
+    typefaces.secondary: |
+      Bungee was selected as the secondary typeface as it is the basis of the word mark component of the logo.
