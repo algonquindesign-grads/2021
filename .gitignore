@@ -47,6 +47,14 @@ tmp
 *.ogg
 *.opus
 
+# Raster graphics
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svgz
+*.webp
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
