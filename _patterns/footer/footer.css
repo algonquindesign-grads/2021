@@ -1,0 +1,108 @@
+/* Defines the rounded corners of the footer div */
+.footer-shape {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Use these classes for the gradient colour includes */
+.gradient-rainbow {
+  background: linear-gradient(90deg, var(--color-uxui) 0 5%, var(--color-illustration) 20%, var(--color-print) 40%, var(--color-motion) 60%, var(--color-branding) 80%, var(--color-web) 95% 100%);
+}
+
+.gradient-branding {
+  background: linear-gradient(90deg, var(--color-motion) 0 5%, var(--color-branding) 30% 100%);
+}
+  
+.gradient-illustration {
+  background: linear-gradient(90deg, var(--color-secondary) 0, var(--color-illustration) 30% 100%);
+}
+  
+.gradient-motion {
+  background: linear-gradient(90deg, var(--color-secondary) 0, var(--color-motion) 30% 100%);
+}
+  
+.gradient-print {
+  background: linear-gradient(90deg, var(--color-secondary) 0, var(--color-print) 30% 100%);
+}
+  
+.gradient-uxui {
+  background: linear-gradient(90deg, var(--color-illustration) 0 5%, var(--color-uxui) 30% 100%);
+}
+  
+.gradient-web {
+  background: linear-gradient(90deg, var(--color-branding) 0 5%, var(--color-web) 30% 100%);
+}
+
+/* Includes for white text and link content */
+.nav-white a {
+  color: var(--color-secondary-light);
+  text-decoration: none;
+}
+
+.nav-white a:hover,
+.nav-white a:focus {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.text-white {
+  color: var(--color-secondary-light);
+}
+
+/* Includes for black text and link content */
+.nav-black a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.nav-black a:hover,
+.nav-black a:focus {
+  outline: 3px solid var(--color-primary-dark);
+  outline-offset: 3px;
+}
+
+.text-black {
+  color: var(--color-primary-dark);
+}
+
+/* Start media queries for content arrangement/visibility */
+.section-nav {
+  text-align: center;
+}
+
+.section-social > h6 {
+  display: none;
+}
+
+@media only screen and (min-width: 608px) {
+
+  .section-social > h6 {
+    display: block;
+  }
+  
+  .footer-shape > div {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: start;
+  }
+  
+  .section-logo {
+    grid-row: 1;
+    grid-column: 1/2;
+  }
+
+  .section-social {
+    grid-row: 1;
+    grid-column: 2/3;
+  }
+
+  .section-nav {
+    grid-row: 1;
+    grid-column: 3/4;
+    text-align: right;
+  }
+
+  .section-copyright {
+    grid-row: 2;
+    grid-column: 2/3;
+  }
+}

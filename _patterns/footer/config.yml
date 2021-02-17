@@ -1,5 +1,33 @@
 title: Footer
 description: |
-
+  This is a list of the footer styles of the website, built to respond to mobile and desktop sizes.
 
 patterns:
+  white:
+    title: "Footer with White Content"
+    description: |
+      This footer is used as the default option, but is replaced with the secondary footer when the content is not legible.
+    fields:
+      - name: gradient
+        type: string
+        example: "gradient-rainbow"
+      - name: nav-color
+        type: string
+        example: "nav-white"
+      - name: text-color
+        type: string
+        example: "text-white"
+  black:
+    title: "Footer with Black Content"
+    description: |
+      This footer is the secondary option, for use with light gradient banners.
+    fields:
+      - name: gradient
+        type: string
+        example: "gradient-print"
+      - name: nav-color
+        type: string
+        example: "nav-black"
+      - name: text-color
+        type: string
+        example: "text-black"
