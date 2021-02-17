@@ -1,5 +1,20 @@
 title: Header
 description: |
-
+  This is a list of the header styles of the website, built to respond to mobile and desktop sizes.
 
 patterns:
+  basic-header:
+    title: "Basic Header (white content)"
+    description: |
+      This is the header used as the default option on all webpages. It is replaced with the secondary header when content is not legible (background is too light for reversed text).
+    fields:
+      - name: gradient
+        type: string
+        example: "gradient-rainbow"
+      - name: nav-color
+        type: string
+        example: "nav-white"
+  secondary-header:
+    title: "Secondary Header (black content)"
+    description: |
+      This is the secondary header used only when content cannot be easily read (legible) on it's current background gradient.
