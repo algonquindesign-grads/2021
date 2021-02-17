@@ -1,6 +1,6 @@
 /* Defines the rounded corners of the footer div */
 .footer-shape {
-    border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 /* Use these classes for the gradient colour includes */
@@ -11,23 +11,23 @@
 .gradient-branding {
   background: linear-gradient(90deg, var(--color-motion) 0 5%, var(--color-branding) 30% 100%);
 }
-  
+
 .gradient-illustration {
   background: linear-gradient(90deg, var(--color-secondary) 0, var(--color-illustration) 30% 100%);
 }
-  
+
 .gradient-motion {
   background: linear-gradient(90deg, var(--color-secondary) 0, var(--color-motion) 30% 100%);
 }
-  
+
 .gradient-print {
   background: linear-gradient(90deg, var(--color-secondary) 0, var(--color-print) 30% 100%);
 }
-  
+
 .gradient-uxui {
   background: linear-gradient(90deg, var(--color-illustration) 0 5%, var(--color-uxui) 30% 100%);
 }
-  
+
 .gradient-web {
   background: linear-gradient(90deg, var(--color-branding) 0 5%, var(--color-web) 30% 100%);
 }
@@ -78,13 +78,13 @@
   .section-social > h6 {
     display: block;
   }
-  
+
   .footer-shape > div {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     align-items: start;
   }
-  
+
   .section-logo {
     grid-row: 1;
     grid-column: 1/2;
@@ -105,4 +105,5 @@
     grid-row: 2;
     grid-column: 2/3;
   }
+
 }
