@@ -37,8 +37,8 @@ h6 {
 
 .btn:focus,
 .btn:hover {
-  background-color: var(--color-secondary-light);
-  border-color: var(--color-secondary-light);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
   color: var(--color-primary);
   filter: drop-shadow(0 0.3em .5em #333132);
 }
