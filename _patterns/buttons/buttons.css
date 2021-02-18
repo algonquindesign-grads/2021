@@ -1,10 +1,23 @@
+/* These classes style the primary (white) icon states */
 .social-icon {
   color: var(--color-secondary-light);
 }
 
 .social-icon:hover,
 .social-icon:focus {
-  color: var(--color-secondary-dark);
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+/* These classes style the secondary (black) icon states */
+.social-icon-2 {
+  color: var(--color-primary);
+}
+
+.social-icon-2:hover,
+.social-icon-2:focus {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
 }
 
 /* Use these classes for the color include to define button color*/
@@ -36,4 +49,18 @@
 .color-web {
   background-color: var(--color-web);
   border-color: var(--color-web);
+}
+
+/* These classes style the secondary portfolio and calendly buttons */
+.btn-2 {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-2:hover,
+.btn-2:focus {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
