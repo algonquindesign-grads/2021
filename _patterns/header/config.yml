@@ -18,3 +18,10 @@ patterns:
     title: "Secondary Header (black content)"
     description: |
       This is the secondary header used only when content cannot be easily read (legible) on it's current background gradient.
+    fields:
+      - name: gradient
+        type: string
+        example: "gradient-motion"
+      - name: nav-color
+        type: string
+        example: "nav-black"
