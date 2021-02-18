@@ -1,17 +1,17 @@
 <header class="header-shape {{include.gradient}}" role="banner">
-  <div class="wrapper header-grid">
+  <div class="wrapper header-flex">
     <h1 class="push-0"><img class="header-logo" src="/images/reverse-alternate.svg" alt=""></h1>
 
     <nav class="header-nav">
-      <button class="toggle-open" id="toggle-open" type="button" name="button">
-        <i class="icon i-32"><svg><use xlink:href="/images/icons.svg#hamburger"></use></svg></i>
+      <button class="toggle" id="toggle" type="button" name="button">
+        <i class="icon i-32 toggle-open" id="toggle-open"><svg><use xlink:href="/images/icons.svg#hamburger"></use></svg></i>
+        <i class="icon i-32 toggle-close" id="toggle-close"><svg><use xlink:href="/images/icons.svg#close"></use></svg></i>
       </button>
-      <i class="icon i-32 toggle-close"><svg><use xlink:href="/images/icons.svg#close"></use></svg></i>
 
-      <ul class="h-nav-ul list-group text-upper push-0 milli">
-        <li class="push-1-2 {{include.nav-color}}"><a href="/quiz/">Quiz</a></li>
-        <li class="push-1-2 {{include.nav-color}}"><a href="#">Designers</a></li>
-        <li class="push-0 {{include.nav-color}}"><a href="#">Support</a></li>
+      <ul class="h-nav-ul list-group text-upper push-0 kilo" id="h-nav-ul">
+        <li class="{{include.nav-color}}"><a href="/quiz/">Quiz</a></li>
+        <li class="{{include.nav-color}}"><a href="#">Designers</a></li>
+        <li class="{{include.nav-color}}"><a href="#">Support</a></li>
       </ul>
     </nav>
   </div>
