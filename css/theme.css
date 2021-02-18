@@ -42,3 +42,16 @@ h6 {
   color: var(--color-primary);
   filter: drop-shadow(0 0.3em .5em #333132);
 }
+
+/* Layout 2 CSS by Khoi */
+
+.student-info-l2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.specifications-l2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-transform: uppercase;
+}
