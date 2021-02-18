@@ -3,3 +3,19 @@ description: |
 
 
 patterns:
+  template-4-section-2:
+    description: |
+      The second section of template 4 contains student videos
+    fields:
+      - name: tint
+        type: string
+        example: "color-web-tint"
+      - name: color
+        type: string
+        example: "text-web"
+      - name: ation-word
+        type: string
+        example: "excessivewordendingination"
+      - name: ation-word
+        type: string
+        example: "excessivewordelongation"

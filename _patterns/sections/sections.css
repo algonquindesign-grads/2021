@@ -1,0 +1,106 @@
+/* Use these classes for the color include to define section and element colors*/
+
+color-branding {
+  background-color: var(--color-branding);
+}
+
+.text-branding {
+  color: var(--color-branding);
+}
+
+.color-branding-tint {
+  background-color: rgba(0, 176, 213, 0.3);
+}
+
+.color-illustration {
+  background-color: var(--color-illustration);
+}
+
+.text-illustration {
+  color: var(--color-illustration);
+}
+
+.color-illustration-ting {
+  background-color: rgba(249, 139, 192, 0.3);
+}
+
+
+.color-motion {
+  background-color: var(--color-motion);
+}
+
+.text-motion {
+  color: var(--color-motion);
+}
+
+.color-motion-tint {
+  background-color: rgba(130, 200, 106, 0.3);
+}
+
+.color-print {
+  background-color: var(--color-print);
+}
+
+.text-print {
+  color: var(--color-print);
+}
+
+.color-print-tint {
+  background-color: rgba(255, 197, 100, 0.3);
+}
+
+.color-uxui {
+  background-color: var(--color-uxui);
+}
+
+.text-uxui {
+  color: var(--color-uxui);
+}
+
+.color-uxui-tint {
+  background-color: rgba(225, 58, 49, 0.3);
+}
+
+.color-web {
+  background-color: var(--color-web);
+}
+
+.text-web {
+  color: var(--color-web);
+}
+
+.color-web-tint {
+  background-color: rgba(14, 100, 204, 0.3);
+}
+
+.t4-s2 h2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .t4-s2 h2 {
+    font-size: 1.333rem;
+    line-height: 1.875rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .t4-s2 h2 {
+    font-size: 1.7769rem;
+    line-height: 2.625rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .t4-s2 h2 {
+    font-size: 2.3686rem;
+    line-height: 3.15rem;
+  }
+
+}
