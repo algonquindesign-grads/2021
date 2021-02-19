@@ -14,8 +14,8 @@
 
 .header-nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   flex-direction: column;
   text-align: right;
 }
