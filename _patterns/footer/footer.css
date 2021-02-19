@@ -50,7 +50,7 @@
 
 /* Includes for black text and link content */
 .nav-black a {
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .text-black {
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
 }
 
 /* Start media queries for content arrangement/visibility */
