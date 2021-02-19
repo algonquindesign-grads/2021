@@ -1,6 +1,5 @@
 :root {
   --color-primary: #333132;
-  --color-primary-dark: #000;
   --color-branding: #00b0d5;
   --color-illustration: #f98bc0;
   --color-motion: #82c86a;
@@ -9,6 +8,7 @@
   --color-web: #0e64cc;
   --color-secondary: #f2f2f2;
   --color-secondary-light: #fff;
+  --color-secondary-dark: #000;
 
   --font-primary: Barlow, sans-serif;
   --font-secondary: Bungee, sans-serif;
