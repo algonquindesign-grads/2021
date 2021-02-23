@@ -197,7 +197,8 @@
 
 @media only screen and (min-width: 25em) {
 
-  .t4-s2 h2 {
+  .t4-s2 h2,
+  .t4-s2 h2, {
     font-size: 1.333rem;
     line-height: 1.875rem;
   }
@@ -212,7 +213,8 @@
 
 @media only screen and (min-width: 38em) {
 
-  .t4-s2 h2 {
+  .t4-s2 h2,
+  .t4-s2 h2, {
     font-size: 1.7769rem;
     line-height: 2.625rem;
   }
@@ -298,7 +300,8 @@
 
 @media only screen and (min-width: 60em) {
 
-  .t4-s2 h2 {
+  .t4-s2 h2,
+  .t4-s2 h2, {
     font-size: 2.3686rem;
     line-height: 3.15rem;
   }

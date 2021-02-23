@@ -48,6 +48,14 @@ patterns:
       - name: font-color
         type: string
         example: "text-web"
+
+  template-4-section-1:
+    description: |
+      This section of template 4 contains the student information.
+    fields:
+      - name: student-quote
+        type: string
+        example: "color-web-tint"
   template-4-section-2:
     description: |
       This section of template 4 contains student videos
@@ -64,6 +72,22 @@ patterns:
       - name: ation-word
         type: string
         example: "excessivewordelongation"
+template-4-section-3:
+  description: |
+    This section of template 4 contains the student quote and example work.
+  fields:
+    - name: student-quote
+      type: string
+      example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
+    - name: color
+      type: string
+      example: "text-web"
+    - name: ation-word
+      type: string
+      example: "excessivewordendingination"
+    - name: ation-word
+      type: string
+      example: "excessivewordelongation"
   work-cards:
     title: "Student Work Image Cards"
     description: |
