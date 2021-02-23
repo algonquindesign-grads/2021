@@ -1,27 +1,27 @@
 <section>
-  <div class="t4-s1">
-    <div class="wrapper gutter layout1-about-content">
-      <div class="t4-student-photo">
-        <img src="{{include.student-photo}}" alt="{{include.student-photo-alt}}">
+  <div class="t4-s1 pad-t-2 pad-b-2">
+    <div class="wrapper gutter t4-about-content">
+      <div class="t4-student-photo push">
+        <img class="push-1-2" src="{{include.student-photo}}" alt="{{include.student-photo-alt}}">
       </div>
 
-      <h2 class="layout1-h2">{{include.student-name}}</h2>
+      <h2 class="">{{include.student-name}}</h2>
 
-      <ul class="layout1-specialties list-group">
+      <ul class="t4-specialties list-group">
         <li>{{include.specialties}}</li>
         <li>{{include.specialties}}</li>
         <li>{{include.specialties}}</li>
       </ul>
 
-      <img class="push layout1-bar" src="/images/line-break-gradient.svg" alt="" role="presentation">
+      <img class="push t4-bar" src="/images/line-break-gradient.svg" alt="" role="presentation">
 
-      <p class="layout1-about push-2">{{include.about}}</p>
+      <p class="t4-bio push-2">{{include.bio}}</p>
 
       <div class="push-2 social-align">
-        {% pattern navigation/templates-social-navigation-white %}
+        {% pattern navigation/templates-social-navigation-black %}
       </div>
 
-      <div class="layout1-buttons">
+      <div class="t4-buttons">
         <div class="push button-wrappers">
           {% pattern buttons/calendly color="color-web" student-username="bulk0002" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
         </div>

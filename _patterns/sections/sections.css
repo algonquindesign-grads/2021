@@ -110,7 +110,8 @@
 }
 
 .layout1-h1,
-.ation-word {
+.ation-word,
+.t4-s1 h2 {
   text-transform: uppercase;
   text-align: center;
   font-style: normal;
@@ -129,14 +130,16 @@
   color: var(--color-secondary-light);
 }
 
-.layout1-specialties {
+.layout1-specialties,
+.t4-specialties {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .layout1-buttons,
-.layout1-work-buttons {
+.layout1-work-buttons,
+.t4-buttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,8 +194,17 @@
   max-width: 20em;
 }
 
+.t4-student-photo img {
+  max-width: 100%;
+  border-radius: .25rem;
+}
+
+.t4-student-quote {
+
+}
+
 .t4-s2 video {
-  border-radius: 20px;
+  border-radius: 1rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -231,7 +243,8 @@
     grid-gap: 0 1.5rem;
   }
 
-  .layout1-h2 {
+  .layout1-h2,
+  .t4-s1 h2 {
     text-align: left;
     width: 100%;
   }
@@ -243,12 +256,29 @@
     grid-column: 2 / -1;
   }
 
-  .layout1-student-photo {
+  .layout1-student-photo,
+  .t4-student-photo {
     grid-row: 1 / 5;
   }
 
+  .t4-about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 4rem;
+  }
+
+  .t4-specialties,
+  .t4-bar,
+  .t4-buttons,
+  .t4-bio, {
+    grid-column: 2 / -1;
+  }
+
+
+
   .layout1-buttons,
-  .layout1-work-buttons {
+  .layout1-work-buttons,
+  .t4-buttons {
     flex-direction: row;
     justify-content: center;
     align-content: center;
