@@ -158,6 +158,8 @@
   text-align: center;
 }
 
+.t4-s1
+
 .t4-s2 h2 {
   font-size: 1rem;
   line-height: 1rem;
@@ -202,8 +204,14 @@
 
 .t4-student-photo img {
   max-width: 100%;
-  border-radius: .25rem;
+  border-radius: .35rem;
 }
+
+.t4-s1 h2 {
+  font-size: 3.1573rem;
+  line-height: 3.1573rem;
+}
+
 
 .t4-s2 video {
   border-radius: 1rem;
