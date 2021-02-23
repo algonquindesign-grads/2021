@@ -191,6 +191,10 @@
   max-width: 20em;
 }
 
+.t4-s2 video {
+  border-radius: 20px;
+}
+
 @media only screen and (min-width: 25em) {
 
   .t4-s2 h2 {

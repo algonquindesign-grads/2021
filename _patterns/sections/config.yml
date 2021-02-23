@@ -50,7 +50,7 @@ patterns:
         example: "text-web"
   template-4-section-2:
     description: |
-      The second section of template 4 contains student videos
+      This section of template 4 contains student videos
     fields:
       - name: tint
         type: string
