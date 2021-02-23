@@ -83,13 +83,13 @@ patterns:
       - name: student-quote
         type: string
         example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
-template-4-section-3:
-  description: |
-    This section of template 4 contains the quote and student work.
-  fields:
-    - name: project-title
-      type: string
-      example: "Case Study 1 Title"
+  template-4-section-3:
+    description: |
+      This section of template 4 contains the quote and student work.
+    fields:
+      - name: project-title
+        type: string
+        example: "Case Study 1 Title"
   work-cards:
     title: "Student Work Image Cards"
     description: |
