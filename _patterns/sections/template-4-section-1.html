@@ -1,0 +1,36 @@
+<section>
+  <div class="t4-s1 pad-t-2 pad-b-2">
+    <div class="wrapper gutter t4-about-content pad-t">
+      <div class="t4-student-photo push">
+        <img class="push-1-2" src="{{include.student-photo}}" alt="{{include.student-photo-alt}}">
+      </div>
+
+      <h2 class="">{{include.student-name}}</h2>
+
+      <ul class="t4-specialties list-group">
+        <li>{{include.specialties}}</li>
+        <li>{{include.specialties}}</li>
+        <li>{{include.specialties}}</li>
+      </ul>
+
+      <img class="push t4-bar" src="/images/line-break-gradient.svg" alt="" role="presentation">
+
+      <p class="t4-bio push">{{include.bio}}</p>
+
+      <div class="push-2 social-align">
+        {% pattern navigation/templates-social-navigation-black %}
+      </div>
+
+      <div class="t4-buttons pad-b">
+        <div class="push button-wrappers gutter-1-8">
+          {% pattern buttons/calendly color="color-web" student-username="bulk0002" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
+        </div>
+
+        <div class="push button-wrappers gutter-1-8">
+          {% pattern buttons/portfolio color="color-web" portfolio-url="#" aria="This button links to this student's portfolio site" %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
