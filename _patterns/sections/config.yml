@@ -77,25 +77,19 @@ patterns:
       - name: ation-word
         type: string
         example: "excessivewordendingination"
-      - name: ation-word
+      - name: color
         type: string
-        example: "excessivewordelongation"
+        example: "text-web"
+      - name: student-quote
+        type: string
+        example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
 template-4-section-3:
   description: |
-    This section of template 4 contains the student quote and example work.
+    This section of template 4 contains the quote and student work.
   fields:
-    - name: student-quote
+    - name: project-title
       type: string
-      example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
-    - name: color
-      type: string
-      example: "text-web"
-    - name: ation-word
-      type: string
-      example: "excessivewordendingination"
-    - name: ation-word
-      type: string
-      example: "excessivewordelongation"
+      example: "Case Study 1 Title"
   work-cards:
     title: "Student Work Image Cards"
     description: |
