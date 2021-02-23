@@ -160,7 +160,7 @@
 
 .t4-s2 h2 {
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1rem;
 }
 
 .t4-s3 h3 {
@@ -205,18 +205,15 @@
   border-radius: .25rem;
 }
 
-
-
 .t4-s2 video {
   border-radius: 1rem;
 }
 
 @media only screen and (min-width: 25em) {
 
-  .t4-s2 h2,
-  .t4-s2 h2, {
+  .t4-s2 h2 {
     font-size: 1.333rem;
-    line-height: 1.875rem;
+    line-height: 1.333rem;
   }
 
   .layout1-h1,
@@ -229,10 +226,9 @@
 
 @media only screen and (min-width: 38em) {
 
-  .t4-s2 h2,
-  .t4-s2 h2, {
+  .t4-s2 h2 {
     font-size: 1.7769rem;
-    line-height: 2.625rem;
+    line-height: 1.7769rem;
   }
 
   .layout1-h1,
@@ -337,10 +333,9 @@
 
 @media only screen and (min-width: 60em) {
 
-  .t4-s2 h2,
-  .t4-s2 h2, {
+  .t4-s2 h2 {
     font-size: 2.3686rem;
-    line-height: 3.15rem;
+    line-height: 2.3686rem;
   }
 
 }

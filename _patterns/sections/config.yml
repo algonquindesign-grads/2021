@@ -76,7 +76,7 @@ patterns:
         example: "text-web"
       - name: ation-word
         type: string
-        example: "excessivewordendingination"
+        example: "excessivewordelongation"
       - name: color
         type: string
         example: "text-web"
