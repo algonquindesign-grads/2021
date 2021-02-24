@@ -1,5 +1,13 @@
 title: Navigation
 description: |
-
+  This is a list of all the various types of navigations found of the website.
 
 patterns:
+  templates-social-navigation-black:
+    title: "Social Navigation for Templates (black)"
+    description: |
+      This is the social navigation found on the templates. This should be used when the gradient/background colour is a light colour.
+  templates-social-navigation-white:
+    title: "Social Navigation for Templates (white)"
+    description: |
+      This is the social navigation found on the templates. This should be used when the gradient/background colour is a dark colour.

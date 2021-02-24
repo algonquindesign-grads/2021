@@ -1,0 +1,383 @@
+/* Use these classes for the color include to define section and element colors*/
+
+.color-branding {
+  background-color: var(--color-branding);
+}
+
+.text-branding {
+  color: var(--color-branding);
+}
+
+.color-branding-tint {
+  background-color: rgba(0, 176, 213, .3);
+}
+
+.color-branding-separator-tint {
+  color: rgba(0, 176, 213, .3);
+}
+
+.color-illustration {
+  background-color: var(--color-illustration);
+}
+
+.text-illustration {
+  color: var(--color-illustration);
+}
+
+.color-illustration-ting {
+  background-color: rgba(249, 139, 192, .3);
+}
+
+.color-illustration-separator-tint {
+  color: rgba(249, 139, 192, .3);
+}
+
+
+.color-motion {
+  background-color: var(--color-motion);
+}
+
+.text-motion {
+  color: var(--color-motion);
+}
+
+.color-motion-tint {
+  background-color: rgba(130, 200, 106, .3);
+}
+
+.color-motion-separator-tint {
+  color: rgba(130, 200, 106, .3);
+}
+
+.color-print {
+  background-color: var(--color-print);
+}
+
+.text-print {
+  color: var(--color-print);
+}
+
+.color-print-tint {
+  background-color: rgba(255, 197, 100, .3);
+}
+
+.color-print-separator-tint {
+  color: rgba(255, 197, 100, .3);
+}
+
+.color-uxui {
+  background-color: var(--color-uxui);
+}
+
+.text-uxui {
+  color: var(--color-uxui);
+}
+
+.color-uxui-tint {
+  background-color: rgba(225, 58, 49, .3);
+}
+
+.color-uxui-separator-tint {
+  color: rgba(225, 58, 49, .3);
+}
+
+.color-web {
+  background-color: var(--color-web);
+}
+
+.text-web {
+  color: var(--color-web);
+}
+
+.color-web-tint {
+  background-color: rgba(14, 100, 204, .3);
+}
+
+.color-web-separator-tint {
+  color: rgba(14, 100, 204, .3);
+}
+
+.layout1-video-section {
+  margin: 2rem auto;
+}
+
+.layout1-h1,
+.layout1-h2,
+.layout1-h2-work {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0 auto 2rem;
+}
+
+.layout1-h1,
+.ation-word,
+.t4-s1 h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-style: normal;
+}
+
+.layout1-h2 {
+  text-align: center;
+  width: 15rem;
+}
+
+.layout1-h2-work {
+  text-align: center;
+}
+
+.layout1-separator {
+  color: var(--color-secondary-light);
+}
+
+.layout1-specialties,
+.t4-specialties {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.layout1-buttons,
+.layout1-work-buttons,
+.t4-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.button-wrappers {
+  margin: 1rem auto;
+}
+
+.layout1-about-section {
+  padding: 0 0 4rem;
+}
+
+.social-align {
+  text-align: center;
+}
+
+.t4-s1
+
+.t4-s2 h2 {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.t4-s3 h3 {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.work-cards-h3 {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.work-hover {
+  background-color: rgba(0, 0, 0, .4);
+  padding: 1rem;
+  color: var(--color-secondary-light);
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transition: all .15s ease-in;
+}
+
+.work-cards:hover .work-hover {
+  opacity: 1;
+}
+
+.layout1-work-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+}
+
+.layout1-student-quote {
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 20em;
+}
+
+.t4-student-photo img {
+  max-width: 100%;
+  border-radius: .35rem;
+}
+
+.t4-s1 h2 {
+  font-size: 3.1573rem;
+  line-height: 3.1573rem;
+}
+
+.t4-s2 video {
+  border-radius: 1rem;
+}
+
+.t4-s3 img {
+  border-radius: 1rem;
+}
+
+.t4-work-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .t4-s2 h2 {
+    font-size: 1.333rem;
+    line-height: 1.333rem;
+  }
+
+  .layout1-h1,
+  .layout1-h2,
+  .layout1-h2-work {
+    font-size: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .t4-s2 h2 {
+    font-size: 1.7769rem;
+    line-height: 1.7769rem;
+  }
+
+  .layout1-h1,
+  .layout1-h2,
+  .layout1-h2-work {
+    font-size: 2.5rem;
+  }
+
+  .layout1-about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 1.5rem;
+  }
+
+  .layout1-h2,
+  .t4-s1 h2 {
+    text-align: left;
+    width: 100%;
+  }
+
+  .layout1-specialties,
+  .layout1-bar,
+  .layout1-buttons,
+  .layout1-about {
+    grid-column: 2 / -1;
+  }
+
+  .layout1-student-photo,
+  .t4-student-photo {
+    grid-row: 1 / 5;
+  }
+
+  .t4-about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 4rem;
+  }
+
+  .t4-specialties,
+  .t4-bar,
+  .t4-buttons,
+  .t4-bio, {
+    grid-column: 2 / -1;
+  }
+
+  .layout1-buttons,
+  .layout1-work-buttons,
+  .t4-buttons {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .social-align {
+    align-self: center;
+    justify-self: left;
+    margin: 0;
+  }
+
+  .layout1-work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem 1.5rem;
+  }
+
+  .work-proj1 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+  }
+
+  .work-proj2 {
+    grid-column: 1 / -1;
+    grid-row: 3 / 5;
+  }
+
+  .work-proj3 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+
+  .work-proj4 {
+    grid-column: 2 / -1;
+    grid-row: 5 / 6;
+  }
+
+  .layout1-student-quote {
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
+  }
+
+  .layout1-work-buttons {
+    grid-column: 1 / -1;
+    grid-row: 7 / 8;
+  }
+
+  .t4-work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem 1.5rem;
+  }
+
+  .project-1 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+  }
+
+  .project-2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+  }
+
+  .project-3 {
+    grid-column: 2 / -1;
+    grid-row: 3 / 5;
+  }
+
+  .project-4 {
+    grid-column: 1 / -1;
+    grid-row: 5 / 6;
+  }
+
+  .t4-s3 .t4-buttons {
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .t4-s2 h2 {
+    font-size: 2.3686rem;
+    line-height: 2.3686rem;
+  }
+
+}

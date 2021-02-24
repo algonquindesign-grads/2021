@@ -50,18 +50,18 @@
 
 /* Includes for black text and link content */
 .nav-black a {
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
 .nav-black a:hover,
 .nav-black a:focus {
-  outline: 3px solid var(--color-primary-dark);
+  outline: 3px solid var(--color-primary);
   outline-offset: 3px;
 }
 
 .text-black {
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
 }
 
 /* Start media queries for content arrangement/visibility */

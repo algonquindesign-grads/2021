@@ -1,0 +1,34 @@
+<section class="layout1-work-section wrapper gutter pad-t-2 pad-b-2">
+  <h2 class="">Example Work</h2>
+
+  <div class="layout1-work-grid">
+    <div class="work-proj1">
+      {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+    </div>
+
+    <div class="work-proj2">
+      {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+    </div>
+
+    <div class="work-proj3">
+      {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+    </div>
+
+    <div class="work-proj4">
+      {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+    </div>
+
+    <p class="mega layout1-student-quote {{include.font-color}}">{{include.student-quote}}</p>
+
+    <div class="layout1-work-buttons">
+      <div class="push button-wrappers">
+        {% pattern buttons/calendly color="color-web" student-username="bulk0002" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
+      </div>
+
+      <div class="push button-wrappers">
+        {% pattern buttons/portfolio color="color-web" portfolio-url="#" aria="This button links to this student's portfolio site" %}
+      </div>
+    </div>
+  </div>
+
+</section>

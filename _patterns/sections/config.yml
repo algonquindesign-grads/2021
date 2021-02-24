@@ -3,3 +3,101 @@ description: |
 
 
 patterns:
+  layout1-video-section:
+    title: "Template 1 Video Section"
+    description: |
+      This is the video section found on template 1. It contains a title with a students' chosen 'ation' word and their personal question video. It appears at the top of the page.
+    fields:
+      - name: color
+        type: string
+        example: "text-web"
+      - name: ation-word
+        type: string
+        example: "wordendingination"
+  layout1-about-section:
+    title: "Template 1 About Section"
+    description: |
+      This is the about section found on template 1. It contains a student's photo, frist/last name, specialties, brief about, social links, and two buttons. It always appears after the video section.
+    fields:
+      - name: color-tint
+        type: string
+        example: "color-web-tint"
+      - name: separator-tint
+        type: string
+        example: "color-web-separator-tint"
+      - name: student-name
+        type: string
+        example: "Firstname Lastname"
+      - name: specialties
+        type: string
+        example: "Illustration"
+      - name: about
+        type: string
+        example: "This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!"
+  layout1-work-section:
+    title: "Template 1 Work Section"
+    description: |
+      This is the work section found on template 1. It contains four project photos (with descriptions), a quote, and two buttons. It always appears after the about section.
+    fields:
+      - name: project-title
+        type: string
+        example: "Case Study 1 Title"
+      - name: student-quote
+        type: string
+        example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
+      - name: font-color
+        type: string
+        example: "text-web"
+  template-4-section-1:
+    description: |
+      This section of template 4 is for student information and contains a photo, social links, first and last name, specialties, bio and two buttons.
+    fields:
+      - name: student-photo
+        type: image
+        example: "/images/example-image.jpg"
+      - name: student-name
+        type: string
+        example: "Model Student"
+      - name: specialties
+        type: string
+        example: "www"
+      - name: bio
+        type: string
+        example: "This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!"
+  template-4-section-2:
+    description: |
+      This section of template 4 contains student videos
+    fields:
+      - name: tint
+        type: string
+        example: "color-web-tint"
+      - name: color
+        type: string
+        example: "text-web"
+      - name: ation-word
+        type: string
+        example: "excessivewordelongation"
+      - name: color
+        type: string
+        example: "text-web"
+      - name: student-quote
+        type: string
+        example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
+  template-4-section-3:
+    description: |
+      This section of template 4 contains the quote and student work.
+    fields:
+      - name: project-title
+        type: string
+        example: "Case Study 1 Title"
+  work-cards:
+    title: "Student Work Image Cards"
+    description: |
+      This is the basic works image cards. It contains a project photo and a description when hovered. It is used on all templates.
+    fields:
+      - name: project-title
+        type: string
+        example: "Case Study 1 Title"
+      - name: project-desc
+        type: string
+        example: "This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!"
