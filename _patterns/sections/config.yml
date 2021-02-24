@@ -14,6 +14,7 @@ patterns:
       - name: ation-word
         type: string
         example: "wordendingination"
+
   layout1-about-section:
     title: "Template 1 About Section"
     description: |
@@ -34,6 +35,7 @@ patterns:
       - name: about
         type: string
         example: "This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!"
+
   layout1-work-section:
     title: "Template 1 Work Section"
     description: |
@@ -48,6 +50,22 @@ patterns:
       - name: font-color
         type: string
         example: "text-web"
+
+  template-2-about:
+    title: "Template 2 About section (bio)"
+    description: |
+      This is the about section for template 2.
+    fields:
+      - name: bio
+        type: string
+        example: "This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!"
+      - name: student-quote
+        type: string
+        example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
+      - name: font-color
+        type: string
+        example: "text-web"
+
   template-4-section-1:
     description: |
       This section of template 4 is for student information and contains a photo, social links, first and last name, specialties, bio and two buttons.
@@ -64,6 +82,7 @@ patterns:
       - name: bio
         type: string
         example: "This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!"
+
   template-4-section-2:
     description: |
       This section of template 4 contains student videos

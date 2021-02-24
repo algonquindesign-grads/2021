@@ -381,3 +381,44 @@
   }
 
 }
+
+/* Begin of template 2 CSS by Khoi — all the classes I created to use in this template will have "-t2" after them  */
+
+.student-info-t2 {
+  display: grid;
+}
+
+.specifications-t2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.specifications-t2 li {
+text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .student-info-t2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .specifications-t2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .specifications-t2 li:nth-child(1) {
+    text-align: left;
+  }
+
+  .specifications-t2 li:nth-child(2) {
+    text-align: center;
+  }
+
+  .specifications-t2 li:nth-child(3) {
+    text-align: right;
+}
+
+}
+
+/* End template 2 CSS */
