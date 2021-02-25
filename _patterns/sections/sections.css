@@ -419,6 +419,11 @@ grid-column: 1 / -1;
   grid-template-columns: 1fr 1fr;
 }
 
+.work-grid-t2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 @media only screen and (min-width: 60em) {
 

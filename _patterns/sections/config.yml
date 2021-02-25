@@ -89,6 +89,21 @@ patterns:
       - name: intro-video
         type: string
 
+  template-2-work:
+    title: "Template 2 Work Section"
+    description: |
+      This section is used to show 3 of students' work and a quote.
+    fields:
+      - name: project-title
+        type: string
+        example: "Case Study 1 Title"
+      - name: student-quote
+        type: string
+        example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
+      - name: font-color
+        type: string
+        example: "text-web"
+
 
   template-4-section-1:
     description: |
