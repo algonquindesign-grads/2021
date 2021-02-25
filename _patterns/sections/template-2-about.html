@@ -1,17 +1,32 @@
-<div class="student-info-t2">
-  <div class="gutter">
+<section class="student-info-t2 wrapper">
+
   <div class="embed embed-1by1">
-    <img class="embed-item img-flex" src="../images/studentspfp.jpg" alt="">
+    <img class="embed-item img-flex" src="/images/studentspfp.jpg" alt="">
   </div>
-  </div>
-  <div>
-    <h3 class="giga">Firstname Lastname</h3>
+
+  <div class="center-until-60em-t2">
+    <h2>{{include.student-name}}</h2>
     <ul class="list-group specifications-t2 text-upper bold">
-        <li>specification 1</li>
-        <li>specification 2</li>
-        <li>specification 3</li>
+      <li>{{include.specialties}}</li>
+      <li>{{include.specialties}}</li>
+      <li>{{include.specialties}}</li>
     </ul>
-    <hr>
-    <p>{{include.bio}}</p>
+    <img class="push layout1-bar" src="/images/line-break-gradient.svg" alt="" role="presentation">
+    <p>{{include.about}}</p>
   </div>
-</div>
+
+  <div class="center-until-60em-t2">
+    <div class="block">{% pattern navigation/templates-social-navigation-black %}</div>
+  </div>
+
+  <div class="about-buttons-t2 text-center">
+    <div>
+      {% pattern buttons/calendly color="color-web" student-username="bulk0002" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
+    </div>
+
+    <div>
+      {% pattern buttons/portfolio color="color-web" portfolio-url="#" aria="This button links to this student's portfolio site" %}
+    </div>
+  </div>
+
+</section>

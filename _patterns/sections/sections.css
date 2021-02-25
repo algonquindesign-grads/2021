@@ -382,10 +382,18 @@
 
 }
 
-/* Begin of template 2 CSS by Khoi — all the classes I created to use in this template will have "-t2" after them  */
+/* Begin of template 2 CSS — all the classes I created to use in this template will have "-t2" after them  */
 
 .student-info-t2 {
   display: grid;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+@media only screen and (max-width: 60em) {
+.center-until-60em-t2 {
+  text-align: center;
+}
 }
 
 .specifications-t2 {
@@ -397,7 +405,16 @@
 text-align: center;
 }
 
-@media only screen and (min-width: 38em) {
+.specifications-t2 li:last-child {
+grid-column: 1 / -1;
+}
+
+.about-buttons-t2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (min-width: 60em) {
 
   .student-info-t2 {
     grid-template-columns: 1fr 1fr;
@@ -407,7 +424,7 @@ text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .specifications-t2 li:nth-child(1) {
+  .specifications-t2 li:first-child {
     text-align: left;
   }
 
@@ -415,8 +432,9 @@ text-align: center;
     text-align: center;
   }
 
-  .specifications-t2 li:nth-child(3) {
+  .specifications-t2 li:last-child {
     text-align: right;
+    grid-column: auto;
 }
 
 }

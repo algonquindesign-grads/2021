@@ -56,12 +56,15 @@ patterns:
     description: |
       This is the about section for template 2.
     fields:
-      - name: bio
+      - name: student-name
+        type: string
+        example: "Firstname Lastname"
+      - name: specialties
+        type: string
+        example: "Illustration"
+      - name: about
         type: string
         example: "This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!"
-      - name: student-quote
-        type: string
-        example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
       - name: font-color
         type: string
         example: "text-web"
