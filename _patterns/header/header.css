@@ -22,28 +22,15 @@
 
 .toggle {
   background-color: transparent;
-  color: var(--color-secondary-light);
   border: none;
 }
 
 .toggle:hover {
   background-color: transparent;
   border: none;
-  color: var(--color-secondary-dark);
   cursor: pointer;
-}
-
-.toggle-dark {
-  background-color: transparent;
-  color: var(--color-secondary-dark);
-  border: none;
-}
-
-.toggle-dark:hover {
-  background-color: transparent;
-  border: none;
-  color: var(--color-secondary-light);
-  cursor: pointer;
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
 }
 
 .toggle-close {

@@ -4,24 +4,24 @@ description: |
 
 patterns:
   basic-header:
-    title: "Basic Header (white content)"
+    title: "Header (with data includes)"
     description: |
-      This is the header used as the default option on all webpages. It is replaced with the secondary header when content is not legible (background is too light for reversed text).
+      This is the header used as the default option on all webpages.
     fields:
       - name: gradient
         type: string
         example: "gradient-rainbow"
-      - name: nav-color
+      - name: nav_color
         type: string
         example: "nav-white"
   secondary-header:
-    title: "Secondary Header (black content)"
+    title: "Secondary Header (with basic inlcudes)"
     description: |
-      This is the secondary header used only when content cannot be easily read (legible) on it's current background gradient.
+      This is the secondary header (it is the same as the header except it has basic includes not data inlcudes).
     fields:
       - name: gradient
         type: string
         example: "gradient-motion"
-      - name: nav-color
+      - name: nav_color
         type: string
         example: "nav-black"
