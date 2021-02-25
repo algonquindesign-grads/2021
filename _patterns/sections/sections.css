@@ -386,14 +386,15 @@
 
 .student-info-t2 {
   display: grid;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
+  row-gap: 3rem;
 }
 
 @media only screen and (max-width: 60em) {
+
 .center-until-60em-t2 {
   text-align: center;
 }
+
 }
 
 .specifications-t2 {
@@ -407,6 +408,10 @@ text-align: center;
 
 .specifications-t2 li:last-child {
 grid-column: 1 / -1;
+}
+
+.social-icons-t2 {
+  align-self: center;
 }
 
 .about-buttons-t2 {
