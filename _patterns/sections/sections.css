@@ -384,7 +384,7 @@
 
 /* Begin of template 2 CSS — all the classes I created to use in this template will have "-t2" after them  */
 
-.student-info-t2 {
+.about-t2 {
   display: grid;
   row-gap: 3rem;
 }
@@ -419,9 +419,10 @@ grid-column: 1 / -1;
   grid-template-columns: 1fr 1fr;
 }
 
+
 @media only screen and (min-width: 60em) {
 
-  .student-info-t2 {
+  .about-t2 {
     grid-template-columns: 1fr 1fr;
   }
 

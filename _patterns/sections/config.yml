@@ -56,6 +56,9 @@ patterns:
     description: |
       This is the about section for template 2.
     fields:
+      - name: student-image
+        type: string
+        example: /images/placeholder-pfp.jpg
       - name: student-name
         type: string
         example: "Firstname Lastname"
@@ -68,6 +71,24 @@ patterns:
       - name: font-color
         type: string
         example: "text-web"
+
+  template-2-video:
+    title: "Template 2 Student Video"
+    description: |
+      This is the video section for template 2.
+    fields:
+      - name: color-tint
+        type: string
+        example: "color-web-tint"
+      - name: color
+        type: string
+        example: "text-web"
+      - name: ation-word
+        type: string
+        example: "wordendingination"
+      - name: intro-video
+        type: string
+
 
   template-4-section-1:
     description: |
