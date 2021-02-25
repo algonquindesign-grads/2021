@@ -1,17 +1,19 @@
-<header class="header-shape {{include.gradient}}" role="banner">
+<header class="header-shape {{include.data.gradient}}" role="banner">
   <div class="wrapper header-flex">
-    <a href="/"><img class="img-flex header-logo" src="/images/reverse-alternate.svg" alt=""></a>
+    <a class="{{include.data.icon_color}}" href="/" aria_label="This button takes you to the Generation Adaptation homepage.">
+      <i class="icon i-2 header-logo"><svg><use xlink:href="/images/icons.svg#alternate"></use></svg></i>
+    </a>
 
     <nav class="header-nav" role="navigation">
-      <button class="toggle" id="toggle" type="button" name="button">
+      <button class="toggle {{include.data.icon_color}}" id="toggle" type="button" name="button">
         <i class="icon i-32 toggle-open" id="toggle-open"><svg><use xlink:href="/images/icons.svg#hamburger"></use></svg></i>
         <i class="icon i-32 toggle-close" id="toggle-close"><svg><use xlink:href="/images/icons.svg#close"></use></svg></i>
       </button>
 
       <ul class="h-nav-ul list-group text-upper push-0 kilo" id="h-nav-ul">
-        <li class="{{include.nav-color}}"><a href="/quiz/">Quiz</a></li>
-        <li class="{{include.nav-color}}"><a href="#">Designers</a></li>
-        <li class="{{include.nav-color}}"><a href="#">Support</a></li>
+        <li class="{{include.data.nav_color}}"><a href="/quiz/">Quiz</a></li>
+        <li class="{{include.data.nav_color}}"><a href="#">Designers</a></li>
+        <li class="{{include.data.nav_color}}"><a href="#">Support</a></li>
       </ul>
     </nav>
   </div>
