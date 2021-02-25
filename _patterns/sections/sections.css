@@ -381,3 +381,73 @@
   }
 
 }
+
+/* Begin of template 2 CSS — all the classes I created to use in this template will have "-t2" after them  */
+
+.about-t2 {
+  display: grid;
+  row-gap: 3rem;
+}
+
+@media only screen and (max-width: 60em) {
+
+.center-until-60em-t2 {
+  text-align: center;
+}
+
+}
+
+.specifications-t2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.specifications-t2 li {
+text-align: center;
+}
+
+.specifications-t2 li:last-child {
+grid-column: 1 / -1;
+}
+
+.social-icons-t2 {
+  align-self: center;
+}
+
+.about-buttons-t2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.work-grid-t2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .about-t2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .specifications-t2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .specifications-t2 li:first-child {
+    text-align: left;
+  }
+
+  .specifications-t2 li:nth-child(2) {
+    text-align: center;
+  }
+
+  .specifications-t2 li:last-child {
+    text-align: right;
+    grid-column: auto;
+}
+
+}
+
+/* End template 2 CSS */
