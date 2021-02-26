@@ -2,20 +2,20 @@
   <div class="t4-s1 pad-t-2 pad-b-2">
     <div class="wrapper gutter t4-about-content pad-t">
       <div class="t4-student-photo push">
-        <img class="push-1-2" src="{{include.student-photo}}" alt="{{include.student-photo-alt}}">
+        <img class="push-1-2" src="https://grads.images.algonquindesign.ca/2021/headshots/{{include.data.filename}}-headshot.png" alt="{{include.student_photo_alt}}">
       </div>
 
-      <h2 class="">{{include.student-name}}</h2>
+      <h2 class="">{{include.data.student_name}}</h2>
 
       <ul class="t4-specialties list-group">
-        <li>{{include.specialties}}</li>
-        <li>{{include.specialties}}</li>
-        <li>{{include.specialties}}</li>
+        <li>{{include.data.specialties1}}</li>
+        <li>{{include.data.specialties2}}</li>
+        <li>{{include.data.specialties3}}</li>
       </ul>
 
       <img class="push t4-bar" src="/images/line-break-gradient.svg" alt="" role="presentation">
 
-      <p class="t4-bio push">{{include.bio}}</p>
+      <p class="t4-bio push">{{include.data.student_about}}</p>
 
       <div class="push-2 social-align">
         {% pattern navigation/templates-social-navigation-black %}

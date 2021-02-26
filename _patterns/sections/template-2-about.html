@@ -1,20 +1,20 @@
 <section class="about-t2">
 
-<div class="gutter">
-  <div class="embed embed-1by1">
-    <img class="embed-item img-flex" src="{{include.student-image}}" alt="">
+  <div class="gutter">
+    <div class="embed embed-1by1">
+      <img class="embed-item img-flex" src="https://grads.images.algonquindesign.ca/2021/headshots/{{include.data.filename}}-headshot.png" alt="{{include.student_photo_alt}}">
+    </div>
   </div>
-</div>
 
   <div class="center-until-60em-t2 gutter">
-    <h2>{{include.student-name}}</h2>
+    <h2>{{include.data.student_name}}</h2>
     <ul class="list-group specifications-t2 text-upper bold">
-      <li>{{include.specialties}}</li>
-      <li>{{include.specialties}}</li>
-      <li>{{include.specialties}}</li>
+      <li>{{include.data.specialties1}}</li>
+      <li>{{include.data.specialties2}}</li>
+      <li>{{include.data.specialties3}}</li>
     </ul>
     <img class="push layout1-bar" src="/images/line-break-gradient.svg" alt="" role="presentation">
-    <p>{{include.about}}</p>
+    <p>{{include.data.student_about}}</p>
   </div>
 
   <div class="social-icons-t2 center-until-60em-t2 gutter">

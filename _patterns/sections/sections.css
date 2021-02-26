@@ -391,9 +391,9 @@
 
 @media only screen and (max-width: 60em) {
 
-.center-until-60em-t2 {
-  text-align: center;
-}
+  .center-until-60em-t2 {
+    text-align: center;
+  }
 
 }
 
