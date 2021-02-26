@@ -1,25 +1,25 @@
 <section>
-  <div class="layout1-about-section {{include.color-tint}}">
+  <div class="layout1-about-section {{include.data.color_tint}}">
     <svg class="img-flex push-2 layout1-separator" id="section-separator" width="1920" height="100" viewBox="0 0 1920 100">
       <path d="M1920 38.7h-910l-50.3 59.4L910 38.7H0V0h1920v38.7z"/>
     </svg>
 
     <div class="wrapper gutter layout1-about-content">
       <div class="layout1-student-photo">
-        <img src="{{include.student-photo}}" alt="{{include.student-photo-alt}}">
+        <img class="img-flex" src="https://grads.images.algonquindesign.ca/2021/headshots/{{include.data.filename}}-headshot.png" alt="{{include.student_photo_alt}}">
       </div>
 
-      <h2 class="layout1-h2">{{include.student-name}}</h2>
+      <h2 class="layout1-h2">{{include.data.student_name}}</h2>
 
       <ul class="layout1-specialties list-group">
-        <li>{{include.specialties}}</li>
-        <li>{{include.specialties}}</li>
-        <li>{{include.specialties}}</li>
+        <li>{{include.data.specialties1}}</li>
+        <li>{{include.data.specialties2}}</li>
+        <li>{{include.data.specialties3}}</li>
       </ul>
 
       <img class="push layout1-bar" src="/images/line-break-gradient.svg" alt="" role="presentation">
 
-      <p class="layout1-about push-2">{{include.about}}</p>
+      <p class="layout1-about push-2">{{include.data.student_about}}</p>
 
       <div class="push-2 social-align">
         {% pattern navigation/templates-social-navigation-white %}
@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <svg class="img-flex {{include.separator-tint}}" id="section-separator" width="1920" height="100" viewBox="0 0 1920 100">
+  <svg class="img-flex {{include.data.color_tint}}" id="section-separator" width="1920" height="100" viewBox="0 0 1920 100">
     <path d="M1920 38.7h-910l-50.3 59.4L910 38.7H0V0h1920v38.7z"/>
   </svg>
 
