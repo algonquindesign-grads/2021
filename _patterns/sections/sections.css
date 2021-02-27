@@ -421,7 +421,13 @@ grid-column: 1 / -1;
 
 .work-grid-t2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  row-gap: 1.3rem;
+  grid-template-columns: 1fr;
+}
+
+.work-grid-t2 p {
+  align-self: center;
+  padding: 3rem 0;
 }
 
 
@@ -447,6 +453,25 @@ grid-column: 1 / -1;
     text-align: right;
     grid-column: auto;
 }
+
+.work-grid-t2 {
+  column-gap: 1.3rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.work-grid-t2 p {
+  grid-column: 2;
+  padding: 0;
+}
+
+.work-grid-swap-t2 {
+  grid-row: 2;
+}
+
+.work-grid-t2 div:last-child {
+  grid-column: 1 / -1;
+}
+
 
 }
 
