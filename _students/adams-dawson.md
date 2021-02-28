@@ -53,7 +53,7 @@ portfolio_description4: "Words describing the project"
 html_class: "branding"
 meta_sitename: Generation Adaptation
 meta_title: Firstname Lastname
-meta_url: http://2021.grads.algonquindesign.ca/students/lastname-firstname/
+meta_url: /students/adams-dawson
 meta_previewimage: headshots/lastname-firstname.png
 meta_alt: This describes the preview image, which I'm thinking should be the headshots.
 meta_description: This is the SEO description of the page, so possibly introduce the student?
