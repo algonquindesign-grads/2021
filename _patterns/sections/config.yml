@@ -89,13 +89,13 @@ patterns:
     description: |
       This section is used to show 3 of students' work and a quote.
     fields:
-      - name: project-title
+      - name: project_title
         type: string
         example: "Case Study 1 Title"
-      - name: student-quote
+      - name: student_quote
         type: string
         example: "“Tell us something about how you design. Let’s aim for 60–80 characters.” — Anonymous"
-      - name: font-color
+      - name: font_color
         type: string
         example: "text-web"
   template-4-section-1:
