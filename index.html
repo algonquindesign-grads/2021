@@ -1,10 +1,16 @@
 ---
 layout: default
-sitename: Generation Adaptation
-title: Home
-url: http://2021.grads.algonquindesign.ca/
-previewimage: general/social-preview.png
-alt: The Generation Adaptation logo in white text, placed on a rainbow gradient background.
-description: Meet the graphic designers of Algonquin College, class of 2021.
-highlight_nav:
+meta_sitename: Generation Adaptation
+meta_title: Home
+meta_url: http://2021.grads.algonquindesign.ca/
+meta_previewimage: general/social-preview.png
+meta_alt: The Generation Adaptation logo in white text, placed on a rainbow gradient background.
+meta_description: Meet the graphic designers of Algonquin College, class of 2021.
+meta_highlight_nav:
 ---
+<div class="wrapper">
+  {% for student in site.students %}
+  {% endfor %}
+</div>
+
+{% pattern footer/footer gradient="gradient-rainbow" nav_color="nav-black" icon_color="icon-black" text_color="text-white" %}
