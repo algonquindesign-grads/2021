@@ -4,7 +4,7 @@ description: |
 
 patterns:
   footer:
-    title: "Flexible Footer"
+    title: "Footer (with data includes)"
     description: |
       This is the footer for the student profile pages, with includes that reference each markdown file individually.
     fields:
@@ -14,7 +14,7 @@ patterns:
           source: "site.students[0]"
           type: students
   primary:
-    title: "Primary Page Footer"
+    title: "Primary Page Footer (with basic includes)"
     description: |
       This is the footer for the main pages of the website, including the index and quiz pages, which can be customized to reflect various gradients and text colour options.
     fields:
