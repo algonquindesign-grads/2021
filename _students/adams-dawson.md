@@ -57,7 +57,7 @@ meta_url: /students/adams-dawson
 meta_previewimage: headshots/lastname-firstname.png
 meta_alt: This describes the preview image, which I'm thinking should be the headshots.
 meta_description: This is the SEO description of the page, so possibly introduce the student?
-gradient: "gradient-branding"
+gradient: "gradient-gray"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"
