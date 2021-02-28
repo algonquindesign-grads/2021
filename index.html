@@ -10,6 +10,7 @@ meta_highlight_nav:
 ---
 <div class="wrapper">
   {% for student in site.students %}
+    {% pattern sections/placeholder-card data=student number=forloop.index%}
   {% endfor %}
 </div>
 
