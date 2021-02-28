@@ -1,6 +1,8 @@
 permalink: pretty
 theme: jekyll_patternbot
 
+cdn: "https://grads.images.algonquindesign.ca/2021"
+
 patternbot:
   title: "Gen A"
   description: |

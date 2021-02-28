@@ -3,31 +3,30 @@ description: |
   This is a list of the footer styles of the website, built to respond to mobile and desktop sizes.
 
 patterns:
-  white:
-    title: "Footer with White Content"
+  footer:
+    title: "Flexible Footer"
     description: |
-      This footer is used as the default option, but is replaced with the secondary footer when the content is not legible.
+      This is the footer for the student profile pages, with includes that reference each markdown file individually.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  primary:
+    title: "Primary Page Footer"
+    description: |
+      This is the footer for the main pages of the website, including the index and quiz pages, which can be customized to reflect various gradients and text colour options.
     fields:
       - name: gradient
         type: string
         example: "gradient-rainbow"
-      - name: nav-color
+      - name: nav_color
         type: string
         example: "nav-white"
-      - name: text-color
+      - name: icon_color
+        type: string
+        example: "icon-white"
+      - name: text_color
         type: string
         example: "text-white"
-  black:
-    title: "Footer with Black Content"
-    description: |
-      This footer is the secondary option, for use with light gradient banners.
-    fields:
-      - name: gradient
-        type: string
-        example: "gradient-print"
-      - name: nav-color
-        type: string
-        example: "nav-black"
-      - name: text-color
-        type: string
-        example: "text-black"

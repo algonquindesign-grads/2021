@@ -33,11 +33,14 @@
 }
 
 /* Includes for white text and link content */
+.icon-white,
 .nav-white a {
   color: var(--color-secondary-light);
   text-decoration: none;
 }
 
+.icon-white:hover,
+.icon-white:focus,
 .nav-white a:hover,
 .nav-white a:focus {
   outline: 3px solid var(--color-primary);
@@ -49,11 +52,14 @@
 }
 
 /* Includes for black text and link content */
+.icon-black,
 .nav-black a {
   color: var(--color-primary);
   text-decoration: none;
 }
 
+.icon-black:hover,
+.icon-black:focus,
 .nav-black a:hover,
 .nav-black a:focus {
   outline: 3px solid var(--color-primary);
