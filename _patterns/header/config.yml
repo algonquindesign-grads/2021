@@ -14,6 +14,12 @@ patterns:
       - name: nav_color
         type: string
         example: "nav-white"
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
   secondary-header:
     title: "Secondary Header (with basic inlcudes)"
     description: |
