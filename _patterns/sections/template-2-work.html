@@ -3,9 +3,9 @@
 
   <div class="work-grid-t2 gutter">
 
-      {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+    {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
 
-      {% pattern sections/work-cards project-title="Case Study 2 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+    {% pattern sections/work-cards project-title="Case Study 2 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
 
     <p class="mega bold italic center-text {{include.data.font_color}}">{{include.data.student_quote}}</p>
 
@@ -17,6 +17,16 @@
       {% pattern sections/work-cards project-title="Case Study 4 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
     </div>
 
-
   </div>
+
+  <div class="buttons-grid-t2 text-center">
+    <div class="button-top-t2">
+      {% pattern buttons/calendly color="color-web" student-username="bulk0002" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
+    </div>
+
+    <div>
+      {% pattern buttons/portfolio color="color-web" portfolio-url="#" aria="This button links to this student's portfolio site" %}
+    </div>
+  </div>
+
 </section>

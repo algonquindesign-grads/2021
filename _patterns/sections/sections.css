@@ -395,6 +395,10 @@
     text-align: center;
   }
 
+  .button-top-t2 {
+    margin-bottom: 1.3rem;
+  }
+
 }
 
 .specifications-t2 {
@@ -414,9 +418,9 @@ grid-column: 1 / -1;
   align-self: center;
 }
 
-.about-buttons-t2 {
+.buttons-grid-t2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .work-grid-t2 {
@@ -453,6 +457,11 @@ grid-column: 1 / -1;
     text-align: right;
     grid-column: auto;
 }
+
+.buttons-grid-t2 {
+  grid-template-columns: 1fr 1fr;
+}
+
 
 .work-grid-t2 {
   column-gap: 1.3rem;
