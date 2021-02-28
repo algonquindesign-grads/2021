@@ -12,7 +12,7 @@ keywords:
   - "Transcription"
   - "Someone please send me coffee"
 meeting_type:
-  - "Networking
+  - "Networking"
   - "Portfolio Review"
   - "Job Interview"
 specialties:
