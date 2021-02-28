@@ -26,7 +26,7 @@ patternbot:
     typefaces.primary: |
       Barlow was selected as the primary typeface for this site for its friendly typographic personality, as well as to match the preselected header font.
     typefaces.secondary: |
-      Bungee was selected as the secondary typeface as it is the basis of the word mark component of the logo.
+      Bungee was selected as the secondary typeface as it is the basis of the word mark component of the logo.   
 collections:
   students:
     output: true
