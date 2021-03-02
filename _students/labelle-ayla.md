@@ -29,9 +29,9 @@ intro_text: |
 quote_text: |
   Find what you love and let it kill you. —Charles Bukowski
 portfolio_video1: "/projects/labelle-ayla-project-1.mp4"
-portfolio_image2: "/projects/labelle-ayla-project-2.mp4"
-portfolio_image3: "/projects/labelle-ayla-project-3.mp4"
-portfolio_image4: "/projects/labelle-ayla-project-4.mp4"
+portfolio_video2: "/projects/labelle-ayla-project-2.mp4"
+portfolio_video3: "/projects/labelle-ayla-project-3.mp4"
+portfolio_video4: "/projects/labelle-ayla-project-4.mp4"
 portfolio_title1: "Motion Reel 2021"
 portfolio_description1: |
   A collection of my 2D and 3D motion work to date.

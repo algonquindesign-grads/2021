@@ -30,7 +30,7 @@ intro_text: |
   (she/her) I have a knack for branding, illustration, and hand-lettering, as well as a passion for sustainability. Bringing beautiful solutions to your design obstacles with empathy always in mind. Plants, yoga, and horror movies are the way to my heart!
 quote_text: |
   Imperfect action is better than perfect inaction. — Harry Truman
-portfolio_video1: "/projects/kenlocksherman-bria-project-1.jpg"
+portfolio_image1: "/projects/kenlocksherman-bria-project-1.jpg"
 portfolio_image2: "/projects/kenlocksherman-bria-project-2.jpg"
 portfolio_image3: "/projects/kenlocksherman-bria-project-3.jpg"
 portfolio_image4: "/projects/kenlocksherman-bria-project-4.jpg"
