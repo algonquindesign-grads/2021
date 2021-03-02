@@ -8,8 +8,8 @@ headshot_alt: |
 ation_word: "Dissemination"
 keywords:
   - "Independent"
-  - "Communicative"
   - "Detail-Oriented"
+  - "Communicative"
   - "Strategic"
   - "Efficient"
 meeting_type:
