@@ -32,6 +32,10 @@
   background: linear-gradient(90deg, var(--color-branding) 0 5%, var(--color-web) 30% 100%);
 }
 
+.gradient-gray {
+  background: linear-gradient(90deg, var(--color-secondary) 0 5%, var(--color-secondary) 30% 100%);
+}
+
 /* Includes for white text and link content */
 .icon-white,
 .nav-white a {

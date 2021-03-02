@@ -1,9 +1,16 @@
-<section class="layout1-work-section wrapper gutter pad-t-2 pad-b-2">
-  <h2 class="text-center">Example Work</h2>
+<section class="intro-section-3 wrapper text-center push-2">
+    <video controls loop playsinline class="push">
+        <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
+    </video>
+    <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
+    <h3 class="giga push-2">I am Generation <span>{{include.data.ation_word}}</span></h3>
+    <q class="mega">{{include.data.quote_text}}</q>
+</section>
 
-  <div class="layout1-work-grid">
-    <div class="work-cards relative work-proj1">
-      <h4 class="mega push-0">{{include.data.portfolio_title1}}</h4>
+<section class="work-section-3 color-tint pad-t-2 pad-b-2">
+    <h2 class="tera text-center push-2">Example Work</h2>
+    <div class="project-1-section-3">
+        <h4 class="mega push-0">{{include.data.portfolio_title1}}</h4>
         {% if include.data.portfolio_image1 %}
             <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.jpg" alt="{{include.data.portfolio_description1}}">
         {% endif %}
@@ -12,11 +19,10 @@
                 <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.mp4" type="video/mp4">
             </video>
         {% endif %}
-        <p class="milli work-hover push-0">{{include.data.portfolio_description1}}</p>
+        <p class="milli">{{include.data.portfolio_description1}}</p>
     </div>
-
-    <div class="work-cards relative work-proj2">
-      <h4 class="mega push-0">{{include.data.portfolio_title2}}</h4>
+    <div class="project-2-section-3">
+        <h4 class="mega push-0">{{include.data.portfolio_title2}}</h4>
         {% if include.data.portfolio_image2 %}
             <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.jpg" alt="{{include.data.portfolio_description2}}">
         {% endif %}
@@ -25,11 +31,13 @@
                 <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.mp4" type="video/mp4">
             </video>
         {% endif %}
-        <p class="milli work-hover push-0">{{include.data.portfolio_description2}}</p>
+        <p class="milli">{{include.data.portfolio_description2}}</p>
     </div>
+</section>
 
-    <div class="work-cards relative work-proj3">
-      <h4 class="mega push-0">{{include.data.portfolio_title3}}</h4>
+<section class="work-2-section-3 pad-t-2 pad-b-2">
+    <div class="project-3-section-3 work-cards relative push">
+        <h4 class="mega push-0">{{include.data.portfolio_title3}}</h4>
         {% if include.data.portfolio_image3 %}
             <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg" alt="{{include.data.portfolio_description3}}">
         {% endif %}
@@ -40,9 +48,8 @@
         {% endif %}
         <p class="milli work-hover push-0">{{include.data.portfolio_description3}}</p>
     </div>
-
-    <div class="work-cards relative work-proj4">
-      <h4 class="mega push-0">{{include.data.portfolio_title4}}</h4>
+    <div class="project-4-section-3 work-cards relative">
+        <h4 class="mega push-0">{{include.data.portfolio_title4}}</h4>
         {% if include.data.portfolio_image4 %}
             <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg" alt="{{include.data.portfolio_description4}}">
         {% endif %}
@@ -53,18 +60,4 @@
         {% endif %}
         <p class="milli work-hover push-0">{{include.data.portfolio_description4}}</p>
     </div>
-
-    <q class="mega layout1-student-quote">{{include.data.quote_text}}</q>
-
-    <div class="layout1-work-buttons">
-      <div class="push button-wrappers">
-        {% pattern buttons/portfolio-accent data=page %}
-      </div>
-
-      <div class="push button-wrappers">
-        {% pattern buttons/calendly-accent data=page %}
-      </div>
-    </div>
-  </div>
-
 </section>

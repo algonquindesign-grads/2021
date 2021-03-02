@@ -1,43 +1,121 @@
 <section>
-  <div class="layout1-about-section {{include.data.color_tint}}">
+  <div class="pad-b-2 color-tint">
     <svg class="img-flex push-2 layout1-separator" id="section-separator" width="1920" height="100" viewBox="0 0 1920 100">
       <path d="M1920 38.7h-910l-50.3 59.4L910 38.7H0V0h1920v38.7z"/>
     </svg>
 
     <div class="wrapper gutter layout1-about-content">
       <div class="layout1-student-photo">
-        <img class="img-flex" src="https://grads.images.algonquindesign.ca/2021/headshots/{{include.data.filename}}-headshot.png" alt="{{include.student_photo_alt}}">
+        <img class="img-flex" src="{{site.cdn}}/headshots/{{include.data.filename}}-headshot.png" alt="{{include.data.headshot_alt}}">
       </div>
 
-      <h2 class="layout1-h2">{{include.data.student_name}}</h2>
+      <h1 class="layout1-h2 giga">{{include.data.first_name}} {{include.data.last_name}}</h1>
 
-      <ul class="layout1-specialties list-group">
-        <li>{{include.data.specialties1}}</li>
-        <li>{{include.data.specialties2}}</li>
-        <li>{{include.data.specialties3}}</li>
+      <ul class="layout1-specialties list-group text-upper">
+        <li>{{include.data.specialty1}}</li>
+        <li>{{include.data.specialty2}}</li>
+        <li>{{include.data.specialty3}}</li>
       </ul>
 
-      <img class="push layout1-bar" src="/images/line-break-gradient.svg" alt="" role="presentation">
+      <img class="push rainbow-line layout1-bar" src="/images/line-break-gradient.svg" alt="" role="presentation">
 
-      <p class="layout1-about push-2">{{include.data.student_about}}</p>
+      <p class="layout1-about push-2">{{include.data.intro_text}}</p>
 
-      <div class="push-2 social-align">
-        {% pattern navigation/templates-social-navigation-white %}
+      <div class="push-2">
+        <ul class="list-group about-section-social pad-t-3-4">
+            {% if include.data.linkedin_link %}
+                <li>
+                    <a class="{{include.data.icon_color}}" href="#" aria_label="This button navigates you to this student's linkedin account.">
+                        <i class="icon i-32" id="linkedin">
+                        <svg>
+                            <use xlink:href="/images/icons.svg#linkedin"></use>
+                        </svg>
+                        </i>
+                    </a>
+                </li>
+            {% endif %}
+            {% if include.data.instagram_link %}
+                <li>
+                    <a class="{{include.data.icon_color}}" href="#" aria_label="This button navigates you to this student's instagram account.">
+                        <i class="icon i-32" id="instagram">
+                        <svg>
+                            <use xlink:href="/images/icons.svg#instagram"></use>
+                        </svg>
+                        </i>
+                    </a>
+                </li>
+            {% endif %}
+            {% if include.data.behance_link %}
+                <li>
+                    <a class="{{include.data.icon_color}}" href="#" aria_label="This button navigates you to this student's behance account.">
+                        <i class="icon i-32" id="behance">
+                        <svg>
+                            <use xlink:href="/images/icons.svg#behance"></use>
+                        </svg>
+                        </i>
+                    </a>
+                </li>
+            {% endif %}
+            {% if include.data.github_link %}
+                <li>
+                    <a class="{{include.data.icon_color}}" href="#" aria_label="This button navigates you to this student's github account.">
+                        <i class="icon i-32" id="github">
+                        <svg>
+                            <use xlink:href="/images/icons.svg#github"></use>
+                        </svg>
+                        </i>
+                    </a>
+                </li>
+            {% endif %}
+            {% if include.data.vimeo_link %}
+                <li>
+                    <a class="{{include.data.icon_color}}" href="#" aria_label="This button navigates you to this student's vimeo account.">
+                        <i class="icon i-32" id="vimeo">
+                        <svg>
+                            <use xlink:href="/images/icons.svg#vimeo"></use>
+                        </svg>
+                        </i>
+                    </a>
+                </li>
+            {% endif %}
+            {% if include.data.facebook_link %}
+                <li>
+                    <a class="{{include.data.icon_color}}" href="#" aria_label="This button navigates you to this student's facebook account.">
+                        <i class="icon i-32" id="facebook">
+                        <svg>
+                            <use xlink:href="/images/icons.svg#facebook"></use>
+                        </svg>
+                        </i>
+                    </a>
+                </li>
+            {% endif %}
+            {% if include.data.twitter_link %}
+                <li>
+                    <a class="{{include.data.icon_color}}" href="#" aria_label="This button navigates you to this student's twitter account.">
+                        <i class="icon i-32" id="twitter">
+                        <svg>
+                            <use xlink:href="/images/icons.svg#twitter"></use>
+                        </svg>
+                        </i>
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
       </div>
 
       <div class="layout1-buttons">
         <div class="push button-wrappers">
-          {% pattern buttons/calendly color="color-web" student-username="bulk0002" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
+          {% pattern buttons/portfolio-accent data=page %}
         </div>
 
         <div class="push button-wrappers">
-          {% pattern buttons/portfolio color="color-web" portfolio-url="#" aria="This button links to this student's portfolio site" %}
+          {% pattern buttons/calendly-accent data=page %}
         </div>
       </div>
     </div>
   </div>
 
-  <svg class="img-flex {{include.data.color_tint}}" id="section-separator" width="1920" height="100" viewBox="0 0 1920 100">
+  <svg class="img-flex color-separator-tint" id="section-separator" width="1920" height="100" viewBox="0 0 1920 100">
     <path d="M1920 38.7h-910l-50.3 59.4L910 38.7H0V0h1920v38.7z"/>
   </svg>
 

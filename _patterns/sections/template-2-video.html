@@ -1,9 +1,10 @@
-<section class="island-2 {{include.data.color_tint}}">
-  <h1 class="layout1-h1 giga">I am generation <em class="ation-word {{include.data.font_color}}">{{include.data.ation_word}}</em></h1>
+<section class="island-2 color-tint">
+  <h3 class="text-center tera">I am generation <span>{{include.data.ation_word}}</span></h3>
 
-  <div class="embed embed-16by9">
-    <video class="embed-item" controls>
-      <source src="{{include.intro-video}}" type="video/mp4">
+  <div>
+    <video controls loop playsinline class="push">
+      <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
     </video>
+    <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
   </div>
 </section>

@@ -3,66 +3,51 @@ description: |
   This is a list of all the styles of buttons that appear on the website.
 
 patterns:
-  portfolio:
-    title: "Portfolio Button"
+  portfolio-accent:
+    title: "Portfolio Button (Data Includes)"
     description: |
-      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites.
+      This button is used on student profiles to link to their personal portfolio sites. It takes the accent colour change from the HTML class, and applies it to match the rest of the page.
     width: 10em
     fields:
-      - name: color
-        type: string
-        example: "color-web"
-      - name: portfolio-url
-        type: url
-        example: "#"
-      - name: aria
-        type: string
-        example: "This button links to this student's portfolio site"
-  portfolio-2:
-    title: "Portfolio Grey Button"
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  portfolio-gray:
+    title: "Portfolio Gray Button (Data Includes)"
     description: |
-      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites.
+      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites. It is used on templates where the accent button would not be clearly visible.
     width: 10em
     fields:
-      - name: portfolio-url
-        type: url
-        example: "#"
-      - name: aria
-        type: string
-        example: "This button links to this student's portfolio site"
-  calendly:
-    title: "Book With Calendly Button"
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  calendly-accent:
+    title: "Calendly Accent Button (Data Includes)"
     description: |
-      This button is used as a call-to-action to encourage site visitors to book a meeting with students.
+      This button is used as a call-to-action to encourage site visitors to book a meeting with students. It takes the accent colour change from the HTML class, and applies it to match the rest of the page.
     width: 10em
     fields:
-      - name: color
-        type: string
-        example: "color-web"
-      - name: student-username
-        type: string
-        example: "bulk0002"
-      - name: meeting-length
-        type: string
-        example: "15min"
-      - name: aria
-        type: string
-        example: "This button allows you to book a virtual meeting with this student"
-  calendly-2:
-    title: "Calendly Grey Button"
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  calendly-gray:
+    title: "Calendly Gray Button (Data Includes)"
     description: |
-      This button is used as a call-to-action to encourage site visitors to book a meeting with students.
+      This button is used as a call-to-action to encourage site visitors to book a meeting with students. It is used on templates where the accent calendly button would not be clearly visible.
     width: 10em
     fields:
-      - name: student-username
-        type: string
-        example: "bulk0002"
-      - name: meeting-length
-        type: string
-        example: "15min"
-      - name: aria
-        type: string
-        example: "This button allows you to book a virtual meeting with this student"
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
   icon:
     title: "Icons"
     description: |

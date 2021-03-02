@@ -9,6 +9,8 @@
   --color-secondary: #f2f2f2;
   --color-secondary-light: #fff;
   --color-secondary-dark: #000;
+  --color-tint: rgba(119, 119, 119, 1);
+  --color-accent: #777;
 
   --font-primary: Barlow, sans-serif;
   --font-secondary: Bungee, sans-serif;
@@ -17,6 +19,36 @@
 html {
   font-family: var(--font-primary);
   color: var(--color-primary);
+}
+
+html.branding {
+  --color-tint: rgba(0, 176, 213, 0.18);
+  --color-accent: var(--color-branding);
+}
+
+html.illustration {
+  --color-tint: rgba(249, 139, 192, 0.18);
+  --color-accent: var(--color-illustration);
+}
+
+html.motion {
+  --color-tint: rgba(130, 200, 106, 0.18);
+  --color-accent: var(--color-motion);
+}
+
+html.print {
+  --color-tint: rgba(255, 197, 0, 0.18);
+  --color-accent: var(--color-print);
+}
+
+html.uxui {
+  --color-tint: rgba(225, 58, 49, 0.18);
+  --color-accent: var(--color-uxui);
+}
+
+html.web {
+  --color-tint: rgba(14, 100, 204, 0.18);
+  --color-accent: var(--color-web);
 }
 
 h1,
@@ -28,11 +60,16 @@ h6 {
   font-family: var(--font-secondary);
 }
 
+q {
+  color: var(--color-accent);
+}
+
 .btn {
-  border-radius: 10px;
+  border-radius: 5px;
   text-transform: uppercase;
   font-weight: 700;
-  filter: drop-shadow(0 0.3em .75em #333132);
+  width: 100%;
+  max-width: 11em;
 }
 
 .btn:focus,
@@ -40,5 +77,4 @@ h6 {
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
   color: var(--color-primary);
-  filter: drop-shadow(0 0.3em .5em #333132);
 }
