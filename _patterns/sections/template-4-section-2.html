@@ -1,14 +1,16 @@
-<div class="t4-s2 {{include.data.color_tint}} island">
+<div class="color-tint island">
   <div class="text-center wrapper pad-t">
     <div class="island-1-2">
-      <h2 class="push-0 giga">I am generation</h2>
-      <h2 class="push {{include.data.font_color}} giga">{{include.data.ation_word}}</h2>
+      <h3 class="push-0 giga">I am generation <span>{{include.data.ation_word}}</span></h3>
     </div>
     <div class="embed embed-16by9 push">
-      <video class="island-1-2 embed-item" src="{{include.intro-video}}" controls></video>
+      <video class="embed-item island-1-2" controls loop playsinline class="push">
+        <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
+    </video>
+    <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
     </div>
   </div>
 </div>
-<div class="t4-student-quote text-center pad-t-2 gutter-2 wrapper">
-  <p class="{{include.data.font_color}} push mega">{{include.data.student_quote}}</p>
+<div class="text-center pad-t-2 gutter-2 wrapper">
+  <q class="push mega">{{include.data.quote_text}}</q>
 </div>

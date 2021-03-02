@@ -6,29 +6,65 @@
     </div>
 
     <div class="t4-work-grid pad-t push-2">
-      <div class="project-1 text-left">
-        {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+      <div class="work-cards relative project-1 text-left">
+        <h4 class="mega push-0">{{include.data.portfolio_title1}}</h4>
+          {% if include.data.portfolio_image1 %}
+              <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.jpg" alt="{{include.data.portfolio_description1}}">
+          {% endif %}
+          {% if include.data.portfolio_video1 %}
+              <video controls loop playsinline class="push">
+                  <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.mp4" type="video/mp4">
+              </video>
+          {% endif %}
+          <p class="milli work-hover push-0">{{include.data.portfolio_description1}}</p>
       </div>
 
-      <div class="project-2 text-left">
-        {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+      <div class="work-cards relative project-2 text-left">
+        <h4 class="mega push-0">{{include.data.portfolio_title2}}</h4>
+          {% if include.data.portfolio_image2 %}
+              <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.jpg" alt="{{include.data.portfolio_description2}}">
+          {% endif %}
+          {% if include.data.portfolio_video2 %}
+              <video controls loop playsinline class="push">
+                  <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.mp4" type="video/mp4">
+              </video>
+          {% endif %}
+          <p class="milli work-hover push-0">{{include.data.portfolio_description2}}</p>
       </div>
 
-      <div class="project-3 text-left">
-        {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+      <div class="work-cards relative project-3 text-left">
+        <h4 class="mega push-0">{{include.data.portfolio_title3}}</h4>
+          {% if include.data.portfolio_image3 %}
+              <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg" alt="{{include.data.portfolio_description3}}">
+          {% endif %}
+          {% if include.data.portfolio_video3 %}
+              <video controls loop playsinline class="push">
+                  <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.mp4" type="video/mp4">
+              </video>
+          {% endif %}
+          <p class="milli work-hover push-0">{{include.data.portfolio_description3}}</p>
       </div>
 
-      <div class="project-4 text-left">
-        {% pattern sections/work-cards project-title="Case Study 1 Title" project-desc="This is an intro paragraph that introduces you as a designer to everyone on the site. This paragraph will ideally be 150–200 characters long, or else it will not fit. Thank you!" %}
+      <div class="work-cards relative project-4 text-left">
+        <h4 class="mega push-0">{{include.data.portfolio_title4}}</h4>
+          {% if include.data.portfolio_image4 %}
+              <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg" alt="{{include.data.portfolio_description4}}">
+          {% endif %}
+          {% if include.data.portfolio_video4 %}
+              <video controls loop playsinline class="push">
+                  <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.mp4" type="video/mp4">
+              </video>
+          {% endif %}
+          <p class="milli work-hover push-0">{{include.data.portfolio_description4}}</p>
       </div>
 
       <div class="t4-buttons">
         <div class="push button-wrappers">
-          {% pattern buttons/calendly color="color-web" student-username="bulk0002" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
+          {% pattern buttons/calendly-accent data=page %}
         </div>
 
         <div class="push button-wrappers">
-          {% pattern buttons/portfolio color="color-web" portfolio-url="#" aria="This button links to this student's portfolio site" %}
+          {% pattern buttons/portfolio-accent data=page %}
         </div>
       </div>
     </div>
