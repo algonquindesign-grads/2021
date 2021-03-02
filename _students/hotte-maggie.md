@@ -38,7 +38,7 @@ portfolio_description1: |
   This video showcases samples of my best work completed in the third year of the program (2020-2021). It includes projects such as mobile application user interaction design, short animations and looping gifs.
 portfolio_title2: "BUY LOCAL Mobile Application Design"
 portfolio_description2: |
-   This app design helps solve a United Nation's Sustainable Development Goal #13 directed towards Improving Climate Action. It helps local people find locally sourced food and lessens their carbon footprint.
+  This app design helps solve a United Nation's Sustainable Development Goal #13 directed towards Improving Climate Action. It helps local people find locally sourced food and lessens their carbon footprint.
 portfolio_title3: "Beaver Boxing Logo Redesign"
 portfolio_description3: |
   This was a logo redesign for a small business in Ottawa. It is a boxing club that features olympic-level coaching for boxing. This case study includes a new logo and stationary branding for the club.
@@ -58,6 +58,6 @@ meta_description: |
   Hello! I am a mature student graduating with a background consisting of psychology, fine arts, neuroscience, and now graphic design. I find that my interesting past helps to give me a unique and augmented perspective when designing.
 gradient: "gradient-web"
 nav_color: "nav-white"
-icon_color: "icon-black"
+icon_color: "icon-white"
 text_color: "text-white"
 ---
