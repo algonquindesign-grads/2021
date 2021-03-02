@@ -1,131 +1,42 @@
-/* Use these classes for the color include to define section and element colors*/
-
-.color-branding {
-  background-color: var(--color-branding);
+/* Define general use classes for colouring sections based on specialty */
+span {
+  color: var(--color-accent);
 }
 
-.text-branding {
-  color: var(--color-branding);
+.color-tint {
+  background-color: var(--color-tint);
 }
 
-.color-branding-tint {
-  background-color: rgba(0, 176, 213, .3);
+.color-separator-tint {
+  color: var(--color-tint);
 }
 
-.color-branding-separator-tint {
-  color: rgba(0, 176, 213, .3);
+/* Define general shape of images and videos, excluding the SVG rainbow line */
+img:not(.rainbow-line) {
+  background-color: var(--color-secondary);
+  border-radius: 10px;
 }
 
-.color-illustration {
-  background-color: var(--color-illustration);
+video {
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.text-illustration {
-  color: var(--color-illustration);
+/* Display social icons with flexible space between them; since no more than 4 icons can be used, the flexwrap functionality was excluded */
+.about-section-social {
+  display: flex;
+  justify-content: space-around;
 }
 
-.color-illustration-ting {
-  background-color: rgba(249, 139, 192, .3);
-}
-
-.color-illustration-separator-tint {
-  color: rgba(249, 139, 192, .3);
-}
-
-
-.color-motion {
-  background-color: var(--color-motion);
-}
-
-.text-motion {
-  color: var(--color-motion);
-}
-
-.color-motion-tint {
-  background-color: rgba(130, 200, 106, .3);
-}
-
-.color-motion-separator-tint {
-  color: rgba(130, 200, 106, .3);
-}
-
-.color-print {
-  background-color: var(--color-print);
-}
-
-.text-print {
-  color: var(--color-print);
-}
-
-.color-print-tint {
-  background-color: rgba(255, 197, 100, .3);
-}
-
-.color-print-separator-tint {
-  color: rgba(255, 197, 100, .3);
-}
-
-.color-uxui {
-  background-color: var(--color-uxui);
-}
-
-.text-uxui {
-  color: var(--color-uxui);
-}
-
-.color-uxui-tint {
-  background-color: rgba(225, 58, 49, .3);
-}
-
-.color-uxui-separator-tint {
-  color: rgba(225, 58, 49, .3);
-}
-
-.color-web {
-  background-color: var(--color-web);
-}
-
-.text-web {
-  color: var(--color-web);
-}
-
-.color-web-tint {
-  background-color: rgba(14, 100, 204, .3);
-}
-
-.color-web-separator-tint {
-  color: rgba(14, 100, 204, .3);
-}
-
-.layout1-video-section {
-  margin: 2rem auto;
-}
-
-.layout1-h1,
-.layout1-h2,
-.layout1-h2-work {
-  font-size: 1.5rem;
-  line-height: 1.2;
-  margin: 0 auto 2rem;
-}
-
-.layout1-h1,
-.ation-word,
-.t4-s1 h2 {
+/* Make portfolio work headers the correct font */
+.work-cards h4 {
+  font-family: var(--font-primary);
   text-transform: uppercase;
-  text-align: center;
-  font-style: normal;
 }
 
-.layout1-h2 {
-  text-align: center;
-  width: 15rem;
-}
-
-.layout1-h2-work {
-  text-align: center;
-}
-
+/* MOBILE TEMPLATE STYLING START */
+/* TEMPLATES 1 AND 4 STYLES START*/
 .layout1-separator {
   color: var(--color-secondary-light);
 }
@@ -148,32 +59,6 @@
 
 .button-wrappers {
   margin: 1rem auto;
-}
-
-.layout1-about-section {
-  padding: 0 0 4rem;
-}
-
-.social-align {
-  text-align: center;
-}
-
-.t4-s1
-
-.t4-s2 h2 {
-  font-size: 1rem;
-  line-height: 1rem;
-}
-
-.t4-s3 h3 {
-  font-family: var(--font-primary);
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-.work-cards-h3 {
-  font-size: 1.2rem;
-  line-height: 1.2;
 }
 
 .work-hover {
@@ -202,58 +87,144 @@
   max-width: 20em;
 }
 
-.t4-student-photo img {
-  max-width: 100%;
-  border-radius: .35rem;
-}
-
-.t4-s1 h2 {
-  font-size: 3.1573rem;
-  line-height: 3.1573rem;
-}
-
-.t4-s2 video {
-  border-radius: 1rem;
-}
-
-.t4-s3 img {
-  border-radius: 1rem;
-}
-
 .t4-work-grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
 }
+/* END TEMPLATES 1 AND 4 */
 
-@media only screen and (min-width: 25em) {
-
-  .t4-s2 h2 {
-    font-size: 1.333rem;
-    line-height: 1.333rem;
-  }
-
-  .layout1-h1,
-  .layout1-h2,
-  .layout1-h2-work {
-    font-size: 2rem;
-  }
-
+/* TEMPLATE 2 START */
+.center-until-60em-t2 {
+  text-align: center;
 }
 
+.about-t2 {
+  display: grid;
+  row-gap: 3rem;
+}
+
+.specifications-t2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.specifications-t2 li {
+  text-align: center;
+}
+
+.specifications-t2 li:last-child {
+  grid-column: 1 / -1;
+}
+
+.social-icons-t2 {
+  align-self: center;
+}
+
+.buttons-grid-t2 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.work-grid-t2 {
+  display: grid;
+  row-gap: 1.3rem;
+  grid-template-columns: 1fr;
+}
+
+.work-grid-t2 p {
+  align-self: center;
+  padding: 3rem 0;
+}
+/* END TEMPLATE 2 */
+
+/* TEMPLATE 3 STYLES START*/
+/* Style shape and size of student about section */
+.about-section-3,
+.intro-section-3 {
+  padding: 1.5rem;
+}
+
+.about-section-3 > div {
+  border-radius: 10px;
+  max-width: 17em;
+  text-align: center;
+}
+
+/*Set max size of headshot so section fits in viewport */
+.about-section-3 img:first-child {
+  max-width: 10em;
+  margin: 0 auto 1rem auto;
+}
+
+/* Make student name line height smaller */
+.about-section-3 h1,
+.intro-section-3 h3,
+.work-section-3 h2 {
+  line-height: 2rem;
+}
+
+/* Display specialties in a 2-row grid */
+ul.about-section-3-specialties {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: .25rem;
+}
+
+ul.about-section-3-specialties > li:first-child {
+  grid-row: 1;
+  grid-column: 1/3;
+  text-align: center;
+}
+
+ul.about-section-3-specialties > li:nth-child(2) {
+  grid-row: 1;
+  grid-column: 3/5;
+  text-align: center;
+}
+
+ul.about-section-3-specialties > li:last-child{
+  grid-row: 2;
+  grid-column: 1/5;
+  text-align: center;
+}
+
+/* Template 3 colour variations */
+.about-section-3 > .gradient-branding {
+  background: linear-gradient(180deg, var(--color-motion) 0, var(--color-branding) 60% 100%);
+  color: var(--color-secondary-primary);
+}
+
+.about-section-3 > .gradient-illustration {
+  background: linear-gradient(180deg, var(--color-secondary) 0, var(--color-illustration) 60% 100%);
+  color: var(--color-secondary-primary);
+}
+
+.about-section-3 > .gradient-motion {
+  background: linear-gradient(180deg, var(--color-secondary) 0, var(--color-motion) 60% 100%);
+  color: var(--color-secondary-primary);
+}
+
+.about-section-3 > .gradient-print {
+  background: linear-gradient(180deg, var(--color-secondary) 0, var(--color-print) 60% 100%);
+  color: var(--color-secondary-primary);
+}
+
+.about-section-3 > .gradient-uxui {
+  background: linear-gradient(180deg, var(--color-illustration) 0, var(--color-uxui) 60% 100%);
+  color: var(--color-secondary-light);
+}
+
+.about-section-3 > .gradient-web {
+  background: linear-gradient(180deg, var(--color-branding) 0, var(--color-web) 60% 100%);
+  color: var(--color-secondary-light);
+}
+/* END TEMPLATE 3 */
+
+/* DESKTOP TEMPLATE STYLING START */
 @media only screen and (min-width: 38em) {
 
-  .t4-s2 h2 {
-    font-size: 1.7769rem;
-    line-height: 1.7769rem;
-  }
-
-  .layout1-h1,
-  .layout1-h2,
-  .layout1-h2-work {
-    font-size: 2.5rem;
-  }
-
+  /* TEMPLATES 1 AND 4 START */
   .layout1-about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -297,12 +268,6 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
-  }
-
-  .social-align {
-    align-self: center;
-    justify-self: left;
-    margin: 0;
   }
 
   .layout1-work-grid {
@@ -371,72 +336,100 @@
     grid-column: 1 / -1;
     grid-row: 6 / 7;
   }
+  /* END TEMPLATES 1 AND 4 */
 }
 
 @media only screen and (min-width: 60em) {
 
-  .t4-s2 h2 {
-    font-size: 2.3686rem;
-    line-height: 2.3686rem;
+/* TEMPLATE 3 START */
+  .about-section-3 {
+    padding: 1.5rem 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    float: right;
   }
 
-}
-
-/* Begin of template 2 CSS — all the classes I created to use in this template will have "-t2" after them  */
-
-.about-t2 {
-  display: grid;
-  row-gap: 3rem;
-}
-
-@media only screen and (max-width: 60em) {
-
-  .center-until-60em-t2 {
-    text-align: center;
+  .template-3-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto;
+    row-gap: 1rem;
   }
 
+  .intro-section-3 {
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    grid-row: 1;
+    grid-column: 1/3;
+  }
+
+  .work-section-3 {
+    grid-row: 2;
+    grid-column: 1/3;
+  }
+
+  .work-2-section-3 {
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    grid-row: 3;
+    grid-column: 1/3;
+  }
+
+  /* Start subgrid section for template 3 project content on tinted background */
+  .project-1-section-3,
+  .project-2-section-3 {
+    display: grid;
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto;
+    column-gap: 1rem;
+  }
+
+  .project-1-section-3 h4 {
+    grid-row: 1;
+    grid-column: 1/2;
+  }
+
+  .project-1-section-3 img,
+  .project-1-section-3 video {
+    grid-row: 2;
+    grid-column: 1/2;
+  }
+
+  .project-1-section-3 p {
+    grid-row: 2;
+    grid-column: 2/3;
+  }
+
+  .project-2-section-3 h4 {
+    grid-row: 1;
+    grid-column: 2/3;
+  }
+
+  .project-2-section-3 img,
+  .project-2-section-3 video {
+    grid-row: 2;
+    grid-column: 2/3;
+  }
+
+  .project-2-section-3 p {
+    grid-row: 2;
+    grid-column: 1/2;
+  }
+
+  .project-3-section-3,
+  .project-3-section-3 h4,
+  .project-4-section-3,
+  .project-4-section-3 h4 {
+    grid-column: 1/3;
+  }
+  /* End subgrid styling */
+  /* END TEMPLATE 3 */
+
+  /* TEMPLATE 2 START */
   .button-top-t2 {
     margin-bottom: 1.3rem;
   }
-
-}
-
-.specifications-t2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.specifications-t2 li {
-text-align: center;
-}
-
-.specifications-t2 li:last-child {
-grid-column: 1 / -1;
-}
-
-.social-icons-t2 {
-  align-self: center;
-}
-
-.buttons-grid-t2 {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.work-grid-t2 {
-  display: grid;
-  row-gap: 1.3rem;
-  grid-template-columns: 1fr;
-}
-
-.work-grid-t2 p {
-  align-self: center;
-  padding: 3rem 0;
-}
-
-
-@media only screen and (min-width: 60em) {
-
+  
   .about-t2 {
     grid-template-columns: 1fr 1fr;
   }
@@ -456,32 +449,29 @@ grid-column: 1 / -1;
   .specifications-t2 li:last-child {
     text-align: right;
     grid-column: auto;
+  }
+
+  .buttons-grid-t2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .work-grid-t2 {
+    column-gap: 1.3rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .work-grid-t2 p {
+    grid-column: 2;
+    padding: 0;
+  }
+
+  .work-grid-swap-t2 {
+    grid-row: 2;
+  }
+
+  .work-grid-t2 div:last-child {
+    grid-column: 1 / -1;
+  }
+  /* END TEMPLATE 2 */
 }
 
-.buttons-grid-t2 {
-  grid-template-columns: 1fr 1fr;
-}
-
-
-.work-grid-t2 {
-  column-gap: 1.3rem;
-  grid-template-columns: 1fr 1fr;
-}
-
-.work-grid-t2 p {
-  grid-column: 2;
-  padding: 0;
-}
-
-.work-grid-swap-t2 {
-  grid-row: 2;
-}
-
-.work-grid-t2 div:last-child {
-  grid-column: 1 / -1;
-}
-
-
-}
-
-/* End template 2 CSS */
