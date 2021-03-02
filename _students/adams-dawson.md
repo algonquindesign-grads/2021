@@ -1,64 +1,63 @@
 ---
-layout: template-1
-filename: "bulkowskirose-mackenzie" 
-first_name: "Firstname"
-last_name: "Lastname"
+layout: template-2
+filename: "adams-dawson" 
+first_name: "Dawson"
+last_name: "Adams"
 headshot_alt: |
-  This is a photo of this person wearing something doing something."
-ation_word: "Adaptation"
+  The headshot of Dawson Adams. It depicts a woman with dark hair, wearing a necklace, smiling with her mouth closed.
+ation_word: "Optimization"
 keywords:
-  - "Adaptable"
-  - "Some other word"
-  - "Mitochodria"
-  - "Transcription"
-  - "Someone please send me coffee"
+  - "Communicative"
+  - "Continuous Learner"
+  - "Detail-Oriented"
+  - "Efficient"
+  - "Enthusiastic"
 meeting_type:
   - "Networking"
-  - "Portfolio Review"
-  - "Job Interview"
 specialties:
+  - "Web"
   - "Branding"
-  - "UX/UI"
-  - "Web Design"
-specialty1: "Branding"
-specialty2: "UX/UI"
-specialty3: "Web Design"
-portfolio_site: "https://insert.full.url.here"
-calendly_link: "https://book.a.meeting"
-twitter_link: "https://social.link.here"
-linkedin_link: "https://social.link.here"
-vimeo_link: "https://social.link.here"
-instagram_link: "https://social.link.here"
-behance_link: "https://social.link.here"
-github_link: "https://social.link.here"
-facebook_link: "https://social.link.here"
-intro_text: "This is where the student intros go; wow they had a lot to say."
-quote_text: "This is where the quotes go. Are character and word count different?"
-portfolio_image1: "mackenzie.will.add.links"
-portfolio_video1: "mackenzie.will.add.links"
-portfolio_image2: "mackenzie.will.add.links"
-portfolio_video2: "mackenzie.will.add.links"
-portfolio_image3: "mackenzie.will.add.links"
-portfolio_video3: "mackenzie.will.add.links"
-portfolio_image4: "mackenzie.will.add.links"
-portfolio_video4: "mackenzie.will.add.links"
-portfolio_title1: "Title"
-portfolio_description1: "Words describing the project"
-portfolio_title2: "Title"
-portfolio_description2: "Words describing the project"
-portfolio_title3: "Title"
-portfolio_description3: "Words describing the project"
-portfolio_title4: "Title"
-portfolio_description4: "Words describing the project"
-html_class: "branding"
-meta_sitename: Generation Adaptation
-meta_title: Firstname Lastname
+  - "UI/UX"
+specialty1: "Web"
+specialty2: "Branding"
+specialty3: "UI/UX"
+portfolio_site: "https://www.dawsonadams.ca/"
+calendly_link: "https://calendly.com/dawson-design"
+linkedin_link: "https://www.linkedin.com/in/dawson-adams-241747185/"
+instagram_link: "https://www.instagram.com/dawson.creates/?hl=en"
+intro_text: |
+  My passion for web design began back in the Tumblr days, when designing custom themes was just for fun. Flash forward to today and I've turned those skills into a career path!
+quote_text: |
+  A user interface is like a joke. If you have to explain it, it's not that good.
+portfolio_image1: "/projects/adams-dawson-project-1.jpg"
+portfolio_image2: "/projects/adams-dawson-project-2.jpg"
+portfolio_image3: "/projects/adams-dawson-project-3.jpg"
+portfolio_image4: "/projects/adams-dawson-project-4.jpg"
+portfolio_title1: "HouseLab Music Festival"
+portfolio_description1: |
+  With its eccentric and hypnotic brand identity, HouseLab Music Festival is a deep house festival like no other. Pulling inspiration from the music itself, HouseLab is full of life and character.
+portfolio_title2: "Gemology"
+portfolio_description2: |
+   Unlike any other brand on the market, Gemology brings luxury to a product that has been used for centuries. Gemology is a mockup e-commerce company, selling an assortment of gems and healing crystals.
+portfolio_title3: "Sharevault"
+portfolio_description3: |
+  Sharevault is a mockup SAAS company, specializing in cloud sharing services. Their friendly and trendy design aesthetic reflects the company's mantra of bringing human elements back to tech services.
+portfolio_title4: "Sweeter"
+portfolio_description4: |
+  Sweeter is a mockup e-commerce company, selling an assortment of candy and other sweets. Their website provides a playful and vibrant shopping experience.
+html_class: "web"
+meta_sitename: |
+  Generation Adaptation
+meta_title: |
+  Dawson Adams
 meta_url: /students/adams-dawson
-meta_previewimage: headshots/lastname-firstname.png
-meta_alt: This describes the preview image, which I'm thinking should be the headshots.
-meta_description: This is the SEO description of the page, so possibly introduce the student?
-gradient: "gradient-gray"
-nav_color: "nav-black"
-icon_color: "icon-black"
-text_color: "text-black"
+meta_previewimage: headshots/dawson-adams-headshot.png
+meta_alt: |
+  The headshot of Dawson Adams. It depicts a girl with dark hair, wearing a necklace, smiling with her mouth closed.
+meta_description: |
+  My passion for web design began back in the Tumblr days, when designing custom themes was just for fun. Flash forward to today and I've turned those skills into a career path!
+gradient: "gradient-web"
+nav_color: "nav-white"
+icon_color: "icon-white"
+text_color: "text-white"
 ---
