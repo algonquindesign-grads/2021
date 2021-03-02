@@ -13,9 +13,9 @@ keywords:
   - "Strategic"
   - "Efficient"
 meeting_type:
-- "Networking"
-- "Portfolio Review"
-- "Job Interview"
+  - "Networking"
+  - "Portfolio Review"
+  - "Job Interview"
 specialties:
   - "Print"
   - "Illustration"
