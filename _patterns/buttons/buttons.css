@@ -20,39 +20,16 @@
   outline-offset: 3px;
 }
 
-/* Use these classes for the color include to define button color*/
-.color-branding {
-  background-color: var(--color-branding);
-  border-color: var(--color-branding);
+/* This code applies the accent colour to the primary buttons, pulling from the html class for the colour */
+.accent-color {
+  padding: .1em .75em .145em;
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
 }
 
-.color-illustration {
-  background-color: var(--color-illustration);
-  border-color: var(--color-illustration);
-}
-
-.color-motion {
-  background-color: var(--color-motion);
-  border-color: var(--color-motion);
-}
-
-.color-print {
-  background-color: var(--color-print);
-  border-color: var(--color-print);
-}
-
-.color-uxui {
-  background-color: var(--color-uxui);
-  border-color: var(--color-uxui);
-}
-
-.color-web {
-  background-color: var(--color-web);
-  border-color: var(--color-web);
-}
-
-/* These classes style the secondary portfolio and calendly buttons */
+/* These classes style the secondary gray portfolio and calendly buttons */
 .btn-2 {
+  padding: .1em .75em .145em;
   color: var(--color-primary);
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
