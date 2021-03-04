@@ -141,3 +141,13 @@ patterns:
         data:
           source: "site.students[0]"
           type: students
+  student-cards:
+    title: "Student Cards"
+    description: |
+      This is the student image card that will appear on the homepage. It contains the student photo and first and last name.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students

@@ -35,6 +35,14 @@ video {
   text-transform: uppercase;
 }
 
+/* Student cards */
+
+.student-cards h3 {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
 /* MOBILE TEMPLATE STYLING START */
 /* TEMPLATES 1, 2, 4 AND 5 STYLES START*/
 .layout1-h2 {
