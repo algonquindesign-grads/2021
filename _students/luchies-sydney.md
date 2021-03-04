@@ -1,6 +1,6 @@
 ---
 layout: template-1
-filuchies-sydney"
+filename: "luchies-sydney"
 first_name: "Sydney"
 last_name: "Luchies"
 headshot_alt: |

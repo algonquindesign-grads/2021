@@ -33,10 +33,10 @@ patterns:
         data:
           source: "site.students[0]"
           type: students
-  template-2-about:
-    title: "Template 2 About section (bio)"
+  template-2-4-about:
+    title: "Template 2 and Template 4 About Section (bio)"
     description: |
-      This is the about section for template 2.
+      This is the about section for templates 2 and 4. It contains a student's photo, frist/last name, specialties, brief about, social links, and two buttons. It always comes first on the page.
     fields:
       - name: data
         type: object
@@ -83,15 +83,6 @@ patterns:
         data:
           source: "site.students[0]"
           type: students
-  template-4-section-1:
-    description: |
-      This section of template 4 is for student information and contains a photo, social links, first and last name, specialties, bio and two buttons.
-    fields:
-      - name: data
-        type: object
-        data:
-          source: "site.students[0]"
-          type: students
   template-4-section-2:
     description: |
       This section of template 4 contains student videos
@@ -104,6 +95,36 @@ patterns:
   template-4-section-3:
     description: |
       This section of template 4 contains the quote and student work.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-5-video:
+    title: "Template 5 Student Video"
+    description: |
+      This is the video section for template 5.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-5-about:
+    title: "Template 5 About Section (bio)"
+    description: |
+      This is the about section for templates 5. It contains a student's photo, frist/last name, specialties, brief about, social links, and two buttons. It always comes after the template 5 video section.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-5-work:
+    title: "Template 5 Work Section"
+    description: |
+      This section is used to show 4 of students' work and a quote.
     fields:
       - name: data
         type: object
