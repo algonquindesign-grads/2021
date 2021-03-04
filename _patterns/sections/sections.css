@@ -36,7 +36,7 @@ video {
 }
 
 /* MOBILE TEMPLATE STYLING START */
-/* TEMPLATES 1 AND 4 STYLES START*/
+/* TEMPLATES 1, 2, 4 AND 5 STYLES START*/
 .layout1-h2 {
   text-align: center;
   width: 100%;
@@ -56,7 +56,8 @@ video {
 .layout1-buttons,
 .layout1-work-buttons,
 .t4-work-buttons,
-.t2-work-buttons {
+.t2-work-buttons,
+.t5-work-buttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,7 +86,9 @@ video {
 
 .layout1-work-grid,
 .t2-work-grid,
-.t4-work-grid {
+.t4-work-grid,
+.t5-work-grid,
+.proj4-quote-section {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
@@ -102,14 +105,13 @@ video {
   max-width: 24em;
 }
 
-/* END TEMPLATES 1 AND 4 */
-
-/* TEMPLATE 2 START */
 .layout2-about-content {
   padding-top: 2rem;
 }
 
-.template-2-video {
+.template-2-video,
+.proj4-quote-section,
+.t5-about {
   border-radius: 10px;
 }
 
@@ -117,7 +119,7 @@ video {
   text-align: center;
 }
 
-/* END TEMPLATE 2 */
+/* END TEMPLATES 1, 2, 4 AND 5 */
 
 /* TEMPLATE 3 STYLES START*/
 /* Style shape and size of student about section */
@@ -205,7 +207,7 @@ ul.about-section-3-specialties > li:last-child{
 /* DESKTOP TEMPLATE STYLING START */
 @media only screen and (min-width: 38em) {
 
-  /* TEMPLATES 1, 2, AND 4 START */
+  /* TEMPLATES 1, 2, 4 AND 5 START */
   .layout1-about-content,
   .layout2-about-content {
     display: grid;
@@ -237,7 +239,8 @@ ul.about-section-3-specialties > li:last-child{
   .layout1-buttons,
   .layout1-work-buttons,
   .t4-work-buttons,
-  .t2-work-buttons {
+  .t2-work-buttons,
+  .t5-work-buttons {
     flex-direction: row;
     justify-content: center;
     align-content: center;
@@ -245,10 +248,13 @@ ul.about-section-3-specialties > li:last-child{
 
   .layout1-work-grid,
   .t2-work-grid,
-  .t4-work-grid {
+  .t4-work-grid,
+  .t5-work-grid,
+  .proj4-quote-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem 1.5rem;
+    justify-content: center;
   }
 
   .work-proj1 {
@@ -345,7 +351,57 @@ ul.about-section-3-specialties > li:last-child{
     grid-row: 6 / 7;
   }
 
-  /* END TEMPLATES 1, 2, AND 4 */
+  .t5-work-grid {
+    grid-gap: 4rem 1.5rem;
+  }
+
+  .t5-work-proj1 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+  }
+
+  .t5-work-proj2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .t5-work-proj3 {
+    grid-column: 2 / -1;
+    grid-row: 3 / 4;
+  }
+
+  .proj4-quote-section {
+    grid-gap: 3rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+
+  .proj4-quote-section {
+    grid-column: 1 / -1;
+    grid-row: 4 / 6;
+  }
+
+  .t5-work-proj4 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .t5-student-quote {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    align-self: center;
+  }
+
+  .t5-work-buttons {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+  }
+
+  .t5-h3 {
+    margin-bottom: 1.3rem;
+  }
+
+  /* END TEMPLATES 1, 2, 4 AND 5 */
 }
 
 @media only screen and (min-width: 60em) {
