@@ -36,11 +36,26 @@ video {
 }
 
 /* Student cards */
+.student-cards {
+  box-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, .05);
+}
 
-.student-cards h3 {
+.student-cards:hover img {
+  background-color: var(--color-accent);
+}
+
+.student-cards .rainbow-line {
+  width: 100%;
+}
+
+.student-cards p {
   font-family: var(--font-primary);
   font-weight: normal;
   text-transform: uppercase;
+}
+
+.student-card-photo img {
+  border-radius: 0 ;
 }
 
 /* MOBILE TEMPLATE STYLING START */
