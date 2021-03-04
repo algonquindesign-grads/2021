@@ -144,7 +144,17 @@ patterns:
   student-cards:
     title: "Student Cards"
     description: |
-      This is the student image card that will appear on the homepage. It contains the student photo and first and last name.
+      This is the student image card that will appear on the homepage under Designers. It contains the student's photo and first and last name.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  teacher-cards:
+    title: "Teacher Cards"
+    description: |
+      This is the teacher image card that will appear on the homepage under Mentors. It contains the teacher's photo and first and last name.
     fields:
       - name: data
         type: object

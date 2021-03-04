@@ -35,26 +35,26 @@ video {
   text-transform: uppercase;
 }
 
-/* Student cards */
-.student-cards {
+/* Student & teacher cards */
+.student-cards,
+.teacher-cards {
   box-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, .05);
 }
 
-.student-cards:hover img {
+.student-cards:hover img,
+.teacher-cards:hover img {
   background-color: var(--color-accent);
 }
 
-.student-cards .rainbow-line {
-  width: 100%;
-}
-
-.student-cards p {
+.student-cards p,
+.teacher-cards p {
   font-family: var(--font-primary);
   font-weight: normal;
   text-transform: uppercase;
 }
 
-.student-card-photo img {
+.student-card-photo img,
+.teacher-card-photo img {
   border-radius: 0 ;
 }
 
