@@ -8,16 +8,6 @@ patterns:
     description: |
       This is the header used as the default option on all webpages.
     fields:
-      - name: gradient
-        type: string
-        example: "gradient-rainbow"
-      - name: nav_color
-        type: string
-        example: "nav-white"
-      - name: icon_color
-        type: string
-        example: "icon-white"
-    fields:
       - name: data
         type: object
         data:
