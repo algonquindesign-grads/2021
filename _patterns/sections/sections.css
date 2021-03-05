@@ -51,6 +51,7 @@ video {
   font-family: var(--font-primary);
   font-weight: normal;
   text-transform: uppercase;
+  color: var(--color-secondary-dark);
 }
 
 .student-card-photo img,
