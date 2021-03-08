@@ -1,6 +1,6 @@
 <div class="card intro" id="intro">
   <div class="card-content">
-    <h1>Match With A Designer Quiz</h1>
+    <h3 class="milli">Match With A Designer Quiz</h3>
     <p class="psquish">This quiz was designed to help you connect with designers.</p>
     <p class="psquish">Find a designer available for work, interested in networking, or requesting a portfolio review. By the end of the quiz, you will have a list of designers that match what you're looking for!</p>
     <button class="next-btn" id="btnIntro"  onClick="toggle_visibility('question1'), toggle_invisibility('intro')">Get Started</button>
@@ -10,7 +10,7 @@
 <div id="options">
   <div id="question1" class="option-set card" data-group="brand" style="display:none">
     <div class="card-content">
-      <h2>Question 1</h2>
+      <h4>Question 1</h4>
       <p>What is your goal?<br><sub>(you may select multiple options)</sub></p>
       <div class="button-group">
         <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".review" id="review" /><label class="label" for="review">Portfolio Review</label></button>
@@ -24,7 +24,7 @@
   </div>
   <div id="question2" class="option-set card" data-group="type" style="display:none">
     <div class="card-content">
-      <h2>Question 2</h2>
+      <h4>Question 2</h4>
       <p>What design specialization are you in search of?<br><sub>(you may select multiple options)</sub></p>
       <button class="ks-cboxtags"><input type="checkbox" value=".web" id="web" /><label class="label" for="web">Web Design</label></button>
       <button class="ks-cboxtags"><input type="checkbox" value=".ui" id="ui" /><label class="label" for="ui">UI & UX</label></button>
@@ -39,7 +39,7 @@
   </div>
   <div id="question3" class="option-set card" data-group="color" style="display:none">
     <div class="card-content">
-      <h2>Question 3</h2>
+      <h4>Question 3</h4>
       <p>What key attributes are you looking for in a designer?<br><sub>(you may select multiple options)</sub></p>
       <button class="ks-cboxtags"><input type="checkbox" value=".alt" id="alt" /><label class="label" for="alt">Altruistic</label></button>
       <button class="ks-cboxtags"><input type="checkbox" value=".com" id="com" /><label class="label" for="com">Communicative</label></button>
@@ -62,7 +62,7 @@
 
 <div id="results" class="card" style="display:none">
   <div class="card-content results-card">
-    <h2 class="results-title">Results</h2>
+    <h3 class="results-title">Results</h3>
       <div id="container" class="results-container">
         <div class="designer web ui branding alt com con cont det review job networking">
           <img src="img/designer-placeholder.svg">
