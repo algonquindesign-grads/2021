@@ -3,7 +3,7 @@ description: |
   This is the quiz that will be featured on the grad website.
 
 patterns:
-  portfolio:
+  quiz:
     title: "Match With A Designer Quiz"
     description: |
       This quiz will help visitors to the grad website match with designers that meet their criteria.
