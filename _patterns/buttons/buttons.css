@@ -1,41 +1,43 @@
+/* These 2 classes style the primary (white) and secondary (black) icon states */
 .social-icon {
   color: var(--color-secondary-light);
 }
 
-.social-icon:hover,
-.social-icon:focus {
-  color: var(--color-secondary-dark);
+.social-icon-2 {
+  color: var(--color-primary);
 }
 
-/* Use these classes for the color include to define button color*/
-.color-branding {
-  background-color: var(--color-branding);
-  border-color: var(--color-branding);
+/* This code styles the hover and focus states for both the primary and secondary social icons */
+.icon-box-shadow {
+  padding: 4px;
+  border-radius: 2px;
 }
 
-.color-illustration {
-  background-color: var(--color-illustration);
-  border-color: var(--color-illustration);
+.icon-box-shadow:hover,
+.icon-box-shadow:focus {
+box-shadow: 0 0 0 2pt var(--color-primary);
 }
 
-.color-motion {
-  background-color: var(--color-motion);
-  border-color: var(--color-motion);
+/* This code applies the accent colour to the primary buttons, pulling from the html class for the colour */
+.accent-color {
+  padding: .1em .75em .145em;
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
 }
 
-.color-print {
-  background-color: var(--color-print);
-  border-color: var(--color-print);
+/* These classes style the secondary gray portfolio and calendly buttons */
+.btn-2 {
+  padding: .1em .75em .145em;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
 }
 
-.color-uxui {
-  background-color: var(--color-uxui);
-  border-color: var(--color-uxui);
-}
-
-.color-web {
-  background-color: var(--color-web);
-  border-color: var(--color-web);
+.btn-2:hover,
+.btn-2:focus {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .btn-small {

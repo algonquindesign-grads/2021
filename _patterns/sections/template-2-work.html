@@ -1,0 +1,69 @@
+<section class="wrapper gutter pad-t-2 pad-b-2">
+  <h2 class="text-center">Example Work</h2>
+
+  <div class="t2-work-grid">
+    <div class="work-cards relative t2-work-proj1">
+      <h4 class="push-1-4">{{include.data.portfolio_title1}}</h4>
+        {% if include.data.portfolio_image1 %}
+          <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.jpg" alt="{{include.data.portfolio_description1}}">
+        {% endif %}
+        {% if include.data.portfolio_video1 %}
+          <video controls loop playsinline class="push">
+            <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.mp4" type="video/mp4">
+          </video>
+        {% endif %}
+      <p class="milli work-hover push-0">{{include.data.portfolio_description1}}</p>
+    </div>
+
+    <div class="work-cards relative t2-work-proj2">
+      <h4 class="push-1-4">{{include.data.portfolio_title2}}</h4>
+        {% if include.data.portfolio_image2 %}
+          <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.jpg" alt="{{include.data.portfolio_description2}}">
+        {% endif %}
+        {% if include.data.portfolio_video2 %}
+          <video controls loop playsinline class="push">
+            <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.mp4" type="video/mp4">
+          </video>
+        {% endif %}
+      <p class="milli work-hover push-0">{{include.data.portfolio_description2}}</p>
+    </div>
+
+    <q class="mega t2-student-quote">{{include.data.quote_text}}</q>
+
+    <div class="work-cards relative t2-work-proj3">
+      <h4 class="push-1-4">{{include.data.portfolio_title3}}</h4>
+        {% if include.data.portfolio_image3 %}
+          <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg" alt="{{include.data.portfolio_description3}}">
+        {% endif %}
+        {% if include.data.portfolio_video3 %}
+          <video controls loop playsinline class="push">
+            <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.mp4" type="video/mp4">
+          </video>
+        {% endif %}
+      <p class="milli work-hover push-0">{{include.data.portfolio_description3}}</p>
+    </div>
+
+    <div class="work-cards relative t2-work-proj4">
+      <h4 class="push-1-4">{{include.data.portfolio_title4}}</h4>
+        {% if include.data.portfolio_image4 %}
+          <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg" alt="{{include.data.portfolio_description4}}">
+        {% endif %}
+        {% if include.data.portfolio_video4 %}
+          <video controls loop playsinline class="push">
+            <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.mp4" type="video/mp4">
+          </video>
+        {% endif %}
+      <p class="milli work-hover push-0">{{include.data.portfolio_description4}}</p>
+    </div>
+
+    <div class="t2-work-buttons">
+      <div class="push button-wrappers">
+        {% pattern buttons/portfolio-accent data=page %}
+      </div>
+
+      <div class="push button-wrappers">
+        {% pattern buttons/calendly-accent data=page %}
+      </div>
+    </div>
+  </div>
+</section>

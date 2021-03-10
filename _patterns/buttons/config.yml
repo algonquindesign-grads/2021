@@ -3,27 +3,15 @@ description: |
   This is a list of all the styles of buttons that appear on the website.
 
 patterns:
-  portfolio:
-    title: "Portfolio Button"
+  portfolio-accent:
+    title: "Portfolio Button (Data Includes)"
     description: |
-      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites.
+      This button is used on student profiles to link to their personal portfolio sites. It takes the accent colour change from the HTML class, and applies it to match the rest of the page.
     width: 10em
     fields:
       - name: color
         type: string
         example: "color-web"
-      - name: portfolio-url
-        type: url
-        example: "#"
-      - name: aria
-        type: string
-        example: "This button links to this student's portfolio site"
-  quiz-portfolio-button:
-    title: "Portfolio Button"
-    description: |
-      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites and is present exclusively on the quiz results page.
-    width: 20em
-    fields:
       - name: portfolio-url
         type: url
         example: "#"
@@ -32,22 +20,73 @@ patterns:
         example: "This button links to this student's portfolio site"
   calendly:
     title: "Book With Calendly Button"
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  portfolio-gray:
+    title: "Portfolio Gray Button (Data Includes)"
     description: |
-      This button is used as a call-to-action to encourage site visitors to book a meeting with students.
+      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites. It is used on templates where the accent button would not be clearly visible.
     width: 10em
     fields:
-      - name: color
-        type: string
-        example: "color-web"
-      - name: student-username
-        type: string
-        example: "bulk0002"
-      - name: meeting-length
-        type: string
-        example: "15min"
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  calendly-accent:
+    title: "Calendly Accent Button (Data Includes)"
+    description: |
+      This button is used as a call-to-action to encourage site visitors to book a meeting with students. It takes the accent colour change from the HTML class, and applies it to match the rest of the page.
+    width: 10em
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  calendly-gray:
+    title: "Calendly Gray Button (Data Includes)"
+    description: |
+      This button is used as a call-to-action to encourage site visitors to book a meeting with students. It is used on templates where the accent calendly button would not be clearly visible.
+    width: 10em
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  icon:
+    title: "Icons"
+    description: |
+      These white buttons are used to link to external site content, including student's social media accounts.
+    fields:
+      - name: url
+        type: url
+        example: "#"
       - name: aria
         type: string
-        example: "This button allows you to book a virtual meeting with this student"
+        example: "This button navigates you to this student's instagram account"
+      - name: id
+        type: string
+        example: "instagram"
+  icon-2:
+    title: "Secondary Icons"
+    description: |
+      These black buttons are used to link to external site content, including student's social media accounts.
+    fields:
+      - name: url
+        type: url
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button navigates you to this student's instagram account"
+      - name: id
+        type: string
+        example: "instagram"
   quiz-calendly-button:
     title: "Book With Calendly Button"
     description: |
@@ -63,17 +102,15 @@ patterns:
       - name: aria
         type: string
         example: "This button allows you to book a virtual meeting with this student"
-  icon:
-    title: "Clickable Icons"
+  quiz-portfolio-button:
+    title: "Portfolio Button"
     description: |
-      These buttons are used to link to external site content, including student's social media accounts.
+      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites and is present exclusively on the quiz results page.
+    width: 20em
     fields:
-      - name: url
+      - name: portfolio-url
         type: url
         example: "#"
       - name: aria
         type: string
-        example: "This button navigates you to this student's instagram account"
-      - name: id
-        type: string
-        example: "instagram"
+        example: "This button links to this student's portfolio site"

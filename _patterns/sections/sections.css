@@ -1,0 +1,516 @@
+/* Define general use classes for colouring sections based on specialty */
+span {
+  color: var(--color-accent);
+}
+
+.color-tint {
+  background-color: var(--color-tint);
+}
+
+.color-separator-tint {
+  color: var(--color-tint);
+}
+
+/* Define general shape of images and videos, excluding the SVG rainbow line */
+img:not(.rainbow-line) {
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+}
+
+video {
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Display social icons with flexible space between them; since no more than 4 icons can be used, the flexwrap functionality was excluded */
+.about-section-social {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Make portfolio work headers the correct font */
+.work-cards h4 {
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+
+/* Student & teacher cards */
+.student-cards,
+.teacher-cards {
+  box-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, .05);
+}
+
+.student-cards:hover img,
+.teacher-cards:hover img {
+  background-color: var(--color-accent);
+}
+
+.student-cards p,
+.teacher-cards p {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--color-secondary-dark);
+}
+
+.student-card-photo img,
+.teacher-card-photo img {
+  border-radius: 0 ;
+}
+
+/* MOBILE TEMPLATE STYLING START */
+/* TEMPLATES 1, 2, 4 AND 5 STYLES START*/
+.layout1-h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.layout1-separator {
+  color: var(--color-secondary-light);
+}
+
+.layout-specialties {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 .5rem;
+}
+
+.layout1-buttons,
+.layout1-work-buttons,
+.t4-work-buttons,
+.t2-work-buttons,
+.t5-work-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.button-wrappers {
+  margin: 1rem auto;
+}
+
+.work-hover {
+  background-color: rgba(0, 0, 0, .6);
+  padding: 1rem;
+  color: var(--color-secondary-light);
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transition: all .15s ease-in;
+  border-radius: 0 0 10px 10px;
+  line-height: 1.3;
+}
+
+.work-cards:hover .work-hover {
+  opacity: 1;
+}
+
+.layout1-work-grid,
+.t2-work-grid,
+.t4-work-grid,
+.t5-work-grid,
+.proj4-quote-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+}
+
+.layout1-student-quote,
+.t4-student-quote {
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.t4-student-quote {
+  max-width: 24em;
+}
+
+.layout2-about-content {
+  padding-top: 2rem;
+}
+
+.template-2-video,
+.proj4-quote-section,
+.t5-about {
+  border-radius: 10px;
+}
+
+.t2-student-quote {
+  text-align: center;
+}
+
+/* END TEMPLATES 1, 2, 4 AND 5 */
+
+/* TEMPLATE 3 STYLES START*/
+/* Style shape and size of student about section */
+.about-section-3,
+.intro-section-3 {
+  padding: 1.5rem;
+}
+
+.about-section-3 > div {
+  border-radius: 10px;
+  max-width: 17em;
+  text-align: center;
+}
+
+/*Set max size of headshot so section fits in viewport */
+.about-section-3 img:first-child {
+  max-width: 10em;
+  margin: 0 auto 1rem auto;
+}
+
+/* Make student name line height smaller */
+.about-section-3 h1,
+.intro-section-3 h3,
+.work-section-3 h2 {
+  line-height: 2rem;
+}
+
+/* Display specialties in a 2-row grid */
+ul.about-section-3-specialties {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: .25rem;
+}
+
+ul.about-section-3-specialties > li:first-child {
+  grid-row: 1;
+  grid-column: 1/3;
+  text-align: center;
+}
+
+ul.about-section-3-specialties > li:nth-child(2) {
+  grid-row: 1;
+  grid-column: 3/5;
+  text-align: center;
+}
+
+ul.about-section-3-specialties > li:last-child{
+  grid-row: 2;
+  grid-column: 1/5;
+  text-align: center;
+}
+
+/* Template 3 colour variations */
+.about-section-3 > .gradient-branding {
+  background: linear-gradient(180deg, var(--color-motion) 0, var(--color-branding) 60% 100%);
+  color: var(--color-secondary-primary);
+}
+
+.about-section-3 > .gradient-illustration {
+  background: linear-gradient(180deg, var(--color-secondary) 0, var(--color-illustration) 60% 100%);
+  color: var(--color-secondary-primary);
+}
+
+.about-section-3 > .gradient-motion {
+  background: linear-gradient(180deg, var(--color-secondary) 0, var(--color-motion) 60% 100%);
+  color: var(--color-secondary-primary);
+}
+
+.about-section-3 > .gradient-print {
+  background: linear-gradient(180deg, var(--color-secondary) 0, var(--color-print) 60% 100%);
+  color: var(--color-secondary-primary);
+}
+
+.about-section-3 > .gradient-uxui {
+  background: linear-gradient(180deg, var(--color-illustration) 0, var(--color-uxui) 60% 100%);
+  color: var(--color-secondary-light);
+}
+
+.about-section-3 > .gradient-web {
+  background: linear-gradient(180deg, var(--color-branding) 0, var(--color-web) 60% 100%);
+  color: var(--color-secondary-light);
+}
+/* END TEMPLATE 3 */
+
+/* DESKTOP TEMPLATE STYLING START */
+@media only screen and (min-width: 38em) {
+
+  /* TEMPLATES 1, 2, 4 AND 5 START */
+  .layout1-about-content,
+  .layout2-about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 2.5rem;
+    padding-top: 3rem;
+  }
+
+  .layout2-about-content {
+    padding-top: 1rem;
+  }
+
+  .layout1-h2 {
+    text-align: left;
+    width: 100%;
+  }
+
+  .layout1-specialties,
+  .layout1-bar,
+  .layout1-buttons,
+  .layout1-about {
+    grid-column: 2 / -1;
+  }
+
+  .layout1-student-photo {
+    grid-row: 1 / 5;
+  }
+
+  .layout1-buttons,
+  .layout1-work-buttons,
+  .t4-work-buttons,
+  .t2-work-buttons,
+  .t5-work-buttons {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .layout1-work-grid,
+  .t2-work-grid,
+  .t4-work-grid,
+  .t5-work-grid,
+  .proj4-quote-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem 1.5rem;
+    justify-content: center;
+  }
+
+  .work-proj1 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+  }
+
+  .work-proj2 {
+    grid-column: 1 / -1;
+    grid-row: 3 / 5;
+  }
+
+  .work-proj3 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+
+  .work-proj4 {
+    grid-column: 2 / -1;
+    grid-row: 5 / 6;
+  }
+
+  .layout1-student-quote {
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
+  }
+
+  .layout1-work-buttons {
+    grid-column: 1 / -1;
+    grid-row: 7 / 8;
+  }
+
+  .t2-work-grid {
+    grid-gap: 3rem 2rem;
+  }
+
+  .t2-work-proj1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .t2-work-proj2 {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+  }
+
+  .t2-student-quote {
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+    align-self: center;
+  }
+
+  .t2-work-proj3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .t2-work-proj4 {
+    grid-column: 1 / -1;
+    grid-row: 3 / 5;
+  }
+
+  .t2-work-buttons {
+    grid-column: 1 / -1;
+    grid-row: 5 / 6;
+  }
+
+  .t4-work-grid {
+    grid-gap: 5rem 2rem;
+  }
+
+  .t4-work-proj1 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+  }
+
+  .t4-work-proj2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .t4-work-proj3 {
+    grid-column: 2 / -1;
+    grid-row: 3 / 4;
+  }
+
+  .t4-work-proj4 {
+    grid-column: 1 / -1;
+    grid-row: 4 / 6;
+  }
+
+  .t4-work-buttons {
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
+  }
+
+  .t5-work-grid {
+    grid-gap: 4rem 1.5rem;
+  }
+
+  .t5-work-proj1 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+  }
+
+  .t5-work-proj2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .t5-work-proj3 {
+    grid-column: 2 / -1;
+    grid-row: 3 / 4;
+  }
+
+  .proj4-quote-section {
+    grid-gap: 3rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+
+  .proj4-quote-section {
+    grid-column: 1 / -1;
+    grid-row: 4 / 6;
+  }
+
+  .t5-work-proj4 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .t5-student-quote {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    align-self: center;
+  }
+
+  .t5-work-buttons {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+  }
+
+  .t5-h3 {
+    margin-bottom: 1.3rem;
+  }
+
+  /* END TEMPLATES 1, 2, 4 AND 5 */
+}
+
+@media only screen and (min-width: 60em) {
+
+/* TEMPLATE 3 START */
+  .about-section-3 {
+    padding: 1.5rem 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    float: right;
+  }
+
+  .template-3-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto;
+    row-gap: 1rem;
+  }
+
+  .intro-section-3 {
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    grid-row: 1;
+    grid-column: 1/3;
+  }
+
+  .work-section-3 {
+    grid-row: 2;
+    grid-column: 1/3;
+  }
+
+  .work-2-section-3 {
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    grid-row: 3;
+    grid-column: 1/3;
+  }
+
+  /* Start subgrid section for template 3 project content on tinted background */
+  .project-1-section-3,
+  .project-2-section-3 {
+    display: grid;
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto;
+    column-gap: 1rem;
+  }
+
+  .project-1-section-3 h4 {
+    grid-row: 1;
+    grid-column: 1/2;
+  }
+
+  .project-1-section-3 img,
+  .project-1-section-3 video {
+    grid-row: 2;
+    grid-column: 1/2;
+  }
+
+  .project-1-section-3 p {
+    grid-row: 2;
+    grid-column: 2/3;
+  }
+
+  .project-2-section-3 h4 {
+    grid-row: 1;
+    grid-column: 2/3;
+  }
+
+  .project-2-section-3 img,
+  .project-2-section-3 video {
+    grid-row: 2;
+    grid-column: 2/3;
+  }
+
+  .project-2-section-3 p {
+    grid-row: 2;
+    grid-column: 1/2;
+  }
+
+  .project-3-section-3,
+  .project-3-section-3 h4,
+  .project-4-section-3,
+  .project-4-section-3 h4 {
+    grid-column: 1/3;
+  }
+  /* End subgrid styling */
+  /* END TEMPLATE 3 */
+}

@@ -1,0 +1,18 @@
+<section class="color-tint">
+  <div class="wrapper">
+    <div class="gutter pad-t-2 pad-b-2 push-2">
+      <h3 class="text-center">I am generation<br><span>{{include.data.ation_word}}</span></h3>
+
+      <div class="gutter pad-t">
+        <video controls loop playsinline class="push">
+          <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
+        </video>
+        <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pad-t pad-b gutter-2 wrapper push-2">
+  <q class="mega t4-student-quote">{{include.data.quote_text}}</q>
+</section>

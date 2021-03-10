@@ -1,4 +1,0 @@
-I"â<p>The <code class="language-plaintext highlighter-rouge">.list-group</code> class that will remove bullets and padding from lists, so semantically they can be lists but no visually.</p>
-
-<p>When added to a <code class="language-plaintext highlighter-rouge">&lt;dl&gt;</code> tag, there is a little responsiveness to how the <code class="language-plaintext highlighter-rouge">&lt;dt&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;dd&gt;</code> tags flow.</p>
-:ET

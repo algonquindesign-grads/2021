@@ -3,3 +3,161 @@ description: |
 
 
 patterns:
+  layout1-video-section:
+    title: "Template 1 Video Section"
+    description: |
+      This is the video section found on template 1. It contains a title with a students' chosen 'ation' word and their personal question video. It appears at the top of the page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  layout1-about-section:
+    title: "Template 1 About Section"
+    description: |
+      This is the about section found on template 1. It contains a student's photo, frist/last name, specialties, brief about, social links, and two buttons. It always appears after the video section.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  layout1-work-section:
+    title: "Template 1 Work Section"
+    description: |
+      This is the work section found on template 1. It contains four project photos (with descriptions), a quote, and two buttons. It always appears after the about section.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-2-4-about:
+    title: "Template 2 and Template 4 About Section (bio)"
+    description: |
+      This is the about section for templates 2 and 4. It contains a student's photo, frist/last name, specialties, brief about, social links, and two buttons. It always comes first on the page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-2-video:
+    title: "Template 2 Student Video"
+    description: |
+      This is the video section for template 2.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-2-work:
+    title: "Template 2 Work Section"
+    description: |
+      This section is used to show 3 of students' work and a quote.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-3-about-section:
+    title: "Template 3 About Section (sticky bio)"
+    description: |
+      This is the about section for template 3.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-3-intro-section:
+    title: "Template 3 Content Section (aka everything else)"
+    description: |
+      This is the rest of the content for template 3.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-4-section-2:
+    description: |
+      This section of template 4 contains student videos
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-4-section-3:
+    description: |
+      This section of template 4 contains the quote and student work.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-5-video:
+    title: "Template 5 Student Video"
+    description: |
+      This is the video section for template 5.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-5-about:
+    title: "Template 5 About Section (bio)"
+    description: |
+      This is the about section for templates 5. It contains a student's photo, frist/last name, specialties, brief about, social links, and two buttons. It always comes after the template 5 video section.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  template-5-work:
+    title: "Template 5 Work Section"
+    description: |
+      This section is used to show 4 of students' work and a quote.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  work-cards:
+    title: "Student Work Image Cards"
+    description: |
+      This is the basic works image cards. It contains a project photo and a description when hovered. It is used on all templates.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  student-cards:
+    title: "Student Cards"
+    description: |
+      This is the student image card that will appear on the homepage under Designers. It contains the student's photo and first and last name.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  teacher-cards:
+    title: "Teacher Cards"
+    description: |
+      This is the teacher image card that will appear on the homepage under Mentors. It contains the teacher's photo and first and last name.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students

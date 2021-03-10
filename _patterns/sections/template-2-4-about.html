@@ -1,0 +1,113 @@
+<section class="pad-t-2">
+  <div class="pad-b-2">
+    <div class="wrapper gutter layout2-about-content">
+      <div class="layout1-student-photo push">
+        <img class="img-flex" src="{{site.cdn}}/headshots/{{include.data.filename}}-headshot.png" alt="{{include.data.headshot_alt}}">
+      </div>
+
+      <h1 class="layout1-h2">{{include.data.first_name}}<br>{{include.data.last_name}}</h1>
+
+      <ul class="layout-specialties list-group text-upper">
+        <li>{{include.data.specialty1}}</li>
+        <li>{{include.data.specialty2}}</li>
+        <li>{{include.data.specialty3}}</li>
+      </ul>
+
+      <img class="push rainbow-line layout1-bar img-flex" src="/images/line-break-gradient.svg" alt="" role="presentation">
+
+      <p class="layout1-about push-2">{{include.data.intro_text}}</p>
+
+      <div class="push-2 about-social">
+        <ul class="list-group about-section-social pad-t-3-4">
+          {% if include.data.linkedin_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.linkedin_link}}" aria_label="This button navigates you to this student's linkedin account.">
+              <i class="icon i-32" id="linkedin">
+                <svg>
+                  <use xlink:href="/images/icons.svg#linkedin"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+          {% if include.data.instagram_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.instagram_link}}" aria_label="This button navigates you to this student's instagram account.">
+              <i class="icon i-32" id="instagram">
+                <svg>
+                  <use xlink:href="/images/icons.svg#instagram"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+          {% if include.data.behance_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.behance_link}}" aria_label="This button navigates you to this student's behance account.">
+              <i class="icon i-32" id="behance">
+                <svg>
+                  <use xlink:href="/images/icons.svg#behance"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+          {% if include.data.github_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.github_link}}" aria_label="This button navigates you to this student's github account.">
+              <i class="icon i-32" id="github">
+                <svg>
+                  <use xlink:href="/images/icons.svg#github"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+          {% if include.data.vimeo_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.vimeo_link}}" aria_label="This button navigates you to this student's vimeo account.">
+              <i class="icon i-32" id="vimeo">
+                <svg>
+                  <use xlink:href="/images/icons.svg#vimeo"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+          {% if include.data.facebook_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.facebook_link}}" aria_label="This button navigates you to this student's facebook account.">
+              <i class="icon i-32" id="facebook">
+                <svg>
+                  <use xlink:href="/images/icons.svg#facebook"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+          {% if include.data.twitter_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.twitter_link}}" aria_label="This button navigates you to this student's twitter account.">
+              <i class="icon i-32" id="twitter">
+                <svg>
+                  <use xlink:href="/images/icons.svg#twitter"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="layout1-buttons">
+        <div class="push button-wrappers">
+          {% pattern buttons/portfolio-accent data=page %}
+        </div>
+
+        <div class="push button-wrappers">
+          {% pattern buttons/calendly-accent data=page %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

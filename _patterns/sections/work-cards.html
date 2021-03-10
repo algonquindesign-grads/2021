@@ -1,0 +1,12 @@
+<div class="work-cards relative">
+  <h4 class="mega push-0">{{include.data.portfolio_title4}}</h4>
+    {% if include.data.portfolio_image4 %}
+        <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg" alt="{{include.data.portfolio_description4}}">
+    {% endif %}
+    {% if include.data.portfolio_video4 %}
+        <video controls loop playsinline class="push">
+            <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.mp4" type="video/mp4">
+        </video>
+    {% endif %}
+    <p class="milli work-hover push-0">{{include.data.portfolio_description4}}</p>
+</div>

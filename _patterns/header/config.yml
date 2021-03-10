@@ -1,5 +1,29 @@
 title: Header
 description: |
-
+  This is a list of the header styles of the website, built to respond to mobile and desktop sizes.
 
 patterns:
+  basic-header:
+    title: "Header (with data includes)"
+    description: |
+      This is the header used as the default option on all webpages.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.students[0]"
+          type: students
+  secondary-header:
+    title: "Secondary Header (with basic inlcudes)"
+    description: |
+      This is the secondary header (it is the same as the header except it has basic includes not data inlcudes).
+    fields:
+      - name: gradient
+        type: string
+        example: "gradient-motion"
+      - name: nav_color
+        type: string
+        example: "nav-black"
+      - name: icon_color
+        type: string
+        example: "icon-black"
