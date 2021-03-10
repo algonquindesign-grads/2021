@@ -1,533 +1,535 @@
-<div class="card intro" id="intro">
-  <div class="card-content">
-    <h3 style="line-height:1em">Match With A Designer Quiz</h3>
-    <p class="psquish">This quiz was designed to help you connect with designers.</p>
-    <p class="psquish">Find a designer available for work, interested in networking, or requesting a portfolio review. By the end of the quiz, you will have a list of designers that match what you're looking for!</p>
-    <button class="next-btn" id="btnIntro"  onClick="toggle_visibility('question1'), toggle_invisibility('intro')">Get Started</button>
-  </div>
-</div>
-
-<div id="options">
-  <div id="question1" class="option-set card" data-group="brand" style="display:none">
+<div class="quiz-content">
+  <div class="card intro" id="intro">
     <div class="card-content">
-      <h4>Question 1</h4>
-      <p>What is your goal?<br><sub>(you may select multiple options)</sub></p>
-      <div class="button-group">
-        <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".review" id="review" /><label class="label" for="review">Portfolio Review</label></button>
-        <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".job" id="job" /><label class="label" for="job">Job Request</label></button>
-        <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".networking" id="networking" /><label class="label" for="networking">Networking</label></button>
+      <h3 style="line-height:1em">Match With A Designer Quiz</h3>
+      <p class="psquish">This quiz was designed to help you connect with designers.</p>
+      <p class="psquish">Find a designer available for work, interested in networking, or requesting a portfolio review. By the end of the quiz, you will have a list of designers that match what you're looking for!</p>
+      <button class="next-btn" id="btnIntro"  onClick="toggle_visibility('question1'), toggle_invisibility('intro')">Get Started</button>
+    </div>
+  </div>
+
+  <div id="options">
+    <div id="question1" class="option-set card" data-group="brand" style="display:none">
+      <div class="card-content">
+        <h4>Question 1</h4>
+        <p>What is your goal?<br><sub>(you may select multiple options)</sub></p>
+        <div class="button-group">
+          <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".review" id="review" /><label class="label" for="review">Portfolio Review</label></button>
+          <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".job" id="job" /><label class="label" for="job">Job Request</label></button>
+          <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".networking" id="networking" /><label class="label" for="networking">Networking</label></button>
+        </div>
+        <div>
+          <button class="next-btn" id="question-1-btn" onClick="toggle_visibility('question2'), toggle_invisibility('question1')">Continue</button>
+        </div>
       </div>
-      <div>
-        <button class="next-btn" id="question-1-btn" onClick="toggle_visibility('question2'), toggle_invisibility('question1')">Continue</button>
+    </div>
+    <div id="question2" class="option-set card" data-group="type" style="display:none">
+      <div class="card-content">
+        <h4>Question 2</h4>
+        <p>What design specialization are you in search of?<br><sub>(you may select multiple options)</sub></p>
+        <button class="ks-cboxtags"><input type="checkbox" value=".web" id="web" /><label class="label" for="web">Web Design</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".ui" id="ui" /><label class="label" for="ui">UI & UX</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".branding" id="branding" /><label class="label" for="branding">Branding</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".motion" id="motion" /><label class="label" for="motion">Motion Design</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".illustration" id="illustration" /><label class="label" for="illustration">Illustration</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".print" id="print" /><label class="label" for="print">Print Design</label></button>
+        <div>
+          <button class="next-btn" id="question-2-btn" onClick="toggle_visibility('question3'), toggle_invisibility('question2')">Continue</button>
+        </div>
+      </div>
+    </div>
+    <div id="question3" class="option-set card" data-group="color" style="display:none">
+      <div class="card-content">
+        <h4>Question 3</h4>
+        <p>What key attributes are you looking for in a designer?<br><sub>(you may select multiple options)</sub></p>
+        <button class="ks-cboxtags"><input type="checkbox" value=".alt" id="alt" /><label class="label" for="alt">Altruistic</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".com" id="com" /><label class="label" for="com">Communicative</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".con" id="con" /><label class="label" for="con">Conscientious</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".cont" id="cont" /><label class="label" for="cont">Continuous Learner</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".det" id="det" /><label class="label" for="det">Detail-oriented</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".eff" id="eff" /><label class="label" for="eff">Efficient</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".ent" id="ent" /><label class="label" class="label" for="ent">Enthusiastic</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".fle" id="fle" /><label class="label" for="fle">Flexible</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".goal" id="goal" /><label class="label" for="goal">Goal-oriented</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".ind" id="ind" /><label class="label" for="ind">Independent</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".str" id="str" /><label class="label" for="str">Strategic</label></button>
+        <button class="ks-cboxtags"><input type="checkbox" value=".team" id="team" /><label class="label" for="team">Team-oriented</label></button>
+        <div>
+          <button class="next-btn" id="question-3-btn" onClick="toggle_visibility('results'), toggle_invisibility('question3')">Continue</button>
+        </div>
       </div>
     </div>
   </div>
-  <div id="question2" class="option-set card" data-group="type" style="display:none">
-    <div class="card-content">
-      <h4>Question 2</h4>
-      <p>What design specialization are you in search of?<br><sub>(you may select multiple options)</sub></p>
-      <button class="ks-cboxtags"><input type="checkbox" value=".web" id="web" /><label class="label" for="web">Web Design</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".ui" id="ui" /><label class="label" for="ui">UI & UX</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".branding" id="branding" /><label class="label" for="branding">Branding</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".motion" id="motion" /><label class="label" for="motion">Motion Design</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".illustration" id="illustration" /><label class="label" for="illustration">Illustration</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".print" id="print" /><label class="label" for="print">Print Design</label></button>
-      <div>
-        <button class="next-btn" id="question-2-btn" onClick="toggle_visibility('question3'), toggle_invisibility('question2')">Continue</button>
+
+  <div id="results" class="card" style="display:none">
+    <div class="card-content results-card">
+      <h3 class="results-title">Results</h3>
+        <div id="container" class="results-container">
+          <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/caudle-ali-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/doyle-alison-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding eff ent fle goal ind review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/martins-ana-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print eff ent fle goal ind review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/hendry-anna-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/dion-avery-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con review job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/labelle-ayla-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/richmond-brett-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/kenlock-sherman-bria-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration goal ind str team alt job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/beauchamps-brianna-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print goal ind str team alt job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/wilkie-catherine-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print alt com con cont det job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/robitaille-cedric-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print alt com con cont det review networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/holmes-chris-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding alt com con cont det review networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/paul-chris-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding eff ent fle goal ind review networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/volden-christine-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding eff ent fle goal ind review">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/garzon-cindy-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print eff ent fle goal ind review">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/lovan-cola-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con review">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/allen-cole-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/fuentes-daniela-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration str team alt com con job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/galacio-danielle-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration con det eff ent fle job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/adams-dawson-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration cont det eff ent fle networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/ekuma-deborah-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print cont det eff ent fle networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/brown-hannah-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print goal ind str team alt networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/reed-hannah-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print goal ind str team alt networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/damour-ian-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/bradley-jacob-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/power-jen-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding eff ent fle goal ind review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/jodoin-jess-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print eff ent fle goal ind review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/mann-williams-jesse-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/marchildon-jude-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con review job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/porkipcak-julia-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/stephanson-julianna-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/norquay-kaitlyn-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration goal ind str team alt job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/chamberland-kathleen-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print goal ind str team alt job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/ezdahmad-katia-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print alt com con cont det job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/nguyen-khoi-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print alt com con cont det review networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/onuorah-kodilichukwu-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding alt com con cont det review networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/ellis-kyle-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding eff ent fle goal ind review networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/breitenstein-linda-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding eff ent fle goal ind review">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/stenta-lucas-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print eff ent fle goal ind review">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/bulkowski-rose-mackenzie-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con review">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/hotte-maggie-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/davis-monica-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration str team alt com con job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/otake-nadia-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration con det eff ent fle job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/grenon-nathaniel-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration cont det eff ent fle networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/boyd-niall-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print cont det eff ent fle networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/prime-quincy-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print goal ind str team alt networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/sherman-rukiya-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print goal ind str team alt networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/madore-sabrina-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/cossar-sam-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/desmarais-sarah-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding eff ent fle goal ind review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/thomson-sheri-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print eff ent fle goal ind review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/langman-sophie-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con review job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/lunchies-sydney-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer motion illustration print str team alt com con review job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/clark-tasmyn-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/vu-hong-nguyen-thi-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/harvey-treawna-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web branding illustration goal ind str team alt job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/rosevold-vanessa-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print goal ind str team alt job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/patel-veraj-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print alt com con cont det job networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/dave-yeshu-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer ui motion print alt com con cont det review networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/zwicker-zach-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding alt com con cont det review networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/cui-zhikai-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+          <div class="link-btn-group designer web ui branding eff ent fle goal ind review networking">
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/zhao-ziai-headshot.png">
+            <div class="link-buttons">
+              <a class="link-1 button1" href="#">View Profile</a>
+              <a class="link-2 button1" href="#">Book A Meeting</a>
+            </div>
+          </div>
+        </div>
+        <div class="results-btn">
+          <button type="submit" class="next-btn" id="restart-btn" onClick="refreshpage()">Restart Quiz</button>
+        </div>
       </div>
-    </div>
   </div>
-  <div id="question3" class="option-set card" data-group="color" style="display:none">
-    <div class="card-content">
-      <h4>Question 3</h4>
-      <p>What key attributes are you looking for in a designer?<br><sub>(you may select multiple options)</sub></p>
-      <button class="ks-cboxtags"><input type="checkbox" value=".alt" id="alt" /><label class="label" for="alt">Altruistic</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".com" id="com" /><label class="label" for="com">Communicative</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".con" id="con" /><label class="label" for="con">Conscientious</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".cont" id="cont" /><label class="label" for="cont">Continuous Learner</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".det" id="det" /><label class="label" for="det">Detail-oriented</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".eff" id="eff" /><label class="label" for="eff">Efficient</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".ent" id="ent" /><label class="label" class="label" for="ent">Enthusiastic</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".fle" id="fle" /><label class="label" for="fle">Flexible</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".goal" id="goal" /><label class="label" for="goal">Goal-oriented</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".ind" id="ind" /><label class="label" for="ind">Independent</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".str" id="str" /><label class="label" for="str">Strategic</label></button>
-      <button class="ks-cboxtags"><input type="checkbox" value=".team" id="team" /><label class="label" for="team">Team-oriented</label></button>
-      <div>
-        <button class="next-btn" id="question-3-btn" onClick="toggle_visibility('results'), toggle_invisibility('question3')">Continue</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div id="results" class="card" style="display:none">
-  <div class="card-content results-card">
-    <h3 class="results-title">Results</h3>
-      <div id="container" class="results-container">
-        <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/caudle-ali-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/doyle-alison-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding eff ent fle goal ind review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/martins-ana-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print eff ent fle goal ind review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/hendry-anna-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/dion-avery-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con review job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/labelle-ayla-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/richmond-brett-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/kenlock-sherman-bria-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration goal ind str team alt job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/beauchamps-brianna-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print goal ind str team alt job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/wilkie-catherine-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print alt com con cont det job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/robitaille-cedric-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print alt com con cont det review networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/holmes-chris-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding alt com con cont det review networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/paul-chris-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding eff ent fle goal ind review networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/volden-christine-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding eff ent fle goal ind review">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/garzon-cindy-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print eff ent fle goal ind review">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/lovan-cola-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con review">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/allen-cole-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/fuentes-daniela-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration str team alt com con job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/galacio-danielle-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration con det eff ent fle job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/adams-dawson-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration cont det eff ent fle networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/ekuma-deborah-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print cont det eff ent fle networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/brown-hannah-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print goal ind str team alt networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/reed-hannah-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print goal ind str team alt networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/damour-ian-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/bradley-jacob-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/power-jen-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding eff ent fle goal ind review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/jodoin-jess-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print eff ent fle goal ind review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/mann-williams-jesse-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/marchildon-jude-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con review job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/porkipcak-julia-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/stephanson-julianna-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/norquay-kaitlyn-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration goal ind str team alt job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/chamberland-kathleen-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print goal ind str team alt job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/ezdahmad-katia-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print alt com con cont det job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/nguyen-khoi-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print alt com con cont det review networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/onuorah-kodilichukwu-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding alt com con cont det review networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/ellis-kyle-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding eff ent fle goal ind review networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/breitenstein-linda-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding eff ent fle goal ind review">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/stenta-lucas-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print eff ent fle goal ind review">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/bulkowski-rose-mackenzie-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con review">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/hotte-maggie-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/davis-monica-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration str team alt com con job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/otake-nadia-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration con det eff ent fle job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/grenon-nathaniel-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration cont det eff ent fle networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/boyd-niall-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print cont det eff ent fle networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/prime-quincy-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print goal ind str team alt networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/sherman-rukiya-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print goal ind str team alt networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/madore-sabrina-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/cossar-sam-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding alt com con cont det review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/desmarais-sarah-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding eff ent fle goal ind review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/thomson-sheri-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print eff ent fle goal ind review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/langman-sophie-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con review job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/lunchies-sydney-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer motion illustration print str team alt com con review job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/clark-tasmyn-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/vu-hong-nguyen-thi-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration cont det eff ent fle review job">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/harvey-treawna-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web branding illustration goal ind str team alt job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/rosevold-vanessa-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print goal ind str team alt job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/patel-veraj-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print alt com con cont det job networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/dave-yeshu-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer ui motion print alt com con cont det review networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/zwicker-zach-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding alt com con cont det review networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/cui-zhikai-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-        <div class="link-btn-group designer web ui branding eff ent fle goal ind review networking">
-          <img src="https://grads.images.algonquindesign.ca/2021/headshots/zhao-ziai-headshot.png">
-          <div class="link-buttons">
-            <a class="link-1 button1" href="#">View Profile</a>
-            <a class="link-2 button1" href="#">Book A Meeting</a>
-          </div>
-        </div>
-      </div>
-      <div class="results-btn">
-        <button type="submit" class="next-btn" id="restart-btn" onClick="refreshpage()">Restart Quiz</button>
-      </div>
-    </div>
-</div>
-
-<script>
-  function refreshpage(){
-    window.location.reload();
-  }
-</script>
-
-<script type="text/javascript">
-  function toggle_visibility(id) {
-     var e = document.getElementById(id);
-     if(e.style.display == 'block')
-        e.style.display = 'none';
-     else
-        e.style.display = 'block';
+  <script>
+    function refreshpage(){
+      window.location.reload();
     }
-    function toggle_invisibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'none';
-      }
-</script>
+  </script>
 
-<script src="quiz.js"></script>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script type="text/javascript">
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if(e.style.display == 'block')
+          e.style.display = 'none';
+      else
+          e.style.display = 'block';
+      }
+      function toggle_invisibility(id) {
+        var e = document.getElementById(id);
+        if(e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'none';
+        }
+  </script>
+
+  <script src="quiz.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+</div>

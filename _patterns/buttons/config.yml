@@ -9,17 +9,6 @@ patterns:
       This button is used on student profiles to link to their personal portfolio sites. It takes the accent colour change from the HTML class, and applies it to match the rest of the page.
     width: 10em
     fields:
-      - name: color
-        type: string
-        example: "color-web"
-      - name: portfolio-url
-        type: url
-        example: "#"
-      - name: aria
-        type: string
-        example: "This button links to this student's portfolio site"
-  calendly:
-    title: "Book With Calendly Button"
       - name: data
         type: object
         data:
