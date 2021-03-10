@@ -6,17 +6,17 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.quiz-content {
   font-family: 'Barlow', sans-serif;
   align-items: center;
   padding: 20px;
 }
 
-h3 {
+.quiz-content h3 {
   padding-top: .5em;
 }
 
-div .item {
+.quiz-content div .item {
   display: none;
 }
 
@@ -27,7 +27,7 @@ div .item {
   color: blue;
 }
 
-.card {
+.quiz-content  .card {
   background-color: #f1f2f2;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -53,7 +53,7 @@ div .item {
   margin-right: auto;
 }
 
-img {
+.quiz-content img {
   width: 200px;
   height: 200px;
   position: absolute;
@@ -70,7 +70,7 @@ img {
     transform: translateX(-50%);
 }
 
-.label {
+.quiz-content .label {
     display: inline-block;
     width: 215px;
     background-color: rgba(255, 255, 255, .9);
@@ -88,7 +88,7 @@ img {
     transition: all .2s;
 }
 
-.label {
+.quiz-content .label {
     padding: 8px 12px;
     cursor: pointer;
     padding-right: 2em;
@@ -242,7 +242,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
 
 @media only screen and (min-width: 25em) {
 
-  .card {
+  .quiz-content .card {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -263,7 +263,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
 
 @media only screen and (min-width: 38em) {
 
-  .card {
+  .quiz-content .card {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 50px;
@@ -284,7 +284,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
 
 @media only screen and (min-width: 60em) {
 
-  .card {
+  .quiz-content .card {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 50px;
@@ -324,7 +324,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
 
 @media only screen and (min-width: 90em) {
 
-  .card {
+  .quiz-content .card {
     display: block;
     padding-top: 30px;
     padding-bottom: 30px;
