@@ -18,6 +18,18 @@ patterns:
       - name: aria
         type: string
         example: "This button links to this student's portfolio site"
+  quiz-portfolio-button:
+    title: "Portfolio Button"
+    description: |
+      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites and is present exclusively on the quiz results page.
+    width: 20em
+    fields:
+      - name: portfolio-url
+        type: url
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button links to this student's portfolio site"
   calendly:
     title: "Book With Calendly Button"
     description: |
@@ -27,6 +39,21 @@ patterns:
       - name: color
         type: string
         example: "color-web"
+      - name: student-username
+        type: string
+        example: "bulk0002"
+      - name: meeting-length
+        type: string
+        example: "15min"
+      - name: aria
+        type: string
+        example: "This button allows you to book a virtual meeting with this student"
+  quiz-calendly-button:
+    title: "Book With Calendly Button"
+    description: |
+      This button is used as a call-to-action to encourage site visitors to book a meeting with students and is present exclusively on the quiz results page.
+    width: 20em
+    fields:
       - name: student-username
         type: string
         example: "bulk0002"
