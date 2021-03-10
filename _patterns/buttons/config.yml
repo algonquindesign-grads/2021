@@ -9,6 +9,17 @@ patterns:
       This button is used on student profiles to link to their personal portfolio sites. It takes the accent colour change from the HTML class, and applies it to match the rest of the page.
     width: 10em
     fields:
+      - name: color
+        type: string
+        example: "color-web"
+      - name: portfolio-url
+        type: url
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button links to this student's portfolio site"
+  calendly:
+    title: "Book With Calendly Button"
       - name: data
         type: object
         data:
@@ -76,3 +87,30 @@ patterns:
       - name: id
         type: string
         example: "instagram"
+  quiz-calendly-button:
+    title: "Book With Calendly Button"
+    description: |
+      This button is used as a call-to-action to encourage site visitors to book a meeting with students and is present exclusively on the quiz results page.
+    width: 20em
+    fields:
+      - name: student-username
+        type: string
+        example: "bulk0002"
+      - name: meeting-length
+        type: string
+        example: "15min"
+      - name: aria
+        type: string
+        example: "This button allows you to book a virtual meeting with this student"
+  quiz-portfolio-button:
+    title: "Portfolio Button"
+    description: |
+      This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites and is present exclusively on the quiz results page.
+    width: 20em
+    fields:
+      - name: portfolio-url
+        type: url
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button links to this student's portfolio site"

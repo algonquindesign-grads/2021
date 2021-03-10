@@ -39,3 +39,22 @@ box-shadow: 0 0 0 2pt var(--color-primary);
   background-color: var(--color-primary);
   border-color: var(--color-primary);
 }
+
+.btn-small {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  transition: all .2s;
+  border: 1px solid #000000;
+}
+
+.btn-small:hover,
+.btn-small:focus {
+  background-color: #ffffff;
+  color: #000000;
+}

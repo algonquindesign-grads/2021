@@ -1,0 +1,14 @@
+title: Quiz
+description: |
+  This is the quiz that will be featured on the grad website.
+
+patterns:
+  quiz:
+    title: "Match With A Designer Quiz"
+    description: |
+      This quiz will help visitors to the grad website match with designers that meet their criteria.
+    width: 800px
+  designer-card:
+    title: "Designer Link Card"
+    description: |
+      This is the card pattern that will be present in the results section of the quiz.
