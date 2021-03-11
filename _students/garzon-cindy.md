@@ -30,13 +30,9 @@ intro_text: |
 quote_text: |
   No masterpiece was ever created by a lazy artist. - Salvador Dalí
 portfolio_image1: "/projects/garzon-cindy-project-1.jpg"
-portfolio_video1: "/projects/garzon-cindy-project-1.mp4"
-portfolio_image2: "/projects/garzon-cindy-project-2.jpg"
 portfolio_video2: "/projects/garzon-cindy-project-2.mp4"
 portfolio_image3: "/projects/garzon-cindy-project-3.jpg"
-portfolio_video3: "/projects/garzon-cindy-project-3.mp4"
 portfolio_image4: "/projects/garzon-cindy-project-4.jpg"
-portfolio_video4: "/projects/garzon-cindy-project-4.mp4"
 portfolio_title1: "Logo Redesign"
 portfolio_description1: |
   New Body Dimensions Fitness Club that is located in Ottawa and was established in 1998. Their current logo is outdated and busy. I decided to create a more minimalistic logo that the audience will understand that is a gym and not something else.

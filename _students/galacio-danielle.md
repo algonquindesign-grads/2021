@@ -30,12 +30,8 @@ intro_text: |
 quote_text: |
   A user interface is like a joke. If you have to explain it, it’s not that good. — Martin LeBlanc
 portfolio_image1: "/projects/galacio-danielle-project-1.jpg"
-portfolio_video1: "/projects/galacio-danielle-project-1.mp4"
 portfolio_image2: "/projects/galacio-danielle-project-2.jpg"
-portfolio_video2: "/projects/galacio-danielle-project-2.mp4"
-portfolio_image3: "/projects/galacio-danielle-project-3.jpg"
 portfolio_video3: "/projects/galacio-danielle-project-3.mp4"
-portfolio_image4: "/projects/galacio-danielle-project-4.jpg"
 portfolio_video4: "/projects/galacio-danielle-project-4.mp4"
 portfolio_title1: "Ottawa Humane Society Mobile Redesign"
 portfolio_description1: |
