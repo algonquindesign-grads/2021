@@ -84,6 +84,9 @@ patterns:
       - name: student-username
         type: string
         example: "bulk0002"
+      - name: calendly-url
+        type: url
+        example: "#"
       - name: meeting-length
         type: string
         example: "15min"
