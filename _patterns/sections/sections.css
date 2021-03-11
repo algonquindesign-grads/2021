@@ -93,7 +93,7 @@ video {
   grid-template-columns: repeat(auto-fill, minmax(175px, 225px));
   grid-gap: .5rem;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 /* MOBILE TEMPLATE STYLING START */
