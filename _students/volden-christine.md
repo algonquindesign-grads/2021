@@ -22,6 +22,8 @@ specialties:
 specialty1: "Print"
 specialty2: "UI/UX"
 specialty3: "Web"
+portfolio_site: "http://volden.design/"
+calendly_link: "https://calendly.com/christinevolden"
 linkedin_link: "https://www.linkedin.com/in/cvolden/"
 instagram_link: "https://www.instagram.com/voldendesign"
 intro_text: |
