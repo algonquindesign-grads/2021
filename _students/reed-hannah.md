@@ -23,7 +23,7 @@ specialties:
 specialty1: "Branding"
 specialty2: "Illustration"
 specialty3: "Print"
-portfolio_site: "https://www.hannahdesignn.wixsite.com/mysite"
+portfolio_site: "https://hannahdesignn.wixsite.com/mysite"
 calendly_link: "https://calendly.com/reed0054"
 linkedin_link: "https://www.linkedin.com/in/hannah-reed-260759178/"
 intro_text: |
