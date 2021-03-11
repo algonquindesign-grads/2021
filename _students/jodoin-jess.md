@@ -17,10 +17,10 @@ meeting_type:
   - "Networking"
   - "Portfolio Review"
 specialties:
-  - "UI/UX"
+  - "UX/UI"
   - "Web"
   - "Print"
-specialty1: "UI/UX"
+specialty1: "UX/UI"
 specialty2: "Web"
 specialty3: "Print"
 portfolio_site: "https://jessjodoin.ca/"
@@ -52,13 +52,13 @@ html_class: "uxui"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Maggie Hotte
-meta_url: /students/hotte-maggie
-meta_previewimage: headshots/hotte-maggie.png
+  Jess Jodoin
+meta_url: /students/jodoin-jess
+meta_previewimage: headshots/jodoin-jess.png
 meta_alt: |
-  The headshot of Maggie Hotte. It depicts a woman with dark blonde hair smiling. She is wearing a dark shirt and blazer with glasses.
+  The headshot of Jess Jodoin. It depicts a woman with dark hair smiling. She is wearing a dark t-shirt.
 meta_description: |
-  Hello! I am a mature student graduating with a background consisting of psychology, fine arts, neuroscience, and now graphic design. I find that my interesting past helps to give me a unique and augmented perspective when designing.
+  Hi! I'm a designer with a passion for all things web (and type setting!). I believe that you can always be improving and growing as a designer, and that's what I want to continue to do.
 gradient: "gradient-uxui"
 nav_color: "nav-white"
 icon_color: "icon-white"
