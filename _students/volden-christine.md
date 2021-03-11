@@ -37,15 +37,15 @@ portfolio_image4: "/projects/volden-christine-project-4.jpg"
 portfolio_title1: "SaaS Project Update"
 portfolio_description1: |
   Prior to COVID-19, this SaaS concept was created for a fictional at-home healthcare company called instaMED. Recently, it was redesigned with better UI and UX in mind.
-portfolio_title2: "Eco-Friendly Re-packaging Concept"
+portfolio_title2: "Loblaws Shopping App (Group Project)"
 portfolio_description2: |
-   L’Oreal’s best-selling mascara uses the most plastic packaging of their entire product offering. This plastic-free package concept maintains brand identity while increasing overall readability.
+  User research, 5G, and AR come together in this app made to improve the in-store shopping experience at Loblaws with real-time stock levels and a personalized shopping map.
 portfolio_title3: "Eco-Friendly Re-packaging Concept II"
 portfolio_description3: |
   A plastic-free re-packaging concept for Today’s Houseware’s coffee capsules (“K”apsules). The product is better marketed to an eco-conscious consumer.
-portfolio_title4: "Loblaws Shopping App (Group Project)"
+portfolio_title4: "Eco-Friendly Re-packaging Concept"
 portfolio_description4: |
-  User research, 5G, and AR come together in this app made to improve the in-store shopping experience at Loblaws with real-time stock levels and a personalized shopping map.
+  L’Oreal’s best-selling mascara uses the most plastic packaging of their entire product offering. This plastic-free package concept maintains brand identity while increasing overall readability.
 html_class: "print"
 meta_sitename: |
   Generation Adaptation
