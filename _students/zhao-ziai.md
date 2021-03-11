@@ -17,13 +17,13 @@ meeting_type:
   - "Portfolio Review"
   - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
+  - "Illustration"
+  - "Print"
+  - "Branding"
+specialty1: "Illustration"
+specialty2: "Print"
+specialty3: "Branding"
+portfolio_site: " https://www.ziaizhao.design/"
 calendly_link: ""
 twitter_link: ""
 linkedin_link: ""
@@ -33,7 +33,7 @@ behance_link: ""
 github_link: ""
 facebook_link: ""
 intro_text: |
-   intro
+   I am Ziai Zhao. I graduated from algonquin college and I am currently a freelance designer.
 quote_text: |
   
 portfolio_image1: "/projects/zhao-ziai-project-1.jpg"
@@ -56,7 +56,7 @@ portfolio_description3: |
 portfolio_title4: ""
 portfolio_description4: |
   
-html_class: "specialty"
+html_class: "illustration"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
@@ -66,8 +66,8 @@ meta_previewimage: headshots/zhao-ziai-headshot.png
 meta_alt: |
   The headshot of Ziai Zhao. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  I am Ziai Zhao. I graduated from algonquin college and I am currently a freelance designer.
+gradient: "gradient-illustration"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"

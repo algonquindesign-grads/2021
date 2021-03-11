@@ -34,7 +34,7 @@ quote_text: |
 portfolio_image1: "/projects/nguyen-hong-project-1.jpg"
 portfolio_image2: "/projects/nguyen-hong-project-2.jpg"
 portfolio_video3: "/projects/nguyen-hong-project-3.mp4"
-portfolio_image4: "/projects/nguyen-hong-project-4.jpg"
+portfolio_video4: "/projects/nguyen-hong-project-4.mp4"
 portfolio_title1: "Moya"
 portfolio_description1: |
   A branding project for a shower substitute product. While the product is still being developed, a brand identity system that needs to be created has all flexibility and creative freedom.

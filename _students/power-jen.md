@@ -32,15 +32,15 @@ intro_text: |
 quote_text: |
   A real powerhouse...get it?
 portfolio_image1: "/projects/power-jen-project-1.jpg"
-portfolio_video2: "/projects/power-jen-project-2.mp4"
-portfolio_image3: "/projects/power-jen-project-3.svg"
+portfolio_image2: "/projects/power-jen-project-2.jpg"
+portfolio_image3: "/projects/power-jen-project-3.jpg"
 portfolio_video4: "/projects/power-jen-project-4.mp4"
 portfolio_title1: "The Scientist Magazine Gatefold"
 portfolio_description1: |
   A double-sided gatefold infographic produced for the October issue of The Scientist magazine.
-portfolio_title2: "Rosalind Franklin & the DNA Double Helix"
+portfolio_title2: "Sickle Cell Anemia Infographic"
 portfolio_description2: |
-  A motion graphics piece based on the story of Rosalind Franklin and the discovery of the DNA double helix structure. The aim of this piece was to tell a story in under 60 seconds.
+  An infographic about sickle cell anemia I wrote and designed as a passion project. 3D models were created in Cinema 4D.
 portfolio_title3: "Scientific Graphics"
 portfolio_description3: |
   Various flat illustrations created for Thermo Fisher Scientific and Gilson marketing materials.
