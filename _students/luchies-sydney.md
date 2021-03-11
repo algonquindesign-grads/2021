@@ -13,7 +13,7 @@ keywords:
   - "Strategic"
   - "Efficient"
 meeting_type:
-  - ""
+  - "Job Interview"
 specialties:
   - "Branding"
   - "Print"

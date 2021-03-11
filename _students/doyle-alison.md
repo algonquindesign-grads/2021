@@ -1,73 +1,66 @@
 ---
-layout: template-1
-filename: "lastname-firstname" 
-first_name: "Firstname"
-last_name: "Lastname"
+layout: template-4
+filename: "doyle-alison" 
+first_name: "Alison"
+last_name: "Doyle"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
-ation_word: ""
+  The headshot of Alison Doyle. It depicts
+ation_word: "Determination"
 keywords:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "Altrustic"
+  - "Continuous Learner"
+  - "Enthusiast"
+  - "Communicative"
+  - "Team-Oriented"
 meeting_type:
   - "Networking"
   - "Portfolio Review"
   - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
-calendly_link: ""
-twitter_link: ""
-linkedin_link: ""
-vimeo_link: ""
-instagram_link: ""
-behance_link: ""
-github_link: ""
-facebook_link: ""
+  - "Branding"
+  - "Print"
+  - "Illustration"
+specialty1: "Branding"
+specialty2: "Print"
+specialty3: "Illustration"
+portfolio_site: "https://www.doyledesigns.org/"
+calendly_link: "https://calendly.com/doyl0186"
 intro_text: |
-   intro
+   I would describe my design as simplistic and minimalist, peeling away the unecessary layers until you’re left with a raw product that is easily-consumable and well understood. 
 quote_text: |
-  
-portfolio_image1: "/projects/lastname-firstname-project-1.jpg"
-portfolio_video1: "/projects/lastname-firstname-project-1.mp4"
-portfolio_image2: "/projects/lastname-firstname-project-2.jpg"
-portfolio_video2: "/projects/lastname-firstname-project-2.mp4"
-portfolio_image3: "/projects/lastname-firstname-project-3.jpg"
-portfolio_video3: "/projects/lastname-firstname-project-3.mp4"
-portfolio_image4: "/projects/lastname-firstname-project-4.jpg"
-portfolio_video4: "/projects/lastname-firstname-project-4.mp4"
-portfolio_title1: ""
+  Simplicity is the ultimate form of sophistication.
+portfolio_image1: "/projects/doyle-alison-project-1.jpg"
+portfolio_video1: "/projects/doyle-alison-project-1.mp4"
+portfolio_image2: "/projects/doyle-alison-project-2.jpg"
+portfolio_video2: "/projects/doyle-alison-project-2.mp4"
+portfolio_image3: "/projects/doyle-alison-project-3.jpg"
+portfolio_video3: "/projects/doyle-alison-project-3.mp4"
+portfolio_image4: "/projects/doyle-alison-project-4.jpg"
+portfolio_video4: "/projects/doyle-alison-project-4.mp4"
+portfolio_title1: "Le Hibou Logo"
 portfolio_description1: |
-  
-portfolio_title2: ""
+  Clean | Fresh | Timeless
+portfolio_title2: "Gnar Fest"
 portfolio_description2: |
-   
-portfolio_title3: ""
+   Striking | Illustrative | Simple
+portfolio_title3: "The Office"
 portfolio_description3: |
-  
-portfolio_title4: ""
+  Minimalist | Aesthetically Pleasing | Balanced
+portfolio_title4: "The Ugly One"
 portfolio_description4: |
-  
-html_class: "specialty"
+  Funky | Eye-catching | Bright
+html_class: "branding"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
-meta_url: /students/lastname-firstname
-meta_previewimage: headshots/lastname-firstname-headshot.png
+  Alison Doyle
+meta_url: /students/doyle-alison
+meta_previewimage: headshots/doyle-alison-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Alison Doyle. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  I would describe my design as simplistic and minimalist, peeling away the unecessary layers until you’re left with a raw product that is easily-consumable and well understood. 
+gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"

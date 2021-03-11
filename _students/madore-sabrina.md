@@ -45,7 +45,7 @@ portfolio_description3: |
 portfolio_title4: "An Animated Life-Drawing Short"
 portfolio_description4: |
   An animated introduction for a series on quirky observations and experiences being part of the Ottawa life drawing community.
-html_class: "motion"
+html_class: "web"
 meta_sitename: |
   Generation Adaptation
 meta_title: |

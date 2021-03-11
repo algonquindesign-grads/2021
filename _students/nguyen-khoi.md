@@ -17,10 +17,10 @@ meeting_type:
   - "Portfolio Review"
   - "Job Interview"
 specialties:
-  - "UI/UX"
+  - "UX/UI"
   - "Web"
   - "Illustration"
-specialty1: "UI/UX"
+specialty1: "UX/UI"
 specialty2: "Web"
 specialty3: "Illustration"
 portfolio_site: "https://www.khoinguyen.design"
@@ -49,7 +49,7 @@ portfolio_description3: |
 portfolio_title4: "Illustrative Playing Cards"
 portfolio_description4: |
   Designing a set of playing cards where some cards only contain numbers and symbols while others feature a full-size illustration poses many challenges and tests a designer on a multitude of skills. This includes producing a strong layout & typography as well as having a sharp vision for illustrative and graphic elements. To test my creativity and design skills, I designed a set of playing cards and make them print-ready to sell in the future. The card set features characters on the court cards that belong to occupations based on the four main disciplines: Arts & Humanities, Laws & Politics, Economy, and Technology & Science. Each discipline corresponds to a suit, with an increased professional level from Jacks to Kings. The final product is a set of print-ready playing cards designed both front and back with 14 full-size character illustrations.
-html_class: "uiux"
+html_class: "uxui"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
@@ -57,10 +57,10 @@ meta_title: |
 meta_url: /students/nguyen-khoi
 meta_previewimage: headshots/nguyen-khoi.png
 meta_alt: |
-  The headshot of Hong Nguyen. It depicts a man with short dark hair smiling. He is wearing a dark shirt and glasses.
+  The headshot of Khoi Nguyen. It depicts a man with short dark hair smiling. He is wearing a dark shirt and glasses.
 meta_description: |
   Hi there! I am Khoi Nguyen, an Ottawa-based Graphic Designer specializing in UI/UX, Web Design and Digital Art & Illustration. My work mostly lives in the digital space. However, I spend the majority of my time building them on paper. Most, if not all, my creative work started as notes and loose sketches in a collection of 25+ notebooks I currently have.My passion for Digital Art & Illustration started early back when I was in high school. I love to tell stories through visuals and to see them come to life through the lens of my eyes. UI/UX and Web Design became my interest later when I got into the graphic design program here at Algonquin College. Now, I am a creative who rocks both and providing creative solutions with a chance to showcase my illustration skills is ultimately what I want to do in life.
-gradient: "gradient-uiux"
+gradient: "gradient-uxui"
 nav_color: "nav-white"
 icon_color: "icon-white"
 text_color: "text-white"

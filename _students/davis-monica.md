@@ -1,73 +1,58 @@
 ---
-layout: template-1
-filename: "lastname-firstname" 
-first_name: "Firstname"
-last_name: "Lastname"
+layout: template-3
+filename: "davis-monica" 
+first_name: "Monica"
+last_name: "Davis"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
-ation_word: ""
+  The headshot of Monica Davis. It depicts
+ation_word: "Tímida-tion"
 keywords:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "Altruistic"
+  - "Communicative"
+  - "Conscientious"
+  - "Continuous Learner"
+  - "Goal-Oriented"
 meeting_type:
-  - "Networking"
-  - "Portfolio Review"
   - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
-calendly_link: ""
-twitter_link: ""
-linkedin_link: ""
-vimeo_link: ""
-instagram_link: ""
-behance_link: ""
-github_link: ""
-facebook_link: ""
+  - "UI/UX"
+specialty1: "UI/UX"
+portfolio_site: "https://www.monicadavis.ca/"
+calendly_link: "https://calendly.com/monicadavis"
+linkedin_link: "https://www.linkedin.com/in/monica-elizabeth-davis/"
+instagram_link: "https://www.instagram.com/davisdesigns.ca/?hl=en"
 intro_text: |
-   intro
+   Hello, my names Monica Davis and I create research based solutions for UX/UI based design. 
 quote_text: |
-  
-portfolio_image1: "/projects/lastname-firstname-project-1.jpg"
-portfolio_video1: "/projects/lastname-firstname-project-1.mp4"
-portfolio_image2: "/projects/lastname-firstname-project-2.jpg"
-portfolio_video2: "/projects/lastname-firstname-project-2.mp4"
-portfolio_image3: "/projects/lastname-firstname-project-3.jpg"
-portfolio_video3: "/projects/lastname-firstname-project-3.mp4"
-portfolio_image4: "/projects/lastname-firstname-project-4.jpg"
-portfolio_video4: "/projects/lastname-firstname-project-4.mp4"
-portfolio_title1: ""
+  Hard work is worthless for those that don't believe in themselves – Naruto Uzumaki 
+portfolio_image1: "/projects/davis-monica-project-1.jpg"
+portfolio_image2: "/projects/davis-monica-project-2.jpg"
+portfolio_image3: "/projects/davis-monica-project-3.jpg"
+portfolio_image4: "/projects/davis-monica-project-4.jpg"
+portfolio_title1: "Optic – App Design"
 portfolio_description1: |
-  
-portfolio_title2: ""
+  A fictional app designed for creating customized sunglasses.
+portfolio_title2: "Busy Bee – App Design"
 portfolio_description2: |
-   
-portfolio_title3: ""
+   A fictional  app designed for users to connect multiple household appliances and control them through their phones.
+portfolio_title3: "Bare – E-commerce Website"
 portfolio_description3: |
-  
-portfolio_title4: ""
+  A fictional soap company website created using Shopify.
+portfolio_title4: "Future Skin Tattoo – Website Design"
 portfolio_description4: |
-  
-html_class: "specialty"
+  Re-design of an existing website.
+html_class: "uxui"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
-meta_url: /students/lastname-firstname
-meta_previewimage: headshots/lastname-firstname-headshot.png
+  Monica Davis
+meta_url: /students/davis-monica
+meta_previewimage: headshots/davis-monica-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Monica Davis. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  Hello, my names Monica Davis and I create research based solutions for UX/UI based design. 
+gradient: "gradient-uxui"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"

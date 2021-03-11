@@ -1,73 +1,66 @@
 ---
-layout: template-1
-filename: "lastname-firstname" 
-first_name: "Firstname"
-last_name: "Lastname"
+layout: template-4
+filename: "brown-hannah" 
+first_name: "Hannah"
+last_name: "Brown"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
-ation_word: ""
+  The headshot of Hannah Brown. It depicts
+ation_word: "Exploration"
 keywords:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "Altruistic"
+  - "Continuous Learner"
+  - "Enthusiastic"
+  - "Conscientious"
+  - "Goal-Oriented"
 meeting_type:
   - "Networking"
   - "Portfolio Review"
   - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
-calendly_link: ""
-twitter_link: ""
-linkedin_link: ""
-vimeo_link: ""
-instagram_link: ""
-behance_link: ""
-github_link: ""
-facebook_link: ""
+  - "Web"
+  - "Branding"
+  - "Illustration"
+specialty1: "Web"
+specialty2: "Branding"
+specialty3: "Illustration"
+portfolio_site: "https://hannahdel.ca/"
+calendly_link: "https://calendly.com/brow1234"
+linkedin_link: "https://www.linkedin.com/in/hannahdelbrown/"
+instagram_link: "https://www.instagram.com/hannahdeldesign/"
+behance_link: "https://www.behance.net/hannahdelbrown/"
+github_link: "https://www.github.io/HannahDelaney"
 intro_text: |
-   intro
+   I love drinking tea, being barefoot and bad jokes. I sing loudly, often, and have spent far too much of my memory real estate on movie quotes. Most of all, I love graphic design.
 quote_text: |
-  
-portfolio_image1: "/projects/lastname-firstname-project-1.jpg"
-portfolio_video1: "/projects/lastname-firstname-project-1.mp4"
-portfolio_image2: "/projects/lastname-firstname-project-2.jpg"
-portfolio_video2: "/projects/lastname-firstname-project-2.mp4"
-portfolio_image3: "/projects/lastname-firstname-project-3.jpg"
-portfolio_video3: "/projects/lastname-firstname-project-3.mp4"
-portfolio_image4: "/projects/lastname-firstname-project-4.jpg"
-portfolio_video4: "/projects/lastname-firstname-project-4.mp4"
-portfolio_title1: ""
+  Every great design begins with an even better story. - Lorinda Mamo
+portfolio_image1: "/projects/brown-hannah-project-1.jpg"
+portfolio_image2: "/projects/brown-hannah-project-2.jpg"
+portfolio_image3: "/projects/brown-hannah-project-3.jpg"
+portfolio_image4: "/projects/brown-hannah-project-4.jpg"
+portfolio_title1: "Life with Gutz — Blog using a CMS"
 portfolio_description1: |
-  
-portfolio_title2: ""
+  Responsive online platform for a client setting up a blog for her personal brand, using Netlify as a CMS.
+portfolio_title2: "Vitamin Bee — E-Commerce Site"
 portfolio_description2: |
-   
-portfolio_title3: ""
+   An e-commerce site brand, web design and pattern library for the client to pull assets from. The designs are whimsical yet easy to navigate for users of various ages.
+portfolio_title3: "UDHR Resource Guidebook"
 portfolio_description3: |
-  
-portfolio_title4: ""
+  An illustrated guide book detailing the 30 articles of the UN Universal Declaration of Human Rights, for quick reference at home, work or in study.
+portfolio_title4: "613Flea Logo Rebrand"
 portfolio_description4: |
-  
-html_class: "specialty"
+  A fresh logo for a popular Ottawa event/organization, that will be familiar and representative of all attendees and vendors.
+html_class: "web"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
-meta_url: /students/lastname-firstname
-meta_previewimage: headshots/lastname-firstname-headshot.png
+  Hannah Brown
+meta_url: /students/brown-hannah
+meta_previewimage: headshots/brown-hannah-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Hannah Brown. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  I love drinking tea, being barefoot and bad jokes. I sing loudly, often, and have spent far too much of my memory real estate on movie quotes. Most of all, I love graphic design.
+gradient: "gradient-web"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"

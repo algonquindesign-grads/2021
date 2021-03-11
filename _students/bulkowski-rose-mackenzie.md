@@ -1,49 +1,45 @@
 ---
-layout: template-1
-filename: "lastname-firstname" 
-first_name: "Firstname"
-last_name: "Lastname"
+layout: template-3
+filename: "bulkowskirose-mackenzie" 
+first_name: "MacKenzie"
+last_name: "Bulkowski-Rose"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
-ation_word: ""
+  The headshot of MacKenzie Bulkowski-Rose. It depicts
+ation_word: "Caffeination"
 keywords:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "Communicative"
+  - "Continuous Learner"
+  - "Enthusiastic"
+  - "Independent"
+  - "Team-Oriented"
 meeting_type:
   - "Networking"
   - "Portfolio Review"
   - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
-calendly_link: ""
-twitter_link: ""
-linkedin_link: ""
-vimeo_link: ""
-instagram_link: ""
-behance_link: ""
-github_link: ""
-facebook_link: ""
+  - "Web"
+  - "UI/UX"
+  - "Branding"
+specialty1: "Web"
+specialty2: "UI/UX"
+specialty3: "Branding"
+portfolio_site: "https://kenzie.design/"
+calendly_link: "https://calendly.com/mackenzie-bulkowski-rose"
+linkedin_link: "https://www.linkedin.com/in/mackenzie-bulkowski-rose/"
+instagram_link: "https://www.instagram.com/kenzie_design/"
+github_link: "https://github.com/MacKenzieRose"
 intro_text: |
-   intro
+   I'm MacKenzie, and I build user experiences, websites, and strategic brands that spark joy. I’m a technical creative, making visual solutions that enable accessibility and opportunity.
 quote_text: |
-  
-portfolio_image1: "/projects/lastname-firstname-project-1.jpg"
-portfolio_video1: "/projects/lastname-firstname-project-1.mp4"
-portfolio_image2: "/projects/lastname-firstname-project-2.jpg"
-portfolio_video2: "/projects/lastname-firstname-project-2.mp4"
-portfolio_image3: "/projects/lastname-firstname-project-3.jpg"
-portfolio_video3: "/projects/lastname-firstname-project-3.mp4"
-portfolio_image4: "/projects/lastname-firstname-project-4.jpg"
-portfolio_video4: "/projects/lastname-firstname-project-4.mp4"
+  Give me open-source development, and open-minded design.
+portfolio_image1: "/projects/bulkowskirose-mackenzie-project-1.jpg"
+portfolio_video1: "/projects/bulkowskirose-mackenzie-project-1.mp4"
+portfolio_image2: "/projects/bulkowskirose-mackenzie-project-2.jpg"
+portfolio_video2: "/projects/bulkowskirose-mackenzie-project-2.mp4"
+portfolio_image3: "/projects/bulkowskirose-mackenzie-project-3.jpg"
+portfolio_video3: "/projects/bulkowskirose-mackenzie-project-3.mp4"
+portfolio_image4: "/projects/bulkowskirose-mackenzie-project-4.jpg"
+portfolio_video4: "/projects/bulkowskirose-mackenzie-project-4.mp4"
 portfolio_title1: ""
 portfolio_description1: |
   
@@ -56,18 +52,18 @@ portfolio_description3: |
 portfolio_title4: ""
 portfolio_description4: |
   
-html_class: "specialty"
+html_class: "web"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
-meta_url: /students/lastname-firstname
-meta_previewimage: headshots/lastname-firstname-headshot.png
+  MacKenzie Bulkowski-Rose
+meta_url: /students/bulkowskirose-mackenzie
+meta_previewimage: headshots/bulkowskirose-mackenzie-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of MacKenzie Bulkowski-Rose. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  I'm MacKenzie, and I build user experiences, websites, and strategic brands that spark joy. I’m a technical creative, making visual solutions that enable accessibility and opportunity.
+gradient: "gradient-web"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"

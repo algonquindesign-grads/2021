@@ -1,73 +1,61 @@
 ---
 layout: template-1
-filename: "lastname-firstname" 
-first_name: "Firstname"
-last_name: "Lastname"
+filename: "grenon-nathaniel" 
+first_name: "Nathaniel"
+last_name: "Grenon"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
-ation_word: ""
+  The headshot of Nathaniel Grenon. It depicts
+ation_word: "Imagination"
 keywords:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "Detail-Oriented"
+  - "Efficient"
+  - "Flexible"
+  - "Independent"
+  - "Strategic"
 meeting_type:
   - "Networking"
-  - "Portfolio Review"
-  - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
-calendly_link: ""
-twitter_link: ""
-linkedin_link: ""
-vimeo_link: ""
-instagram_link: ""
-behance_link: ""
-github_link: ""
-facebook_link: ""
+  - "Branding"
+  - "Illustration"
+  - "Motion"
+specialty1: "Branding"
+specialty2: "Illustration"
+specialty3: "Motion"
+portfolio_site: "https://www.nathanielgrenon.ca/"
+calendly_link: "https://calendly.com/gren0087"
+instagram_link: "https://www.instagram.com/natgrenon/"
 intro_text: |
-   intro
+   My name is Nathaniel Grenon and I'm a Digital designer based in Ottawa, On. I'v been creative all my life, been drawing since I can remember, whether its sitting down to actually create something or doodling in my homework. Now I enjoy working on branding, illustration and motion.
 quote_text: |
-  
-portfolio_image1: "/projects/lastname-firstname-project-1.jpg"
-portfolio_video1: "/projects/lastname-firstname-project-1.mp4"
-portfolio_image2: "/projects/lastname-firstname-project-2.jpg"
-portfolio_video2: "/projects/lastname-firstname-project-2.mp4"
-portfolio_image3: "/projects/lastname-firstname-project-3.jpg"
-portfolio_video3: "/projects/lastname-firstname-project-3.mp4"
-portfolio_image4: "/projects/lastname-firstname-project-4.jpg"
-portfolio_video4: "/projects/lastname-firstname-project-4.mp4"
-portfolio_title1: ""
+  I love working digitaly and I work hard at it. I love picking up new skills and learning new tricks to enhance my design capabilities.
+portfolio_image1: "/projects/grenon-nathaniel-project-1.jpg"
+portfolio_video2: "/projects/grenon-nathaniel-project-2.mp4"
+portfolio_image3: "/projects/grenon-nathaniel-project-3.jpg"
+portfolio_image4: "/projects/grenon-nathaniel-project-4.jpg"
+portfolio_title1: "Amusement Park Injuries Inforgraph"
 portfolio_description1: |
-  
-portfolio_title2: ""
+  This was a graphic design project where I had to create an infographic on a random subject given to me which happened to be amusement park ride related injuries.
+portfolio_title2: "Motion Reel"
 portfolio_description2: |
-   
-portfolio_title3: ""
+   This project is a motion reel of some of my motion projects.
+portfolio_title3: "The Ugly One Poster"
 portfolio_description3: |
-  
-portfolio_title4: ""
+  This was a digital design/print project I did for the play The Ugly One.
+portfolio_title4: "Halo Infinite Poster"
 portfolio_description4: |
-  
-html_class: "specialty"
+  For this project we had full creative choice on what the poster could be as long as we demonstrated double exposer effects.
+html_class: "branding"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
-meta_url: /students/lastname-firstname
-meta_previewimage: headshots/lastname-firstname-headshot.png
+  Nathaniel Grenon
+meta_url: /students/grenon-nathaniel
+meta_previewimage: headshots/grenon-nathaniel-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Nathaniel Grenon. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  My name is Nathaniel Grenon and I'm a Digital designer based in Ottawa, On. I'v been creative all my life, been drawing since I can remember, whether its sitting down to actually create something or doodling in my homework. Now I enjoy working on branding, illustration and motion.
+gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"

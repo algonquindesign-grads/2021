@@ -1,73 +1,62 @@
 ---
 layout: template-1
-filename: "lastname-firstname" 
-first_name: "Firstname"
-last_name: "Lastname"
+filename: "ezdahmad-katia" 
+first_name: "Katia"
+last_name: "Ezdahmad"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
-ation_word: ""
+  The headshot of Katia Ezdahmad. It depicts
+ation_word: "Determination"
 keywords:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "Detail-Oriented"
+  - "Efficient"
+  - "Independent"
+  - "Strategic"
 meeting_type:
-  - "Networking"
   - "Portfolio Review"
-  - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
-calendly_link: ""
-twitter_link: ""
-linkedin_link: ""
-vimeo_link: ""
-instagram_link: ""
-behance_link: ""
-github_link: ""
-facebook_link: ""
+  - "Branding"
+  - "Illustration"
+  - "UI/UX"
+specialty1: "Branding"
+specialty2: "Illustration"
+specialty3: "UI/UX"
+portfolio_site: "https://katiaezdahmad.design"
+calendly_link: "https://calendly.com/ezda0002"
+linkedin_link: "https://www.linkedin.com/in/KatiaEzdahmad/"
+behance_link: "https://www.behance.net/KatiaEzdahmad"
+facebook_link: "https://www.facebook.com/KE.DESIGN.CA/"
 intro_text: |
-   intro
+   Specializing in Identity Development & Branding. I’m quite a curious soul, as a result, I am able to discover novel ways of doing things or solving minor issues before they become major problems.
 quote_text: |
-  
-portfolio_image1: "/projects/lastname-firstname-project-1.jpg"
-portfolio_video1: "/projects/lastname-firstname-project-1.mp4"
-portfolio_image2: "/projects/lastname-firstname-project-2.jpg"
-portfolio_video2: "/projects/lastname-firstname-project-2.mp4"
-portfolio_image3: "/projects/lastname-firstname-project-3.jpg"
-portfolio_video3: "/projects/lastname-firstname-project-3.mp4"
-portfolio_image4: "/projects/lastname-firstname-project-4.jpg"
-portfolio_video4: "/projects/lastname-firstname-project-4.mp4"
-portfolio_title1: ""
+  I enjoy playing with colours and searching for delusional, abstract meaning.
+portfolio_image1: "/projects/ezdahmad-katia-project-1.jpg"
+portfolio_image2: "/projects/ezdahmad-katia-project-2.jpg"
+portfolio_image3: "/projects/ezdahmad-katia-project-3.jpg"
+portfolio_image4: "/projects/ezdahmad-katia-project-4.jpg"
+portfolio_title1: "CUSTOM VECTOR BRUSHES PAINTING PORTRAIT"
 portfolio_description1: |
-  
-portfolio_title2: ""
+  Created a polished unique piece painting portrait using my own custom vector brushes.
+portfolio_title2: "CHRISTMAS RECIPES BOOK"
 portfolio_description2: |
-   
-portfolio_title3: ""
+   Transformed a text heavy word document to a book type layout, a colour scheme, a proper font pairing, and design a professional looking layout using Adobe Indesign.
+portfolio_title3: "BRANDING GUIDE - STATIONERY PACKAGE"
 portfolio_description3: |
-  
-portfolio_title4: ""
+  Transformed a new designed logo into a new whole branding project by applying the logo into a variety of elements like “Digital Online presence, Website, Stationary Package, Posters and Merchandise.
+portfolio_title4: "PACKAGE DESIGN"
 portfolio_description4: |
-  
-html_class: "specialty"
+  Created a new packaging that is more sustainable and reduces consumer waste. Decreases the amount of packaging and make it more environmentally friendly.
+html_class: "branding"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
-meta_url: /students/lastname-firstname
-meta_previewimage: headshots/lastname-firstname-headshot.png
+  Katia Ezdahmad
+meta_url: /students/ezdahmad-katia
+meta_previewimage: headshots/ezdahmad-katia-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Katia Ezdahmad. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  Specializing in Identity Development & Branding. I’m quite a curious soul, as a result, I am able to discover novel ways of doing things or solving minor issues before they become major problems.
+gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"

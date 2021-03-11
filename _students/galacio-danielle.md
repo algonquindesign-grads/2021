@@ -1,73 +1,62 @@
 ---
-layout: template-1
-filename: "lastname-firstname" 
-first_name: "Firstname"
-last_name: "Lastname"
+layout: template-4
+filename: "galacio-danielle" 
+first_name: "Danielle"
+last_name: "Galacio"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
-ation_word: ""
+  The headshot of Danielle Galacio. It depicts
+ation_word: "Determination"
 keywords:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "Altruistic"
+  - "Continuous Learner"
+  - "Enthusiastic"
+  - "Detail-Oriented"
+  - "Flexible"
 meeting_type:
-  - "Networking"
   - "Portfolio Review"
   - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
-calendly_link: ""
-twitter_link: ""
-linkedin_link: ""
-vimeo_link: ""
-instagram_link: ""
-behance_link: ""
-github_link: ""
-facebook_link: ""
+  - "UI/UX"
+  - "Print"
+  - "Branding"
+specialty1: "UI/UX"
+specialty2: "Print"
+specialty3: "Branding"
+portfolio_site: "https://daniellegalacio.ca/"
+calendly_link: "https://calendly.com/daniellegalacio"
+linkedin_link: "https://www.linkedin.com/in/danielle-galacio/"
 intro_text: |
-   intro
+   Hello! I'm Danielle, your friendly neighbourhood graphic designer. I have a strong passion for graphic design, but I especially enjoy designing purposeful user experiences and interfaces.
 quote_text: |
-  
-portfolio_image1: "/projects/lastname-firstname-project-1.jpg"
-portfolio_video1: "/projects/lastname-firstname-project-1.mp4"
-portfolio_image2: "/projects/lastname-firstname-project-2.jpg"
-portfolio_video2: "/projects/lastname-firstname-project-2.mp4"
-portfolio_image3: "/projects/lastname-firstname-project-3.jpg"
-portfolio_video3: "/projects/lastname-firstname-project-3.mp4"
-portfolio_image4: "/projects/lastname-firstname-project-4.jpg"
-portfolio_video4: "/projects/lastname-firstname-project-4.mp4"
-portfolio_title1: ""
+  A user interface is like a joke. If you have to explain it, it’s not that good. — Martin LeBlanc
+portfolio_image1: "/projects/galacio-danielle-project-1.jpg"
+portfolio_image2: "/projects/galacio-danielle-project-2.jpg"
+portfolio_video3: "/projects/galacio-danielle-project-3.mp4"
+portfolio_video4: "/projects/galacio-danielle-project-4.mp4"
+portfolio_title1: "Ottawa Humane Society Mobile Redesign"
 portfolio_description1: |
-  
-portfolio_title2: ""
+  This mobile redesign for Ottawa Humane Society's app is created to help increase the number of adoptions by connecting adopters with the perfect pet that will fit their lifestyle and personality.
+portfolio_title2: "Foolish Chicken Branding Design"
 portfolio_description2: |
-   
-portfolio_title3: ""
+   This rebranding project for Foolish Chicken restaurant is created to help their brand stand out and reach more audiences. 
+portfolio_title3: "Why Do People Drink Coffee Short Animation"
 portfolio_description3: |
-  
-portfolio_title4: ""
+  This is an animated short based off the Buzzfeed video, "Why do people drink coffee?".
+portfolio_title4: "Canadian Museum of Nature Web Redesign"
 portfolio_description4: |
-  
-html_class: "specialty"
+  This web redesign for The Canadian Museum of Nature is created to streamline their web content and establish a stronger online presence that can drive sales and web traffic.
+html_class: "uxui"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
-meta_url: /students/lastname-firstname
-meta_previewimage: headshots/lastname-firstname-headshot.png
+  Danielle Galacio
+meta_url: /students/galacio-danielle
+meta_previewimage: headshots/galacio-danielle-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Danielle Galacio. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  Hello! I'm Danielle, your friendly neighbourhood graphic designer. I have a strong passion for graphic design, but I especially enjoy designing purposeful user experiences and interfaces.
+gradient: "gradient-uxui"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"
