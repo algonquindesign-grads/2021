@@ -29,7 +29,7 @@ facebook_link: "https://www.facebook.com/sarahelledesign"
 intro_text: |
    Lover of the minimalist and modern, I am passionate about designing timeless and strategic pieces for small businesses to help them connect with their market and grow their brand.
 quote_text: |
-  simplicity is the keynote to all true elegance - coco chanel
+  Simplicity is the keynote to all true elegance - Coco Chanel
 portfolio_image1: "/projects/desmarais-sarah-project-1.jpg"
 portfolio_image2: "/projects/desmarais-sarah-project-2.jpg"
 portfolio_image3: "/projects/desmarais-sarah-project-3.jpg"
