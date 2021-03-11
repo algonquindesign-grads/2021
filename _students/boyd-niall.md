@@ -31,14 +31,10 @@ intro_text: |
    My passion is guiding people to grow their brand through Graphic Design. Music inspires my work. I believe Graphic Design can communicate ideas and can reach various different audiences. 
 quote_text: |
   I believe simple designs communicate more effectively
-portfolio_image1: "/projects/boyd-niall-project-1.jpg"
 portfolio_video1: "/projects/boyd-niall-project-1.mp4"
 portfolio_image2: "/projects/boyd-niall-project-2.jpg"
-portfolio_video2: "/projects/boyd-niall-project-2.mp4"
 portfolio_image3: "/projects/boyd-niall-project-3.jpg"
-portfolio_video3: "/projects/boyd-niall-project-3.mp4"
 portfolio_image4: "/projects/boyd-niall-project-4.jpg"
-portfolio_video4: "/projects/boyd-niall-project-4.mp4"
 portfolio_title1: "Niall Boyd 2021 Reel"
 portfolio_description1: |
   A short motion graphic reel highlighting a few of my favourite projects I’ve worked on.
