@@ -1,73 +1,63 @@
 ---
-layout: template-1
-filename: "lastname-firstname" 
-first_name: "Firstname"
-last_name: "Lastname"
+layout: template-4
+filename: "dion-avery" 
+first_name: "Avery"
+last_name: "Dion"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
-ation_word: ""
+  The headshot of Avery Dion. It depicts
+ation_word: "Inspiration"
 keywords:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "Continuous Learner"
+  - "Enthusiastic"
+  - "Communicative"
+  - "Conscientious"
+  - "Goal-Oriented"
 meeting_type:
   - "Networking"
-  - "Portfolio Review"
   - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
-calendly_link: ""
-twitter_link: ""
-linkedin_link: ""
-vimeo_link: ""
-instagram_link: ""
-behance_link: ""
-github_link: ""
-facebook_link: ""
+  - "Motion"
+  - "Illustration"
+  - "Branding"
+specialty1: "Motion"
+specialty2: "Illustration"
+specialty3: "Branding"
+portfolio_site: "https://www.averydion.ca"
+calendly_link: "https://calendly.com/dion0114"
+linkedin_link: "https://www.linkedin.com/in/avery-dion-997b19205/"
+instagram_link: "https://www.instagram.com/avery.p.dion/"
 intro_text: |
-   intro
+   I’m a Graphic Designer, Illustrator, and Motion Artist with a passion for telling stories! I’m constantly learning new skills and techniques that help me create impactful experiences through story-telling.
 quote_text: |
-  
-portfolio_image1: "/projects/lastname-firstname-project-1.jpg"
-portfolio_video1: "/projects/lastname-firstname-project-1.mp4"
-portfolio_image2: "/projects/lastname-firstname-project-2.jpg"
-portfolio_video2: "/projects/lastname-firstname-project-2.mp4"
-portfolio_image3: "/projects/lastname-firstname-project-3.jpg"
-portfolio_video3: "/projects/lastname-firstname-project-3.mp4"
-portfolio_image4: "/projects/lastname-firstname-project-4.jpg"
-portfolio_video4: "/projects/lastname-firstname-project-4.mp4"
-portfolio_title1: ""
+  Reality is for people who lack imagination. – Hayao Miyazaki
+portfolio_video1: "/projects/dion-avery-project-1.mp4"
+portfolio_image2: "/projects/dion-avery-project-2.jpg"
+portfolio_image3: "/projects/dion-avery-project-3.jpg"
+portfolio_video4: "/projects/dion-avery-project-4.mp4"
+portfolio_title1: "Motion Reel"
 portfolio_description1: |
-  
-portfolio_title2: ""
+  A short video that showcases some of my best motion work while highlighting my animation and illustration skills.
+portfolio_title2: "Brew Wizards Branding"
 portfolio_description2: |
-   
-portfolio_title3: ""
+   Rebranding project for Brew Wizards Board Game Café. The goal was to create an identity that represents the feelings and beliefs that founded Brew Wizards.
+portfolio_title3: "Greenies Package Design"
 portfolio_description3: |
-  
-portfolio_title4: ""
+  Package design for Greenies Dental Treats that uses environmentally friendly and sustainable materials. The goal was to create a design that stands out amongst competitors while helping to reduce waste caused by previous packaging.
+portfolio_title4: "Animated Short"
 portfolio_description4: |
-  
-html_class: "specialty"
+  Animated short I created with the goal of supporting and strengthening the audio through the use of powerful imagery and atmosphere.
+html_class: "motion"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
-meta_url: /students/lastname-firstname
-meta_previewimage: headshots/lastname-firstname-headshot.png
+  Avery Dion
+meta_url: /students/dion-avery
+meta_previewimage: headshots/dion-avery-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Avery Dion. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  I’m a Graphic Designer, Illustrator, and Motion Artist with a passion for telling stories! I’m constantly learning new skills and techniques that help me create impactful experiences through story-telling.
+gradient: "gradient-motion"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"
