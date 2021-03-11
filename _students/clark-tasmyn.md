@@ -1,73 +1,64 @@
 ---
 layout: template-1
-filename: "lastname-firstname" 
-first_name: "Firstname"
-last_name: "Lastname"
+filename: "clark-tasmyn" 
+first_name: "Tasmyn"
+last_name: "Clark"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
-ation_word: ""
+  The headshot of Tasmyn Clark. It depicts
+ation_word: "Infatuation"
 keywords:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "Communicative"
+  - "Continuous Learner"
+  - "Detail-Oriented"
+  - "Enthusiastic"
+  - "Goal-Oriented"
 meeting_type:
-  - "Networking"
-  - "Portfolio Review"
   - "Job Interview"
 specialties:
-  - ""
-  - ""
-  - ""
-specialty1: ""
-specialty2: ""
-specialty3: ""
-portfolio_site: ""
-calendly_link: ""
-twitter_link: ""
-linkedin_link: ""
-vimeo_link: ""
-instagram_link: ""
-behance_link: ""
-github_link: ""
-facebook_link: ""
+  - "Motion"
+  - "Illustration"
+  - "Branding"
+specialty1: "Motion"
+specialty2: "Illustration"
+specialty3: "Branding"
+portfolio_site: "https://www.tasmyndesigns.ca/"
+calendly_link: "https://calendly.com/clar0606"
+twitter_link: "https://twitter.com/tasmyndesigns"
+vimeo_link: "https://www.youtube.com/channel/UCcWVervWM_KMR1ciPLoznXQ"
+instagram_link: "https://www.instagram.com/tasmyndesigns/?hl=en"
+facebook_link: "https://www.facebook.com/tasmyndesigns"
 intro_text: |
-   intro
+   Hi! I’m Tasmyn I have many hats, mainly motion design, illustration and animal lover. My style is like me - simple and awesome. I want to bring my passion to your projects. Can’t wait to hear from you!
 quote_text: |
-  
-portfolio_image1: "/projects/lastname-firstname-project-1.jpg"
-portfolio_video1: "/projects/lastname-firstname-project-1.mp4"
-portfolio_image2: "/projects/lastname-firstname-project-2.jpg"
-portfolio_video2: "/projects/lastname-firstname-project-2.mp4"
-portfolio_image3: "/projects/lastname-firstname-project-3.jpg"
-portfolio_video3: "/projects/lastname-firstname-project-3.mp4"
-portfolio_image4: "/projects/lastname-firstname-project-4.jpg"
-portfolio_video4: "/projects/lastname-firstname-project-4.mp4"
-portfolio_title1: ""
+  Art is like sunlight, beautiful and scattered. Design is the prism -Tasmyn Clark
+portfolio_video1: "/projects/clark-tasmyn-project-1.mp4"
+portfolio_video2: "/projects/clark-tasmyn-project-2.mp4"
+portfolio_video3: "/projects/clark-tasmyn-project-3.mp4"
+portfolio_video4: "/projects/clark-tasmyn-project-4.mp4"
+portfolio_title1: "2021 Motion Reel"
 portfolio_description1: |
-  
-portfolio_title2: ""
+  The motion reel for all of 2020. With client work like Hunt for Hearts by UOHIF, nerding out over video games, showing off snakes, and delving into my love for the classics. This reel has everything!
+portfolio_title2: "Nerdy Noods Promo Video"
 portfolio_description2: |
-   
-portfolio_title3: ""
+   These snakes take after my own heart! Nerdy Noods is my very own passion project - 3 years in the making. Snakes are amazing and basically harmless, working with them is always an amazing experience.
+portfolio_title3: "Hunt For Hearts Commercial"
 portfolio_description3: |
-  
-portfolio_title4: ""
+  Hunt for Hearts by UOHIF was an exciting time. Taking the assets provided to me and making it my own? Following all the airing standards? Doing it all in a week? It was worth it to see it live on TV!
+portfolio_title4: "Sleepy Green Games - Coming Soon!"
 portfolio_description4: |
-  
-html_class: "specialty"
+  Finally, we have a special sneak peek. A start-up studio for indie TTRPGs wants me to do a full branding package including logo, social media, and website. I’m so happy to work on a project like this!
+html_class: "motion"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
-meta_url: /students/lastname-firstname
-meta_previewimage: headshots/lastname-firstname-headshot.png
+  Tasmyn Clark
+meta_url: /students/clark-tasmyn
+meta_previewimage: headshots/clark-tasmyn-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Tasmyn Clark. It depicts
 meta_description: |
-  intro
-gradient: "gradient-specialty"
+  Hi! I’m Tasmyn I have many hats, mainly motion design, illustration and animal lover. My style is like me - simple and awesome. I want to bring my passion to your projects. Can’t wait to hear from you!
+gradient: "gradient-motion"
 nav_color: "nav-black"
 icon_color: "icon-black"
 text_color: "text-black"
