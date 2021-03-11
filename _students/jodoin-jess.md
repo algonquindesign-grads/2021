@@ -48,7 +48,7 @@ portfolio_description3: |
 portfolio_title4: "Interactive Literacy App"
 portfolio_description4: |
   My Ready Buddy is an app to help teach literacy and numeracy through reading stories. The app includes interactive elements like repeating words to practice reading and saying words/numbers.
-html_class: "uiux"
+html_class: "uxui"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
@@ -59,7 +59,7 @@ meta_alt: |
   The headshot of Maggie Hotte. It depicts a woman with dark blonde hair smiling. She is wearing a dark shirt and blazer with glasses.
 meta_description: |
   Hello! I am a mature student graduating with a background consisting of psychology, fine arts, neuroscience, and now graphic design. I find that my interesting past helps to give me a unique and augmented perspective when designing.
-gradient: "gradient-uiux"
+gradient: "gradient-uxui"
 nav_color: "nav-white"
 icon_color: "icon-white"
 text_color: "text-white"

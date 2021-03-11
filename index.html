@@ -13,10 +13,12 @@ highlight_nav:
 {% pattern header/secondary-header gradient="gradient-rainbow" nav_color="nav-white" icon_color="icon-white" %}
 
 <main>
-  <div class="wrapper">
-    {% for student in site.students %}
-      {% pattern sections/placeholder-card data=student number=forloop.index%}
-    {% endfor %}
+  <div class="wrapper center-block">
+    <div class="home-card-grid pad-t gutter">
+      {% for student in site.students %}
+        {% pattern sections/student-cards data=student number=forloop.index%}
+      {% endfor %}
+    </div>
   </div>
 </main>
 
