@@ -18,19 +18,11 @@ patterns:
       - name: aria
         type: string
         example: "This button links to this student's portfolio site"
-  calendly:
-    title: "Book With Calendly Button"
-      - name: data
-        type: object
-        data:
-          source: "site.students[0]"
-          type: students
   portfolio-gray:
     title: "Portfolio Gray Button (Data Includes)"
     description: |
       This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites. It is used on templates where the accent button would not be clearly visible.
     width: 10em
-    fields:
     fields:
       - name: data
         type: object
