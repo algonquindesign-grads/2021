@@ -25,7 +25,7 @@ specialty2: "Branding"
 specialty3: "Motion"
 portfolio_site: "https://catherinewilkie.ca/"
 calendly_link: "https://calendly.com/cathy-design"
-linkedin_link: "/https://www.linkedin.com/in/catherine-wilkie/"
+linkedin_link: "https://www.linkedin.com/in/catherine-wilkie"
 instagram_link: "https://www.instagram.com/cathywilkie.art"
 facebook_link: "https://www.facebook.com/catherinewilkieart/"
 intro_text: |
