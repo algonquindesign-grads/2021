@@ -60,3 +60,16 @@ box-shadow: 0 0 0 2pt var(--color-primary);
   background-color: #ffffff;
   color: #000000;
 }
+
+/* QUIZ BUTTON STYLES (HOMEPAGE) */
+.btn-q {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-q:hover {
+  color: var(--color-primary);
+  background-color: var(--color-motion);
+  border-color: var(--color-motion);
+}
