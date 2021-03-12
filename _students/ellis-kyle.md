@@ -23,7 +23,7 @@ specialties:
 specialty1: "Branding"
 specialty2: "Motion"
 specialty3: "Print"
-portfolio_site: "http://kedesignn.wixsite.com/kedesign"
+portfolio_site: "https://kedesignn.wixsite.com/kedesignn"
 calendly_link: "https://calendly.com/elli0389"
 linkedin_link: "https://www.linkedin.com/in/kyle-ellis-349336201/"
 vimeo_link: "https://music.apple.com/profile/kellis3003"
