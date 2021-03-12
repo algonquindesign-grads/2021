@@ -4,7 +4,7 @@ filename: "ekuma-deborah"
 first_name: "Deborah Ibe"
 last_name: "Ekuma"
 headshot_alt: |
-  The headshot of Deborah Ibe Ekuma. It depicts
+  The headshot of Deborah Ibe Ekuma. It depicts a closeup of a person with shoulder-length black hair smiling whilst looking directly at the camera.
 ation_word: "Origination"
 keywords:
   - "Detail-Oriented"
@@ -56,7 +56,7 @@ meta_title: |
 meta_url: /students/ekuma-deborah
 meta_previewimage: headshots/ekuma-deborah-headshot.png
 meta_alt: |
-  The headshot of Deborah Ibe Ekuma. It depicts
+  The headshot of Deborah Ibe Ekuma. It depicts a closeup of a person with shoulder-length black hair smiling whilst looking directly at the camera.
 meta_description: |
   My name is Deborah Ibe Ekuma, I am a graphic designer currently living in Ottawa. Growing up, I was known for my creativity, artistic nature and passion for drawing and painting. I believe Art is valuable and represents a social necessity that no nation can neglect. I am a ​thinker, an innovator​ and a problem solver with a keen interest in ​improving society through effective visual communication​. 
 gradient: "gradient-branding"

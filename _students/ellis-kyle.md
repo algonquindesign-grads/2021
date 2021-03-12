@@ -4,7 +4,7 @@ filename: "ellis-kyle"
 first_name: "Kyle"
 last_name: "Ellis"
 headshot_alt: |
-  The headshot of Kyle Ellis. It depicts
+  The headshot of Kyle Ellis. It depicts a person with short, blonde hair smiling brightly at the camera whilst holding their chin with one hand.
 ation_word: "Amplification"
 keywords:
   - "Enthusiastic"
@@ -56,7 +56,7 @@ meta_title: |
 meta_url: /students/ellis-kyle
 meta_previewimage: headshots/ellis-kyle-headshot.png
 meta_alt: |
-  The headshot of Kyle Ellis. It depicts
+  The headshot of Kyle Ellis. It depicts a person with short, blonde hair smiling brightly at the camera whilst holding their chin with one hand.
 meta_description: |
   My name is Kyle Ellis. I am a Graphic Designer located in the Ottawa region. I specialize in business branding however, consider myself adaptable and a "Jack-of-all-trades" in the design industry.  Identity, growth and change is the reason why I am a designer. I persevere and prove to individuals I have what it takes and I will not stop working till I achieve it. Starting in a photography-driven career, my goal was to widen my horizons and build on with graphic design services. Now I believe I am a graphic designer with photography services
 gradient: "gradient-branding"

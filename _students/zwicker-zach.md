@@ -4,7 +4,7 @@ filename: "zwicker-zach"
 first_name: "Zach"
 last_name: "Zwicker"
 headshot_alt: |
-  The headshot of Zach Zwicker. It depicts
+  The headshot of Zach Zwicker. It depicts a person wearing a brown jacket and white t-shirt, making a neutral expression with their head tilted whilst looking at the camera.
 ation_word: "Zwickation"
 keywords:
   - "Altruistic"
@@ -53,7 +53,7 @@ meta_title: |
 meta_url: /students/zwicker-zach
 meta_previewimage: headshots/zwicker-zach-headshot.png
 meta_alt: |
-  The headshot of Zach Zwicker. It depicts
+  The headshot of Zach Zwicker. It depicts a person wearing a brown jacket and white t-shirt, making a neutral expression with their head tilted whilst looking at the camera.
 meta_description: |
   Hello there! My name is Zach, and I’ve been a designer since my early teens. I really enjoy the start to finish process of artistic creation that inspires to me work at it everyday. The feeling of solving problems with creative solutions is one I thrive for. 
 gradient: "gradient-branding"

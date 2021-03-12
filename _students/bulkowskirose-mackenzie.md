@@ -4,7 +4,7 @@ filename: "bulkowskirose-mackenzie"
 first_name: "MacKenzie"
 last_name: "Bulkowski-Rose"
 headshot_alt: |
-  The headshot of MacKenzie Bulkowski-Rose. It depicts
+  The headshot of MacKenzie Bulkowski-Rose. It depicts a person with long brown hair smiling with their mouth closed, and head turned upwards, with their hands on their hips.
 ation_word: "Caffeination"
 keywords:
   - "Communicative"
@@ -60,7 +60,7 @@ meta_title: |
 meta_url: /students/bulkowskirose-mackenzie
 meta_previewimage: headshots/bulkowskirose-mackenzie-headshot.png
 meta_alt: |
-  The headshot of MacKenzie Bulkowski-Rose. It depicts
+  The headshot of MacKenzie Bulkowski-Rose. It depicts a person with long brown hair smiling with their mouth closed, and head turned upwards, with their hands on their hips.
 meta_description: |
   I'm MacKenzie, and I build user experiences, websites, and strategic brands that spark joy. I’m a technical creative, making visual solutions that enable accessibility and opportunity.
 gradient: "gradient-web"

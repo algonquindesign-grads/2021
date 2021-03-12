@@ -4,7 +4,7 @@ filename: "ezdahmad-katia"
 first_name: "Katia"
 last_name: "Ezdahmad"
 headshot_alt: |
-  The headshot of Katia Ezdahmad. It depicts
+  The headshot of Katia Ezdahmad. It depicts a person with long, dark hair, wearing a dark green graduation gown making a neutral expression at the camera.
 ation_word: "Determination"
 keywords:
   - "Detail-Oriented"
@@ -53,7 +53,7 @@ meta_title: |
 meta_url: /students/ezdahmad-katia
 meta_previewimage: headshots/ezdahmad-katia-headshot.png
 meta_alt: |
-  The headshot of Katia Ezdahmad. It depicts
+  The headshot of Katia Ezdahmad. It depicts a person with long, dark hair, wearing a dark green graduation gown making a neutral expression at the camera.
 meta_description: |
   Specializing in Identity Development & Branding. I’m quite a curious soul, as a result, I am able to discover novel ways of doing things or solving minor issues before they become major problems.
 gradient: "gradient-branding"

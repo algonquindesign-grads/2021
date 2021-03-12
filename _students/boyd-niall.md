@@ -4,7 +4,7 @@ filename: "boyd-niall"
 first_name: "Niall"
 last_name: "Boyd"
 headshot_alt: |
-  The headshot of Niall Boyd. It depicts
+  The headshot of Niall Boyd. It depicts a person with shaggy, brown hair, wearing a button-up shirt, smiling slightly at the camera.
 ation_word: "Communication"
 keywords:
   - "Communicative"
@@ -55,7 +55,7 @@ meta_title: |
 meta_url: /students/boyd-niall
 meta_previewimage: headshots/boyd-niall-headshot.png
 meta_alt: |
-  The headshot of Niall Boyd. It depicts
+  The headshot of Niall Boyd. It depicts a person with shaggy, brown hair, wearing a button-up shirt, smiling slightly at the camera.
 meta_description: |
   My passion is guiding people to grow their brand through Graphic Design. Music inspires my work. I believe Graphic Design can communicate ideas and can reach various different audiences. 
 gradient: "gradient-branding"

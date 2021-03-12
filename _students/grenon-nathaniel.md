@@ -4,7 +4,7 @@ filename: "grenon-nathaniel"
 first_name: "Nathaniel"
 last_name: "Grenon"
 headshot_alt: |
-  The headshot of Nathaniel Grenon. It depicts
+  The headshot of Nathaniel Grenon. It depicts a person with short, brown hair, and a short beard, making a neutral expression whist looking directly at the camera.
 ation_word: "Imagination"
 keywords:
   - "Detail-Oriented"
@@ -52,7 +52,7 @@ meta_title: |
 meta_url: /students/grenon-nathaniel
 meta_previewimage: headshots/grenon-nathaniel-headshot.png
 meta_alt: |
-  The headshot of Nathaniel Grenon. It depicts
+  The headshot of Nathaniel Grenon. It depicts a person with short, brown hair, and a short beard, making a neutral expression whist looking directly at the camera.
 meta_description: |
   My name is Nathaniel Grenon and I'm a Digital designer based in Ottawa, On. I'v been creative all my life, been drawing since I can remember, whether its sitting down to actually create something or doodling in my homework. Now I enjoy working on branding, illustration and motion.
 gradient: "gradient-branding"

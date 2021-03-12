@@ -4,7 +4,7 @@ filename: "desmarais-sarah"
 first_name: "Sarah"
 last_name: "Desmarais"
 headshot_alt: |
-  The headshot of Sarah Desmarais. It depicts
+  The headshot of Sarah Desmarais. It depicts a person with mid-length, curled brown hair smiling brightly with her shoulders slightly shrugged.
 ation_word: "Inspiration"
 keywords:
   - "Continuous Learner"
@@ -54,7 +54,7 @@ meta_title: |
 meta_url: /students/desmarais-sarah
 meta_previewimage: headshots/desmarais-sarah-headshot.png
 meta_alt: |
-  The headshot of Sarah Desmarais. It depicts
+  The headshot of Sarah Desmarais. It depicts a person with mid-length, curled brown hair smiling brightly with her shoulders slightly shrugged.
 meta_description: |
   Lover of the minimalist and modern, I am passionate about designing timeless and strategic pieces for small businesses to help them connect with their market and grow their brand.
 gradient: "gradient-branding"

@@ -4,7 +4,7 @@ filename: "galacio-danielle"
 first_name: "Danielle"
 last_name: "Galacio"
 headshot_alt: |
-  The headshot of Danielle Galacio. It depicts
+  The headshot of Danielle Galacio. It depicts a person with long, black hair and glasses smiling sweetly at the camera, with their arms by their sides.
 ation_word: "Determination"
 keywords:
   - "Altruistic"
@@ -53,7 +53,7 @@ meta_title: |
 meta_url: /students/galacio-danielle
 meta_previewimage: headshots/galacio-danielle-headshot.png
 meta_alt: |
-  The headshot of Danielle Galacio. It depicts
+  The headshot of Danielle Galacio. It depicts a person with long, black hair and glasses smiling sweetly at the camera, with their arms by their sides.
 meta_description: |
   Hello! I'm Danielle, your friendly neighbourhood graphic designer. I have a strong passion for graphic design, but I especially enjoy designing purposeful user experiences and interfaces.
 gradient: "gradient-uxui"

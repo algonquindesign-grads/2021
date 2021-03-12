@@ -4,7 +4,7 @@ filename: "volden-christine"
 first_name: "Christine"
 last_name: "Volden"
 headshot_alt: |
-  The headshot of Christine Volden. It depicts
+  The headshot of Christine Volden. It depicts a person with mid-length, straight red hair, smiling warmly with their mouth closed, whilst looking at the camera.
 ation_word: "Realisation"
 keywords:
   - "Continuous Learner"
@@ -55,7 +55,7 @@ meta_title: |
 meta_url: /students/volden-christine
 meta_previewimage: headshots/volden-christine-headshot.png
 meta_alt: |
-  The headshot of Christine Volden. It depicts
+  The headshot of Christine Volden. It depicts a person with mid-length, straight red hair, smiling warmly with their mouth closed, whilst looking at the camera.
 meta_description: |
   I have a background in Business and Psychology which have come together wonderfully in the field of Graphic Design. I am efficient in my processes, and aware of the details and big picture. I believe designers can make a difference.
 gradient: "gradient-print"

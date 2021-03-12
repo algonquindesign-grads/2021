@@ -4,7 +4,7 @@ filename: "brown-hannah"
 first_name: "Hannah"
 last_name: "Brown"
 headshot_alt: |
-  The headshot of Hannah Brown. It depicts
+  The headshot of Hannah Brown. It depicts a person with shoulder-length, curly, brown hair, smiling brightly while facing the camera.
 ation_word: "Exploration"
 keywords:
   - "Altruistic"
@@ -57,7 +57,7 @@ meta_title: |
 meta_url: /students/brown-hannah
 meta_previewimage: headshots/brown-hannah-headshot.png
 meta_alt: |
-  The headshot of Hannah Brown. It depicts
+  The headshot of Hannah Brown. It depicts a person with shoulder-length, curly, brown hair, smiling brightly while facing the camera.
 meta_description: |
   I love drinking tea, being barefoot and bad jokes. I sing loudly, often, and have spent far too much of my memory real estate on movie quotes. Most of all, I love graphic design.
 gradient: "gradient-web"

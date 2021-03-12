@@ -4,7 +4,7 @@ filename: "doyle-alison"
 first_name: "Alison"
 last_name: "Doyle"
 headshot_alt: |
-  The headshot of Alison Doyle. It depicts
+  The headshot of Alison Doyle. It depicts a person posed with their hands under their chin, looking upwards whilst smiling in a slight silly way. They are wearing a shirt with a funky cat pattern on it, and have very prominent lime green makeup.
 ation_word: "Determination"
 keywords:
   - "Altrustic"
@@ -53,7 +53,7 @@ meta_title: |
 meta_url: /students/doyle-alison
 meta_previewimage: headshots/doyle-alison-headshot.png
 meta_alt: |
-  The headshot of Alison Doyle. It depicts
+  The headshot of Alison Doyle. It depicts a person posed with their hands under their chin, looking upwards whilst smiling in a slight silly way. They are wearing a shirt with a funky cat pattern on it, and have very prominent lime green makeup.
 meta_description: |
   I would describe my design as simplistic and minimalist, peeling away the unecessary layers until you’re left with a raw product that is easily-consumable and well understood. 
 gradient: "gradient-branding"

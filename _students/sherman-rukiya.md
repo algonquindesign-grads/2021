@@ -4,7 +4,7 @@ filename: "sherman-rukiya"
 first_name: "Rukiya"
 last_name: "Sherman"
 headshot_alt: |
-  The headshot of Rukiya Sherman. It depicts
+  The headshot of Rukiya Sherman. It depicts a person with mid-length, curled, black hair and a headband, smiling brightly whilst facing the camera.
 ation_word: "Imagination"
 keywords:
   - "Continuous Learner"
@@ -55,7 +55,7 @@ meta_title: |
 meta_url: /students/sherman-rukiya
 meta_previewimage: headshots/sherman-rukiya-headshot.png
 meta_alt: |
-  The headshot of Rukiya Sherman. It depicts
+  The headshot of Rukiya Sherman. It depicts a person with mid-length, curled, black hair and a headband, smiling brightly whilst facing the camera.
 meta_description: |
   My name means "She rises up." in Swahili and I think it fits my character as a designer because no matter the challenges that are thrown my way, I always find a creative way to overcome them and reach my goals.
 gradient: "gradient-illustration"

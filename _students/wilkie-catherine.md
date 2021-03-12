@@ -4,7 +4,7 @@ filename: "wilkie-catherine"
 first_name: "Catherine"
 last_name: "Wilkie"
 headshot_alt: |
-  The headshot of Catherine Wilkie. It depicts
+  The headshot of Catherine Wilkie. It depicts a person with shoulder-length brown hair in a ponytail, wearing tassled, yellow earrings, smiling enthusiastically at the camera.
 ation_word: "Constellation"
 keywords:
   - "Altruistic"
@@ -56,7 +56,7 @@ meta_title: |
 meta_url: /students/wilkie-catherine
 meta_previewimage: headshots/wilkie-catherine-headshot.png
 meta_alt: |
-  The headshot of Catherine Wilkie. It depicts
+  The headshot of Catherine Wilkie. It depicts a person with shoulder-length brown hair in a ponytail, wearing tassled, yellow earrings, smiling enthusiastically at the camera.
 meta_description: |
   Catherine’s work focuses on combining passion, storytelling and accessible design. With a diploma in Illustration and Concept Art, and now one in Graphic Design, she is a versatile artist with a hunger to create and to keep learning.
 gradient: "gradient-illustration"

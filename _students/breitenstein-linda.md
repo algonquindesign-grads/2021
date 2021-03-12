@@ -4,7 +4,7 @@ filename: "breitenstein-linda"
 first_name: "Linda"
 last_name: "Breitenstein"
 headshot_alt: |
-  The headshot of Linda Breitenstein. It depicts
+  The headshot of Linda Breitenstein. It depicts a person with a brown-blonde bob, and a necklace, smiling with their arms crossed.
 ation_word: "Causation"
 keywords:
   - "Communicative"
@@ -56,7 +56,7 @@ meta_title: |
 meta_url: /students/breitenstein-linda
 meta_previewimage: headshots/breitenstein-linda-headshot.png
 meta_alt: |
-  The headshot of Linda Breitenstein. It depicts
+  The headshot of Linda Breitenstein. It depicts a person with a brown-blonde bob, and a necklace, smiling with their arms crossed.
 meta_description: |
   As an artist and graphic designer, I love to celebrate creativity. By exploring ideas, mixing mediums and techniques I have been able to transform my passion into purpose with design.
 gradient: "gradient-branding"

@@ -4,7 +4,7 @@ filename: "clark-tasmyn"
 first_name: "Tasmyn"
 last_name: "Clark"
 headshot_alt: |
-  The headshot of Tasmyn Clark. It depicts
+  The headshot of Tasmyn Clark. It depicts a person with long brown hair strewn over one shoulder, smiling slightly at the camera whilst wearing glasses.
 ation_word: "Infatuation"
 keywords:
   - "Communicative"
@@ -55,7 +55,7 @@ meta_title: |
 meta_url: /students/clark-tasmyn
 meta_previewimage: headshots/clark-tasmyn-headshot.png
 meta_alt: |
-  The headshot of Tasmyn Clark. It depicts
+  The headshot of Tasmyn Clark. It depicts a person with long brown hair strewn over one shoulder, smiling slightly at the camera whilst wearing glasses.
 meta_description: |
   Hi! I’m Tasmyn I have many hats, mainly motion design, illustration and animal lover. My style is like me - simple and awesome. I want to bring my passion to your projects. Can’t wait to hear from you!
 gradient: "gradient-motion"

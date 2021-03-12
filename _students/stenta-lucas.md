@@ -4,7 +4,7 @@ filename: "stenta-lucas"
 first_name: "Lucas"
 last_name: "Stenta"
 headshot_alt: |
-  The headshot of Lucas Stenta. It depicts
+  The headshot of Lucas Stenta. It depicts a person with ear-length, wavy brown hair, and some facial hair, smiling comfortably at the camera.
 ation_word: "Presentation"
 keywords:
   - "Enthusiastic"
@@ -55,7 +55,7 @@ meta_title: |
 meta_url: /students/stenta-lucas
 meta_previewimage: headshots/stenta-lucas-headshot.png
 meta_alt: |
-  The headshot of Lucas Stenta. It depicts
+  The headshot of Lucas Stenta. It depicts a person with ear-length, wavy brown hair, and some facial hair, smiling comfortably at the camera.
 meta_description: |
   Hey Im Lucas, I am a graphic designer based in the Nation’s Capital. I specialize in Illustration and branding. When away from my desk you can find me exploring coast to coast, gaining inspiration from nature while admiring all the beautiful things that Canada has to offer.
 gradient: "gradient-illustration"

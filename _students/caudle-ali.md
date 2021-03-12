@@ -4,7 +4,7 @@ filename: "caudle-ali"
 first_name: "Ali"
 last_name: "Caudle"
 headshot_alt: |
-  The headshot of Ali Caudle. It depicts
+  The headshot of Ali Caudle. It depicts a red-headed person with shoulder-length hair and glasses, smiling slightly while facing the camera.
 ation_word: "Improvisation"
 keywords:
   - "Communicative"
@@ -53,7 +53,7 @@ meta_title: |
 meta_url: /students/caudle-ali
 meta_previewimage: headshots/caudle-ali-headshot.png
 meta_alt: |
-  The headshot of Ali Caudle. It depicts
+  The headshot of Ali Caudle. It depicts a red-headed person with shoulder-length hair and glasses, smiling slightly while facing the camera.
 meta_description: |
   I am a third year graphic design student with a love for illustrative work. I take a lot of inspiration from nature and I hope to run my own eco-friendly graphic design business in the future.
 gradient: "gradient-branding"

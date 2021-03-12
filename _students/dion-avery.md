@@ -4,7 +4,7 @@ filename: "dion-avery"
 first_name: "Avery"
 last_name: "Dion"
 headshot_alt: |
-  The headshot of Avery Dion. It depicts
+  The headshot of Avery Dion. It depicts a person with a blonde pixie cut and smokey eye makeup making a neutral expression whilst looking directly at the camera.
 ation_word: "Inspiration"
 keywords:
   - "Continuous Learner"
@@ -54,7 +54,7 @@ meta_title: |
 meta_url: /students/dion-avery
 meta_previewimage: headshots/dion-avery-headshot.png
 meta_alt: |
-  The headshot of Avery Dion. It depicts
+  The headshot of Avery Dion. It depicts a person with a blonde pixie cut and smokey eye makeup making a neutral expression whilst looking directly at the camera.
 meta_description: |
   I’m a Graphic Designer, Illustrator, and Motion Artist with a passion for telling stories! I’m constantly learning new skills and techniques that help me create impactful experiences through story-telling.
 gradient: "gradient-motion"

@@ -4,7 +4,7 @@ filename: "hendry-anna"
 first_name: "Anna"
 last_name: "Hendry"
 headshot_alt: |
-  The headshot of Anna Hendry. It depicts
+  The headshot of Anna Hendry. It depicts a person smiling with their teeth showing, and mid length brown hair, whilst wearing a necklace.
 ation_word: "Illustration"
 keywords:
   - "Independent"
@@ -52,7 +52,7 @@ meta_title: |
 meta_url: /students/hendry-anna
 meta_previewimage: headshots/hendry-anna-headshot.png
 meta_alt: |
-  The headshot of Anna Hendry. It depicts
+  The headshot of Anna Hendry. It depicts a person smiling with their teeth showing, and mid length brown hair, whilst wearing a necklace.
 meta_description: |
   I’m a graphic designer who focuses on branding, advertising and illustration. I love creating designs that are simple and modern with pretty colours.
 gradient: "gradient-branding"

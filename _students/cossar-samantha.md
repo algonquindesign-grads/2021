@@ -4,7 +4,7 @@ filename: "cossar-samantha"
 first_name: "Samantha"
 last_name: "Cossar"
 headshot_alt: |
-  The headshot of Samantha Cossar. It depicts
+  The headshot of Samantha Cossar. It depicts a person with long, blonde hair and glasses smiling with their mouth closed while facing the camera directly.
 ation_word: "Observation"
 keywords:
   - "Detail-Oriented"
@@ -52,7 +52,7 @@ meta_title: |
 meta_url: /students/cossar-samantha
 meta_previewimage: headshots/cossar-samantha-headshot.png
 meta_alt: |
-  The headshot of Samantha Cossar. It depicts
+  The headshot of Samantha Cossar. It depicts a person with long, blonde hair and glasses smiling with their mouth closed while facing the camera directly.
 meta_description: |
   Hey there! Some things to know about me are that: I am passionate about creating strong designs for branding and print, I love to paint when I have spare time, and you’ll never find me drinking coffee, but maybe some chocolate milk.
 gradient: "gradient-branding"
