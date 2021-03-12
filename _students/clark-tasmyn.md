@@ -24,7 +24,7 @@ specialty3: "Branding"
 portfolio_site: "https://www.tasmyndesigns.ca/"
 calendly_link: "https://calendly.com/clar0606"
 twitter_link: "https://twitter.com/tasmyndesigns"
-vimeo_link: "https://www.youtube.com/channel/UCcWVervWM_KMR1ciPLoznXQ"
+youtube_link: "https://www.youtube.com/channel/UCcWVervWM_KMR1ciPLoznXQ"
 instagram_link: "https://www.instagram.com/tasmyndesigns/?hl=en"
 facebook_link: "https://www.facebook.com/tasmyndesigns"
 intro_text: |
