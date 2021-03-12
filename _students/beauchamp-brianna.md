@@ -24,7 +24,7 @@ portfolio_site: "https://www.beaudesign.ca/"
 calendly_link: "https://calendly.com/briannabeauchamp"
 linkedin_link: "https://www.linkedin.com/in/brianna-beauchamp-103170207/"
 intro_text: |
-  Hey there! To put it simply, I'm a small town graphic designer near Ottawa who would love to continue adding to my knowledge of branding, print, and package design. 
+  Hey there! To put it simply, I'm a small town graphic designer near Ottawa who would love to continue adding to my knowledge of branding, print, and package design.
 quote_text: |
   I want to make people’s design visions come to life.
 portfolio_image1: "/projects/beauchamp-brianna-project-1.jpg"
@@ -40,7 +40,7 @@ portfolio_description2: |
 portfolio_title3: "Petits Macarons"
 portfolio_description3: |
   The goal of this package redesign was to take a 100% plastic package and redesign it into an environment-friendly item while keeping the target audience in mind.
-portfolio_title4: "Portraits"
+portfolio_title4: "Portrait"
 portfolio_description4: |
   Stipple portrait done in pen of Margot Robbie. Countless hours were spent applying dot after dot to get the final image.
 html_class: "branding"
