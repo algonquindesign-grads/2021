@@ -22,7 +22,7 @@ specialty3: "Branding"
 portfolio_site: "https://daniedesign.ca/"
 calendly_link: "https://calendly.com/fuen0015"
 linkedin_link: "https://www.linkedin.com/in/daniela-fuentes-883b9a93/"
-vimeo_link: "hello@daniedesign.ca (email)"
+email_link: "mailto:hello@daniedesign.ca"
 instagram_link: "https://www.instagram.com/daniedesign2/"
 behance_link: "https://www.behance.net/danielafuentes"
 intro_text: |
