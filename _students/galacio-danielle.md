@@ -57,8 +57,9 @@ meta_alt: |
 meta_description: |
   Hello! I'm Danielle, your friendly neighbourhood graphic designer. I have a strong passion for graphic design, but I especially enjoy designing purposeful user experiences and interfaces.
 gradient: "gradient-uxui"
-nav_color: "nav-black"
-icon_color: "icon-black"
-text_color: "text-black"
+nav_color: "nav-white"
+icon_color: "icon-white"
+social_icon_color: "icon-black"
+text_color: "text-white"
 ---
 

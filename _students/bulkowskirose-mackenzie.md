@@ -64,8 +64,9 @@ meta_alt: |
 meta_description: |
   I'm MacKenzie, and I build user experiences, websites, and strategic brands that spark joy. I’m a technical creative, making visual solutions that enable accessibility and opportunity.
 gradient: "gradient-web"
-nav_color: "nav-black"
-icon_color: "icon-black"
-text_color: "text-black"
+nav_color: "nav-white"
+icon_color: "icon-white"
+social_icon_color: "icon-white"
+text_color: "text-white"
 ---
 

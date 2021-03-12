@@ -63,6 +63,7 @@ meta_description: |
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

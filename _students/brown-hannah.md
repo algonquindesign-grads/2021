@@ -61,8 +61,9 @@ meta_alt: |
 meta_description: |
   I love drinking tea, being barefoot and bad jokes. I sing loudly, often, and have spent far too much of my memory real estate on movie quotes. Most of all, I love graphic design.
 gradient: "gradient-web"
-nav_color: "nav-black"
-icon_color: "icon-black"
-text_color: "text-black"
+nav_color: "nav-white"
+icon_color: "icon-white"
+social_icon_color: "icon-black"
+text_color: "text-white"
 ---
 

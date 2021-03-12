@@ -70,6 +70,7 @@ meta_description: |
 gradient: "gradient-illustration"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

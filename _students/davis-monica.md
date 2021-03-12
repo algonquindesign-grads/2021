@@ -53,8 +53,9 @@ meta_alt: |
 meta_description: |
   Hello, my names Monica Davis and I create research based solutions for UX/UI based design. 
 gradient: "gradient-uxui"
-nav_color: "nav-black"
-icon_color: "icon-black"
-text_color: "text-black"
+nav_color: "nav-white"
+icon_color: "icon-white"
+social_icon_color: "icon-white"
+text_color: "text-white"
 ---
 
