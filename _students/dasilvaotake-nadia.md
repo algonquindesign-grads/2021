@@ -4,7 +4,7 @@ filename: "dasilvaotake-nadia"
 first_name: "Nadia Carolina"
 last_name: "da Silva Otake"
 headshot_alt: |
-  The headshot of Nadia Carolina da Silva Otake. It depicts
+  The headshot of Nadia Carolina da Silva Otake. It depicts a person with mid-length brown hair smiling brightly at the camera. They are wearing glasses and bright red lipstick.
 ation_word: "Resili-ation"
 keywords:
   - "Continuous Learner"
@@ -54,12 +54,13 @@ meta_title: |
 meta_url: /students/dasilvaotake-nadia
 meta_previewimage: headshots/dasilvaotake-nadia-headshot.png
 meta_alt: |
-  The headshot of Nadia Carolina da Silva Otake. It depicts
+  The headshot of Nadia Carolina da Silva Otake. It depicts a person with mid-length brown hair smiling brightly at the camera. They are wearing glasses and bright red lipstick.
 meta_description: |
   intro
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

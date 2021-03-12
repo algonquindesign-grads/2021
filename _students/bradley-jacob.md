@@ -4,7 +4,7 @@ filename: "bradley-jacob"
 first_name: "Jacob"
 last_name: "Bradley"
 headshot_alt: |
-  The headshot of Jacob Bradley. It depicts
+  The headshot of Jacob Bradley. It depicts a redheaded person with short hair and a beard smiling brightly at the camera.
 ation_word: "Multitaskation"
 keywords:
   - "Flexible"
@@ -55,12 +55,13 @@ meta_title: |
 meta_url: /students/bradley-jacob
 meta_previewimage: headshots/bradley-jacob-headshot.png
 meta_alt: |
-  The headshot of Jacob Bradley. It depicts
+  The headshot of Jacob Bradley. It depicts a redheaded person with short hair and a beard smiling brightly at the camera.
 meta_description: |
   I am experienced with all types of design work, such as vector design, typography, web design, Photoshop, and animation.  I love to constantly learn, always upgrading my skills through web tutorials and creative workshops. I have a passion for design work and look forward to any challenge. 
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

@@ -4,7 +4,7 @@ filename: "fuentes-daniela"
 first_name: "Daniela"
 last_name: "Fuentes"
 headshot_alt: |
-  The headshot of Daniela Fuentes. It depicts
+  The headshot of Daniela Fuentes. It depicts a person with very curly, dark hair in a ponytail, smiling slightly whilst directly facing the camera.
 ation_word: "Imagination"
 keywords:
   - "Efficient"
@@ -22,7 +22,7 @@ specialty3: "Branding"
 portfolio_site: "https://daniedesign.ca/"
 calendly_link: "https://calendly.com/fuen0015"
 linkedin_link: "https://www.linkedin.com/in/daniela-fuentes-883b9a93/"
-vimeo_link: "hello@daniedesign.ca (email)"
+email_link: "mailto:hello@daniedesign.ca"
 instagram_link: "https://www.instagram.com/daniedesign2/"
 behance_link: "https://www.behance.net/danielafuentes"
 intro_text: |
@@ -53,12 +53,13 @@ meta_title: |
 meta_url: /students/fuentes-daniela
 meta_previewimage: headshots/fuentes-daniela-headshot.png
 meta_alt: |
-  The headshot of Daniela Fuentes. It depicts
+  The headshot of Daniela Fuentes. It depicts a person with very curly, dark hair in a ponytail, smiling slightly whilst directly facing the camera.
 meta_description: |
   Hello! my name is Daniela or Danie for short.  Most people recognize me by my curly hair and sense of humor. Art has always been my passion and creating things that help people is the best feeling.
 gradient: "gradient-illustration"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

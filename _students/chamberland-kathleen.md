@@ -4,7 +4,7 @@ filename: "chamberland-kathleen"
 first_name: "Kathleen"
 last_name: "Chamberland"
 headshot_alt: |
-  The headshot of Kathleen Chamberland. It depicts
+  The headshot of Kathleen Chamberland. It depicts a person with long, light brown hair, wearing a neutral expression on their face. They are facing the camera with their arms crossed.
 ation_word: "Creation"
 keywords:
   - "Enthusiastic"
@@ -55,12 +55,13 @@ meta_title: |
 meta_url: /students/chamberland-kathleen
 meta_previewimage: headshots/chamberland-kathleen-headshot.png
 meta_alt: |
-  The headshot of Kathleen Chamberland. It depicts
+  The headshot of Kathleen Chamberland. It depicts a person with long, light brown hair, wearing a neutral expression on their face. They are facing the camera with their arms crossed.
 meta_description: |
   Hey! My name is Kathleen Chamberland, or Kat for short. I'm a graphic designer in Ottawa, Ontario.I've always loved the thought of being a graphic designer, even from a young age; you cold find me playing around with Photoshop. When I graduated from high school I thought if this is something I like to do why not get paid for it?
 gradient: "gradient-illustration"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

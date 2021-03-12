@@ -4,7 +4,7 @@ filename: "damour-ian"
 first_name: "Ian"
 last_name: "D'Amour"
 headshot_alt: |
-  The headshot of Ian D'Amour. It depicts a man with green hair slightly smiling while facing the camera. 
+  The headshot of Ian D'Amour. It depicts a man with green hair slightly smiling while facing the camera, partially kneeling with his hands on one knee. 
 ation_word: "Causation"
 keywords:
   - "Continuous Learner"
@@ -52,12 +52,13 @@ meta_title: |
 meta_url: /students/damour-ian
 meta_previewimage: headshots/damour-ian-headshot.png
 meta_alt: |
-  The headshot of Ian D'Amour. It depicts a man with green hair slightly smiling while facing the camera.
+  The headshot of Ian D'Amour. It depicts a man with green hair slightly smiling while facing the camera, partially kneeling with his hands on one knee.
 meta_description: |
   I’m Ian, a Graphic Designer in Ottawa, Ontario, I have a strong passion for Motion Graphics, Typography, Branding, and Logo Design.
 gradient: "gradient-motion"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

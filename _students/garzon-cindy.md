@@ -4,7 +4,7 @@ filename: "garzon-cindy"
 first_name: "Cindy"
 last_name: "Garzon"
 headshot_alt: |
-  The headshot of Cindy Garzon. It depicts
+  The headshot of Cindy Garzon. It depicts a person with shoulder-length ombred black-blonde hair, making a neutral expression whist facing the camera.
 ation_word: "Determination"
 keywords:
   - "Continuous Learner"
@@ -53,12 +53,13 @@ meta_title: |
 meta_url: /students/garzon-cindy
 meta_previewimage: headshots/garzon-cindy-headshot.png
 meta_alt: |
-  The headshot of Cindy Garzon. It depicts
+  The headshot of Cindy Garzon. It depicts a person with shoulder-length ombred black-blonde hair, making a neutral expression whist facing the camera.
 meta_description: |
   Hi! My name is Cindy Garzon, I am from Colombia and am currently based in Ottawa, Canada. I discovered that graphic design is my true passion.
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

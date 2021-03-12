@@ -4,7 +4,7 @@ filename: "brown-hannah"
 first_name: "Hannah"
 last_name: "Brown"
 headshot_alt: |
-  The headshot of Hannah Brown. It depicts
+  The headshot of Hannah Brown. It depicts a person with shoulder-length, curly, brown hair, smiling brightly while facing the camera.
 ation_word: "Exploration"
 keywords:
   - "Altruistic"
@@ -28,7 +28,7 @@ calendly_link: "https://calendly.com/brow1234"
 linkedin_link: "https://www.linkedin.com/in/hannahdelbrown/"
 instagram_link: "https://www.instagram.com/hannahdeldesign/"
 behance_link: "https://www.behance.net/hannahdelbrown/"
-github_link: "https://www.github.io/HannahDelaney"
+github_link: "https://github.com/HannahDelaney"
 intro_text: |
    I love drinking tea, being barefoot and bad jokes. I sing loudly, often, and have spent far too much of my memory real estate on movie quotes. Most of all, I love graphic design.
 quote_text: |
@@ -57,12 +57,13 @@ meta_title: |
 meta_url: /students/brown-hannah
 meta_previewimage: headshots/brown-hannah-headshot.png
 meta_alt: |
-  The headshot of Hannah Brown. It depicts
+  The headshot of Hannah Brown. It depicts a person with shoulder-length, curly, brown hair, smiling brightly while facing the camera.
 meta_description: |
   I love drinking tea, being barefoot and bad jokes. I sing loudly, often, and have spent far too much of my memory real estate on movie quotes. Most of all, I love graphic design.
 gradient: "gradient-web"
-nav_color: "nav-black"
-icon_color: "icon-black"
-text_color: "text-black"
+nav_color: "nav-white"
+icon_color: "icon-white"
+social_icon_color: "icon-black"
+text_color: "text-white"
 ---
 

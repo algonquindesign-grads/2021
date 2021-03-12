@@ -4,7 +4,7 @@ filename: "clark-tasmyn"
 first_name: "Tasmyn"
 last_name: "Clark"
 headshot_alt: |
-  The headshot of Tasmyn Clark. It depicts
+  The headshot of Tasmyn Clark. It depicts a person with long brown hair strewn over one shoulder, smiling slightly at the camera whilst wearing glasses.
 ation_word: "Infatuation"
 keywords:
   - "Communicative"
@@ -24,7 +24,7 @@ specialty3: "Branding"
 portfolio_site: "https://www.tasmyndesigns.ca/"
 calendly_link: "https://calendly.com/clar0606"
 twitter_link: "https://twitter.com/tasmyndesigns"
-vimeo_link: "https://www.youtube.com/channel/UCcWVervWM_KMR1ciPLoznXQ"
+youtube_link: "https://www.youtube.com/channel/UCcWVervWM_KMR1ciPLoznXQ"
 instagram_link: "https://www.instagram.com/tasmyndesigns/?hl=en"
 facebook_link: "https://www.facebook.com/tasmyndesigns"
 intro_text: |
@@ -55,12 +55,13 @@ meta_title: |
 meta_url: /students/clark-tasmyn
 meta_previewimage: headshots/clark-tasmyn-headshot.png
 meta_alt: |
-  The headshot of Tasmyn Clark. It depicts
+  The headshot of Tasmyn Clark. It depicts a person with long brown hair strewn over one shoulder, smiling slightly at the camera whilst wearing glasses.
 meta_description: |
   Hi! I’m Tasmyn I have many hats, mainly motion design, illustration and animal lover. My style is like me - simple and awesome. I want to bring my passion to your projects. Can’t wait to hear from you!
 gradient: "gradient-motion"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

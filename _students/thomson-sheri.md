@@ -4,7 +4,7 @@ filename: "thomson-sheri"
 first_name: "Sheri"
 last_name: "Thomson"
 headshot_alt: |
-  The headshot of Sheri Thomson. It depicts
+  The headshot of Sheri Thomson. It depicts a person with ombred dark-blonde hair smiling confidently whilst making eye contact with the camera.
 ation_word: "Determination"
 keywords:
   - "Altruistic"
@@ -49,12 +49,13 @@ meta_title: |
 meta_url: /students/thomson-sheri
 meta_previewimage: headshots/thomson-sheri-headshot.png
 meta_alt: |
-  The headshot of Sheri Thomson. It depicts
+  The headshot of Sheri Thomson. It depicts a person with ombred dark-blonde hair smiling confidently whilst making eye contact with the camera.
 meta_description: |
   As a mature graduate, I can bring past experiences in addition to my recent education. I have a background in marketing and event coordination and now an education in graphic design. I've gravitated towards brand identity and strategic approaches but always looking to learn and grow. My biggest strengths lie within problem solving but more importantly the process of implementing agile project management frameworks. The experience of teamwork, addressing the needs of others, dissecting information and ideation sessions are all supportive of inclusion and embracing diversity – bringing people together. Naturally, art brought me to design – painting abstracts and murals. Digital art is new territory for me; It’s engaging, innovative and always growing. Although new can be intimidating, it pushes me to test how far I’m willing to go. Being able to self-evaluate and reassess situations has really guided me to where I am and where I hope to be. As a future student of Advertising and Marketing Communications Management, I’m keen on learning the business side and alternate approaches to reaching the clients audiences. Having a diploma in both fields complement each other and further expand on what I can bring to the table.
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

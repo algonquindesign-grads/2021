@@ -4,7 +4,7 @@ filename: "galacio-danielle"
 first_name: "Danielle"
 last_name: "Galacio"
 headshot_alt: |
-  The headshot of Danielle Galacio. It depicts
+  The headshot of Danielle Galacio. It depicts a person with long, black hair and glasses smiling sweetly at the camera, with their arms by their sides.
 ation_word: "Determination"
 keywords:
   - "Altruistic"
@@ -39,7 +39,7 @@ portfolio_description1: |
 portfolio_title2: "Foolish Chicken Branding Design"
 portfolio_description2: |
    This rebranding project for Foolish Chicken restaurant is created to help their brand stand out and reach more audiences. 
-portfolio_title3: "Why Do People Drink Coffee Short Animation"
+portfolio_title3: "Coffee Short Animation"
 portfolio_description3: |
   This is an animated short based off the Buzzfeed video, "Why do people drink coffee?".
 portfolio_title4: "Canadian Museum of Nature Web Redesign"
@@ -53,12 +53,13 @@ meta_title: |
 meta_url: /students/galacio-danielle
 meta_previewimage: headshots/galacio-danielle-headshot.png
 meta_alt: |
-  The headshot of Danielle Galacio. It depicts
+  The headshot of Danielle Galacio. It depicts a person with long, black hair and glasses smiling sweetly at the camera, with their arms by their sides.
 meta_description: |
   Hello! I'm Danielle, your friendly neighbourhood graphic designer. I have a strong passion for graphic design, but I especially enjoy designing purposeful user experiences and interfaces.
 gradient: "gradient-uxui"
-nav_color: "nav-black"
-icon_color: "icon-black"
-text_color: "text-black"
+nav_color: "nav-white"
+icon_color: "icon-white"
+social_icon_color: "icon-black"
+text_color: "text-white"
 ---
 

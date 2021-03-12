@@ -4,7 +4,7 @@ filename: "davis-monica"
 first_name: "Monica"
 last_name: "Davis"
 headshot_alt: |
-  The headshot of Monica Davis. It depicts
+  The headshot of Monica Davis. It depicts a closeup portrait of a person with long, brown, curly hair in a ponytail, and several piercings, smiling slightly at the camera.
 ation_word: "Tímida-tion"
 keywords:
   - "Altruistic"
@@ -49,12 +49,13 @@ meta_title: |
 meta_url: /students/davis-monica
 meta_previewimage: headshots/davis-monica-headshot.png
 meta_alt: |
-  The headshot of Monica Davis. It depicts
+  The headshot of Monica Davis. It depicts a closeup portrait of a person with long, brown, curly hair in a ponytail, and several piercings, smiling slightly at the camera.
 meta_description: |
   Hello, my names Monica Davis and I create research based solutions for UX/UI based design. 
 gradient: "gradient-uxui"
-nav_color: "nav-black"
-icon_color: "icon-black"
-text_color: "text-black"
+nav_color: "nav-white"
+icon_color: "icon-white"
+social_icon_color: "icon-white"
+text_color: "text-white"
 ---
 

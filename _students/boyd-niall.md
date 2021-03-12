@@ -4,7 +4,7 @@ filename: "boyd-niall"
 first_name: "Niall"
 last_name: "Boyd"
 headshot_alt: |
-  The headshot of Niall Boyd. It depicts
+  The headshot of Niall Boyd. It depicts a person with shaggy, brown hair, wearing a button-up shirt, smiling slightly at the camera.
 ation_word: "Communication"
 keywords:
   - "Communicative"
@@ -43,7 +43,7 @@ portfolio_description2: |
    DC Scott, a local musician wanted to highlight their name and a guitar element in their brand. Using a stylized O to represent the guitar sound hole I made sure that the lines in the graphic element matched the lines through the other letters.
 portfolio_title3: "Subfloor: Home and Remodelling"
 portfolio_description3: |
-  Subfloor: Home and Remodelling
+  Subfloor is a home and remodelling event brand that is influenced by Danish interior, and designers such as Verner Panton.
 portfolio_title4: "Meadowlark Tutorials"
 portfolio_description4: |
   Meadowlark Tutorials is a tutoring business with an established brand who wanted a new, fresh, and friendly identity. I focused on the unique selling point of Meadowlark Tutorials method of private one-on-one teaching within the home.
@@ -55,12 +55,13 @@ meta_title: |
 meta_url: /students/boyd-niall
 meta_previewimage: headshots/boyd-niall-headshot.png
 meta_alt: |
-  The headshot of Niall Boyd. It depicts
+  The headshot of Niall Boyd. It depicts a person with shaggy, brown hair, wearing a button-up shirt, smiling slightly at the camera.
 meta_description: |
   My passion is guiding people to grow their brand through Graphic Design. Music inspires my work. I believe Graphic Design can communicate ideas and can reach various different audiences. 
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

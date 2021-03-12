@@ -59,5 +59,6 @@ meta_description: |
 gradient: "gradient-web"
 nav_color: "nav-white"
 icon_color: "icon-white"
+social_icon_color: "icon-black"
 text_color: "text-white"
 ---

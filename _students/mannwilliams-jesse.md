@@ -27,7 +27,7 @@ portfolio_site: "https://www.jmann.design/"
 calendly_link: "https://calendly.com/mann0168"
 instagram_link: "https://www.instagram.com/jmann.design/"
 vimeo_link: "https://vimeo.com/jemanndesign"
-behance_link: "https://dribbble.com/jmann_design"
+dribble_link: "https://dribbble.com/jmann_design"
 intro_text: |
   I like to create simple and fun pieces of work that tell stories, as well as wanting to be able to create things that help and bring joy to others in the process.
 quote_text: |
@@ -62,5 +62,6 @@ meta_description: |
 gradient: "gradient-motion"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---

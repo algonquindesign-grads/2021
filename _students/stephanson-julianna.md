@@ -4,7 +4,7 @@ filename: "stephanson-julianna"
 first_name: "Julianna"
 last_name: "Stephanson"
 headshot_alt: |
-  The headshot of Julianna Stephanson. It depicts
+  The headshot of Julianna Stephanson. It depicts a person with mid-length brown hair making a neutral expression at the camera, whilst wearing a grey sweater.
 ation_word: "Imagination"
 keywords:
   - "Continuous Learner"
@@ -54,12 +54,13 @@ meta_title: |
 meta_url: /students/stephanson-julianna
 meta_previewimage: headshots/stephanson-julianna-headshot.png
 meta_alt: |
-  The headshot of Julianna Stephanson. It depicts
+  The headshot of Julianna Stephanson. It depicts a person with mid-length brown hair making a neutral expression at the camera, whilst wearing a grey sweater.
 meta_description: |
   I’m Julianna, a graphic designer and illustrator based in Ottawa, ON, Canada. I specialize in illustration, brand identity, editorial, packaging, and digital design.
 gradient: "gradient-illustration"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

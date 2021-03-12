@@ -4,7 +4,7 @@ filename: "harvey-treawna"
 first_name: "Treawna"
 last_name: "Harvey"
 headshot_alt: |
-  The headshot of Treawna Harvey. It depicts
+  The headshot of Treawna Harvey. It depicts a person with long, flowy, dark hair and glasses, smiling warmly at the camera.
 ation_word: "Hyperconcentration"
 keywords:
   - "Continuous Learner"
@@ -57,12 +57,13 @@ meta_title: |
 meta_url: /students/harvey-treawna
 meta_previewimage: headshots/harvey-treawna-headshot.png
 meta_alt: |
-  The headshot of Treawna Harvey. It depicts
+  The headshot of Treawna Harvey. It depicts a person with long, flowy, dark hair and glasses, smiling warmly at the camera.
 meta_description: |
   Hello! I am a designer (musician, nutritionist) and photographer based in Ottawa. I specialize in obsessing over the fine details while calmly translating information into pleasing visual experiences!
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
 

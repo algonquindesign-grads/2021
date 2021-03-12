@@ -62,5 +62,6 @@ meta_description: |
 gradient: "gradient-uxui"
 nav_color: "nav-white"
 icon_color: "icon-white"
+social_icon_color: "icon-white"
 text_color: "text-white"
 ---

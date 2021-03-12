@@ -24,7 +24,7 @@ specialty3: "Branding"
 portfolio_site: "https://kaitlynnorquay.myportfolio.com"
 calendly_link: "https://calendly.com/norq0002"
 instagram_link: "https://www.instagram.com/nearfromfar"
-vimeo_link: "https://www.youtube.com/channel/UCuFkgJYolqpT2BS7s-qx6Kw"
+youtube_link: "https://www.youtube.com/channel/UCuFkgJYolqpT2BS7s-qx6Kw"
 intro_text: |
   I'm a mixed media artist with an education in Graphic Design. When I'm not working on projects, you can usually find me watching documentaries or feeding my fish.
 quote_text: |
@@ -59,5 +59,6 @@ meta_description: |
 gradient: "gradient-illustration"
 nav_color: "nav-black"
 icon_color: "icon-black"
+social_icon_color: "icon-black"
 text_color: "text-black"
 ---
