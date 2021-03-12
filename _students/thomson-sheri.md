@@ -32,15 +32,15 @@ portfolio_image4: "/projects/thomson-sheri-project-4.jpg"
 portfolio_title1: "Event Brand  |  Digital Content  |  Print"
 portfolio_description1: |
   The client requested a brand for a singles mixer event and needs the development for marketing materials; both print and digital initiatives. The current brand doesn't attract the target market set forth by the company and they require a social strategy to achieve their goals. The brand requires that the content be engaging and composed of elements that are consistent with viewers' style which will result in public interest and generate sales.
-portfolio_title2: "Logo  | Stationery  |  Brand Guide"
+portfolio_title2: "Package Design  |  Rebrand  |  Sustainable Design"
 portfolio_description2: |
-   The client requested a full brand design to gain a strong visual identity as a local baker within the community. The goal is to be perceived as a professional small business owner and have the capacity to market the company using various channels and platforms. A logo redesign has been requested in addition to standard brand guidelines and stationery elements.
+  The company needs to improve their package design to minimize the impact their products have on the environment. A new package that uses sustainable materials and a revised marketing approach is needed to provide their consumers with confidence in purchasing the product. Increasing credibility by staying current with global matters of a healthy food line is needed to maintain and increase revenue.
 portfolio_title3: "Branding  |  Logo Design  |  Print"
 portfolio_description3: |
   The client needed a logo design for their new small soap-making business. The young entrepreneur wanted something that was playful and elegant to share her personality through the design. A poster and business card was designed for distribution purposes.
-portfolio_title4: "Package Design  |  Rebrand  |  Sustainable Design"
+portfolio_title4: "Logo  | Stationery  |  Brand Guide"
 portfolio_description4: |
-  The company needs to improve their package design to minimize the impact their products have on the environment. A new package that uses sustainable materials and a revised marketing approach is needed to provide their consumers with confidence in purchasing the product. Increasing credibility by staying current with global matters of a healthy food line is needed to maintain and increase revenue.
+   The client requested a full brand design to gain a strong visual identity as a local baker within the community. The goal is to be perceived as a professional small business owner and have the capacity to market the company using various channels and platforms. A logo redesign has been requested in addition to standard brand guidelines and stationery elements.
 html_class: "branding"
 meta_sitename: |
   Generation Adaptation
