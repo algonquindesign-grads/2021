@@ -26,7 +26,7 @@ specialty3: "Print"
 portfolio_site: "https://kedesignn.wixsite.com/kedesignn"
 calendly_link: "https://calendly.com/elli0389"
 linkedin_link: "https://www.linkedin.com/in/kyle-ellis-349336201/"
-vimeo_link: "https://music.apple.com/profile/kellis3003"
+apple-music_link: "https://music.apple.com/profile/kellis3003"
 instagram_link: "https://www.instagram.com/kedesignn/"
 intro_text: |
    My name is Kyle Ellis. I am a Graphic Designer located in the Ottawa region. I specialize in business branding however, consider myself adaptable and a "Jack-of-all-trades" in the design industry.  Identity, growth and change is the reason why I am a designer. I persevere and prove to individuals I have what it takes and I will not stop working till I achieve it. Starting in a photography-driven career, my goal was to widen my horizons and build on with graphic design services. Now I believe I am a graphic designer with photography services.
