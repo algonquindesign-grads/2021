@@ -1,5 +1,5 @@
 ---
-layout: template-1
+layout: template-4
 filename: "clark-tasmyn" 
 first_name: "Tasmyn"
 last_name: "Clark"
@@ -38,15 +38,15 @@ portfolio_video4: "/projects/clark-tasmyn-project-4.mp4"
 portfolio_title1: "2021 Motion Reel"
 portfolio_description1: |
   The motion reel for all of 2020. With client work like Hunt for Hearts by UOHIF, nerding out over video games, showing off snakes, and delving into my love for the classics. This reel has everything!
-portfolio_title2: "Nerdy Noods Promo Video"
+portfolio_title2: "Sleepy Green Games - Coming Soon!"
 portfolio_description2: |
-   These snakes take after my own heart! Nerdy Noods is my very own passion project - 3 years in the making. Snakes are amazing and basically harmless, working with them is always an amazing experience.
+  Finally, we have a special sneak peek. A start-up studio for indie TTRPGs wants me to do a full branding package including logo, social media, and website. I’m so happy to work on a project like this!
 portfolio_title3: "Hunt For Hearts Commercial"
 portfolio_description3: |
   Hunt for Hearts by UOHIF was an exciting time. Taking the assets provided to me and making it my own? Following all the airing standards? Doing it all in a week? It was worth it to see it live on TV!
-portfolio_title4: "Sleepy Green Games - Coming Soon!"
+portfolio_title4: "Nerdy Noods Promo Video"
 portfolio_description4: |
-  Finally, we have a special sneak peek. A start-up studio for indie TTRPGs wants me to do a full branding package including logo, social media, and website. I’m so happy to work on a project like this!
+  These snakes take after my own heart! Nerdy Noods is my very own passion project - 3 years in the making. Snakes are amazing and basically harmless, working with them is always an amazing experience.
 html_class: "motion"
 meta_sitename: |
   Generation Adaptation

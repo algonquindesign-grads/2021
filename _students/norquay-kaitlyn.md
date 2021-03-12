@@ -24,11 +24,12 @@ specialty3: "Branding"
 portfolio_site: "https://kaitlynnorquay.myportfolio.com"
 calendly_link: "https://calendly.com/norq0002"
 instagram_link: "https://www.instagram.com/nearfromfar"
+vimeo_link: "https://www.youtube.com/channel/UCuFkgJYolqpT2BS7s-qx6Kw"
 intro_text: |
   I'm a mixed media artist with an education in Graphic Design. When I'm not working on projects, you can usually find me watching documentaries or feeding my fish.
 quote_text: |
   I enjoy long walks through Adobe Illustrator and looking at concept art for video games.
-portfolio_image1: "/projects/norquay-kaitlyn-project-1.jpg"
+portfolio_video1: "/projects/norquay-kaitlyn-project-1.mp4"
 portfolio_image2: "/projects/norquay-kaitlyn-project-2.jpg"
 portfolio_video3: "/projects/norquay-kaitlyn-project-3.mp4"
 portfolio_image4: "/projects/norquay-kaitlyn-project-4.jpg"

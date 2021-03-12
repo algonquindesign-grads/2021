@@ -12,7 +12,8 @@ keywords:
   - "Communicative"
   - "Efficient"
 meeting_type:
-  - "Networking"
+- "Networking"
+- "Portfolio Review"
 specialties:
   - "Branding"
   - "Motion"
@@ -40,7 +41,7 @@ portfolio_description3: |
   One of the final scenes of the Campaign Branding project. This project was redone due to the original final product not being satisfying.
 portfolio_title4: "Augmented Reality T-Shirt: Spoiled Milk"
 portfolio_description4: |
-
+  One of the Augmented Reality T-Shirts in the passion project. This pun consists of some milk past its due date having a tantrum.
 html_class: "branding"
 meta_sitename: |
   Generation Adaptation

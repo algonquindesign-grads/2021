@@ -5,7 +5,7 @@ first_name: "Ayla"
 last_name: "Labelle"
 headshot_alt: |
   The headshot of Ayla Labelle. It depicts a woman with dark hair smiling. She is wearing a dark t-shirt and has tattoos on her arm.
-ation_word: "Visualization"
+ation_word: "Preoccupation"
 keywords:
   - "Continuous Learner"
   - "Enthusiastic"

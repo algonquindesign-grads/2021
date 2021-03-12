@@ -1,10 +1,10 @@
 ---
 layout: template-4
 filename: "ellis-kyle" 
-first_name: "Firstname"
-last_name: "Lastname"
+first_name: "Kyle"
+last_name: "Ellis"
 headshot_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Kyle Ellis. It depicts
 ation_word: "Amplification"
 keywords:
   - "Enthusiastic"
@@ -23,13 +23,13 @@ specialties:
 specialty1: "Branding"
 specialty2: "Motion"
 specialty3: "Print"
-portfolio_site: "http://kedesignn.wixsite.com/kedesign"
+portfolio_site: "https://kedesignn.wixsite.com/kedesignn"
 calendly_link: "https://calendly.com/elli0389"
 linkedin_link: "https://www.linkedin.com/in/kyle-ellis-349336201/"
 vimeo_link: "https://music.apple.com/profile/kellis3003"
 instagram_link: "https://www.instagram.com/kedesignn/"
 intro_text: |
-   My name is Kyle Ellis. I am a Graphic Designer located in the Ottawa region. I specialize in business branding however, consider myself adaptable and a "Jack-of-all-trades" in the design industry.  Identity, growth and change is the reason why I am a designer. I persevere and prove to individuals I have what it takes and I will not stop working till I achieve it. Starting in a photography-driven career, my goal was to widen my horizons and build on with graphic design services. Now I believe I am a graphic designer with photography services
+   My name is Kyle Ellis. I am a Graphic Designer located in the Ottawa region. I specialize in business branding however, consider myself adaptable and a "Jack-of-all-trades" in the design industry.  Identity, growth and change is the reason why I am a designer. I persevere and prove to individuals I have what it takes and I will not stop working till I achieve it. Starting in a photography-driven career, my goal was to widen my horizons and build on with graphic design services. Now I believe I am a graphic designer with photography services.
 quote_text: |
   Create the things, do not just Imagine them.  ~ Unknown
 portfolio_image1: "/projects/ellis-kyle-project-1.jpg"
@@ -52,11 +52,11 @@ html_class: "branding"
 meta_sitename: |
   Generation Adaptation
 meta_title: |
-  Firstname Lastname
+  Kyle Ellis
 meta_url: /students/ellis-kyle
 meta_previewimage: headshots/ellis-kyle-headshot.png
 meta_alt: |
-  The headshot of Firstname Lastname. It depicts
+  The headshot of Kyle Ellis. It depicts
 meta_description: |
   My name is Kyle Ellis. I am a Graphic Designer located in the Ottawa region. I specialize in business branding however, consider myself adaptable and a "Jack-of-all-trades" in the design industry.  Identity, growth and change is the reason why I am a designer. I persevere and prove to individuals I have what it takes and I will not stop working till I achieve it. Starting in a photography-driven career, my goal was to widen my horizons and build on with graphic design services. Now I believe I am a graphic designer with photography services
 gradient: "gradient-branding"
