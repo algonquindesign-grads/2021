@@ -96,6 +96,50 @@
             </a>
           </li>
           {% endif %}
+          {% if include.data.dribble_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.dribble_link}}" aria_label="This button navigates you to this student's dribble account." target="_blank">
+              <i class="icon i-32" id="dribble">
+                <svg>
+                  <use xlink:href="/images/icons.svg#dribble"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+          {% if include.data.youtube_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.youtube_link}}" aria_label="This button navigates you to this student's youtube account." target="_blank">
+              <i class="icon i-32" id="youtube">
+                <svg>
+                  <use xlink:href="/images/icons.svg#youtube"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+          {% if include.data.apple-music_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.apple-music_link}}" aria_label="This button navigates you to this student's apple-music account." target="_blank">
+              <i class="icon i-32" id="apple-music">
+                <svg>
+                  <use xlink:href="/images/icons.svg#apple-music"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
+          {% if include.data.email_link %}
+          <li>
+            <a class="{{include.data.icon_color}}" href="{{include.data.email_link}}" aria_label="This button navigates you to this student's email account." target="_blank">
+              <i class="icon i-32" id="email">
+                <svg>
+                  <use xlink:href="/images/icons.svg#email"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
