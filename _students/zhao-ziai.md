@@ -4,7 +4,7 @@ filename: "zhao-ziai"
 first_name: "Ziai"
 last_name: "Zhao"
 headshot_alt: |
-  The headshot of Ziai Zhao. It depicts
+  A placeholder graphic with a computer illustration.
 ation_word: ""
 keywords:
   - ""
@@ -64,7 +64,7 @@ meta_title: |
 meta_url: /students/zhao-ziai
 meta_previewimage: headshots/zhao-ziai-headshot.png
 meta_alt: |
-  The headshot of Ziai Zhao. It depicts
+  A placeholder graphic with a computer illustration.
 meta_description: |
   I am Ziai Zhao. I graduated from algonquin college and I am currently a freelance designer.
 gradient: "gradient-illustration"

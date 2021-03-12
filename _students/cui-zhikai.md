@@ -4,7 +4,7 @@ filename: "cui-zhikai"
 first_name: "Zhikai"
 last_name: "Cui"
 headshot_alt: |
-  The headshot of Zhikai Cui. It depicts
+  A placeholder graphic with a computer illustration.
 ation_word: ""
 keywords:
   - ""
@@ -64,7 +64,7 @@ meta_title: |
 meta_url: /students/cui-zhikai
 meta_previewimage: headshots/cui-zhikai-headshot.png
 meta_alt: |
-  The headshot of Zhikai Cui. It depicts
+  A placeholder graphic with a computer illustration.
 meta_description: |
   intro
 gradient: "gradient-specialty"
