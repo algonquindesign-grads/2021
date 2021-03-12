@@ -30,7 +30,7 @@ intro_text: |
 quote_text: |
   Everybody makes mistakes, that's why they put erasers on pencils.
 portfolio_video1: "/projects/lovan-cola-project-1.mp4"
-portfolio_image2: "/projects/lovan-cola-project-2.jpg"
+portfolio_video2: "/projects/lovan-cola-project-2.jpg"
 portfolio_video3: "/projects/lovan-cola-project-3.mp4"
 portfolio_video4: "/projects/lovan-cola-project-4.mp4"
 portfolio_title1: "Motion Reel"
