@@ -39,7 +39,7 @@ portfolio_description1: |
 portfolio_title2: "Foolish Chicken Branding Design"
 portfolio_description2: |
    This rebranding project for Foolish Chicken restaurant is created to help their brand stand out and reach more audiences. 
-portfolio_title3: "Why Do People Drink Coffee Short Animation"
+portfolio_title3: "Coffee Short Animation"
 portfolio_description3: |
   This is an animated short based off the Buzzfeed video, "Why do people drink coffee?".
 portfolio_title4: "Canadian Museum of Nature Web Redesign"
