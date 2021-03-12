@@ -21,7 +21,7 @@ specialties:
 specialty1: "Motion"
 specialty2: "Branding"
 specialty3: "Illustration"
-portfolio_site: "https://liquidvrose.myportfolio.com/ "
+portfolio_site: "https://liquidvrose.myportfolio.com/"
 calendly_link: "https://calendly.com/rose0244"
 intro_text: |
   Hi my name is Vanessa Rosevold. I'm a graphic designer focused on motion and branding. I went down this path as a way to tie my hobbies and goals together and find a career that I could enjoy.
