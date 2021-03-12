@@ -32,7 +32,7 @@ intro_text: |
   Hi! I'm a designer with a passion for all things web (and type setting!). I believe that you can always be improving and growing as a designer, and that's what I want to continue to do.
 quote_text: |
   A nerdy creative with a knack for coding and the desire to learn!
-portfolio_video1: "/projects/jodoin-jess-project-1.jpg"
+portfolio_image1: "/projects/jodoin-jess-project-1.jpg"
 portfolio_image2: "/projects/jodoin-jess-project-2.jpg"
 portfolio_image3: "/projects/jodoin-jess-project-3.jpg"
 portfolio_image4: "/projects/jodoin-jess-project-4.jpg"
