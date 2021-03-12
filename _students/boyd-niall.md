@@ -43,7 +43,7 @@ portfolio_description2: |
    DC Scott, a local musician wanted to highlight their name and a guitar element in their brand. Using a stylized O to represent the guitar sound hole I made sure that the lines in the graphic element matched the lines through the other letters.
 portfolio_title3: "Subfloor: Home and Remodelling"
 portfolio_description3: |
-  Subfloor: Home and Remodelling
+  Subfloor is a home and remodelling event brand that is influenced by Danish interior, and designers such as Verner Panton.
 portfolio_title4: "Meadowlark Tutorials"
 portfolio_description4: |
   Meadowlark Tutorials is a tutoring business with an established brand who wanted a new, fresh, and friendly identity. I focused on the unique selling point of Meadowlark Tutorials method of private one-on-one teaching within the home.
