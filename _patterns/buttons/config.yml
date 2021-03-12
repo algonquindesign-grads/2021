@@ -99,6 +99,9 @@ patterns:
       This button is used as a call-to-action to encourage site visitors to visit student's personal portfolio sites and is present exclusively on the quiz results page.
     width: 20em
     fields:
+      - name: student-username
+        type: string
+        example: "bulk0002"
       - name: portfolio-url
         type: url
         example: "#"
