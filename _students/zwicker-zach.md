@@ -33,15 +33,15 @@ portfolio_image1: "/projects/zwicker-zach-project-1.jpg"
 portfolio_video2: "/projects/zwicker-zach-project-2.mp4"
 portfolio_image3: "/projects/zwicker-zach-project-3.jpg"
 portfolio_image4: "/projects/zwicker-zach-project-4.jpg"
-portfolio_title1: "Audio Valley - Re-Brand"
+portfolio_title1: "Fishing the North - Logo Design"
 portfolio_description1: |
-  This re-brand consisted of a totally new and fresh design, from logo, to website, and lots more. 
+  A fresh new logo design in a few flavours and style designed for a passionate fisherman. The design was made to fit on everything from boats to hats and even gear.
 portfolio_title2: "Cheesy Advertisement"
 portfolio_description2: |
-   This was a motion project for school where I created a short ad with an alternate version of a food most of us know and love.
-portfolio_title3: "Fishing the North - Logo Design"
+  This was a motion project for school where I created a short ad with an alternate version of a food most of us know and love.
+portfolio_title3: "Audio Valley - Re-Brand"
 portfolio_description3: |
-   A fresh new logo design in a few flavours and style designed for a passionate fisherman. The design was made to fit on everything from boats to hats and even gear.
+  This re-brand consisted of a totally new and fresh design, from logo, to website, and lots more.
 portfolio_title4: "The Cave Music Group - Website"
 portfolio_description4: |
   A website design for local music studio and record label, The Cave. A brand separation was done for the distinct business and a new website to separate even further.
