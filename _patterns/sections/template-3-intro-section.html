@@ -1,68 +1,72 @@
 <section class="intro-section-3 wrapper text-center push-2">
-    <video controls loop playsinline class="push">
-        <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
-        <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
-      </video>
-    <h3 class="giga push-2">I am Generation <span>{{include.data.ation_word}}</span></h3>
-    <blockquote class="quote-accent text-center">
-        <p class="mega">“{{include.data.quote_text | strip}}”</p>
-        {% if include.data.quote_author %}
-            <footer><cite>{{include.data.quote_author}}</cite></footer>
-        {% endif %}
-    </blockquote>
+  <video controls loop playsinline class="push">
+      <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
+      <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
+    </video>
+  <h3 class="giga push-2">I am Generation <span>{{include.data.ation_word}}</span></h3>
+  <blockquote class="quote-accent text-center">
+      <p class="mega">“{{include.data.quote_text | strip}}”</p>
+      {% if include.data.quote_author %}
+          <footer><cite>{{include.data.quote_author}}</cite></footer>
+      {% endif %}
+  </blockquote>
 </section>
 
 <section class="work-section-3 color-tint pad-t-2 pad-b-2">
-    <h2 class="tera text-center push-2">Example Work</h2>
-    <div class="project-1-section-3">
-        <h4 class="mega push-0">{{include.data.portfolio_title1}}</h4>
-        {% if include.data.portfolio_image1 %}
-            <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.jpg" alt="{{include.data.portfolio_description1}}">
-        {% endif %}
-        {% if include.data.portfolio_video1 %}
-            <video controls loop playsinline class="push">
-                <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.mp4" type="video/mp4">
-            </video>
-        {% endif %}
-        <p class="milli">{{include.data.portfolio_description1}}</p>
-    </div>
-    <div class="project-2-section-3">
-        <h4 class="mega push-0">{{include.data.portfolio_title2}}</h4>
-        {% if include.data.portfolio_image2 %}
-            <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.jpg" alt="{{include.data.portfolio_description2}}">
-        {% endif %}
-        {% if include.data.portfolio_video2 %}
-            <video controls loop playsinline class="push">
-                <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.mp4" type="video/mp4">
-            </video>
-        {% endif %}
-        <p class="milli">{{include.data.portfolio_description2}}</p>
-    </div>
+  <h2 class="tera text-center push-2">Example Work</h2>
+  <div class="project-1-section-3">
+    <h4 class="mega push-0">{{include.data.portfolio_title1}}</h4>
+    {% if include.data.portfolio_image1 %}
+    <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.jpg"
+      alt="{{include.data.portfolio_description1}}">
+    {% endif %}
+    {% if include.data.portfolio_video1 %}
+    <video controls loop playsinline class="push">
+      <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.mp4" type="video/mp4">
+    </video>
+    {% endif %}
+    <p class="milli">{{include.data.portfolio_description1}}</p>
+  </div>
+  <div class="project-2-section-3">
+    <h4 class="mega push-0">{{include.data.portfolio_title2}}</h4>
+    {% if include.data.portfolio_image2 %}
+    <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.jpg"
+      alt="{{include.data.portfolio_description2}}">
+    {% endif %}
+    {% if include.data.portfolio_video2 %}
+    <video controls loop playsinline class="push">
+      <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.mp4" type="video/mp4">
+    </video>
+    {% endif %}
+    <p class="milli">{{include.data.portfolio_description2}}</p>
+  </div>
 </section>
 
 <section class="work-2-section-3 pad-t-2 pad-b-2">
-    <div class="project-3-section-3 work-cards relative push">
-        <h4 class="mega push-0">{{include.data.portfolio_title3}}</h4>
-        {% if include.data.portfolio_image3 %}
-            <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg" alt="{{include.data.portfolio_description3}}">
-        {% endif %}
-        {% if include.data.portfolio_video3 %}
-            <video controls loop playsinline class="push">
-                <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.mp4" type="video/mp4">
-            </video>
-        {% endif %}
-        <p class="milli work-hover push-0">{{include.data.portfolio_description3}}</p>
-    </div>
-    <div class="project-4-section-3 work-cards relative">
-        <h4 class="mega push-0">{{include.data.portfolio_title4}}</h4>
-        {% if include.data.portfolio_image4 %}
-            <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg" alt="{{include.data.portfolio_description4}}">
-        {% endif %}
-        {% if include.data.portfolio_video4 %}
-            <video controls loop playsinline class="push">
-                <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.mp4" type="video/mp4">
-            </video>
-        {% endif %}
-        <p class="milli work-hover push-0">{{include.data.portfolio_description4}}</p>
-    </div>
+  <div class="project-3-section-3 work-cards relative push">
+    <h4 class="mega push-0">{{include.data.portfolio_title3}}</h4>
+    {% if include.data.portfolio_image3 %}
+    <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg"
+      alt="{{include.data.portfolio_description3}}">
+    {% endif %}
+    {% if include.data.portfolio_video3 %}
+    <video controls loop playsinline class="push">
+      <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.mp4" type="video/mp4">
+    </video>
+    {% endif %}
+    <p class="milli work-hover push-0">{{include.data.portfolio_description3}}</p>
+  </div>
+  <div class="project-4-section-3 work-cards relative">
+    <h4 class="mega push-0">{{include.data.portfolio_title4}}</h4>
+    {% if include.data.portfolio_image4 %}
+    <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg"
+      alt="{{include.data.portfolio_description4}}">
+    {% endif %}
+    {% if include.data.portfolio_video4 %}
+    <video controls loop playsinline class="push">
+      <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.mp4" type="video/mp4">
+    </video>
+    {% endif %}
+    <p class="milli work-hover push-0">{{include.data.portfolio_description4}}</p>
+  </div>
 </section>
