@@ -29,7 +29,7 @@
     </div>
 
     <blockquote class="quote-accent text-center">
-      <p class="mega t2-student-quote">“</span>{{include.data.quote_text}}”</p>
+      <p class="mega t2-student-quote">“</span>{{include.data.quote_text | strip}}”</p>
       {% if include.data.quote_author %}
         <footer><cite>{{include.data.quote_author}}</cite></footer>
       {% endif %}

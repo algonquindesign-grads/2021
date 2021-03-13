@@ -43,7 +43,7 @@
 
     <div class="proj4-quote-section color-tint gutter-3-4 pad-t-2 pad-b-2">
       <blockquote class="quote-accent text-center">
-        <p class="mega t5-student-quote">“{{include.data.quote_text}}”</p>
+        <p class="mega t5-student-quote">“{{include.data.quote_text | strip}}”</p>
         {% if include.data.quote_author %}
           <footer><cite>{{include.data.quote_author}}</cite></footer>
         {% endif %}
