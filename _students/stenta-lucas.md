@@ -30,7 +30,9 @@ instagram_link: "https://www.instagram.com/stentadesign.psd/?hl=en"
 intro_text: |
    Hey Im Lucas, I am a graphic designer based in the Nation’s Capital. I specialize in Illustration and branding. When away from my desk you can find me exploring coast to coast, gaining inspiration from nature while admiring all the beautiful things that Canada has to offer.
 quote_text: |
-  To live a creative life, you must first lose the fear of being wrong. - Joseph Chilton Pearce
+  To live a creative life, you must first lose the fear of being wrong.
+quote_author: |
+  — Joseph Chilton Pearce
 portfolio_image1: "/projects/stenta-lucas-project-1.jpg"
 portfolio_image2: "/projects/stenta-lucas-project-2.jpg"
 portfolio_image3: "/projects/stenta-lucas-project-3.jpg"

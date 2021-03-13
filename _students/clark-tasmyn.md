@@ -30,7 +30,9 @@ facebook_link: "https://www.facebook.com/tasmyndesigns"
 intro_text: |
    Hi! I’m Tasmyn I have many hats, mainly motion design, illustration and animal lover. My style is like me - simple and awesome. I want to bring my passion to your projects. Can’t wait to hear from you!
 quote_text: |
-  Art is like sunlight, beautiful and scattered. Design is the prism -Tasmyn Clark
+  Art is like sunlight, beautiful and scattered. Design is the prism
+quote_author: |
+  — Tasmyn Clark
 portfolio_video1: "/projects/clark-tasmyn-project-1.mp4"
 portfolio_video2: "/projects/clark-tasmyn-project-2.mp4"
 portfolio_video3: "/projects/clark-tasmyn-project-3.mp4"

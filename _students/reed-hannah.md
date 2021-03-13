@@ -30,7 +30,9 @@ intro_text: |
   Hey it's Hannah! My passions lie in Branding, Print and Illustration Design. I like to be challenged and solve problems in order to bring success to the company I am working for. I like to try new things and explore through the world of design.
   Also, Pineapples are kind of my thing!
 quote_text: |
-  "Design is so simple, that's why it is so complicated. Remember that. — Unknown"
+  Design is so simple, that's why it is so complicated. Remember that.
+quote_author: |
+  — Unknown
 portfolio_image1: "/projects/reed-hannah-project-1.jpg"
 portfolio_image2: "/projects/reed-hannah-project-2.jpg"
 portfolio_image3: "/projects/reed-hannah-project-3.jpg"

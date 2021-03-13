@@ -27,7 +27,9 @@ behance_link: "https://www.behance.net/samanthacossar1"
 intro_text: |
    Hey there! Some things to know about me are that: I am passionate about creating strong designs for branding and print, I love to paint when I have spare time, and you’ll never find me drinking coffee, but maybe some chocolate milk.
 quote_text: |
-  The designer does not begin with some preconceived idea. Rather, the idea is the result of careful study and observation, and the design a product of that idea. - Paul Rand
+  The designer does not begin with some preconceived idea. Rather, the idea is the result of careful study and observation, and the design a product of that idea.
+quote_author: |
+  — Paul Rand
 portfolio_image1: "/projects/cossar-samantha-project-1.jpg"
 portfolio_image2: "/projects/cossar-samantha-project-2.jpg"
 portfolio_image3: "/projects/cossar-samantha-project-3.jpg"

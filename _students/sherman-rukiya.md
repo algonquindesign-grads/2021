@@ -30,7 +30,7 @@ behance_link: "https://www.behance.net/RukiyaDesigns"
 intro_text: |
    My name means "She rises up." in Swahili and I think it fits my character as a designer because no matter the challenges that are thrown my way, I always find a creative way to overcome them and reach my goals.
 quote_text: |
-  “It’s through mistakes that you actually can grow. You have to getbad in order to get good.”
+  It’s through mistakes that you actually can grow. You have to getbad in order to get good.
 portfolio_video1: "/projects/sherman-rukiya-project-1.mp4"
 portfolio_image2: "/projects/sherman-rukiya-project-2.jpg"
 portfolio_image3: "/projects/sherman-rukiya-project-3.jpg"

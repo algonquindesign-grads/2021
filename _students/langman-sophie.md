@@ -30,7 +30,9 @@ instagram_link: "https://www.instagram.com/sophielangmandesign/?hl=en"
 intro_text: |
   I'm a designer who prides herself on versatility and work ethic, with a passion for motion and branding. I care a lot about people and ethics, and my actions reflect such while I strive to create distinctive projects.
 quote_text: |
-  Design is where science and art break even. —Robin Mathew
+  Design is where science and art break even.
+quote_author: |
+  — Robin Mathew
 portfolio_video1: "/projects/langman-sophie-project-1.mp4"
 portfolio_image2: "/projects/langman-sophie-project-2.jpg"
 portfolio_video3: "/projects/langman-sophie-project-3.mp4"

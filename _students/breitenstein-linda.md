@@ -31,7 +31,9 @@ instagram_link: "https://www.instagram.com/linda.cmyk/"
 intro_text: |
    As an artist and graphic designer, I love to celebrate creativity. By exploring ideas, mixing mediums and techniques I have been able to transform my passion into purpose with design.
 quote_text: |
-  It’s through mistakes that you actually can grow. You have to get bad in order to get good. – Paula Scher
+  It’s through mistakes that you actually can grow. You have to get bad in order to get good.
+quote_author: |
+  — Paula Scher
 portfolio_image1: "/projects/breitenstein-linda-project-1.jpg"
 portfolio_image2: "/projects/breitenstein-linda-project-2.jpg"
 portfolio_video3: "/projects/breitenstein-linda-project-3.mp4"

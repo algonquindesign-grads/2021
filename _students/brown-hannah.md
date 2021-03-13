@@ -32,7 +32,9 @@ github_link: "https://github.com/HannahDelaney"
 intro_text: |
    I love drinking tea, being barefoot and bad jokes. I sing loudly, often, and have spent far too much of my memory real estate on movie quotes. Most of all, I love graphic design.
 quote_text: |
-  Every great design begins with an even better story. - Lorinda Mamo
+  Every great design begins with an even better story.
+quote_author: |
+  — Lorinda Mamo
 portfolio_image1: "/projects/brown-hannah-project-1.jpg"
 portfolio_image2: "/projects/brown-hannah-project-2.jpg"
 portfolio_image3: "/projects/brown-hannah-project-3.jpg"

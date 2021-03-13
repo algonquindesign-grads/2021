@@ -28,7 +28,9 @@ vimeo_link: "https://vimeo.com/user123326190"
 intro_text: |
   Hi, I'm Cedric, a Graphic Designer specializing in Motion Graphics and Web Design. My goal is create fun, new, and innovative designs to help build a more beautiful future.
 quote_text: |
-  People ignore designs that ignore people — Frank Chimero
+  People ignore designs that ignore people
+quote_author: |
+  — Frank Chimero
 portfolio_video1: "/projects/robitaille-cedric-project-1.mp4"
 portfolio_video2: "/projects/robitaille-cedric-project-2.mp4"
 portfolio_video3: "/projects/robitaille-cedric-project-3.mp4"

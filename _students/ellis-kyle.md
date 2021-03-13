@@ -31,7 +31,9 @@ instagram_link: "https://www.instagram.com/kedesignn/"
 intro_text: |
    My name is Kyle Ellis. I am a Graphic Designer located in the Ottawa region. I specialize in business branding however, consider myself adaptable and a "Jack-of-all-trades" in the design industry.  Identity, growth and change is the reason why I am a designer. I persevere and prove to individuals I have what it takes and I will not stop working till I achieve it. Starting in a photography-driven career, my goal was to widen my horizons and build on with graphic design services. Now I believe I am a graphic designer with photography services.
 quote_text: |
-  Create the things, do not just Imagine them.  ~ Unknown
+  Create the things, do not just Imagine them.
+quote_author: |
+  — Unknown
 portfolio_image1: "/projects/ellis-kyle-project-1.jpg"
 portfolio_image2: "/projects/ellis-kyle-project-2.jpg"
 portfolio_image3: "/projects/ellis-kyle-project-3.jpg"

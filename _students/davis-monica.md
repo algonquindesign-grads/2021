@@ -24,7 +24,9 @@ instagram_link: "https://www.instagram.com/davisdesigns.ca/?hl=en"
 intro_text: |
    Hello, my names Monica Davis and I create research based solutions for UX/UI based design. 
 quote_text: |
-  Hard work is worthless for those that don't believe in themselves – Naruto Uzumaki 
+  Hard work is worthless for those that don't believe in themselves
+quote_author: |
+  – Naruto Uzumaki 
 portfolio_image1: "/projects/davis-monica-project-1.jpg"
 portfolio_image2: "/projects/davis-monica-project-2.jpg"
 portfolio_image3: "/projects/davis-monica-project-3.jpg"

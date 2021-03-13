@@ -27,7 +27,9 @@ instagram_link: "https://www.instagram.com/jud3bl4nk/"
 intro_text: |
   I’m a content creator who specializes in motion graphics, illustration, and photography who offers services in content creation… Just think of me as a multi-media producer, and generally coolguy .
 quote_text: |
-  it is what it is, Santa - Mariah Carrey
+  it is what it is, Santa
+quote_author: |
+  — Mariah Carrey
 portfolio_image1: "/projects/marchildon-jude-project-1.jpg"
 portfolio_video2: "/projects/marchildon-jude-project-2.mp4"
 portfolio_image3: "/projects/marchildon-jude-project-3.jpg"
