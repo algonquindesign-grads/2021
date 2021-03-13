@@ -34,19 +34,19 @@ highlight_nav:
 
     <img class="push-2 rainbow-line img-flex" src="/images/line-break-gradient.svg" alt="" role="presentation">
 
-    <div class="gutter-2 pad-t pad-b-2 text-center" style="max-width: 700px; margin: 0 auto;">
+    <div class="gutter-2 pad-t pad-b-2 text-center" style="max-width: 650px; margin: 0 auto;">
       <h4 class="giga">We love dinosaurs, but we wouldn't want to be one!</h4>
       <p class="push-0">That's why we've evolved and adapted our grad show to withstand the test of time and for you all to get a chance to know us a little better.</p>
     </div>
 
     <div style="max-width: 750px; margin: 3rem auto 5rem;">
-      <img class="img-flex rainbow-line" src="https://grads.images.algonquindesign.ca/2021/general/dino.svg" alt="A fun illustration of a computer with a T-Rex on the screen.">
+      <img class="img-flex rainbow-line" src="{{site.cdn}}/general/dino.svg" alt="A fun illustration of a computer with a T-Rex on the screen.">
     </div>
   </div>
 
   <div class="push-2">
     <div class="hp-quiz-banner pad-t-2 pad-b-2 text-center">
-      <div class="wrapper gutter">
+      <div class="wrapper gutter pad-t pad-b">
         <h3 style="color: var(--color-secondary-light); max-width: 600px; margin: 0 auto 2rem;">Looking for a designer?</h3>
         <p style="color: var(--color-secondary-light); max-width: 500px; margin: 0 auto 3rem;">Check out our designers below, or take our quiz to find a designer to best match your needs.</p>
         {% pattern buttons/quiz-button %}
@@ -57,17 +57,52 @@ highlight_nav:
     </svg>
   </div>
 
-  <div class="wrapper home-card-grid pad-t gutter">
-    {% for student in site.students %}
-      {% pattern sections/student-cards data=student number=forloop.index%}
-    {% endfor %}
+  <div class="pad-t pad-b push-2 gutter">
+    <h3 class="text-center">Meet our Designers</h3>
+
+    <ul class="list-group-inline">
+      <li><a href="#">All</a></li>
+      <li><a href="#">Branding</a></li>
+      <li><a href="#">Illustration</a></li>
+      <li><a href="#">Motion</a></li>
+      <li><a href="#">Print</a></li>
+      <li><a href="#">UI/UX</a></li>
+      <li><a href="#">Web</a></li>
+    </ul>
+
+    <div class="wrapper home-card-grid pad-t">
+      {% for student in site.students %}
+        {% pattern sections/student-cards data=student number=forloop.index %}
+      {% endfor %}
+    </div>
   </div>
 
-  <!-- <div class="wrapper home-card-grid pad-t gutter">
-    {% for student in site.students %}
-      {% pattern sections/student-cards data=student number=forloop.index%}
-    {% endfor %}
-  </div> -->
+  <div class="pad-t pad-b push-2 gutter">
+    <h3 class="text-center">Meet our Mentors</h3>
+    <p class="text-center" style="max-width: 550px; margin: 0 auto 1.5rem;">We got through it all with the help of these amazing folks. We are grateful for their support, encouragement, and guidance.</p>
+
+    <div class="wrapper home-card-grid pad-t">
+      {% for professor in site.professors %}
+        {% pattern sections/teacher-cards data=professors number=forloop.index %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="wrapper gutter pad-b push-2 hp-meteor-grid">
+    <div class="meteor-1" style="width: 190px;">
+      <img class="img-flex rainbow-line" src="{{site.cdn}}/general/meteor-2.svg" alt="" role="presentation">
+    </div>
+
+    <div class="text-center meteor-content">
+      <h4 class="giga">No meteors in sight?!</h4>
+      <p class="push" style="max-width: 400px; margin: 0 auto 1.5rem;">It looks like that's the end of the page, but we'll be here for a while longer!</p>
+      <p class="push-0" style="max-width: 400px; margin: 0 auto;">Thank you for stopping by, we hope to hear from you soon!</p>
+    </div>
+
+    <div class="meteor-2" style="width: 140px;">
+      <img class="img-flex rainbow-line" src="{{site.cdn}}/general/meteor.svg" alt="" role="presentation">
+    </div>
+  </div>
 </main>
 
 {% pattern footer/primary gradient="gradient-gray" nav_color="nav-black" icon_color="icon-black" text_color="text-black" %}

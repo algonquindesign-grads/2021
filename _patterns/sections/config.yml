@@ -159,5 +159,5 @@ patterns:
       - name: data
         type: object
         data:
-          source: "site.students[0]"
-          type: students
+          source: "site.professors[0]"
+          type: professors
