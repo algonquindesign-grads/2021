@@ -27,7 +27,9 @@ behance_link: "https://www.behance.net/aylalabelle"
 intro_text: |
   Hey, I’m Ayla and I’m a graphic designer specializing in motion design. I love being challenged with communicating an idea through compelling visuals, and getting lost in the creative process is what really sets my soul on fire. Whether it be through motion design, videography or post-production editing, I thrive from keeping things in motion.
 quote_text: |
-  Find what you love and let it kill you. —Charles Bukowski
+  Find what you love and let it kill you.
+quote_author: |
+  — Charles Bukowski
 portfolio_video1: "/projects/labelle-ayla-project-1.mp4"
 portfolio_video2: "/projects/labelle-ayla-project-2.mp4"
 portfolio_video3: "/projects/labelle-ayla-project-3.mp4"
@@ -49,7 +51,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Ayla Labelle
-meta_url: /students/labelle-ayla
+meta_url: students/labelle-ayla
 meta_previewimage: headshots/labelle-ayla.png
 meta_alt: |
   The headshot of Ayla Labelle. It depicts a woman with dark hair smiling. She is wearing a dark t-shirt and has tattoos on her arm.

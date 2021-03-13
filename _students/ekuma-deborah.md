@@ -53,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Deborah Ibe Ekuma
-meta_url: /students/ekuma-deborah
+meta_url: students/ekuma-deborah
 meta_previewimage: headshots/ekuma-deborah-headshot.png
 meta_alt: |
   The headshot of Deborah Ibe Ekuma. It depicts a closeup of a person with shoulder-length black hair smiling whilst looking directly at the camera.

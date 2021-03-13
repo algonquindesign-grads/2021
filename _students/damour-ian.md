@@ -49,7 +49,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Ian D'Amour
-meta_url: /students/damour-ian
+meta_url: students/damour-ian
 meta_previewimage: headshots/damour-ian-headshot.png
 meta_alt: |
   The headshot of Ian D'Amour. It depicts a man with green hair slightly smiling while facing the camera, partially kneeling with his hands on one knee.

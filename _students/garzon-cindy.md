@@ -28,7 +28,9 @@ instagram_link: "https://www.instagram.com/cindygarzon.design/"
 intro_text: |
    Hi! My name is Cindy Garzon, I am from Colombia and am currently based in Ottawa, Canada. I discovered that graphic design is my true passion.
 quote_text: |
-  No masterpiece was ever created by a lazy artist. - Salvador Dalí
+  No masterpiece was ever created by a lazy artist.
+quote_author: |
+  — Salvador Dalí
 portfolio_image1: "/projects/garzon-cindy-project-1.jpg"
 portfolio_video2: "/projects/garzon-cindy-project-2.mp4"
 portfolio_image3: "/projects/garzon-cindy-project-3.jpg"
@@ -50,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Cindy Garzon
-meta_url: /students/garzon-cindy
+meta_url: students/garzon-cindy
 meta_previewimage: headshots/garzon-cindy-headshot.png
 meta_alt: |
   The headshot of Cindy Garzon. It depicts a person with shoulder-length ombred black-blonde hair, making a neutral expression whist facing the camera.

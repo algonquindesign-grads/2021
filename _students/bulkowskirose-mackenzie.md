@@ -57,7 +57,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   MacKenzie Bulkowski-Rose
-meta_url: /students/bulkowskirose-mackenzie
+meta_url: students/bulkowskirose-mackenzie
 meta_previewimage: headshots/bulkowskirose-mackenzie-headshot.png
 meta_alt: |
   The headshot of MacKenzie Bulkowski-Rose. It depicts a person with long brown hair smiling with their mouth closed, and head turned upwards, with their hands on their hips.

@@ -29,7 +29,9 @@ instagram_link: "https://www.instagram.com/avery.p.dion/"
 intro_text: |
    I’m a Graphic Designer, Illustrator, and Motion Artist with a passion for telling stories! I’m constantly learning new skills and techniques that help me create impactful experiences through story-telling.
 quote_text: |
-  Reality is for people who lack imagination. – Hayao Miyazaki
+  Reality is for people who lack imagination.
+quote_author: |
+  – Hayao Miyazaki
 portfolio_video1: "/projects/dion-avery-project-1.mp4"
 portfolio_image2: "/projects/dion-avery-project-2.jpg"
 portfolio_image3: "/projects/dion-avery-project-3.jpg"
@@ -51,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Avery Dion
-meta_url: /students/dion-avery
+meta_url: students/dion-avery
 meta_previewimage: headshots/dion-avery-headshot.png
 meta_alt: |
   The headshot of Avery Dion. It depicts a person with a blonde pixie cut and smokey eye makeup making a neutral expression whilst looking directly at the camera.

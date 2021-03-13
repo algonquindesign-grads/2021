@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Jen Power
-meta_url: /students/power-jen
+meta_url: students/power-jen
 meta_previewimage: headshots/power-jen.png
 meta_alt: |
   The headshot of Jen Power. It depicts a woman with dark hair pulled back, smiling. She is wearing a dark t-shirt with glasses and has tattoos on her arm.

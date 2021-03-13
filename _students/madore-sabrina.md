@@ -28,7 +28,9 @@ facebook_link: "https://www.facebook.com/sabrina.madore"
 intro_text: |
   I am a Chef-turned-Graphic Designer specializing in Web, UI/UX Motion & Brand Design with a passion for creating unique, quirky, and experience-driven work.
 quote_text: |
-  “Get in over your head as often and as joyfully as possible.” — Alexander Isley
+  Get in over your head as often and as joyfully as possible.
+quote_author: |
+  — Alexander Isley
 portfolio_image1: "/projects/madore-sabrina-project-1.jpg"
 portfolio_video2: "/projects/madore-sabrina-project-2.mp4"
 portfolio_image3: "/projects/madore-sabrina-project-3.jpg"
@@ -50,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Sabrina Madore
-meta_url: /students/madore-sabrina
+meta_url: students/madore-sabrina
 meta_previewimage: headshots/madore-sabrina.png
 meta_alt: |
   The headshot of Sabrina Madore. It depicts a woman with dark hair faintly smiling. She is wearing a dark button-up shirt.

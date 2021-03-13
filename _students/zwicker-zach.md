@@ -28,7 +28,9 @@ instagram_link: "https://www.instagram.com/zwicker_zach/"
 intro_text: |
    Hello there! My name is Zach, and I’ve been a designer since my early teens. I really enjoy the start to finish process of artistic creation that inspires to me work at it everyday. The feeling of solving problems with creative solutions is one I thrive for. 
 quote_text: |
-  Simplicity is the Ultimate Sophistication - Leonardo da Vinci
+  Simplicity is the Ultimate Sophistication
+quote_author: |
+  — Leonardo da Vinci
 portfolio_image1: "/projects/zwicker-zach-project-1.jpg"
 portfolio_video2: "/projects/zwicker-zach-project-2.mp4"
 portfolio_image3: "/projects/zwicker-zach-project-3.jpg"
@@ -50,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Zach Zwicker
-meta_url: /students/zwicker-zach
+meta_url: students/zwicker-zach
 meta_previewimage: headshots/zwicker-zach-headshot.png
 meta_alt: |
   The headshot of Zach Zwicker. It depicts a person wearing a brown jacket and white t-shirt, making a neutral expression with their head tilted whilst looking at the camera.

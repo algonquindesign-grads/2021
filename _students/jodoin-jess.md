@@ -53,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Jess Jodoin
-meta_url: /students/jodoin-jess
+meta_url: students/jodoin-jess
 meta_previewimage: headshots/jodoin-jess.png
 meta_alt: |
   The headshot of Jess Jodoin. It depicts a woman with dark hair smiling. She is wearing a dark t-shirt.

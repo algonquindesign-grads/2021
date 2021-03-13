@@ -49,7 +49,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Anna Hendry
-meta_url: /students/hendry-anna
+meta_url: students/hendry-anna
 meta_previewimage: headshots/hendry-anna-headshot.png
 meta_alt: |
   The headshot of Anna Hendry. It depicts a person smiling with their teeth showing, and mid length brown hair, whilst wearing a necklace.

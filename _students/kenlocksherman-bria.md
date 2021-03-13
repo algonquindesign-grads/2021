@@ -29,7 +29,9 @@ linkedin_link: "https://www.instagram.com/briaksherman.design/"
 intro_text: |
   (she/her) I have a knack for branding, illustration, and hand-lettering, as well as a passion for sustainability. Bringing beautiful solutions to your design obstacles with empathy always in mind. Plants, yoga, and horror movies are the way to my heart!
 quote_text: |
-  Imperfect action is better than perfect inaction. — Harry Truman
+  Imperfect action is better than perfect inaction.
+quote_author: |
+  — Harry Truman
 portfolio_image1: "/projects/kenlocksherman-bria-project-1.jpg"
 portfolio_image2: "/projects/kenlocksherman-bria-project-2.jpg"
 portfolio_image3: "/projects/kenlocksherman-bria-project-3.jpg"
@@ -51,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Bria Kenlock-Sherman
-meta_url: /students/kenlocksherman-bria
+meta_url: students/kenlocksherman-bria
 meta_previewimage: headshots/kenlocksherman-bria.png
 meta_alt: |
   The headshot of Bria Kenlock-Sherman. It depicts a woman with dark hair smiling. She is wearing a dark shirt and has her arms crossed.

@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Hong Nguyen
-meta_url: /students/nguyen-hong
+meta_url: students/nguyen-hong
 meta_previewimage: headshots/nguyen-hong.png
 meta_alt: |
   The headshot of Hong Nguyen. It depicts a woman with dark hair and highlights smiling. She is wearing a dark turtle-neck shirt with her arms crossed.

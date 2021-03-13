@@ -1,5 +1,6 @@
 /* Define general use classes for colouring sections based on specialty */
-span {
+span,
+.quote-accent {
   color: var(--color-accent);
 }
 

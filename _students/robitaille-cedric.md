@@ -28,7 +28,9 @@ vimeo_link: "https://vimeo.com/user123326190"
 intro_text: |
   Hi, I'm Cedric, a Graphic Designer specializing in Motion Graphics and Web Design. My goal is create fun, new, and innovative designs to help build a more beautiful future.
 quote_text: |
-  People ignore designs that ignore people — Frank Chimero
+  People ignore designs that ignore people
+quote_author: |
+  — Frank Chimero
 portfolio_video1: "/projects/robitaille-cedric-project-1.mp4"
 portfolio_video2: "/projects/robitaille-cedric-project-2.mp4"
 portfolio_video3: "/projects/robitaille-cedric-project-3.mp4"
@@ -50,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Cedric Robitaille
-meta_url: /students/robitaille-cedric
+meta_url: students/robitaille-cedric
 meta_previewimage: headshots/robitaille-cedric.png
 meta_alt: |
   The headshot of Cedric Robitaille. It depicts a man with dark hair smiling. He is wearing a dark shirt.

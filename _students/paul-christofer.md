@@ -31,7 +31,9 @@ behance_link: "https://www.behance.net/tofercreates/"
 intro_text: |
   I am a multidisciplinary graphic designer who believes that design aesthetics is a result of the problem solving process.
 quote_text: |
-  Creating something out of thin air is easy. It’s finding the air that’s hard. — ASHER TROTTER
+  Creating something out of thin air is easy. It’s finding the air that’s hard.
+quote_author: |
+  – ASHER TROTTER
 portfolio_image1: "/projects/paul-christofer-project-1.jpg"
 portfolio_image2: "/projects/paul-christofer-project-2.jpg"
 portfolio_image3: "/projects/paul-christofer-project-3.jpg"
@@ -53,7 +55,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Christofer Paul
-meta_url: /students/paul-christofer
+meta_url: students/paul-christofer
 meta_previewimage: headshots/paul-christofer.png
 meta_alt: |
   The headshot of Christofer Paul. It depicts a man with dark hair and a beard smiling. He is wearing a dark t-shirt.

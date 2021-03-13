@@ -4,7 +4,7 @@ filename: "zhao-ziai"
 first_name: "Ziai"
 last_name: "Zhao"
 headshot_alt: |
-  The headshot of Ziai Zhao. It depicts
+  The headshot of Zhao Ziai. It depicts a closeup of a person with long, dark hair, wearing glasses and a necklace, looking calmly at the camera with their head tilted slightly.
 ation_word: ""
 keywords:
   - ""
@@ -61,10 +61,10 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Ziai Zhao
-meta_url: /students/zhao-ziai
+meta_url: students/zhao-ziai
 meta_previewimage: headshots/zhao-ziai-headshot.png
 meta_alt: |
-  The headshot of Ziai Zhao. It depicts
+  The headshot of Zhao Ziai. It depicts a closeup of a person with long, dark hair, wearing glasses and a necklace, looking calmly at the camera with their head tilted slightly.
 meta_description: |
   I am Ziai Zhao. I graduated from algonquin college and I am currently a freelance designer.
 gradient: "gradient-illustration"

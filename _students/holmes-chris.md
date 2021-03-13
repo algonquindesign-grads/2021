@@ -51,7 +51,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Chris Holmes
-meta_url: /students/holmes-chris/
+meta_url: students/holmes-chris/
 meta_previewimage: headshots/holmes-chris.png
 meta_alt: |
   The headshot of Chris Holmes. It depicts a man smiling with his arms crossed, wearing a black button-up shirt.

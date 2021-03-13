@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Kathleen Chamberland
-meta_url: /students/chamberland-kathleen
+meta_url: students/chamberland-kathleen
 meta_previewimage: headshots/chamberland-kathleen-headshot.png
 meta_alt: |
   The headshot of Kathleen Chamberland. It depicts a person with long, light brown hair, wearing a neutral expression on their face. They are facing the camera with their arms crossed.

@@ -51,7 +51,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Nadia Carolina da Silva Otake
-meta_url: /students/dasilvaotake-nadia
+meta_url: students/dasilvaotake-nadia
 meta_previewimage: headshots/dasilvaotake-nadia-headshot.png
 meta_alt: |
   The headshot of Nadia Carolina da Silva Otake. It depicts a person with mid-length brown hair smiling brightly at the camera. They are wearing glasses and bright red lipstick.

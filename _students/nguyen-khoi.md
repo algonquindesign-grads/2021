@@ -25,8 +25,8 @@ specialty2: "Web"
 specialty3: "Illustration"
 portfolio_site: "https://www.khoinguyen.design"
 calendly_link: "https://calendly.com/nguy0780"
-linkedin_link: "http://www.linkedin.com/in/khoi-a-nguyen"
-instagram_link: "http://www.instagram.com/khxinxwyxn"
+linkedin_link: "https://www.linkedin.com/in/khoi-a-nguyen"
+instagram_link: "https://www.instagram.com/khxinxwyxn"
 github_link: "http://www.github.com/akhoinguyen"
 intro_text: |
   I am a creative who is passionate about UI/UX, Web Design and Digital Art & Illustration. Providing design solutions with a chance to showcase my art skills is ultimately what I want to do in life.
@@ -53,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Khoi Nguyen
-meta_url: /students/nguyen-khoi
+meta_url: students/nguyen-khoi
 meta_previewimage: headshots/nguyen-khoi.png
 meta_alt: |
   The headshot of Khoi Nguyen. It depicts a man with short dark hair smiling. He is wearing a dark shirt and glasses.

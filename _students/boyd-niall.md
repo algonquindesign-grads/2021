@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Niall Boyd
-meta_url: /students/boyd-niall
+meta_url: students/boyd-niall
 meta_previewimage: headshots/boyd-niall-headshot.png
 meta_alt: |
   The headshot of Niall Boyd. It depicts a person with shaggy, brown hair, wearing a button-up shirt, smiling slightly at the camera.

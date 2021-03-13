@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Julia Prokipcak
-meta_url: /students/prokipcak-julia
+meta_url: students/prokipcak-julia
 meta_previewimage: headshots/prokipcak-julia.png
 meta_alt: |
   The headshot of Julia Prokipcak. It depicts a woman with brown hair smiling. She is wearing a dark button-up shirt with grey illustrations of animals.

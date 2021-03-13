@@ -21,7 +21,7 @@ specialties:
 specialty1: "Motion"
 specialty2: "Branding"
 specialty3: "Illustration"
-portfolio_site: "https://liquidvrose.myportfolio.com/ "
+portfolio_site: "https://liquidvrose.myportfolio.com/"
 calendly_link: "https://calendly.com/rose0244"
 intro_text: |
   Hi my name is Vanessa Rosevold. I'm a graphic designer focused on motion and branding. I went down this path as a way to tie my hobbies and goals together and find a career that I could enjoy.
@@ -48,7 +48,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Vanessa Rosevold
-meta_url: /students/rosevold-vanessa
+meta_url: students/rosevold-vanessa
 meta_previewimage: headshots/rosevold-vanessa.png
 meta_alt: |
   The headshot of Vanessa Rosevold. It depicts a woman with light hair smiling. She is wearing a dark shirt.

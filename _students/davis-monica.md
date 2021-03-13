@@ -24,7 +24,9 @@ instagram_link: "https://www.instagram.com/davisdesigns.ca/?hl=en"
 intro_text: |
    Hello, my names Monica Davis and I create research based solutions for UX/UI based design. 
 quote_text: |
-  Hard work is worthless for those that don't believe in themselves – Naruto Uzumaki 
+  Hard work is worthless for those that don't believe in themselves
+quote_author: |
+  – Naruto Uzumaki 
 portfolio_image1: "/projects/davis-monica-project-1.jpg"
 portfolio_image2: "/projects/davis-monica-project-2.jpg"
 portfolio_image3: "/projects/davis-monica-project-3.jpg"
@@ -46,7 +48,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Monica Davis
-meta_url: /students/davis-monica
+meta_url: students/davis-monica
 meta_previewimage: headshots/davis-monica-headshot.png
 meta_alt: |
   The headshot of Monica Davis. It depicts a closeup portrait of a person with long, brown, curly hair in a ponytail, and several piercings, smiling slightly at the camera.

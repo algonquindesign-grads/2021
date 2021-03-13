@@ -28,7 +28,9 @@ linkedin_link: "https://www.linkedin.com/in/danielle-galacio/"
 intro_text: |
    Hello! I'm Danielle, your friendly neighbourhood graphic designer. I have a strong passion for graphic design, but I especially enjoy designing purposeful user experiences and interfaces.
 quote_text: |
-  A user interface is like a joke. If you have to explain it, it’s not that good. — Martin LeBlanc
+  A user interface is like a joke. If you have to explain it, it’s not that good.
+quote_author: |
+  — Martin LeBlanc
 portfolio_image1: "/projects/galacio-danielle-project-1.jpg"
 portfolio_image2: "/projects/galacio-danielle-project-2.jpg"
 portfolio_video3: "/projects/galacio-danielle-project-3.mp4"
@@ -50,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Danielle Galacio
-meta_url: /students/galacio-danielle
+meta_url: students/galacio-danielle
 meta_previewimage: headshots/galacio-danielle-headshot.png
 meta_alt: |
   The headshot of Danielle Galacio. It depicts a person with long, black hair and glasses smiling sweetly at the camera, with their arms by their sides.

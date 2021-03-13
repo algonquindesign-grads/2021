@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Cola Lovan
-meta_url: /students/lovan-cola
+meta_url: students/lovan-cola
 meta_previewimage: headshots/lovan-cola.png
 meta_alt: |
   The headshot of Cola Lovan. It depicts a man with a short dark mohawk smiling. He is wearing a dark corduroy blazer.

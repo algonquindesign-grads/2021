@@ -54,7 +54,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Treawna Harvey
-meta_url: /students/harvey-treawna
+meta_url: students/harvey-treawna
 meta_previewimage: headshots/harvey-treawna-headshot.png
 meta_alt: |
   The headshot of Treawna Harvey. It depicts a person with long, flowy, dark hair and glasses, smiling warmly at the camera.

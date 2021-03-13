@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Dawson Adams
-meta_url: /students/adams-dawson
+meta_url: students/adams-dawson
 meta_previewimage: headshots/dawson-adams-headshot.png
 meta_alt: |
   The headshot of Dawson Adams. It depicts a girl with dark hair, wearing a necklace, smiling with her mouth closed.

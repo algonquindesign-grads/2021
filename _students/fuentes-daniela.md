@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Daniela Fuentes
-meta_url: /students/fuentes-daniela
+meta_url: students/fuentes-daniela
 meta_previewimage: headshots/fuentes-daniela-headshot.png
 meta_alt: |
   The headshot of Daniela Fuentes. It depicts a person with very curly, dark hair in a ponytail, smiling slightly whilst directly facing the camera.

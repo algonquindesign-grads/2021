@@ -46,7 +46,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Sheri Thomson
-meta_url: /students/thomson-sheri
+meta_url: students/thomson-sheri
 meta_previewimage: headshots/thomson-sheri-headshot.png
 meta_alt: |
   The headshot of Sheri Thomson. It depicts a person with ombred dark-blonde hair smiling confidently whilst making eye contact with the camera.

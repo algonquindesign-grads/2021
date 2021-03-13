@@ -31,7 +31,9 @@ dribble_link: "https://dribbble.com/jmann_design"
 intro_text: |
   I like to create simple and fun pieces of work that tell stories, as well as wanting to be able to create things that help and bring joy to others in the process.
 quote_text: |
-  “Good design is actually a lot harder to notice than poor design” —  Don Norman
+  Good design is actually a lot harder to notice than poor design
+quote_author: |
+  — Don Norman
 portfolio_video1: "/projects/mannwilliams-jesse-project-1.mp4"
 portfolio_video2: "/projects/mannwilliams-jesse-project-2.mp4"
 portfolio_image3: "/projects/mannwilliams-jesse-project-3.jpg"
@@ -53,7 +55,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Jesse Mann-Williams
-meta_url: /students/mannwilliams-jesse
+meta_url: students/mannwilliams-jesse
 meta_previewimage: headshots/mannwilliams-jesse.png
 meta_alt: |
   The headshot of Jesse Mann-Williams. It depicts a man with dark blonde hair and a beard smiling. He is wearing a dark shirt and glasses.

@@ -46,7 +46,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Sydney Luchies
-meta_url: /students/luchies-sydney
+meta_url: students/luchies-sydney
 meta_previewimage: headshots/luchies-sydney.png
 meta_alt: |
   The headshot of Sydney Luchies. It depicts a woman with a light hair tied back, smiling. She is wearing a dark cardigan and a silver necklace.
