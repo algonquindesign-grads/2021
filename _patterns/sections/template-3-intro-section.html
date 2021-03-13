@@ -1,15 +1,14 @@
 <section class="intro-section-3 wrapper text-center push-2">
   <video controls loop playsinline class="push">
-    <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
-    <track label="English" kind="subtitles" srclang="en"
-      src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
-  </video>
+      <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
+      <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
+    </video>
   <h3 class="giga push-2">I am Generation <span>{{include.data.ation_word}}</span></h3>
   <blockquote class="quote-accent text-center">
-    <p class="mega">“{{include.data.quote_text}}”</p>
-    {% if include.data.quote_author %}
-    <footer><cite>{{include.data.quote_author}}</cite></footer>
-    {% endif %}
+      <p class="mega">“{{include.data.quote_text | strip}}”</p>
+      {% if include.data.quote_author %}
+          <footer><cite>{{include.data.quote_author}}</cite></footer>
+      {% endif %}
   </blockquote>
 </section>
 
