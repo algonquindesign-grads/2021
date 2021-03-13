@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Christine Volden
-meta_url: /students/volden-christine
+meta_url: students/volden-christine
 meta_previewimage: headshots/volden-christine-headshot.png
 meta_alt: |
   The headshot of Christine Volden. It depicts a person with mid-length, straight red hair, smiling warmly with their mouth closed, whilst looking at the camera.

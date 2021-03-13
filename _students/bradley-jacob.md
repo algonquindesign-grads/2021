@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Jacob Bradley
-meta_url: /students/bradley-jacob
+meta_url: students/bradley-jacob
 meta_previewimage: headshots/bradley-jacob-headshot.png
 meta_alt: |
   The headshot of Jacob Bradley. It depicts a redheaded person with short hair and a beard smiling brightly at the camera.

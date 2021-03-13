@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Cindy Garzon
-meta_url: /students/garzon-cindy
+meta_url: students/garzon-cindy
 meta_previewimage: headshots/garzon-cindy-headshot.png
 meta_alt: |
   The headshot of Cindy Garzon. It depicts a person with shoulder-length ombred black-blonde hair, making a neutral expression whist facing the camera.

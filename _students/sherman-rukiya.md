@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Rukiya Sherman
-meta_url: /students/sherman-rukiya
+meta_url: students/sherman-rukiya
 meta_previewimage: headshots/sherman-rukiya-headshot.png
 meta_alt: |
   The headshot of Rukiya Sherman. It depicts a person with mid-length, curled, black hair and a headband, smiling brightly whilst facing the camera.

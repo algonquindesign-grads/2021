@@ -53,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Khoi Nguyen
-meta_url: /students/nguyen-khoi
+meta_url: students/nguyen-khoi
 meta_previewimage: headshots/nguyen-khoi.png
 meta_alt: |
   The headshot of Khoi Nguyen. It depicts a man with short dark hair smiling. He is wearing a dark shirt and glasses.

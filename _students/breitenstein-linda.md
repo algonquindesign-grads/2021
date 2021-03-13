@@ -53,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Linda Breitenstein
-meta_url: /students/breitenstein-linda
+meta_url: students/breitenstein-linda
 meta_previewimage: headshots/breitenstein-linda-headshot.png
 meta_alt: |
   The headshot of Linda Breitenstein. It depicts a person with a brown-blonde bob, and a necklace, smiling with their arms crossed.

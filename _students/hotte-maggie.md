@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Maggie Hotte
-meta_url: /students/hotte-maggie
+meta_url: students/hotte-maggie
 meta_previewimage: headshots/hotte-maggie.png
 meta_alt: |
   The headshot of Maggie Hotte. It depicts a woman with dark blonde hair smiling. She is wearing a dark shirt and blazer with glasses.

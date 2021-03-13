@@ -53,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Kyle Ellis
-meta_url: /students/ellis-kyle
+meta_url: students/ellis-kyle
 meta_previewimage: headshots/ellis-kyle-headshot.png
 meta_alt: |
   The headshot of Kyle Ellis. It depicts a person with short, blonde hair smiling brightly at the camera whilst holding their chin with one hand.

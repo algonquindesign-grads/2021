@@ -49,7 +49,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Jude Marchildon
-meta_url: /students/marchildon-jude
+meta_url: students/marchildon-jude
 meta_previewimage: headshots/marchildon-jude.png
 meta_alt: |
   Yellow icon.

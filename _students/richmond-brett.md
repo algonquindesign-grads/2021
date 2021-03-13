@@ -51,7 +51,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Brett Richmond
-meta_url: /students/richmond-brett
+meta_url: students/richmond-brett
 meta_previewimage: headshots/richmond-brett.png
 meta_alt: |
   The headshot of Brett Richmond. It depicts a man with dark hair smiling. He is wearing a dark shirt.

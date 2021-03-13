@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Hannah Reed
-meta_url: /students/reed-hannah
+meta_url: students/reed-hannah
 meta_previewimage: headshots/reed-hannah.png
 meta_alt: |
   The headshot of Hannah Reed. It depicts a woman with brown hair smiling. She is wearing a dark blazer and has her hand on her hip.

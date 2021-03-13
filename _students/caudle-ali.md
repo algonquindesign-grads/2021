@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Ali Caudle
-meta_url: /students/caudle-ali
+meta_url: students/caudle-ali
 meta_previewimage: headshots/caudle-ali-headshot.png
 meta_alt: |
   The headshot of Ali Caudle. It depicts a red-headed person with shoulder-length hair and glasses, smiling slightly while facing the camera.

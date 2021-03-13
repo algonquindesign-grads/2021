@@ -51,7 +51,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Avery Dion
-meta_url: /students/dion-avery
+meta_url: students/dion-avery
 meta_previewimage: headshots/dion-avery-headshot.png
 meta_alt: |
   The headshot of Avery Dion. It depicts a person with a blonde pixie cut and smokey eye makeup making a neutral expression whilst looking directly at the camera.

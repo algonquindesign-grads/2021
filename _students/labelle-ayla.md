@@ -49,7 +49,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Ayla Labelle
-meta_url: /students/labelle-ayla
+meta_url: students/labelle-ayla
 meta_previewimage: headshots/labelle-ayla.png
 meta_alt: |
   The headshot of Ayla Labelle. It depicts a woman with dark hair smiling. She is wearing a dark t-shirt and has tattoos on her arm.

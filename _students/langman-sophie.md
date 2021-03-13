@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Sophie Langman
-meta_url: /students/langman-sophie
+meta_url: students/langman-sophie
 meta_previewimage: headshots/langman-sophie.png
 meta_alt: |
   The headshot of Sophie Langman. It depicts a woman with blonde hair smiling. She is wearing a dark shirt and silver necklaces.

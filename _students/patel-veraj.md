@@ -47,7 +47,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Veraj Patel
-meta_url: /students/patel-veraj
+meta_url: students/patel-veraj
 meta_previewimage: headshots/patel-veraj.png
 meta_alt: |
   The headshot of Veraj Patel. It depicts a man with dark hair faintly smiling. He is wearing a dark long-sleeve shirt.

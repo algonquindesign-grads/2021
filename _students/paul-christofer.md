@@ -53,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Christofer Paul
-meta_url: /students/paul-christofer
+meta_url: students/paul-christofer
 meta_previewimage: headshots/paul-christofer.png
 meta_alt: |
   The headshot of Christofer Paul. It depicts a man with dark hair and a beard smiling. He is wearing a dark t-shirt.

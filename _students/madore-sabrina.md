@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Sabrina Madore
-meta_url: /students/madore-sabrina
+meta_url: students/madore-sabrina
 meta_previewimage: headshots/madore-sabrina.png
 meta_alt: |
   The headshot of Sabrina Madore. It depicts a woman with dark hair faintly smiling. She is wearing a dark button-up shirt.

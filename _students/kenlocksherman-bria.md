@@ -51,7 +51,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Bria Kenlock-Sherman
-meta_url: /students/kenlocksherman-bria
+meta_url: students/kenlocksherman-bria
 meta_previewimage: headshots/kenlocksherman-bria.png
 meta_alt: |
   The headshot of Bria Kenlock-Sherman. It depicts a woman with dark hair smiling. She is wearing a dark shirt and has her arms crossed.

@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Kaitlyn Norquay
-meta_url: /students/norquay-kaitlyn
+meta_url: students/norquay-kaitlyn
 meta_previewimage: headshots/norquay-kaitlyn.png
 meta_alt: |
   The headshot of Kaitlyn Norquay. It depicts a woman with reddish hair smiling. She is wearing a dotted dark shirt and glasses.

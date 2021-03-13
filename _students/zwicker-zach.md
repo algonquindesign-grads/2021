@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Zach Zwicker
-meta_url: /students/zwicker-zach
+meta_url: students/zwicker-zach
 meta_previewimage: headshots/zwicker-zach-headshot.png
 meta_alt: |
   The headshot of Zach Zwicker. It depicts a person wearing a brown jacket and white t-shirt, making a neutral expression with their head tilted whilst looking at the camera.

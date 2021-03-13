@@ -49,7 +49,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Nathaniel Grenon
-meta_url: /students/grenon-nathaniel
+meta_url: students/grenon-nathaniel
 meta_previewimage: headshots/grenon-nathaniel-headshot.png
 meta_alt: |
   The headshot of Nathaniel Grenon. It depicts a person with short, brown hair, and a short beard, making a neutral expression whist looking directly at the camera.

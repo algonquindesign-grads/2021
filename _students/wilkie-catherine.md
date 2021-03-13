@@ -53,7 +53,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Catherine Wilkie
-meta_url: /students/wilkie-catherine
+meta_url: students/wilkie-catherine
 meta_previewimage: headshots/wilkie-catherine-headshot.png
 meta_alt: |
   The headshot of Catherine Wilkie. It depicts a person with shoulder-length brown hair in a ponytail, wearing tassled, yellow earrings, smiling enthusiastically at the camera.

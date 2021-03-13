@@ -54,7 +54,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Hannah Brown
-meta_url: /students/brown-hannah
+meta_url: students/brown-hannah
 meta_previewimage: headshots/brown-hannah-headshot.png
 meta_alt: |
   The headshot of Hannah Brown. It depicts a person with shoulder-length, curly, brown hair, smiling brightly while facing the camera.

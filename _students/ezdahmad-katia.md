@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Katia Ezdahmad
-meta_url: /students/ezdahmad-katia
+meta_url: students/ezdahmad-katia
 meta_previewimage: headshots/ezdahmad-katia-headshot.png
 meta_alt: |
   The headshot of Katia Ezdahmad. It depicts a person with long, dark hair, wearing a dark green graduation gown making a neutral expression at the camera.

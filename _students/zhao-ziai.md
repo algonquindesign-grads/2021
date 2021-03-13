@@ -61,7 +61,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Ziai Zhao
-meta_url: /students/zhao-ziai
+meta_url: students/zhao-ziai
 meta_previewimage: headshots/zhao-ziai-headshot.png
 meta_alt: |
   A placeholder graphic with a computer illustration.

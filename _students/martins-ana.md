@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Ana Martins
-meta_url: /students/martins-ana
+meta_url: students/martins-ana
 meta_previewimage: headshots/martins-ana.png
 meta_alt: |
   The headshot of Ana Martins. It depicts a woman with long brown hair smiling. She is wearing a dark blazer and shirt.

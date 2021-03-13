@@ -49,7 +49,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Quincy Prime
-meta_url: /students/prime-quincy
+meta_url: students/prime-quincy
 meta_previewimage: headshots/prime-quincy.png
 meta_alt: |
   The headshot of Quincy Prime. It depicts a man with dark hair and a beard wearing a dark t-shirt.

@@ -47,7 +47,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Cole Allen
-meta_url: /students/allen-cole
+meta_url: students/allen-cole
 meta_previewimage: headshots/allen-cole-headshot.png
 meta_alt: |
   The headshot of Cole Allen. It depicts a man slightly smiling with his mouth closed, while facing the camera.

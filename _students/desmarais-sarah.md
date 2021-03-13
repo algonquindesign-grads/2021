@@ -51,7 +51,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Sarah Desmarais
-meta_url: /students/desmarais-sarah
+meta_url: students/desmarais-sarah
 meta_previewimage: headshots/desmarais-sarah-headshot.png
 meta_alt: |
   The headshot of Sarah Desmarais. It depicts a person with mid-length, curled brown hair smiling brightly with her shoulders slightly shrugged.

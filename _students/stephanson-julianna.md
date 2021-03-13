@@ -51,7 +51,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Julianna Stephanson
-meta_url: /students/stephanson-julianna
+meta_url: students/stephanson-julianna
 meta_previewimage: headshots/stephanson-julianna-headshot.png
 meta_alt: |
   The headshot of Julianna Stephanson. It depicts a person with mid-length brown hair making a neutral expression at the camera, whilst wearing a grey sweater.

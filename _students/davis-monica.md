@@ -46,7 +46,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Monica Davis
-meta_url: /students/davis-monica
+meta_url: students/davis-monica
 meta_previewimage: headshots/davis-monica-headshot.png
 meta_alt: |
   The headshot of Monica Davis. It depicts a closeup portrait of a person with long, brown, curly hair in a ponytail, and several piercings, smiling slightly at the camera.

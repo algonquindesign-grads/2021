@@ -49,7 +49,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Samantha Cossar
-meta_url: /students/cossar-samantha
+meta_url: students/cossar-samantha
 meta_previewimage: headshots/cossar-samantha-headshot.png
 meta_alt: |
   The headshot of Samantha Cossar. It depicts a person with long, blonde hair and glasses smiling with their mouth closed while facing the camera directly.

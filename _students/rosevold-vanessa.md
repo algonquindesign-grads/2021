@@ -48,7 +48,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Vanessa Rosevold
-meta_url: /students/rosevold-vanessa
+meta_url: students/rosevold-vanessa
 meta_previewimage: headshots/rosevold-vanessa.png
 meta_alt: |
   The headshot of Vanessa Rosevold. It depicts a woman with light hair smiling. She is wearing a dark shirt.

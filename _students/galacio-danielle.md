@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Danielle Galacio
-meta_url: /students/galacio-danielle
+meta_url: students/galacio-danielle
 meta_previewimage: headshots/galacio-danielle-headshot.png
 meta_alt: |
   The headshot of Danielle Galacio. It depicts a person with long, black hair and glasses smiling sweetly at the camera, with their arms by their sides.

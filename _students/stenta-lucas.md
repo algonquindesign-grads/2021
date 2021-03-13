@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Lucas Stenta
-meta_url: /students/stenta-lucas
+meta_url: students/stenta-lucas
 meta_previewimage: headshots/stenta-lucas-headshot.png
 meta_alt: |
   The headshot of Lucas Stenta. It depicts a person with ear-length, wavy brown hair, and some facial hair, smiling comfortably at the camera.

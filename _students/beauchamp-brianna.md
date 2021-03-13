@@ -48,7 +48,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Brianna Beauchamp
-meta_url: /students/beauchamp-brianna
+meta_url: students/beauchamp-brianna
 meta_previewimage: headshots/beauchamp-brianna-headshot.png
 meta_alt: |
   The headshot of Brianna Beauchamp. It depicts a woman with long blonde hair and glasses smiling brightly at the camera.

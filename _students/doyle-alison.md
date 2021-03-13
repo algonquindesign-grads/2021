@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Alison Doyle
-meta_url: /students/doyle-alison
+meta_url: students/doyle-alison
 meta_previewimage: headshots/doyle-alison-headshot.png
 meta_alt: |
   The headshot of Alison Doyle. It depicts a person posed with their hands under their chin, looking upwards whilst smiling in a slight silly way. They are wearing a shirt with a funky cat pattern on it, and have very prominent lime green makeup.

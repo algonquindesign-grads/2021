@@ -50,7 +50,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Cedric Robitaille
-meta_url: /students/robitaille-cedric
+meta_url: students/robitaille-cedric
 meta_previewimage: headshots/robitaille-cedric.png
 meta_alt: |
   The headshot of Cedric Robitaille. It depicts a man with dark hair smiling. He is wearing a dark shirt.

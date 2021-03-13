@@ -52,7 +52,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Tasmyn Clark
-meta_url: /students/clark-tasmyn
+meta_url: students/clark-tasmyn
 meta_previewimage: headshots/clark-tasmyn-headshot.png
 meta_alt: |
   The headshot of Tasmyn Clark. It depicts a person with long brown hair strewn over one shoulder, smiling slightly at the camera whilst wearing glasses.
