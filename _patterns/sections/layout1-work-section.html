@@ -54,7 +54,12 @@
       <p class="milli work-hover push-0">{{include.data.portfolio_description4}}</p>
     </div>
 
-    <q class="mega layout1-student-quote">{{include.data.quote_text}}</q>
+    <blockquote class="quote-accent">
+      <p class="mega layout1-student-quote">{{include.data.quote_text}}</p>
+      {% if include.data.quote_author %}
+        <footer><cite>{{include.data.quote_author}}</cite></footer>
+      {% endif %}
+    </blockquote>
 
     <div class="layout1-work-buttons">
       <div class="push button-wrappers">

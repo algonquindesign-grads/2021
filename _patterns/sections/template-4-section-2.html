@@ -14,5 +14,10 @@
 </section>
 
 <section class="pad-t pad-b gutter-2 wrapper push-2">
-  <q class="mega t4-student-quote">{{include.data.quote_text}}</q>
+  <blockquote class="quote-accent">
+    <p class="mega t4-student-quote">{{include.data.quote_text}}</p>
+    {% if include.data.quote_author %}
+      <footer><cite>{{include.data.quote_author}}</cite></footer>
+    {% endif %}
+  </blockquote>
 </section>

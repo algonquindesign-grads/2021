@@ -42,7 +42,12 @@
     </div>
 
     <div class="proj4-quote-section color-tint gutter-3-4 pad-t-2 pad-b-2">
-      <q class="mega t5-student-quote">{{include.data.quote_text}}</q>
+      <blockquote class="quote-accent">
+        <p class="mega t5-student-quote">{{include.data.quote_text}}</p>
+        {% if include.data.quote_author %}
+          <footer><cite>{{include.data.quote_author}}</cite></footer>
+        {% endif %}
+      </blockquote>
 
       <div class="work-cards relative t5-work-proj4">
         <h4 class="push-1-4">{{include.data.portfolio_title4}}</h4>
