@@ -31,7 +31,8 @@ video {
 }
 
 /* Make portfolio work headers the correct font */
-.work-cards h4 {
+.work-cards h4,
+.work-section-3 h4 {
   font-family: var(--font-primary);
   text-transform: uppercase;
 }
