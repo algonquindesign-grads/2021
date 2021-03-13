@@ -60,16 +60,6 @@ highlight_nav:
   <div class="pad-t pad-b push-2 gutter">
     <h3 class="text-center">Meet our Designers</h3>
 
-    <ul class="list-group-inline">
-      <li><a href="#">All</a></li>
-      <li><a href="#">Branding</a></li>
-      <li><a href="#">Illustration</a></li>
-      <li><a href="#">Motion</a></li>
-      <li><a href="#">Print</a></li>
-      <li><a href="#">UI/UX</a></li>
-      <li><a href="#">Web</a></li>
-    </ul>
-
     <div class="wrapper home-card-grid pad-t">
       {% for student in site.students %}
         {% pattern sections/student-cards data=student number=forloop.index %}
