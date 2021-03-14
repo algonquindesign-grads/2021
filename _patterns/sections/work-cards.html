@@ -1,5 +1,6 @@
-<div class="work-cards relative">
+<div class="work-cards">
   <h4 class="mega push-0">{{include.data.portfolio_title4}}</h4>
+  <div class="relative">
     {% if include.data.portfolio_image4 %}
         <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg" alt="{{include.data.portfolio_description4}}">
     {% endif %}
@@ -9,4 +10,5 @@
         </video>
     {% endif %}
     <p class="milli work-hover push-0">{{include.data.portfolio_description4}}</p>
+  </div>
 </div>

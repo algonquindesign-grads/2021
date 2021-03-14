@@ -2,60 +2,68 @@
   <h2 class="text-center">Example Work</h2>
 
   <div class="layout1-work-grid">
-    <div class="work-cards relative work-proj1">
+    <div class="work-cards work-proj1">
       <h4 class="push-1-4">{{include.data.portfolio_title1}}</h4>
+      <div class="relative">
         {% if include.data.portfolio_image1 %}
           <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.jpg" alt="{{include.data.portfolio_description1}}">
         {% endif %}
         {% if include.data.portfolio_video1 %}
-          <video controls loop playsinline class="push">
+          <video controls loop playsinline class="push-0">
             <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.mp4" type="video/mp4">
           </video>
         {% endif %}
-      <p class="milli work-hover push-0">{{include.data.portfolio_description1}}</p>
+        <p class="milli work-hover {% if include.data.portfolio_video1 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description1}}</p>
+      </div>
     </div>
 
-    <div class="work-cards relative work-proj2">
+    <div class="work-cards work-proj2">
       <h4 class="push-1-4">{{include.data.portfolio_title2}}</h4>
+      <div class="relative">
         {% if include.data.portfolio_image2 %}
           <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.jpg" alt="{{include.data.portfolio_description2}}">
         {% endif %}
         {% if include.data.portfolio_video2 %}
-          <video controls loop playsinline class="push">
+          <video controls loop playsinline class="push-0">
             <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.mp4" type="video/mp4">
           </video>
         {% endif %}
-      <p class="milli work-hover push-0">{{include.data.portfolio_description2}}</p>
+        <p class="milli work-hover {% if include.data.portfolio_video2 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description2}}</p>
+      </div>
     </div>
 
-    <div class="work-cards relative work-proj3">
+    <div class="work-cards work-proj3">
       <h4 class="push-1-4">{{include.data.portfolio_title3}}</h4>
+      <div class="relative">
         {% if include.data.portfolio_image3 %}
           <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg" alt="{{include.data.portfolio_description3}}">
         {% endif %}
         {% if include.data.portfolio_video3 %}
-          <video controls loop playsinline class="push">
+          <video controls loop playsinline class="push-0">
             <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.mp4" type="video/mp4">
           </video>
         {% endif %}
-      <p class="milli work-hover push-0">{{include.data.portfolio_description3}}</p>
+        <p class="milli work-hover {% if include.data.portfolio_video3 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description3}}</p>
+      </div>
     </div>
 
-    <div class="work-cards relative work-proj4">
+    <div class="work-cards work-proj4">
       <h4 class="push-1-4">{{include.data.portfolio_title4}}</h4>
+      <div class="relative">
         {% if include.data.portfolio_image4 %}
           <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg" alt="{{include.data.portfolio_description4}}">
         {% endif %}
         {% if include.data.portfolio_video4 %}
-          <video controls loop playsinline class="push">
+          <video controls loop playsinline class="push-0">
             <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.mp4" type="video/mp4">
           </video>
         {% endif %}
-      <p class="milli work-hover push-0">{{include.data.portfolio_description4}}</p>
+        <p class="milli work-hover {% if include.data.portfolio_video4 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description4}}</p>
+      </div>
     </div>
 
-    <blockquote class="quote-accent text-center">
-      <p class="mega layout1-student-quote">“{{include.data.quote_text | strip}}”</p>
+    <blockquote class="quote-accent text-center layout1-student-quote">
+      <p class="mega">“{{include.data.quote_text | strip}}”</p>
       {% if include.data.quote_author %}
         <footer><cite>{{include.data.quote_author}}</cite></footer>
       {% endif %}
