@@ -133,6 +133,22 @@ video {
   justify-self: end;
 }
 
+/* 404 PAGE STYLING */
+.link-404 {
+  text-decoration: underline;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.link-404:hover,
+.link-404:focus {
+  text-decoration: underline;
+  color: var(--color-web);
+  font-weight: bold;
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
 /* MOBILE TEMPLATE STYLING START */
 /* TEMPLATES 1, 2, 4 AND 5 STYLES START*/
 .layout1-h2 {
@@ -504,6 +520,19 @@ ul.about-section-3-specialties > li:last-child{
   .hp-intro-grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 750px) {
+
+  /* 404 PAGE STYLING */
+  .grid-404 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+    justify-content: center;
+    align-items: center;
   }
 
 }
