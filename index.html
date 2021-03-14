@@ -73,7 +73,7 @@ highlight_nav:
 
     <div class="wrapper home-card-grid pad-t">
       {% for professor in site.professors %}
-        {% pattern sections/teacher-cards data=professors number=forloop.index %}
+        {% pattern sections/teacher-cards data=professor number=forloop.index %}
       {% endfor %}
     </div>
   </div>
