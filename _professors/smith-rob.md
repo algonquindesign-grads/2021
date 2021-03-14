@@ -4,4 +4,5 @@ first_name: "Rob"
 last_name: "Smith"
 headshot_alt: |
   The headshot of Rob Smith.
+meta_url: professors/smith-rob
 ---

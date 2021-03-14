@@ -4,4 +4,5 @@ first_name: "Andrea"
 last_name: "Emery"
 headshot_alt: |
   The headshot of Andrea Emery.
+meta_url: professors/emery-andrea
 ---

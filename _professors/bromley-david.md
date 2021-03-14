@@ -4,4 +4,5 @@ first_name: "David"
 last_name: "Bromley"
 headshot_alt: |
   The headshot of David Bromley.
+meta_url: professors/bromley-david
 ---

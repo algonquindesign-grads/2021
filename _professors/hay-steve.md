@@ -4,4 +4,5 @@ first_name: "Steve"
 last_name: "Hay"
 headshot_alt: |
   The headshot of Steve Hay.
+meta_url: professors/hay-steve
 ---
