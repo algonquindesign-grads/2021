@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "harvey-treawna" 
+filename: "harvey-treawna"
 first_name: "Treawna"
 last_name: "Harvey"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Branding"
   - "Web"
   - "UI/UX"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Web"
 specialty3: "UI/UX"
@@ -66,4 +67,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

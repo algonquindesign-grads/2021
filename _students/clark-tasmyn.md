@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "clark-tasmyn" 
+filename: "clark-tasmyn"
 first_name: "Tasmyn"
 last_name: "Clark"
 headshot_alt: |
@@ -18,6 +18,7 @@ specialties:
   - "Motion"
   - "Illustration"
   - "Branding"
+specialty_filter: "motion"
 specialty1: "Motion"
 specialty2: "Illustration"
 specialty3: "Branding"
@@ -66,4 +67,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

@@ -1,6 +1,6 @@
 ---
 layout: template-5
-filename: "stephanson-julianna" 
+filename: "stephanson-julianna"
 first_name: "Julianna"
 last_name: "Stephanson"
 headshot_alt: |
@@ -19,6 +19,7 @@ specialties:
   - "Illustration"
   - "Branding"
   - "Print"
+specialty_filter: "illustration"
 specialty1: "Illustration"
 specialty2: "Branding"
 specialty3: "Print"
@@ -42,7 +43,7 @@ portfolio_description2: |
    In November 2020, I decided to design a tarot card deck and guidebook in order to showcase my illustrations and designs together. This project involved illustration, print layout, and brand identity design.
 portfolio_title3: "Cynfully Knotty Brand Identity"
 portfolio_description3: |
-  In June 2019, Cynthia, the owner of Cynfully Knotty, came to me with the desire to brand her business. Cynfully Knotty is a small local brand that provides macramé creations. This project involved brand identity design, social media and print collateral. 
+  In June 2019, Cynthia, the owner of Cynfully Knotty, came to me with the desire to brand her business. Cynfully Knotty is a small local brand that provides macramé creations. This project involved brand identity design, social media and print collateral.
 portfolio_title4: "Luna App Prototype"
 portfolio_description4: |
   In October 2020, I decided to redesign an old college assignment called the Luna App Prototype. Luna is a period and ovulation tracker app for anyone with a menstrual cycle. This project involved logo design, UI design and an app prototype.
@@ -63,4 +64,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

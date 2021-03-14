@@ -20,6 +20,7 @@ specialties:
   - "Motion"
   - "Illustration"
   - "UI/UX"
+specialty_filter: "motion"
 specialty1: "Motion"
 specialty2: "Illustration"
 specialty3: "UI/UX"

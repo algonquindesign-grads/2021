@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "boyd-niall" 
+filename: "boyd-niall"
 first_name: "Niall"
 last_name: "Boyd"
 headshot_alt: |
@@ -18,6 +18,7 @@ specialties:
   - "Branding"
   - "Motion"
   - "Illustration"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Motion"
 specialty3: "Illustration"
@@ -28,7 +29,7 @@ vimeo_link: "https://vimeo.com/niallboyd"
 instagram_link: "https://www.instagram.com/niallboyd_/"
 behance_link: "https://www.behance.net/niallboyd"
 intro_text: |
-   My passion is guiding people to grow their brand through Graphic Design. Music inspires my work. I believe Graphic Design can communicate ideas and can reach various different audiences. 
+   My passion is guiding people to grow their brand through Graphic Design. Music inspires my work. I believe Graphic Design can communicate ideas and can reach various different audiences.
 quote_text: |
   I believe simple designs communicate more effectively
 portfolio_video1: "/projects/boyd-niall-project-1.mp4"
@@ -57,11 +58,10 @@ meta_previewimage: headshots/boyd-niall-headshot.png
 meta_alt: |
   The headshot of Niall Boyd. It depicts a person with shaggy, brown hair, wearing a button-up shirt, smiling slightly at the camera.
 meta_description: |
-  My passion is guiding people to grow their brand through Graphic Design. Music inspires my work. I believe Graphic Design can communicate ideas and can reach various different audiences. 
+  My passion is guiding people to grow their brand through Graphic Design. Music inspires my work. I believe Graphic Design can communicate ideas and can reach various different audiences.
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

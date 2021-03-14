@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "fuentes-daniela" 
+filename: "fuentes-daniela"
 first_name: "Daniela"
 last_name: "Fuentes"
 headshot_alt: |
@@ -16,6 +16,7 @@ specialties:
   - "Illustration"
   - "Motion"
   - "Branding"
+specialty_filter: "illustration"
 specialty1: "Illustration"
 specialty2: "Motion"
 specialty3: "Branding"
@@ -62,4 +63,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

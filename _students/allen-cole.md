@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "allen-cole" 
+filename: "allen-cole"
 first_name: "Cole"
 last_name: "Allen"
 headshot_alt: |
@@ -17,6 +17,7 @@ meeting_type:
 specialties:
   - "Motion"
   - "Branding"
+specialty_filter: "motion"
 specialty1: "Motion"
 specialty2: "Branding"
 portfolio_site: "https://www.coleallen.design/"
@@ -32,10 +33,10 @@ portfolio_image3: "/projects/allen-cole-project-3.jpg"
 portfolio_image4: "/projects/allen-cole-project-4.jpg"
 portfolio_title1: "Ottawa Smash Rebrand"
 portfolio_description1: |
-  
+
 portfolio_title2: "PS4 Ad Campaign"
 portfolio_description2: |
-   Branding. Create a fictional brand experience to advertise Sony's PS4. 
+   Branding. Create a fictional brand experience to advertise Sony's PS4.
 portfolio_title3: "Event Branding"
 portfolio_description3: |
   Branding + Motion. Creation of an event and all assets needed to run it. Including advertisements, event signage, live stream package, and more.

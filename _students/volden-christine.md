@@ -1,6 +1,6 @@
 ---
 layout: template-2
-filename: "volden-christine" 
+filename: "volden-christine"
 first_name: "Christine"
 last_name: "Volden"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Print"
   - "UI/UX"
   - "Web"
+specialty_filter: "print"
 specialty1: "Print"
 specialty2: "UI/UX"
 specialty3: "Web"
@@ -64,4 +65,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

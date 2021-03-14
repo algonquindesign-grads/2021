@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "caudle-ali" 
+filename: "caudle-ali"
 first_name: "Ali"
 last_name: "Caudle"
 headshot_alt: |
@@ -18,6 +18,7 @@ specialties:
   - "Branding"
   - "Illustration"
   - "Motion"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Illustration"
 specialty3: "Motion"
@@ -62,4 +63,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

@@ -19,6 +19,7 @@ specialties:
   - "Web"
   - "Motion"
   - "Branding"
+specialty_filter: "web"
 specialty1: "Web"
 specialty2: "Motion"
 specialty3: "Branding"

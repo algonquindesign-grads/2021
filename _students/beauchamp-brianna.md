@@ -1,6 +1,6 @@
 ---
 layout: template-1
-filename: "beauchamp-brianna" 
+filename: "beauchamp-brianna"
 first_name: "Brianna"
 last_name: "Beauchamp"
 headshot_alt: |
@@ -17,6 +17,7 @@ specialties:
   - "Branding"
   - "Print"
   - "Illustration"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Print"
 specialty3: "Illustration"

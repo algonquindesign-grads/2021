@@ -1,6 +1,6 @@
 ---
 layout: template-1
-filename: "ezdahmad-katia" 
+filename: "ezdahmad-katia"
 first_name: "Katia"
 last_name: "Ezdahmad"
 headshot_alt: |
@@ -17,6 +17,7 @@ specialties:
   - "Branding"
   - "Illustration"
   - "UI/UX"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Illustration"
 specialty3: "UI/UX"
@@ -62,4 +63,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

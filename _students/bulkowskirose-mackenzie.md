@@ -1,6 +1,6 @@
 ---
 layout: template-3
-filename: "bulkowskirose-mackenzie" 
+filename: "bulkowskirose-mackenzie"
 first_name: "MacKenzie"
 last_name: "Bulkowski-Rose"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Web"
   - "UI/UX"
   - "Branding"
+specialty_filter: "web"
 specialty1: "Web"
 specialty2: "UI/UX"
 specialty3: "Branding"
@@ -42,16 +43,16 @@ portfolio_image4: "/projects/bulkowskirose-mackenzie-project-4.jpg"
 portfolio_video4: "/projects/bulkowskirose-mackenzie-project-4.mp4"
 portfolio_title1: ""
 portfolio_description1: |
-  
+
 portfolio_title2: ""
 portfolio_description2: |
-   
+
 portfolio_title3: ""
 portfolio_description3: |
-  
+
 portfolio_title4: ""
 portfolio_description4: |
-  
+
 html_class: "web"
 meta_sitename: |
   Generation Adaptation
@@ -69,4 +70,3 @@ icon_color: "icon-white"
 social_icon_color: "icon-white"
 text_color: "text-white"
 ---
-

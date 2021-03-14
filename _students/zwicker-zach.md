@@ -1,6 +1,6 @@
 ---
 layout: template-3
-filename: "zwicker-zach" 
+filename: "zwicker-zach"
 first_name: "Zach"
 last_name: "Zwicker"
 headshot_alt: |
@@ -19,6 +19,7 @@ specialties:
   - "Branding"
   - "Motion"
   - "UI/UX"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Motion"
 specialty3: "UI/UX"
@@ -26,7 +27,7 @@ portfolio_site: "https://www.whoszwicker.com/"
 calendly_link: "https://calendly.com/zwic0014"
 instagram_link: "https://www.instagram.com/zwicker_zach/"
 intro_text: |
-   Hello there! My name is Zach, and I’ve been a designer since my early teens. I really enjoy the start to finish process of artistic creation that inspires to me work at it everyday. The feeling of solving problems with creative solutions is one I thrive for. 
+   Hello there! My name is Zach, and I’ve been a designer since my early teens. I really enjoy the start to finish process of artistic creation that inspires to me work at it everyday. The feeling of solving problems with creative solutions is one I thrive for.
 quote_text: |
   Simplicity is the Ultimate Sophistication
 quote_author: |
@@ -57,7 +58,7 @@ meta_previewimage: headshots/zwicker-zach-headshot.png
 meta_alt: |
   The headshot of Zach Zwicker. It depicts a person wearing a brown jacket and white t-shirt, making a neutral expression with their head tilted whilst looking at the camera.
 meta_description: |
-  Hello there! My name is Zach, and I’ve been a designer since my early teens. I really enjoy the start to finish process of artistic creation that inspires to me work at it everyday. The feeling of solving problems with creative solutions is one I thrive for. 
+  Hello there! My name is Zach, and I’ve been a designer since my early teens. I really enjoy the start to finish process of artistic creation that inspires to me work at it everyday. The feeling of solving problems with creative solutions is one I thrive for.
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"

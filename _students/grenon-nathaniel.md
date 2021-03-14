@@ -1,6 +1,6 @@
 ---
 layout: template-1
-filename: "grenon-nathaniel" 
+filename: "grenon-nathaniel"
 first_name: "Nathaniel"
 last_name: "Grenon"
 headshot_alt: |
@@ -18,6 +18,7 @@ specialties:
   - "Branding"
   - "Illustration"
   - "Motion"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Illustration"
 specialty3: "Motion"
@@ -61,4 +62,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

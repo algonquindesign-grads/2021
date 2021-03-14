@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "desmarais-sarah" 
+filename: "desmarais-sarah"
 first_name: "Sarah"
 last_name: "Desmarais"
 headshot_alt: |
@@ -18,6 +18,7 @@ specialties:
   - "Branding"
   - "Print"
   - "Web"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Print"
 specialty3: "Web"
@@ -65,4 +66,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-
