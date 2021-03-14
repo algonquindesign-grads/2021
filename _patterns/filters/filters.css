@@ -1,0 +1,12 @@
+.filter-btn {
+  padding: .5rem .8rem .6rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}

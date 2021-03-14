@@ -1,6 +1,6 @@
 title: Sections
 description: |
-
+  These are the various sections found throughout the grad website.
 
 patterns:
   layout1-video-section:
@@ -159,5 +159,5 @@ patterns:
       - name: data
         type: object
         data:
-          source: "site.students[0]"
-          type: students
+          source: "site.professors[0]"
+          type: professors

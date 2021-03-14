@@ -12,18 +12,86 @@ highlight_nav:
 
 {% pattern header/secondary-header gradient="gradient-rainbow" nav_color="nav-white" icon_color="icon-white" %}
 
-<main>
-  <!-- HOMEPAGE VIDEO WILL GO HERE ONCE MOTION PROPERLY REEXPORTS THE VIDEO, SO IT RUNS IN THE BROWSER.
+<main class="main" id="main" role="main">
   <div>
     <video autoplay loop playsinline class="push">
       <source src="{{site.cdn}}/footage/homepage/generation-adaptation.mp4" type="video/mp4">
-    </video>>
+    </video>
   </div>
-  -->
-  <div class="wrapper home-card-grid pad-t gutter">
-    {% for student in site.students %}
-      {% pattern sections/student-cards data=student number=forloop.index%}
-    {% endfor %}
+
+  <div class="hp-intro pad-t pad-b gutter-2 push-2">
+    <div class="wrapper pad-t-2 pad-b-2 hp-intro-grid">
+      <h4 class="giga">Things are working a little differently this year.</h4>
+      <p class="push-0">We're the same great designers, fostered by the same great people, but this year, you'll have to meet us virtually. We know — we're sad too that we can't meet in person this year, but we've got some cool new ideas!</p>
+    </div>
+  </div>
+
+  <div class="wrapper gutter pad-t-2 push-2">
+    <p class="push-1-2 hp-welcome mega">Welcome to</p>
+    <div class="hp-logo">
+      <img class="img-flex rainbow-line" src="/images/logo.svg" alt="This is the Generation Adaptation logo.">
+    </div>
+
+    <img class="push-2 rainbow-line img-flex" src="/images/line-break-gradient.svg" alt="" role="presentation">
+
+    <div class="gutter-2 pad-t pad-b-2 text-center" style="max-width: 650px; margin: 0 auto;">
+      <h4 class="giga">We love dinosaurs, but we wouldn't want to be one!</h4>
+      <p class="push-0">That's why we've evolved and adapted our grad show to withstand the test of time and for you all to get a chance to know us a little better.</p>
+    </div>
+
+    <div style="max-width: 750px; margin: 3rem auto 5rem;">
+      <img class="img-flex rainbow-line" src="{{site.cdn}}/general/dino.svg" alt="A fun illustration of a computer with a T-Rex on the screen.">
+    </div>
+  </div>
+
+  <div class="push-2">
+    <div class="hp-quiz-banner pad-t-2 pad-b-2 text-center">
+      <div class="wrapper gutter pad-t pad-b">
+        <h3 style="color: var(--color-secondary-light); max-width: 600px; margin: 0 auto 2rem;">Looking for a designer?</h3>
+        <p style="color: var(--color-secondary-light); max-width: 500px; margin: 0 auto 3rem;">Check out our designers below, or take our quiz to find a designer to best match your needs.</p>
+        {% pattern buttons/quiz-button %}
+      </div>
+    </div>
+    <svg class="img-flex" id="section-separator" width="1920" height="100" viewBox="0 0 1920 100">
+      <path d="M1920 38.7h-910l-50.3 59.4L910 38.7H0V0h1920v38.7z"/>
+    </svg>
+  </div>
+
+  <div class="pad-t pad-b push-2 gutter">
+    <h3 class="text-center">Meet our Designers</h3>
+
+    <div class="wrapper home-card-grid pad-t">
+      {% for student in site.students %}
+        {% pattern sections/student-cards data=student number=forloop.index %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="pad-t pad-b push-2 gutter">
+    <h3 class="text-center">Meet our Mentors</h3>
+    <p class="text-center" style="max-width: 550px; margin: 0 auto 1.5rem;">We got through it all with the help of these amazing folks. We are grateful for their support, encouragement, and guidance.</p>
+
+    <div class="wrapper home-card-grid pad-t">
+      {% for professor in site.professors %}
+        {% pattern sections/teacher-cards data=professors number=forloop.index %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="wrapper gutter pad-b push-2 hp-meteor-grid">
+    <div class="meteor-1" style="width: 190px;">
+      <img class="img-flex rainbow-line" src="{{site.cdn}}/general/meteor-2.svg" alt="" role="presentation">
+    </div>
+
+    <div class="text-center meteor-content">
+      <h4 class="giga">No meteors in sight?!</h4>
+      <p class="push" style="max-width: 400px; margin: 0 auto 1.5rem;">It looks like that's the end of the page, but we'll be here for a while longer!</p>
+      <p class="push-0" style="max-width: 400px; margin: 0 auto;">Thank you for stopping by, we hope to hear from you soon!</p>
+    </div>
+
+    <div class="meteor-2" style="width: 140px;">
+      <img class="img-flex rainbow-line" src="{{site.cdn}}/general/meteor.svg" alt="" role="presentation">
+    </div>
   </div>
 </main>
 

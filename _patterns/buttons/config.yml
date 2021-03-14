@@ -108,3 +108,7 @@ patterns:
       - name: aria
         type: string
         example: "This button links to this student's portfolio site"
+  quiz-button:
+    title: "Grad-Match Quiz Button"
+    description: |
+      This button is used as the call-to-action to encourage site visitors to try out the quiz and find the best designer for their needs. This button is only used on the homepage in the quiz hero banner.
