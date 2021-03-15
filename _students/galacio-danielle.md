@@ -19,7 +19,7 @@ specialties:
   - "UI/UX"
   - "Print"
   - "Branding"
-specialty_filter: "uiux"
+specialty_filter: "uxui"
 specialty1: "UI/UX"
 specialty2: "Print"
 specialty3: "Branding"

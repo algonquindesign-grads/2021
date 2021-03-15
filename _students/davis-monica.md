@@ -16,7 +16,7 @@ meeting_type:
   - "Job Interview"
 specialties:
   - "UI/UX"
-specialty_filter: "uiux"
+specialty_filter: "uxui"
 specialty1: "UI/UX"
 portfolio_site: "https://www.monicadavis.ca/"
 calendly_link: "https://calendly.com/monicadavis"

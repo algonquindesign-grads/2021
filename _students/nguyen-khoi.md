@@ -20,7 +20,7 @@ specialties:
   - "UX/UI"
   - "Web"
   - "Illustration"
-specialty_filter: "uiux"
+specialty_filter: "uxui"
 specialty1: "UX/UI"
 specialty2: "Web"
 specialty3: "Illustration"
