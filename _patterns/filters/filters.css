@@ -14,33 +14,39 @@
 }
 
 .filtered-student-photo {
-  filter: blur(1px) grayscale(1);
+  filter: blur(2px) grayscale(1);
 }
 
 .no-click {
   pointer-events: none;
 }
 
-#branding-btn:hover {
+#branding-btn:hover,
+#branding-btn:focus {
   color: var(--color-branding);
 }
 
-#illustration-btn:hover {
+#illustration-btn:hover,
+#illustration-btn:focus {
   color: var(--color-illustration);
 }
 
-#motion-btn:hover {
+#motion-btn:hover,
+#motion-btn:focus {
   color: var(--color-motion);
 }
 
-#print-btn:hover {
+#print-btn:hover,
+#print-btn:focus {
   color: var(--color-print);
 }
 
-#uxui-btn:hover {
+#uxui-btn:hover,
+#uxui-btn:focus {
   color: var(--color-uxui);
 }
 
-#web-btn:hover {
+#web-btn:hover,
+#web-btn:focus {
   color: var(--color-web);
 }

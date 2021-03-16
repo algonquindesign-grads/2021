@@ -82,57 +82,75 @@ img:not(.rainbow-line).filtered-web {
 }
 
 /* Define hover state colours */
-.student-cards:hover img.bkg-branding,
-.student-cards:focus img.bkg-branding {
+.icon-link:hover img.bkg-branding,
+.icon-link:focus img.bkg-branding {
   background-color: var(--color-branding);
 }
 
-.student-cards:hover img.bkg-illustration,
-.student-cards:focus img.bkg-illustration {
+.icon-link:hover img.bkg-illustration,
+.icon-link:focus img.bkg-illustration {
   background-color: var(--color-illustration);
 }
 
-.student-cards:hover img.bkg-print,
-.student-cards:focus img.bkg-print {
+.icon-link:hover img.bkg-print,
+.icon-link:focus img.bkg-print {
   background-color: var(--color-print);
 }
 
-.student-cards:hover img.bkg-motion,
-.student-cards:focus img.bkg-motion {
+.icon-link:hover img.bkg-motion,
+.icon-link:focus img.bkg-motion {
   background-color: var(--color-motion);
 }
 
-.student-cards:hover img.bkg-uxui,
-.student-cards:focus img.bkg-uxui {
+.icon-link:hover img.bkg-uxui,
+.icon-link:focus img.bkg-uxui {
   background-color: var(--color-uxui);
 }
 
-.student-cards:hover img.bkg-web,
-.student-cards:focus img.bkg-web {
+.icon-link:hover img.bkg-web,
+.icon-link:focus img.bkg-web {
   background-color: var(--color-web);
 }
 
-img:not(.rainbow-line).filtered-branding:hover {
+img:not(.rainbow-line).filtered-branding:hover,
+img:not(.rainbow-line).filtered-branding:focus,
+.icon-link:hover img:not(.rainbow-line).filtered-branding,
+.icon-link:focus img:not(.rainbow-line).filtered-branding {
   background-color: var(--color-branding);
 }
 
-img:not(.rainbow-line).filtered-illustration:hover {
+img:not(.rainbow-line).filtered-illustration:hover,
+img:not(.rainbow-line).filtered-illustration:focus,
+.icon-link:hover img:not(.rainbow-line).filtered-illustration,
+.icon-link:focus img:not(.rainbow-line).filtered-illustration {
   background-color: var(--color-illustration);
 }
 
-img:not(.rainbow-line).filtered-print:hover {
+img:not(.rainbow-line).filtered-print:hover,
+img:not(.rainbow-line).filtered-print:focus,
+.icon-link:hover img:not(.rainbow-line).filtered-print,
+.icon-link:focus img:not(.rainbow-line).filtered-print {
   background-color: var(--color-print);
 }
 
-img:not(.rainbow-line).filtered-motion:hover {
+img:not(.rainbow-line).filtered-motion:hover,
+img:not(.rainbow-line).filtered-motion:focus,
+.icon-link:hover img:not(.rainbow-line).filtered-motion,
+.icon-link:focus img:not(.rainbow-line).filtered-motion {
   background-color: var(--color-motion);
 }
 
-img:not(.rainbow-line).filtered-uxui:hover {
+img:not(.rainbow-line).filtered-uxui:hover,
+img:not(.rainbow-line).filtered-uxui:focus,
+.icon-link:hover img:not(.rainbow-line).filtered-uxui,
+.icon-link:focus img:not(.rainbow-line).filtered-uxui {
   background-color: var(--color-uxui);
 }
 
-img:not(.rainbow-line).filtered-web:hover {
+img:not(.rainbow-line).filtered-web:hover,
+img:not(.rainbow-line).filtered-web:focus,
+.icon-link:hover img:not(.rainbow-line).filtered-web,
+.icon-link:focus img:not(.rainbow-line).filtered-web {
   background-color: var(--color-web);
 }
 
