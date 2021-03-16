@@ -20,3 +20,27 @@
 .no-click {
   pointer-events: none;
 }
+
+#branding-btn:hover {
+  color: var(--color-branding);
+}
+
+#illustration-btn:hover {
+  color: var(--color-illustration);
+}
+
+#motion-btn:hover {
+  color: var(--color-motion);
+}
+
+#print-btn:hover {
+  color: var(--color-print);
+}
+
+#uxui-btn:hover {
+  color: var(--color-uxui);
+}
+
+#web-btn:hover {
+  color: var(--color-web);
+}

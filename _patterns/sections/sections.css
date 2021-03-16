@@ -112,6 +112,30 @@ img:not(.rainbow-line).filtered-web {
   background-color: var(--color-web);
 }
 
+img:not(.rainbow-line).filtered-branding:hover {
+  background-color: var(--color-branding);
+}
+
+img:not(.rainbow-line).filtered-illustration:hover {
+  background-color: var(--color-illustration);
+}
+
+img:not(.rainbow-line).filtered-print:hover {
+  background-color: var(--color-print);
+}
+
+img:not(.rainbow-line).filtered-motion:hover {
+  background-color: var(--color-motion);
+}
+
+img:not(.rainbow-line).filtered-uxui:hover {
+  background-color: var(--color-uxui);
+}
+
+img:not(.rainbow-line).filtered-web:hover {
+  background-color: var(--color-web);
+}
+
 /* Student and teacher card grid styling */
 .home-card-grid {
   width: 100%;

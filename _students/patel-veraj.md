@@ -17,7 +17,8 @@ meeting_type:
 specialties:
   - "Branding"
   - "Motion"
-specialty_filter: "branding"
+specialty1_filter: "branding"
+specialty2_filter: "motion"
 specialty1: "Branding"
 specialty2: "Motion"
 portfolio_site: "https://www.veraj-patel-designer.ca/"
