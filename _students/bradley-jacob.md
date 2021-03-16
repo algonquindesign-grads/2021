@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "bradley-jacob" 
+filename: "bradley-jacob"
 first_name: "Jacob"
 last_name: "Bradley"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Branding"
   - "Illustration"
   - "Print"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Illustration"
 specialty3: "Print"
@@ -28,9 +29,9 @@ calendly_link: "https://calendly.com/brad0351"
 linkedin_link: "https://www.linkedin.com/in/jacob-bradley-60aa0a73/"
 instagram_link: "https://www.instagram.com/jakob.bradley/"
 intro_text: |
-   I am experienced with all types of design work, such as vector design, typography, web design, Photoshop, and animation.  I love to constantly learn, always upgrading my skills through web tutorials and creative workshops. I have a passion for design work and look forward to any challenge. 
+   I am experienced with all types of design work, such as vector design, typography, web design, Photoshop, and animation.  I love to constantly learn, always upgrading my skills through web tutorials and creative workshops. I have a passion for design work and look forward to any challenge.
 quote_text: |
-  I am always pushing myself, using a lot of coffee and strategy to get the job done. 
+  I am always pushing myself, using a lot of coffee and strategy to get the job done.
 portfolio_image1: "/projects/bradley-jacob-project-1.jpg"
 portfolio_image2: "/projects/bradley-jacob-project-2.jpg"
 portfolio_image3: "/projects/bradley-jacob-project-3.jpg"
@@ -57,11 +58,10 @@ meta_previewimage: headshots/bradley-jacob-headshot.png
 meta_alt: |
   The headshot of Jacob Bradley. It depicts a redheaded person with short hair and a beard smiling brightly at the camera.
 meta_description: |
-  I am experienced with all types of design work, such as vector design, typography, web design, Photoshop, and animation.  I love to constantly learn, always upgrading my skills through web tutorials and creative workshops. I have a passion for design work and look forward to any challenge. 
+  I am experienced with all types of design work, such as vector design, typography, web design, Photoshop, and animation.  I love to constantly learn, always upgrading my skills through web tutorials and creative workshops. I have a passion for design work and look forward to any challenge.
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

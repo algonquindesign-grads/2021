@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "brown-hannah" 
+filename: "brown-hannah"
 first_name: "Hannah"
 last_name: "Brown"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Web"
   - "Branding"
   - "Illustration"
+specialty_filter: "web"
 specialty1: "Web"
 specialty2: "Branding"
 specialty3: "Illustration"
@@ -68,4 +69,3 @@ icon_color: "icon-white"
 social_icon_color: "icon-black"
 text_color: "text-white"
 ---
-

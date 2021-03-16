@@ -57,8 +57,9 @@ highlight_nav:
     </svg>
   </div>
 
-  <div class="pad-t pad-b push-2 gutter">
+  <div class="pad-t pad-b push-2 gutter" id="designers">
     <h3 class="text-center">Meet our Designers</h3>
+    {% pattern filters/filters %}
 
     <div class="wrapper home-card-grid pad-t">
       {% for student in site.students %}

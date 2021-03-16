@@ -20,6 +20,7 @@ specialties:
   - "Branding"
   - "Print"
   - "Motion"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Print"
 specialty3: "Motion"

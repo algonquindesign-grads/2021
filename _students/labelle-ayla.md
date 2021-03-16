@@ -17,6 +17,7 @@ meeting_type:
   - "Networking"
 specialties:
   - "Motion"
+specialty_filter: "motion"
 specialty1: "Motion"
 portfolio_site: "https://aylalabelle.ca/"
 calendly_link: "https://calendly.com/labe0235"

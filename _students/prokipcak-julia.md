@@ -18,6 +18,7 @@ meeting_type:
 specialties:
   - "Branding"
   - "Print"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Print"
 portfolio_site: "https://www.juliaprokipcak.ca/"

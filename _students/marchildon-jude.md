@@ -18,6 +18,7 @@ specialties:
   - "Illustration"
   - "Motion"
   - "Branding"
+specialty_filter: "illustration"
 specialty1: "Illustration"
 specialty2: "Motion"
 specialty3: "Branding"

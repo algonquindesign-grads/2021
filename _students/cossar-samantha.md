@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "cossar-samantha" 
+filename: "cossar-samantha"
 first_name: "Samantha"
 last_name: "Cossar"
 headshot_alt: |
@@ -18,6 +18,7 @@ specialties:
   - "Branding"
   - "Print"
   - "Illustration"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Print"
 specialty3: "Illustration"
@@ -63,4 +64,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

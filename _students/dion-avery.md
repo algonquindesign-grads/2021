@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "dion-avery" 
+filename: "dion-avery"
 first_name: "Avery"
 last_name: "Dion"
 headshot_alt: |
@@ -19,6 +19,7 @@ specialties:
   - "Motion"
   - "Illustration"
   - "Branding"
+specialty_filter: "motion"
 specialty1: "Motion"
 specialty2: "Illustration"
 specialty3: "Branding"
@@ -65,4 +66,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

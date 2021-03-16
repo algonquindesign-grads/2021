@@ -1,6 +1,6 @@
 ---
 layout: template-3
-filename: "davis-monica" 
+filename: "davis-monica"
 first_name: "Monica"
 last_name: "Davis"
 headshot_alt: |
@@ -16,17 +16,18 @@ meeting_type:
   - "Job Interview"
 specialties:
   - "UI/UX"
+specialty_filter: "uxui"
 specialty1: "UI/UX"
 portfolio_site: "https://www.monicadavis.ca/"
 calendly_link: "https://calendly.com/monicadavis"
 linkedin_link: "https://www.linkedin.com/in/monica-elizabeth-davis/"
 instagram_link: "https://www.instagram.com/davisdesigns.ca/?hl=en"
 intro_text: |
-   Hello, my names Monica Davis and I create research based solutions for UX/UI based design. 
+   Hello, my names Monica Davis and I create research based solutions for UX/UI based design.
 quote_text: |
   Hard work is worthless for those that don't believe in themselves
 quote_author: |
-  – Naruto Uzumaki 
+  – Naruto Uzumaki
 portfolio_image1: "/projects/davis-monica-project-1.jpg"
 portfolio_image2: "/projects/davis-monica-project-2.jpg"
 portfolio_image3: "/projects/davis-monica-project-3.jpg"
@@ -53,11 +54,10 @@ meta_previewimage: headshots/davis-monica-headshot.png
 meta_alt: |
   The headshot of Monica Davis. It depicts a closeup portrait of a person with long, brown, curly hair in a ponytail, and several piercings, smiling slightly at the camera.
 meta_description: |
-  Hello, my names Monica Davis and I create research based solutions for UX/UI based design. 
+  Hello, my names Monica Davis and I create research based solutions for UX/UI based design.
 gradient: "gradient-uxui"
 nav_color: "nav-white"
 icon_color: "icon-white"
 social_icon_color: "icon-white"
 text_color: "text-white"
 ---
-

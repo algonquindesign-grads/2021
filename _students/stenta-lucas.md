@@ -1,6 +1,6 @@
 ---
 layout: template-2
-filename: "stenta-lucas" 
+filename: "stenta-lucas"
 first_name: "Lucas"
 last_name: "Stenta"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Illustration"
   - "Branding"
   - "UI/UX"
+specialty_filter: "illustration"
 specialty1: "Illustration"
 specialty2: "Branding"
 specialty3: "UI/UX"
@@ -48,7 +49,7 @@ portfolio_description3: |
   Through years of drawing on many different mediums I’ve adapted a unique illustration style. Its a cross between a caricature and a cartoon animation.
 portfolio_title4: "Fruit by the foot package design"
 portfolio_description4: |
-  I came up with one cohesive layout with three variations which was dependent on the flavor.  This repackaging design will be beneficial for the target audience, as it combines both vibrant colours and an element of entertainment. After the children are done with their snack, they have a toy tape measure that was included in the design.  In addition to this, the packaging was printed in a vegetable ink and made of 100% recyclable material. 
+  I came up with one cohesive layout with three variations which was dependent on the flavor.  This repackaging design will be beneficial for the target audience, as it combines both vibrant colours and an element of entertainment. After the children are done with their snack, they have a toy tape measure that was included in the design.  In addition to this, the packaging was printed in a vegetable ink and made of 100% recyclable material.
 html_class: "illustration"
 meta_sitename: |
   Generation Adaptation
@@ -66,4 +67,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

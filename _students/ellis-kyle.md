@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "ellis-kyle" 
+filename: "ellis-kyle"
 first_name: "Kyle"
 last_name: "Ellis"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Branding"
   - "Motion"
   - "Print"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Motion"
 specialty3: "Print"
@@ -40,7 +41,7 @@ portfolio_image3: "/projects/ellis-kyle-project-3.jpg"
 portfolio_video4: "/projects/ellis-kyle-project-4.mp4"
 portfolio_title1: "Rawdon Creek Soap Co. Logo and E-Commerce Design."
 portfolio_description1: |
-  This project features Rawdon Creek Soap Co. A small business located in Stirling Rawdon. This collaboration piece entailed a rebrand and redesign of Rawdon Creek's website and logo. Within the first week of release, their website created a return of investment and generated extra un-tapped income. Targeting Rawdon Creeks' audience by design choices such as colour and imagery and making the website more accessible is benefiting the customer and organization with the business owners. 
+  This project features Rawdon Creek Soap Co. A small business located in Stirling Rawdon. This collaboration piece entailed a rebrand and redesign of Rawdon Creek's website and logo. Within the first week of release, their website created a return of investment and generated extra un-tapped income. Targeting Rawdon Creeks' audience by design choices such as colour and imagery and making the website more accessible is benefiting the customer and organization with the business owners.
 portfolio_title2: "MHM & FFA Event Poster & Ticket Design"
 portfolio_description2: |
    I was hired by MHM & FFA to produce an Ottawa night-out event poster and tickets. This design uses a strong type hierarchy and layout featuring the main component of the MHM logo. It is very legible and uses white space with the photography elements to engage the audience. This poster, after production, generated a sold-out event raising funds for this organization.
@@ -67,4 +68,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

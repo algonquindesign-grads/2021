@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "hendry-anna" 
+filename: "hendry-anna"
 first_name: "Anna"
 last_name: "Hendry"
 headshot_alt: |
@@ -18,6 +18,7 @@ specialties:
   - "Branding"
   - "Illustration"
   - "Print"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Illustration"
 specialty3: "Print"
@@ -61,4 +62,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

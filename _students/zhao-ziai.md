@@ -1,6 +1,6 @@
 ---
 layout: template-1
-filename: "zhao-ziai" 
+filename: "zhao-ziai"
 first_name: "Ziai"
 last_name: "Zhao"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Illustration"
   - "Print"
   - "Branding"
+specialty_filter: "illustration"
 specialty1: "Illustration"
 specialty2: "Print"
 specialty3: "Branding"
@@ -35,7 +36,7 @@ facebook_link: ""
 intro_text: |
    I am Ziai Zhao. I graduated from algonquin college and I am currently a freelance designer.
 quote_text: |
-  
+
 portfolio_image1: "/projects/zhao-ziai-project-1.jpg"
 portfolio_video1: "/projects/zhao-ziai-project-1.mp4"
 portfolio_image2: "/projects/zhao-ziai-project-2.jpg"
@@ -46,16 +47,16 @@ portfolio_image4: "/projects/zhao-ziai-project-4.jpg"
 portfolio_video4: "/projects/zhao-ziai-project-4.mp4"
 portfolio_title1: ""
 portfolio_description1: |
-  
+
 portfolio_title2: ""
 portfolio_description2: |
-   
+
 portfolio_title3: ""
 portfolio_description3: |
-  
+
 portfolio_title4: ""
 portfolio_description4: |
-  
+
 html_class: "illustration"
 meta_sitename: |
   Generation Adaptation
@@ -73,4 +74,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

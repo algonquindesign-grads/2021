@@ -19,6 +19,7 @@ specialties:
   - "Motion"
   - "Web"
   - "UI/UX"
+specialty_filter: "motion"
 specialty1: "Motion"
 specialty2: "Web"
 specialty3: "UI/UX"

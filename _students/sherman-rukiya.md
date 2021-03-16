@@ -1,6 +1,6 @@
 ---
 layout: template-2
-filename: "sherman-rukiya" 
+filename: "sherman-rukiya"
 first_name: "Rukiya"
 last_name: "Sherman"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Illustration"
   - "Print"
   - "Motion"
+specialty_filter: "illustration"
 specialty1: "Illustration"
 specialty2: "Print"
 specialty3: "Motion"
@@ -43,7 +44,7 @@ portfolio_description2: |
    The colourful gradient waves that represent music sound waves and rounded for an inviting feel. Different sized gradient waves and lengths to represent the diversity that everyone no matter their race, gender, etc. can come together at this festival to enjoy the rhythm.
 portfolio_title3: "Euphoria Illustration"
 portfolio_description3: |
-  This illustration was created in the app Procreate using my IPad Pro and apple pencil. I played with different colours and textures in the drawing. My art style is semi-realism, taking inspiration from anime art of bigger eyes and lips with rounder head shape. 
+  This illustration was created in the app Procreate using my IPad Pro and apple pencil. I played with different colours and textures in the drawing. My art style is semi-realism, taking inspiration from anime art of bigger eyes and lips with rounder head shape.
 portfolio_title4: "TPBLC Annual Report"
 portfolio_description4: |
   Designed an annual report book for "The Paper Bag Lunch Company". The concept is to play on the name of the company and make the pages look like a paper bag. This will be achieved by using a paper texture and having the titles appear as if cut out of the page.
@@ -64,4 +65,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

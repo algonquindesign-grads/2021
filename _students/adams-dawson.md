@@ -1,6 +1,6 @@
 ---
 layout: template-2
-filename: "adams-dawson" 
+filename: "adams-dawson"
 first_name: "Dawson"
 last_name: "Adams"
 headshot_alt: |
@@ -18,6 +18,7 @@ specialties:
   - "Web"
   - "Branding"
   - "UI/UX"
+specialty_filter: "web"
 specialty1: "Web"
 specialty2: "Branding"
 specialty3: "UI/UX"

@@ -1,10 +1,10 @@
 ---
 layout: template-3
-filename: "damour-ian" 
+filename: "damour-ian"
 first_name: "Ian"
 last_name: "D'Amour"
 headshot_alt: |
-  The headshot of Ian D'Amour. It depicts a man with green hair slightly smiling while facing the camera, partially kneeling with his hands on one knee. 
+  The headshot of Ian D'Amour. It depicts a man with green hair slightly smiling while facing the camera, partially kneeling with his hands on one knee.
 ation_word: "Causation"
 keywords:
   - "Continuous Learner"
@@ -18,6 +18,7 @@ meeting_type:
 specialties:
   - "Motion"
   - "Branding"
+specialty_filter: "motion"
 specialty1: "Motion"
 specialty2: "Branding"
 portfolio_site: "https://iandamourdesign.com/"
@@ -61,4 +62,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

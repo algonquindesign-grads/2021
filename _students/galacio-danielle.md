@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "galacio-danielle" 
+filename: "galacio-danielle"
 first_name: "Danielle"
 last_name: "Galacio"
 headshot_alt: |
@@ -19,6 +19,7 @@ specialties:
   - "UI/UX"
   - "Print"
   - "Branding"
+specialty_filter: "uxui"
 specialty1: "UI/UX"
 specialty2: "Print"
 specialty3: "Branding"
@@ -40,7 +41,7 @@ portfolio_description1: |
   This mobile redesign for Ottawa Humane Society's app is created to help increase the number of adoptions by connecting adopters with the perfect pet that will fit their lifestyle and personality.
 portfolio_title2: "Foolish Chicken Branding Design"
 portfolio_description2: |
-   This rebranding project for Foolish Chicken restaurant is created to help their brand stand out and reach more audiences. 
+   This rebranding project for Foolish Chicken restaurant is created to help their brand stand out and reach more audiences.
 portfolio_title3: "Coffee Short Animation"
 portfolio_description3: |
   This is an animated short based off the Buzzfeed video, "Why do people drink coffee?".
@@ -64,4 +65,3 @@ icon_color: "icon-white"
 social_icon_color: "icon-black"
 text_color: "text-white"
 ---
-

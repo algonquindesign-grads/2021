@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "ekuma-deborah" 
+filename: "ekuma-deborah"
 first_name: "Deborah Ibe"
 last_name: "Ekuma"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Branding"
   - "Motion"
   - "UI/UX"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Motion"
 specialty3: "UI/UX"
@@ -29,7 +30,7 @@ linkedin_link: "https://www.linkedin.com/in/deborah-ibe-ekuma-70401671/"
 instagram_link: "https://www.instagram.com/ibeebay/?hl=en"
 facebook_link: "https://www.facebook.com/ebay.ekuma"
 intro_text: |
-   My name is Deborah Ibe Ekuma, I am a graphic designer currently living in Ottawa. Growing up, I was known for my creativity, artistic nature and passion for drawing and painting. I believe Art is valuable and represents a social necessity that no nation can neglect. I am a ​thinker, an innovator​ and a problem solver with a keen interest in ​improving society through effective visual communication​. 
+   My name is Deborah Ibe Ekuma, I am a graphic designer currently living in Ottawa. Growing up, I was known for my creativity, artistic nature and passion for drawing and painting. I believe Art is valuable and represents a social necessity that no nation can neglect. I am a ​thinker, an innovator​ and a problem solver with a keen interest in ​improving society through effective visual communication​.
 quote_text: |
   Visually captivating.
 portfolio_image1: "/projects/ekuma-deborah-project-1.jpg"
@@ -58,11 +59,10 @@ meta_previewimage: headshots/ekuma-deborah-headshot.png
 meta_alt: |
   The headshot of Deborah Ibe Ekuma. It depicts a closeup of a person with shoulder-length black hair smiling whilst looking directly at the camera.
 meta_description: |
-  My name is Deborah Ibe Ekuma, I am a graphic designer currently living in Ottawa. Growing up, I was known for my creativity, artistic nature and passion for drawing and painting. I believe Art is valuable and represents a social necessity that no nation can neglect. I am a ​thinker, an innovator​ and a problem solver with a keen interest in ​improving society through effective visual communication​. 
+  My name is Deborah Ibe Ekuma, I am a graphic designer currently living in Ottawa. Growing up, I was known for my creativity, artistic nature and passion for drawing and painting. I believe Art is valuable and represents a social necessity that no nation can neglect. I am a ​thinker, an innovator​ and a problem solver with a keen interest in ​improving society through effective visual communication​.
 gradient: "gradient-branding"
 nav_color: "nav-black"
 icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

@@ -20,6 +20,7 @@ specialties:
   - "Print"
   - "Illustration"
   - "Motion"
+specialty_filter: "print"
 specialty1: "Print"
 specialty2: "Illustration"
 specialty3: "Motion"

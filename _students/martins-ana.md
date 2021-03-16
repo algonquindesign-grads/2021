@@ -18,6 +18,7 @@ specialties:
   - "Motion"
   - "Branding"
   - "UI/UX"
+specialty_filter: "motion"
 specialty1: "Motion"
 specialty2: "Branding"
 specialty3: "UI/UX"

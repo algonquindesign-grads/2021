@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "wilkie-catherine" 
+filename: "wilkie-catherine"
 first_name: "Catherine"
 last_name: "Wilkie"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Illustration"
   - "Branding"
   - "Motion"
+specialty_filter: "illustration"
 specialty1: "Illustration"
 specialty2: "Branding"
 specialty3: "Motion"
@@ -65,5 +66,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-
-

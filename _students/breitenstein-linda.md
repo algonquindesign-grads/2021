@@ -1,6 +1,6 @@
 ---
 layout: template-4
-filename: "breitenstein-linda" 
+filename: "breitenstein-linda"
 first_name: "Linda"
 last_name: "Breitenstein"
 headshot_alt: |
@@ -20,6 +20,7 @@ specialties:
   - "Branding"
   - "Illustration"
   - "Motion"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Illustration"
 specialty3: "Motion"
@@ -46,7 +47,7 @@ portfolio_description2: |
   This project depicts an interactive PDF and a short animated explainer video. The content was based on the information found on the Government of Canada website.
 portfolio_title3: "Motion Reel"
 portfolio_description3: |
-  Exploring 2D, 3D and frame by frame animation, these quick clips are from some of my favourite motion design projects. 
+  Exploring 2D, 3D and frame by frame animation, these quick clips are from some of my favourite motion design projects.
 portfolio_title4: "Cirque des Bières"
 portfolio_description4: |
   This project is meant to target Ottawa craft beer drinkers with bold illustrations, patterns and colours.
@@ -67,4 +68,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

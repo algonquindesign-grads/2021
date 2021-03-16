@@ -1,6 +1,6 @@
 ---
 layout: template-2
-filename: "garzon-cindy" 
+filename: "garzon-cindy"
 first_name: "Cindy"
 last_name: "Garzon"
 headshot_alt: |
@@ -19,6 +19,7 @@ specialties:
   - "Branding"
   - "Print"
   - "UI/UX"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Print"
 specialty3: "UI/UX"
@@ -64,4 +65,3 @@ icon_color: "icon-black"
 social_icon_color: "icon-black"
 text_color: "text-black"
 ---
-

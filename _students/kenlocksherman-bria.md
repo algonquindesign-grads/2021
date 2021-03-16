@@ -20,6 +20,7 @@ specialties:
   - "Branding"
   - "Illustration"
   - "Print"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "Illustration"
 specialty3: "Print"

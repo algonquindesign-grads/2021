@@ -20,6 +20,7 @@ specialties:
   - "Branding"
   - "UI/UX"
   - "Web"
+specialty_filter: "branding"
 specialty1: "Branding"
 specialty2: "UI/UX"
 specialty3: "Web"

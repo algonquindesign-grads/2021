@@ -24,6 +24,30 @@ video {
   margin: 0 auto;
 }
 
+img:not(.rainbow-line).filtered-branding {
+  background-color: rgba(0, 176, 213, 0.36);
+}
+
+img:not(.rainbow-line).filtered-illustration {
+  background-color: rgba(249, 139, 192, 0.40);
+}
+
+img:not(.rainbow-line).filtered-motion {
+  background-color: rgba(130, 200, 106, 0.40);
+}
+
+img:not(.rainbow-line).filtered-print {
+  background-color: rgba(255, 197, 0, 0.40);
+}
+
+img:not(.rainbow-line).filtered-uxui {
+  background-color: rgba(225, 58, 49, 0.36);
+}
+
+img:not(.rainbow-line).filtered-web {
+  background-color: rgba(14, 100, 204, 0.36);
+}
+
 /* Display social icons with flexible space between them; since no more than 4 icons can be used, the flexwrap functionality was excluded */
 .about-section-social {
   display: flex;
