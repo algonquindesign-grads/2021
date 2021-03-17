@@ -52,7 +52,7 @@ portfolio_description3: |
   This infographic is to help spread awareness with the correlation of overfishing and global warming. If readers would like to know more they can scan the QR code which leads them to an article for WWF.
 portfolio_title4: "Mamba Sports broadcast package"
 portfolio_description4: |
-  This is a tribute for Kobe Bryant's. Mamba Sports is about Kobe's "Mamba Mentality." It represents the level of intense focus and relentless approach he took both in preparation and competition.
+  This broadcast package is a tribute to Kobe Bryant.
 html_class: "branding"
 meta_sitename: |
   Generation Adaptation
