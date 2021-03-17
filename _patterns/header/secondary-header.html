@@ -1,10 +1,10 @@
-<header class="header-shape {{include.gradient}}" role="banner">
+<header class="header-shape {{include.gradient}}" id="navigation" role="banner">
   <div class="wrapper header-flex">
     <a class="{{include.icon_color}}" href="/" aria_label="This button takes you to the Generation Adaptation homepage.">
       <i class="icon i-2 header-logo"><svg><use xlink:href="/images/icons.svg#alternate"></use></svg></i>
     </a>
 
-    <nav class="header-nav" role="navigation">
+    <nav class="header-nav" id="nav" role="navigation">
       <button class="toggle {{include.icon_color}}" id="toggle" type="button" name="button">
         <i class="icon i-28 toggle-open" id="toggle-open"><svg><use xlink:href="/images/icons.svg#hamburger"></use></svg></i>
         <i class="icon i-28 toggle-close" id="toggle-close"><svg><use xlink:href="/images/icons.svg#close"></use></svg></i>
@@ -18,3 +18,5 @@
     </nav>
   </div>
 </header>
+
+{% pattern navigation/to-top-page %}

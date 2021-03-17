@@ -1,0 +1,7 @@
+title: Navigations
+
+patterns:
+  to-top-page:
+    title: "To Top of Page Button"
+    description: |
+      This is the 'to top of page' button. It is used on the homepage to bring users back to the top of the page.
