@@ -8,6 +8,7 @@
   bottom: 18px;
   padding: .5rem .6rem .6rem;
   background-color: var(--color-secondary-light);
+  z-index: 1100;
 }
 
 .to-top-btn:hover {
