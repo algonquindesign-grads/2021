@@ -17,7 +17,8 @@ meeting_type:
 specialties:
   - "Motion"
   - "Branding"
-specialty_filter: "motion"
+specialty1_filter: "motion"
+specialty2_filter: "branding"
 specialty1: "Motion"
 specialty2: "Branding"
 portfolio_site: "https://www.coleallen.design/"
