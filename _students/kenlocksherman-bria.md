@@ -43,12 +43,12 @@ portfolio_image4: "/projects/kenlocksherman-bria-project-4.jpg"
 portfolio_title1: "Isometric Illustration"
 portfolio_description1: |
   In this illustration, I was able to apply my interior decorating background to illustrate the process of a house being designed in isometric perspective. Drawn in Illustrator & Procreate.
-portfolio_title2: "Local Business Re-brand"
+portfolio_title2: "Retail Design System"
 portfolio_description2: |
-  Big Sky Ranch Animal Sanctuary logo redesign to create a new friendly, approachable, yet professional appearance with coordinated stationery, web landing page, business card and t-shirt mockups.
+  A visual display design system including logo design, illustrations, display signage, and store mockups for a retail collaboration to bring awareness to the Black Artists and Designers Guild.
 portfolio_title3: "Sustainable Package Design"
 portfolio_description3: |
-  Redesigned deodorant packaging to create a more sustainable solution with a reusable, refillable stainless steel case rather than wasteful and harmful plastic.
+  Rebranding of the Natural Calm brand with a more sustainable glass packaging solution and new package design.
 portfolio_title4: "Wedding Calligraphy"
 portfolio_description4: |
   Hand lettered name plate place settings for a client's wedding written with oil paint sharpie on clear acrylic.
