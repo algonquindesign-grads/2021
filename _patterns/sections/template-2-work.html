@@ -2,7 +2,7 @@
   <h2 class="text-center">Example Work</h2>
 
   <div class="t2-work-grid">
-    <div class="work-cards t2-work-proj1">
+    <div class="work-cards t2-work-proj1" tabindex="0">
       <h4 class="push-1-4">{{include.data.portfolio_title1}}</h4>
       <div class="relative">
         {% if include.data.portfolio_image1 %}
@@ -13,11 +13,11 @@
             <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.mp4" type="video/mp4">
           </video>
         {% endif %}
-        <p class="milli work-hover {% if include.data.portfolio_video1 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description1}}</p>
+        <p class="milli work-hover {% if include.data.portfolio_video1 %}work-hover-vid{% endif %} push-0" tabindex="0">{{include.data.portfolio_description1}}</p>
       </div>
     </div>
 
-    <div class="work-cards t2-work-proj2">
+    <div class="work-cards t2-work-proj2" tabindex="0">
       <h4 class="push-1-4">{{include.data.portfolio_title2}}</h4>
       <div class="relative">
         {% if include.data.portfolio_image2 %}
@@ -28,18 +28,18 @@
             <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.mp4" type="video/mp4">
           </video>
         {% endif %}
-        <p class="milli work-hover {% if include.data.portfolio_video2 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description2}}</p>
+        <p class="milli work-hover {% if include.data.portfolio_video2 %}work-hover-vid{% endif %} push-0" tabindex="0">{{include.data.portfolio_description2}}</p>
       </div>
     </div>
 
-    <blockquote class="quote-accent text-center t2-student-quote">
+    <blockquote class="quote-accent text-center t2-student-quote" tabindex="0">
       <p class="mega">“{{include.data.quote_text | strip}}”</p>
       {% if include.data.quote_author %}
         <footer><cite>{{include.data.quote_author}}</cite></footer>
       {% endif %}
     </blockquote>
 
-    <div class="work-cards t2-work-proj3">
+    <div class="work-cards t2-work-proj3" tabindex="0">
       <h4 class="push-1-4">{{include.data.portfolio_title3}}</h4>
       <div class="relative">
         {% if include.data.portfolio_image3 %}
@@ -50,11 +50,11 @@
             <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.mp4" type="video/mp4">
           </video>
         {% endif %}
-        <p class="milli work-hover {% if include.data.portfolio_video3 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description3}}</p>
+        <p class="milli work-hover {% if include.data.portfolio_video3 %}work-hover-vid{% endif %} push-0" tabindex="0">{{include.data.portfolio_description3}}</p>
       </div>
     </div>
 
-    <div class="work-cards t2-work-proj4">
+    <div class="work-cards t2-work-proj4" tabindex="0">
       <h4 class="push-1-4">{{include.data.portfolio_title4}}</h4>
       <div class="relative">
         {% if include.data.portfolio_image4 %}
@@ -65,7 +65,7 @@
             <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.mp4" type="video/mp4">
           </video>
         {% endif %}
-        <p class="milli work-hover {% if include.data.portfolio_video4 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description4}}</p>
+        <p class="milli work-hover {% if include.data.portfolio_video4 %}work-hover-vid{% endif %} push-0" tabindex="0">{{include.data.portfolio_description4}}</p>
       </div>
     </div>
 
