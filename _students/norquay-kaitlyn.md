@@ -4,7 +4,7 @@ filename: "norquay-kaitlyn"
 first_name: "Kaitlyn"
 last_name: "Norquay"
 headshot_alt: |
-  The headshot of Kaitlyn Norquay. It depicts a woman with reddish hair smiling. She is wearing a dotted dark shirt and glasses.
+  The headshot of Kaitlyn Norquay.
 ation_word: "Amelioration"
 keywords:
   - "Continuous-Learner"

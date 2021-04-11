@@ -4,7 +4,7 @@ filename: "breitenstein-linda"
 first_name: "Linda"
 last_name: "Breitenstein"
 headshot_alt: |
-  The headshot of Linda Breitenstein. It depicts a person with a brown-blonde bob, and a necklace, smiling with their arms crossed.
+  The headshot of Linda Breitenstein.
 ation_word: "Causation"
 keywords:
   - "Communicative"

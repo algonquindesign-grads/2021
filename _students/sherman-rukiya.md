@@ -4,7 +4,7 @@ filename: "sherman-rukiya"
 first_name: "Rukiya"
 last_name: "Sherman"
 headshot_alt: |
-  The headshot of Rukiya Sherman. It depicts a person with mid-length, curled, black hair and a headband, smiling brightly whilst facing the camera.
+  The headshot of Rukiya Sherman.
 ation_word: "Imagination"
 keywords:
   - "Continuous Learner"

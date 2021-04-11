@@ -4,7 +4,7 @@ filename: "richmond-brett"
 first_name: "Brett"
 last_name: "Richmond"
 headshot_alt: |
-  The headshot of Brett Richmond. It depicts a man with dark hair smiling. He is wearing a dark shirt.
+  The headshot of Brett Richmond.
 ation_word: "Anticipation"
 keywords:
   - "Altruistic"

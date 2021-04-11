@@ -4,7 +4,7 @@ filename: "zwicker-zach"
 first_name: "Zach"
 last_name: "Zwicker"
 headshot_alt: |
-  The headshot of Zach Zwicker. It depicts a person wearing a brown jacket and white t-shirt, making a neutral expression with their head tilted whilst looking at the camera.
+  The headshot of Zach Zwicker.
 ation_word: "Zwickation"
 keywords:
   - "Altruistic"

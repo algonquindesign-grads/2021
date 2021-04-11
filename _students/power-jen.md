@@ -4,7 +4,7 @@ filename: "power-jen"
 first_name: "Jen"
 last_name: "Power"
 headshot_alt: |
-  The headshot of Jen Power. It depicts a woman with dark hair pulled back, smiling. She is wearing a dark t-shirt with glasses and has tattoos on her arm.
+  The headshot of Jen Power.
 ation_word: "Dissemination"
 keywords:
   - "Independent"

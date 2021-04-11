@@ -4,7 +4,7 @@ filename: "ezdahmad-katia"
 first_name: "Katia"
 last_name: "Ezdahmad"
 headshot_alt: |
-  The headshot of Katia Ezdahmad. It depicts a person with long, dark hair, wearing a dark green graduation gown making a neutral expression at the camera.
+  The headshot of Katia Ezdahmad.
 ation_word: "Determination"
 keywords:
   - "Detail-Oriented"

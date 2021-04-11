@@ -4,7 +4,7 @@ filename: "clark-tasmyn"
 first_name: "Tasmyn"
 last_name: "Clark"
 headshot_alt: |
-  The headshot of Tasmyn Clark. It depicts a person with long brown hair strewn over one shoulder, smiling slightly at the camera whilst wearing glasses.
+  The headshot of Tasmyn Clark.
 ation_word: "Infatuation"
 keywords:
   - "Communicative"

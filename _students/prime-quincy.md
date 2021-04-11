@@ -4,7 +4,7 @@ filename: "prime-quincy"
 first_name: "Quincy"
 last_name: "Prime"
 headshot_alt: |
-  The headshot of Quincy Prime. It depicts a man with dark hair and a beard wearing a dark t-shirt.
+  The headshot of Quincy Prime.
 ation_word: "Digitization"
 keywords:
   - "Detail-Oriented"

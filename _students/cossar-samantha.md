@@ -4,7 +4,7 @@ filename: "cossar-samantha"
 first_name: "Samantha"
 last_name: "Cossar"
 headshot_alt: |
-  The headshot of Samantha Cossar. It depicts a person with long, blonde hair and glasses smiling with their mouth closed while facing the camera directly.
+  The headshot of Samantha Cossar.
 ation_word: "Observation"
 keywords:
   - "Detail-Oriented"

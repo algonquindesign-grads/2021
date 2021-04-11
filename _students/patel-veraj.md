@@ -4,7 +4,7 @@ filename: "patel-veraj"
 first_name: "Veraj"
 last_name: "Patel"
 headshot_alt: |
-  The headshot of Veraj Patel. It depicts a man with dark hair faintly smiling. He is wearing a dark long-sleeve shirt.
+  The headshot of Veraj Patel.
 ation_word: "Dedication"
 keywords:
   - "Continuous-Learner"

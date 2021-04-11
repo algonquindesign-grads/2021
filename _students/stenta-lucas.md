@@ -4,7 +4,7 @@ filename: "stenta-lucas"
 first_name: "Lucas"
 last_name: "Stenta"
 headshot_alt: |
-  The headshot of Lucas Stenta. It depicts a person with ear-length, wavy brown hair, and some facial hair, smiling comfortably at the camera.
+  The headshot of Lucas Stenta.
 ation_word: "Presentation"
 keywords:
   - "Enthusiastic"

@@ -4,7 +4,7 @@ filename: "jodoin-jess"
 first_name: "Jess"
 last_name: "Jodoin"
 headshot_alt: |
-  The headshot of Jess Jodoin. It depicts a woman with dark hair smiling. She is wearing a dark t-shirt.
+  The headshot of Jess Jodoin.
 ation_word: "Determination"
 keywords:
   - "Continuous Learner"

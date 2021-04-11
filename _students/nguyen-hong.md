@@ -4,7 +4,7 @@ filename: "nguyen-hong"
 first_name: "Hong"
 last_name: "Nguyen"
 headshot_alt: |
-  The headshot of Hong Nguyen. It depicts a woman with dark hair and highlights smiling. She is wearing a dark turtle-neck shirt with her arms crossed.
+  The headshot of Hong Nguyen.
 ation_word: "Visualization"
 keywords:
   - "Continuous-Learner"

@@ -4,7 +4,7 @@ filename: "caudle-ali"
 first_name: "Ali"
 last_name: "Caudle"
 headshot_alt: |
-  The headshot of Ali Caudle. It depicts a red-headed person with shoulder-length hair and glasses, smiling slightly while facing the camera.
+  The headshot of Ali Caudle.
 ation_word: "Improvisation"
 keywords:
   - "Communicative"

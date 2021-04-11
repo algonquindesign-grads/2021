@@ -4,7 +4,7 @@ filename: "prokipcak-julia"
 first_name: "Julia"
 last_name: "Prokipcak"
 headshot_alt: |
-  The headshot of Julia Prokipcak. It depicts a woman with brown hair smiling. She is wearing a dark button-up shirt with grey illustrations of animals.
+  The headshot of Julia Prokipcak.
 ation_word: "Determination"
 keywords:
   - "Communicative"

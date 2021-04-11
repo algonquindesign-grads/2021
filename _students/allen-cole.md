@@ -4,7 +4,7 @@ filename: "allen-cole"
 first_name: "Cole"
 last_name: "Allen"
 headshot_alt: |
-  The headshot of Cole Allen. It depicts a man slightly smiling with his mouth closed, while facing the camera.
+  The headshot of Cole Allen.
 ation_word: "Experimentation"
 keywords:
   - "Enthusiastic"

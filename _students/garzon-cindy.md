@@ -4,7 +4,7 @@ filename: "garzon-cindy"
 first_name: "Cindy"
 last_name: "Garzon"
 headshot_alt: |
-  The headshot of Cindy Garzon. It depicts a person with shoulder-length ombred black-blonde hair, making a neutral expression whist facing the camera.
+  The headshot of Cindy Garzon.
 ation_word: "Determination"
 keywords:
   - "Continuous Learner"

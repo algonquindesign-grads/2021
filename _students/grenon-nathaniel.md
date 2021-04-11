@@ -4,7 +4,7 @@ filename: "grenon-nathaniel"
 first_name: "Nathaniel"
 last_name: "Grenon"
 headshot_alt: |
-  The headshot of Nathaniel Grenon. It depicts a person with short, brown hair, and a short beard, making a neutral expression whist looking directly at the camera.
+  The headshot of Nathaniel Grenon.
 ation_word: "Imagination"
 keywords:
   - "Detail-Oriented"

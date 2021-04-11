@@ -4,7 +4,7 @@ filename: "reed-hannah"
 first_name: "Hannah"
 last_name: "Reed"
 headshot_alt: |
-  The headshot of Hannah Reed. It depicts a woman with brown hair smiling. She is wearing a dark blazer and has her hand on her hip.
+  The headshot of Hannah Reed.
 ation_word: "Experimentation"
 keywords:
   - "Enthusiastic"

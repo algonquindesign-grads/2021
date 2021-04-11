@@ -4,7 +4,7 @@ filename: "langman-sophie"
 first_name: "Sophie"
 last_name: "Langman"
 headshot_alt: |
-  The headshot of Sophie Langman. It depicts a woman with blonde hair smiling. She is wearing a dark shirt and silver necklaces.
+  The headshot of Sophie Langman.
 ation_word: "Conversation"
 keywords:
   - "Altruistic"

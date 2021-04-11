@@ -4,7 +4,7 @@ filename: "volden-christine"
 first_name: "Christine"
 last_name: "Volden"
 headshot_alt: |
-  The headshot of Christine Volden. It depicts a person with mid-length, straight red hair, smiling warmly with their mouth closed, whilst looking at the camera.
+  The headshot of Christine Volden.
 ation_word: "Realisation"
 keywords:
   - "Continuous Learner"

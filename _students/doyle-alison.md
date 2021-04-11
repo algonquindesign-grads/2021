@@ -4,7 +4,7 @@ filename: "doyle-alison"
 first_name: "Alison"
 last_name: "Doyle"
 headshot_alt: |
-  The headshot of Alison Doyle. It depicts a person posed with their hands under their chin, looking upwards whilst smiling in a slight silly way. They are wearing a shirt with a funky cat pattern on it, and have very prominent lime green makeup.
+  The headshot of Alison Doyle.
 ation_word: "Determination"
 keywords:
   - "Altrustic"

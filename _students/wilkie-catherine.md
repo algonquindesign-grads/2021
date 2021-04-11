@@ -4,7 +4,7 @@ filename: "wilkie-catherine"
 first_name: "Catherine"
 last_name: "Wilkie"
 headshot_alt: |
-  The headshot of Catherine Wilkie. It depicts a person with shoulder-length brown hair in a ponytail, wearing tassled, yellow earrings, smiling enthusiastically at the camera.
+  The headshot of Catherine Wilkie.
 ation_word: "Constellation"
 keywords:
   - "Altruistic"

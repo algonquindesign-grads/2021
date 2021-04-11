@@ -4,7 +4,7 @@ filename: "ellis-kyle"
 first_name: "Kyle"
 last_name: "Ellis"
 headshot_alt: |
-  The headshot of Kyle Ellis. It depicts a person with short, blonde hair smiling brightly at the camera whilst holding their chin with one hand.
+  The headshot of Kyle Ellis.
 ation_word: "Amplification"
 keywords:
   - "Enthusiastic"
