@@ -15,7 +15,6 @@ keywords:
 meeting_type:
   - "Networking"
   - "Portfolio Review"
-  - "Job Interview"
 specialties:
   - "Print"
   - "Illustration"
