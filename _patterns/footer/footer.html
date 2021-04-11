@@ -1,69 +1,73 @@
+<div class="push-2">
+  {% pattern navigation/to-top-page %}
+</div>
+
 <footer role="contentinfo">
-    <div class="footer-shape {{include.data.gradient}}">
-      <div class="wrapper gutter pad-t pad-b center-content">
-        <div class="section-logo push pad-t-1-4">
-            <a class="{{include.data.icon_color}}" href="/" aria-label="This button takes you back to the Generation Adaptation homepage.">
-              <i class="icon i-2" id="icon">
+  <div class="footer-shape {{include.data.gradient}}">
+    <div class="wrapper gutter pad-t pad-b center-content">
+      <div class="section-logo push pad-t-1-4">
+        <a class="{{include.data.icon_color}}" href="/" aria-label="This button takes you back to the Generation Adaptation homepage.">
+          <i class="icon i-2" id="icon">
+            <svg>
+              <use xlink:href="/images/icons.svg#icon"></use>
+            </svg>
+          </i>
+        </a>
+      </div>
+
+      <div class="section-nav push">
+        <ul class="list-group text-upper push-0 milli">
+          <li class="push-1-2 {{include.data.nav_color}}"><a href="/quiz/">Quiz</a></li>
+          <li class="push-1-2 {{include.data.nav_color}}"><a href="/#designers">Designers</a></li>
+          <li class="push-0 {{include.data.nav_color}}"><a href="/#mentors">Mentors</a></li>
+        </ul>
+      </div>
+
+      <div class="section-social text-center push">
+        <h6 class="mega {{include.data.text_color}} push-1-2">Check out our socials</h6>
+        <ul class="list-group-inline push-0">
+          <li class="gutter-1-4">
+            <a class="{{include.data.icon_color}}" href="https://www.instagram.com/algonquindesign/" aria-label="This button navigates you to the Algonquin Graphic Design instagram account." target="_blank">
+              <i class="icon i-32" id="instagram">
                 <svg>
-                  <use xlink:href="/images/icons.svg#icon"></use>
+                  <use xlink:href="/images/icons.svg#instagram"></use>
                 </svg>
               </i>
             </a>
-        </div>
+          </li>
+          <li class="gutter-1-2">
+            <a class="{{include.data.icon_color}}" href="https://www.facebook.com/algonquindesign" aria-label="This button navigates you to the Algonquin Graphic Design facebook account." target="_blank">
+              <i class="icon i-32" id="facebook">
+                <svg>
+                  <use xlink:href="/images/icons.svg#facebook"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          <li class="gutter-1-2">
+            <a class="{{include.data.icon_color}}" href="https://www.linkedin.com/company/algonquindesign/" aria-label="This button navigates you to the Algonquin Graphic Design linkedin account." target="_blank">
+              <i class="icon i-32" id="linkedin">
+                <svg>
+                  <use xlink:href="/images/icons.svg#linkedin"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+          <li class="gutter-1-4">
+            <a class="{{include.data.icon_color}}" href="https://twitter.com/algonquindesign/" aria-label="This button navigates you to the Algonquin Graphic Design twitter account." target="_blank">
+              <i class="icon i-32" id="twitter">
+                <svg>
+                  <use xlink:href="/images/icons.svg#twitter"></use>
+                </svg>
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-        <div class="section-nav push">
-          <ul class="list-group text-upper push-0 milli">
-            <li class="push-1-2 {{include.data.nav_color}}"><a href="/quiz/">Quiz</a></li>
-            <li class="push-1-2 {{include.data.nav_color}}"><a href="/#designers">Designers</a></li>
-            <li class="push-0 {{include.data.nav_color}}"><a href="#">Support</a></li>
-          </ul>
-        </div>
-
-        <div class="section-social text-center push">
-          <h6 class="mega {{include.data.text_color}} push-1-2">Check out our socials</h6>
-          <ul class="list-group-inline push-0">
-            <li class="gutter-1-4">
-              <a class="{{include.data.icon_color}}" href="https://www.instagram.com/algonquindesign/" aria-label="This button navigates you to the Algonquin Graphic Design instagram account." target="_blank">
-                <i class="icon i-32" id="instagram">
-                  <svg>
-                    <use xlink:href="/images/icons.svg#instagram"></use>
-                  </svg>
-                </i>
-              </a>
-            </li>
-            <li class="gutter-1-2">
-              <a class="{{include.data.icon_color}}" href="https://www.facebook.com/algonquindesign" aria-label="This button navigates you to the Algonquin Graphic Design facebook account." target="_blank">
-                <i class="icon i-32" id="facebook">
-                  <svg>
-                    <use xlink:href="/images/icons.svg#facebook"></use>
-                  </svg>
-                </i>
-              </a>
-            </li>
-            <li class="gutter-1-2">
-              <a class="{{include.data.icon_color}}" href="https://www.linkedin.com/company/algonquindesign/" aria-label="This button navigates you to the Algonquin Graphic Design linkedin account." target="_blank">
-                <i class="icon i-32" id="linkedin">
-                  <svg>
-                    <use xlink:href="/images/icons.svg#linkedin"></use>
-                  </svg>
-                </i>
-              </a>
-            </li>
-            <li class="gutter-1-4">
-              <a class="{{include.data.icon_color}}" href="https://twitter.com/algonquindesign/" aria-label="This button navigates you to the Algonquin Graphic Design twitter account." target="_blank">
-                <i class="icon i-32" id="twitter">
-                  <svg>
-                    <use xlink:href="/images/icons.svg#twitter"></use>
-                  </svg>
-                </i>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="section-copyright">
-          <p class="micro push text-center {{include.data.text_color}}">© 2021 Algonquin College Graphic Design Grad Show</p>
-        </div>
+      <div class="section-copyright">
+        <p class="micro push text-center {{include.data.text_color}}">© 2021 Algonquin College Graphic Design Grad Show</p>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
