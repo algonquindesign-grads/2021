@@ -39,7 +39,8 @@ portfolio_description1: |
   A motion reel containting both motion and illustrative based works made in 2021 and prior
 portfolio_title2: "Swizzles Branding guide"
 portfolio_description2: |
-   A complete branding guide for a local bar complete with logo, stationary set, and branding guidelines. https://drive.google.com/file/d/1saUF1TR3W8G_aJOWQ5_f9rkJ9tRkPLpZ/view?usp=sharing
+   A complete branding guide for a local bar complete with logo, stationary set, and branding guidelines.
+portfolio_description2_link: <a href="https://drive.google.com/file/d/1saUF1TR3W8G_aJOWQ5_f9rkJ9tRkPLpZ/view?usp=sharing" target="_blank">Link here!</a>
 portfolio_title3: "Illustrated Album Cover Reel"
 portfolio_description3: |
   An album cover for a single song that was then turned into a reel to repeate on platforms like spotify when the song is playing.
