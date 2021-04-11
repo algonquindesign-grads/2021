@@ -1,5 +1,5 @@
 ---
-layout: template-3
+layout: template-4
 filename: "madore-sabrina"
 first_name: "Sabrina"
 last_name: "Madore"
@@ -35,21 +35,21 @@ quote_text: |
 quote_author: |
   — Alexander Isley
 portfolio_image1: "/projects/madore-sabrina-project-1.jpg"
-portfolio_video2: "/projects/madore-sabrina-project-2.mp4"
-portfolio_image3: "/projects/madore-sabrina-project-3.jpg"
+portfolio_image2: "/projects/madore-sabrina-project-2.jpg"
+portfolio_video3: "/projects/madore-sabrina-project-3.mp4"
 portfolio_video4: "/projects/madore-sabrina-project-4.mp4"
 portfolio_title1: "Reciprocl"
 portfolio_description1: |
   A high-fidelity app prototype facilitating task-sharing between individuals for household chores, buying meals, and all other turn-taking activities.
-portfolio_title2: "Motion Reel 2021"
+portfolio_title2: "Allium & Oleum"
 portfolio_description2: |
-  A collection of my best motion work during my time studying Graphic Design, set over my own music composed and recorded uniquely for this reel.
-portfolio_title3: "Allium & Oleum"
-portfolio_description3: |
   A shopify site designed and built for the sale of chef-quality garlic confit and oil infusions.
-portfolio_title4: "An Animated Life-Drawing Short"
-portfolio_description4: |
+portfolio_title3: "An Animated Life-Drawing Short"
+portfolio_description3: |
   An animated introduction for a series on quirky observations and experiences being part of the Ottawa life drawing community.
+portfolio_title4: "Motion Reel 2021"
+portfolio_description4: |
+  A collection of my best motion work during my time studying Graphic Design. Set over my own music composed and recorded uniquely for this reel.
 html_class: "web"
 meta_sitename: |
   Generation Adaptation
