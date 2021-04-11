@@ -4,7 +4,7 @@ filename: "desmarais-sarah"
 first_name: "Sarah"
 last_name: "Desmarais"
 headshot_alt: |
-  The headshot of Sarah Desmarais. It depicts a person with mid-length, curled brown hair smiling brightly with her shoulders slightly shrugged.
+  The headshot of Sarah Desmarais.
 ation_word: "Inspiration"
 keywords:
   - "Continuous Learner"

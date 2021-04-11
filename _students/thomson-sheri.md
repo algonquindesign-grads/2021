@@ -4,7 +4,7 @@ filename: "thomson-sheri"
 first_name: "Sheri"
 last_name: "Thomson"
 headshot_alt: |
-  The headshot of Sheri Thomson. It depicts a person with ombred dark-blonde hair smiling confidently whilst making eye contact with the camera.
+  The headshot of Sheri Thomson.
 ation_word: "Determination"
 keywords:
   - "Altruistic"

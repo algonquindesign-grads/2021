@@ -4,7 +4,7 @@ filename: "beauchamp-brianna"
 first_name: "Brianna"
 last_name: "Beauchamp"
 headshot_alt: |
-  The headshot of Brianna Beauchamp. It depicts a woman with long blonde hair and glasses smiling brightly at the camera.
+  The headshot of Brianna Beauchamp.
 ation_word: "Ideation"
 keywords:
   - "Continuous Learner"

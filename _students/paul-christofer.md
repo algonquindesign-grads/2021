@@ -4,7 +4,7 @@ filename: "paul-christofer"
 first_name: "Christofer"
 last_name: "Paul"
 headshot_alt: |
-  The headshot of Christofer Paul. It depicts a man with dark hair and a beard smiling. He is wearing a dark t-shirt.
+  The headshot of Christofer Paul.
 ation_word: "Ideation"
 keywords:
   - "Altruistic"

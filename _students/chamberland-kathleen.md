@@ -4,7 +4,7 @@ filename: "chamberland-kathleen"
 first_name: "Kathleen"
 last_name: "Chamberland"
 headshot_alt: |
-  The headshot of Kathleen Chamberland. It depicts a person with long, light brown hair, wearing a neutral expression on their face. They are facing the camera with their arms crossed.
+  The headshot of Kathleen Chamberland.
 ation_word: "Creation"
 keywords:
   - "Enthusiastic"

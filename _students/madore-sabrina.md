@@ -4,7 +4,7 @@ filename: "madore-sabrina"
 first_name: "Sabrina"
 last_name: "Madore"
 headshot_alt: |
-  The headshot of Sabrina Madore. It depicts a woman with dark hair faintly smiling. She is wearing a dark button-up shirt.
+  The headshot of Sabrina Madore.
 ation_word: "Amelioration"
 keywords:
   - "Continuous Learner"

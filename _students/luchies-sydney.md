@@ -4,7 +4,7 @@ filename: "luchies-sydney"
 first_name: "Sydney"
 last_name: "Luchies"
 headshot_alt: |
-  The headshot of Sydney Luchies. It depicts a woman with a light hair tied back, smiling. She is wearing a dark cardigan and a silver necklace.
+  The headshot of Sydney Luchies.
 ation_word: "Imagination"
 keywords:
   - "Independent"

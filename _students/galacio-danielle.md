@@ -4,7 +4,7 @@ filename: "galacio-danielle"
 first_name: "Danielle"
 last_name: "Galacio"
 headshot_alt: |
-  The headshot of Danielle Galacio. It depicts a person with long, black hair and glasses smiling sweetly at the camera, with their arms by their sides.
+  The headshot of Danielle Galacio.
 ation_word: "Determination"
 keywords:
   - "Altruistic"

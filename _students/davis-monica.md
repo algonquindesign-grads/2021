@@ -4,7 +4,7 @@ filename: "davis-monica"
 first_name: "Monica"
 last_name: "Davis"
 headshot_alt: |
-  The headshot of Monica Davis. It depicts a closeup portrait of a person with long, brown, curly hair in a ponytail, and several piercings, smiling slightly at the camera.
+  The headshot of Monica Davis.
 ation_word: "Tímida-tion"
 keywords:
   - "Altruistic"

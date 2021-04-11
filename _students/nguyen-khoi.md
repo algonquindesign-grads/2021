@@ -4,7 +4,7 @@ filename: "nguyen-khoi"
 first_name: "Khoi"
 last_name: "Nguyen"
 headshot_alt: |
-  The headshot of Khoi Nguyen. It depicts a man with short dark hair smiling. He is wearing a dark shirt and glasses.
+  The headshot of Khoi Nguyen.
 ation_word: "Coordination"
 keywords:
   - "Continuous-Learner"

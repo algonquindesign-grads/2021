@@ -4,7 +4,7 @@ filename: "martins-ana"
 first_name: "Ana"
 last_name: "Martins"
 headshot_alt: |
-  The headshot of Ana Martins. It depicts a woman with long brown hair smiling. She is wearing a dark blazer and shirt.
+  The headshot of Ana Martins.
 ation_word: "Creation"
 keywords:
   - "Continuous-Learner"

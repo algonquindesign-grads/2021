@@ -4,7 +4,7 @@ filename: "fuentes-daniela"
 first_name: "Daniela"
 last_name: "Fuentes"
 headshot_alt: |
-  The headshot of Daniela Fuentes. It depicts a person with very curly, dark hair in a ponytail, smiling slightly whilst directly facing the camera.
+  The headshot of Daniela Fuentes.
 ation_word: "Imagination"
 keywords:
   - "Efficient"

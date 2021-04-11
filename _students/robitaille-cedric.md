@@ -4,7 +4,7 @@ filename: "robitaille-cedric"
 first_name: "Cedric"
 last_name: "Robitaille"
 headshot_alt: |
-  The headshot of Cedric Robitaille. It depicts a man with dark hair smiling. He is wearing a dark shirt.
+  The headshot of Cedric Robitaille.
 ation_word: "Innovation"
 keywords:
   - "Altruistic"

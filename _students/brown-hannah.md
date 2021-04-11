@@ -4,7 +4,7 @@ filename: "brown-hannah"
 first_name: "Hannah"
 last_name: "Brown"
 headshot_alt: |
-  The headshot of Hannah Brown. It depicts a person with shoulder-length, curly, brown hair, smiling brightly while facing the camera.
+  The headshot of Hannah Brown.
 ation_word: "Exploration"
 keywords:
   - "Altruistic"

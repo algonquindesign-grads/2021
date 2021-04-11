@@ -4,7 +4,7 @@ filename: "stephanson-julianna"
 first_name: "Julianna"
 last_name: "Stephanson"
 headshot_alt: |
-  The headshot of Julianna Stephanson. It depicts a person with mid-length brown hair making a neutral expression at the camera, whilst wearing a grey sweater.
+  The headshot of Julianna Stephanson.
 ation_word: "Imagination"
 keywords:
   - "Continuous Learner"

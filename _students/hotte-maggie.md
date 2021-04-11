@@ -4,7 +4,7 @@ filename: "hotte-maggie"
 first_name: "Maggie"
 last_name: "Hotte"
 headshot_alt: |
-  The headshot of Maggie Hotte. It depicts a woman with dark blonde hair smiling. She is wearing a dark shirt and blazer with glasses.
+  The headshot of Maggie Hotte.
 ation_word: "Optimization"
 keywords:
   - "Independent"

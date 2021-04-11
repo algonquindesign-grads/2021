@@ -4,7 +4,7 @@ filename: "kenlocksherman-bria"
 first_name: "Bria"
 last_name: "Kenlock-Sherman"
 headshot_alt: |
-  The headshot of Bria Kenlock-Sherman. It depicts a woman with dark hair smiling. She is wearing a dark shirt and has her arms crossed.
+  The headshot of Bria Kenlock-Sherman.
 ation_word: "Visualization"
 keywords:
   - "Altruistic"

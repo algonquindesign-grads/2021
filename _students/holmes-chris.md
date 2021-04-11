@@ -4,7 +4,7 @@ filename: "holmes-chris"
 first_name: "Chris"
 last_name: "Holmes"
 headshot_alt: |
-  The headshot of Chris Holmes. It depicts a man smiling with his arms crossed, wearing a black button-up shirt.
+  The headshot of Chris Holmes.
 ation_word: "Transformation"
 keywords:
   - "Continuous Learner"

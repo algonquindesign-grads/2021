@@ -4,7 +4,7 @@ filename: "hendry-anna"
 first_name: "Anna"
 last_name: "Hendry"
 headshot_alt: |
-  The headshot of Anna Hendry. It depicts a person smiling with their teeth showing, and mid length brown hair, whilst wearing a necklace.
+  The headshot of Anna Hendry.
 ation_word: "Illustration"
 keywords:
   - "Independent"

@@ -4,7 +4,7 @@ filename: "ekuma-deborah"
 first_name: "Deborah Ibe"
 last_name: "Ekuma"
 headshot_alt: |
-  The headshot of Deborah Ibe Ekuma. It depicts a closeup of a person with shoulder-length black hair smiling whilst looking directly at the camera.
+  The headshot of Deborah Ibe Ekuma.
 ation_word: "Origination"
 keywords:
   - "Detail-Oriented"

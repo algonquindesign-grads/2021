@@ -4,7 +4,7 @@ filename: "bulkowskirose-mackenzie"
 first_name: "MacKenzie"
 last_name: "Bulkowski-Rose"
 headshot_alt: |
-  The headshot of MacKenzie Bulkowski-Rose. It depicts a person with long brown hair smiling with their mouth closed, and head turned upwards, with their hands on their hips.
+  The headshot of MacKenzie Bulkowski-Rose.
 ation_word: "Caffeination"
 keywords:
   - "Communicative"

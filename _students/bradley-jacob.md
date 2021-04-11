@@ -4,7 +4,7 @@ filename: "bradley-jacob"
 first_name: "Jacob"
 last_name: "Bradley"
 headshot_alt: |
-  The headshot of Jacob Bradley. It depicts a redheaded person with short hair and a beard smiling brightly at the camera.
+  The headshot of Jacob Bradley.
 ation_word: "Multitaskation"
 keywords:
   - "Flexible"

@@ -4,7 +4,7 @@ filename: "dion-avery"
 first_name: "Avery"
 last_name: "Dion"
 headshot_alt: |
-  The headshot of Avery Dion. It depicts a person with a blonde pixie cut and smokey eye makeup making a neutral expression whilst looking directly at the camera.
+  The headshot of Avery Dion.
 ation_word: "Inspiration"
 keywords:
   - "Continuous Learner"

@@ -1,8 +1,10 @@
 <header class="header-shape {{include.data.gradient}}" id="navigation" role="banner">
   <div class="wrapper header-flex">
-    <a class="{{include.data.icon_color}}" href="/" aria_label="This button takes you to the Generation Adaptation homepage.">
-      <i class="icon i-2 header-logo"><svg><use xlink:href="/images/icons.svg#alternate"></use></svg></i>
-    </a>
+    <h1 class="push-0">
+      <a class="{{include.data.icon_color}}" href="/" aria-label="This button takes you to the Generation Adaptation homepage.">
+        <i class="icon i-2 header-logo"><svg><use xlink:href="/images/icons.svg#alternate"></use></svg></i>
+      </a>
+    </h1>
 
     <nav class="header-nav" id="nav" role="navigation">
       <button class="toggle {{include.data.icon_color}}" id="toggle" type="button" name="button">
@@ -13,10 +15,8 @@
       <ul class="h-nav-ul list-group text-upper push-0 kilo" id="h-nav-ul">
         <li class="{{include.data.nav_color}}"><a href="/quiz/">Quiz</a></li>
         <li class="{{include.data.nav_color}}"><a href="/#designers">Designers</a></li>
-        <li class="{{include.data.nav_color}}"><a href="/#support">Support</a></li>
+        <li class="{{include.data.nav_color}}"><a href="/#mentors">Mentors</a></li>
       </ul>
     </nav>
   </div>
 </header>
-
-{% pattern navigation/to-top-page %}

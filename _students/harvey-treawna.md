@@ -4,7 +4,7 @@ filename: "harvey-treawna"
 first_name: "Treawna"
 last_name: "Harvey"
 headshot_alt: |
-  The headshot of Treawna Harvey. It depicts a person with long, flowy, dark hair and glasses, smiling warmly at the camera.
+  The headshot of Treawna Harvey.
 ation_word: "Hyperconcentration"
 keywords:
   - "Continuous Learner"

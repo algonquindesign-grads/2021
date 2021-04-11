@@ -4,7 +4,7 @@ filename: "boyd-niall"
 first_name: "Niall"
 last_name: "Boyd"
 headshot_alt: |
-  The headshot of Niall Boyd. It depicts a person with shaggy, brown hair, wearing a button-up shirt, smiling slightly at the camera.
+  The headshot of Niall Boyd.
 ation_word: "Communication"
 keywords:
   - "Communicative"

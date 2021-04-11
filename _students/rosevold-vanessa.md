@@ -4,7 +4,7 @@ filename: "rosevold-vanessa"
 first_name: "Vanessa"
 last_name: "Rosevold"
 headshot_alt: |
-  The headshot of Vanessa Rosevold. It depicts a woman with light hair smiling. She is wearing a dark shirt.
+  The headshot of Vanessa Rosevold.
 ation_word: "Actualization"
 keywords:
   - "Continuous Learner"

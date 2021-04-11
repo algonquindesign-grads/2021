@@ -4,7 +4,7 @@ filename: "lovan-cola"
 first_name: "Cola"
 last_name: "Lovan"
 headshot_alt: |
-  The headshot of Cola Lovan. It depicts a man with a short dark mohawk smiling. He is wearing a dark corduroy blazer.
+  The headshot of Cola Lovan.
 ation_word: "Innovation"
 keywords:
   - "Continuous Learner"

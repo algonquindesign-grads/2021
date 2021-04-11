@@ -4,7 +4,7 @@ filename: "mannwilliams-jesse"
 first_name: "Jesse"
 last_name: "Mann-Williams"
 headshot_alt: |
-  The headshot of Jesse Mann-Williams. It depicts a man with dark blonde hair and a beard smiling. He is wearing a dark shirt and glasses.
+  The headshot of Jesse Mann-Williams.
 ation_word: "Organization"
 keywords:
   - "Enthusiastic"

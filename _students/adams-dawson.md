@@ -4,7 +4,7 @@ filename: "adams-dawson"
 first_name: "Dawson"
 last_name: "Adams"
 headshot_alt: |
-  The headshot of Dawson Adams. It depicts a woman with dark hair, wearing a necklace, smiling with her mouth closed.
+  The headshot of Dawson Adams.
 ation_word: "Optimization"
 keywords:
   - "Communicative"
