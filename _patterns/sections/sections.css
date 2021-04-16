@@ -294,8 +294,10 @@ img:not(.rainbow-line).filtered-web:focus,
 }
 
 .work-hover > p,
-.work-hover-vid > p {
+.work-hover-vid > p,
+p.max-length-description {
   max-width: 36em;
+  line-height: 1.25;
 }
 
 .work-cards:hover .work-hover,
