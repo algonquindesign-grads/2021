@@ -13,7 +13,6 @@ keywords:
   - "Flexible"
   - "Team-Oriented"
 meeting_type:
-  - "Job Interview"
   - "Networking"
   - "Portfolio Review"
 specialties:
