@@ -6,14 +6,22 @@
       <h4 class="push-1-4">{{include.data.portfolio_title1}}</h4>
       <div class="relative">
         {% if include.data.portfolio_image1 %}
-          <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.jpg" alt="{{include.data.portfolio_description1}}">
+        <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.jpg"
+          alt="{{include.data.portfolio_description1}}">
         {% endif %}
         {% if include.data.portfolio_video1 %}
-          <video controls loop playsinline class="push-0">
-            <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.mp4" type="video/mp4">
-          </video>
+        <video controls loop playsinline class="push-0">
+          <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-1.mp4" type="video/mp4">
+        </video>
         {% endif %}
-        <p class="milli work-hover {% if include.data.portfolio_video1 %}work-hover-vid{% endif %} push-0" tabindex="0">{{include.data.portfolio_description1}}</p>
+        {% if include.data.portfolio_gif1 %}
+        <video autoplay controls loop playsinline class="push-0">
+          <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-1.mp4" type="video/mp4">
+        </video>
+        {% endif %}
+        <p
+          class="milli work-hover {% if include.data.portfolio_video1 or include.data.portfolio_gif1 %}work-hover-vid{% endif %} push-0">
+          {{include.data.portfolio_description1}}</p>
       </div>
     </div>
 
@@ -21,14 +29,22 @@
       <h4 class="push-1-4">{{include.data.portfolio_title2}}</h4>
       <div class="relative">
         {% if include.data.portfolio_image2 %}
-          <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.jpg" alt="{{include.data.portfolio_description2}}">
+        <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.jpg"
+          alt="{{include.data.portfolio_description2}}">
         {% endif %}
         {% if include.data.portfolio_video2 %}
-          <video controls loop playsinline class="push-0">
-            <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.mp4" type="video/mp4">
-          </video>
+        <video controls loop playsinline class="push-0">
+          <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-2.mp4" type="video/mp4">
+        </video>
         {% endif %}
-        <p class="milli work-hover {% if include.data.portfolio_video2 %}work-hover-vid{% endif %} push-0" tabindex="0">{{include.data.portfolio_description2}}</p>
+        {% if include.data.portfolio_gif2 %}
+        <video autoplay controls loop playsinline class="push-0">
+          <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-2.mp4" type="video/mp4">
+        </video>
+        {% endif %}
+        <p
+          class="milli work-hover {% if include.data.portfolio_video2 or include.data.portfolio_gif2 %}work-hover-vid{% endif %} push-0">
+          {{include.data.portfolio_description2}}</p>
       </div>
     </div>
 
@@ -36,14 +52,22 @@
       <h4 class="push-1-4">{{include.data.portfolio_title3}}</h4>
       <div class="relative">
         {% if include.data.portfolio_image3 %}
-          <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg" alt="{{include.data.portfolio_description3}}">
+        <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg"
+          alt="{{include.data.portfolio_description3}}">
         {% endif %}
         {% if include.data.portfolio_video3 %}
-          <video controls loop playsinline class="push-0">
-            <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.mp4" type="video/mp4">
-          </video>
+        <video controls loop playsinline class="push-0">
+          <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.mp4" type="video/mp4">
+        </video>
         {% endif %}
-        <p class="milli work-hover {% if include.data.portfolio_video3 %}work-hover-vid{% endif %} push-0" tabindex="0">{{include.data.portfolio_description3}}</p>
+        {% if include.data.portfolio_gif3 %}
+        <video autoplay controls loop playsinline class="push-0">
+          <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-3.mp4" type="video/mp4">
+        </video>
+        {% endif %}
+        <p
+          class="milli work-hover {% if include.data.portfolio_video3 or include.data.portfolio_gif3 %}work-hover-vid{% endif %} push-0">
+          {{include.data.portfolio_description3}}</p>
       </div>
     </div>
 
@@ -51,14 +75,22 @@
       <h4 class="push-1-4">{{include.data.portfolio_title4}}</h4>
       <div class="relative">
         {% if include.data.portfolio_image4 %}
-          <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg" alt="{{include.data.portfolio_description4}}">
+        <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg"
+          alt="{{include.data.portfolio_description4}}">
         {% endif %}
         {% if include.data.portfolio_video4 %}
-          <video controls loop playsinline class="push-0">
-            <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.mp4" type="video/mp4">
-          </video>
+        <video controls loop playsinline class="push-0">
+          <source src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.mp4" type="video/mp4">
+        </video>
         {% endif %}
-        <p class="milli work-hover {% if include.data.portfolio_video4 %}work-hover-vid{% endif %} push-0" tabindex="0">{{include.data.portfolio_description4}}</p>
+        {% if include.data.portfolio_gif4 %}
+        <video autoplay controls loop playsinline class="push-0">
+          <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-4.mp4" type="video/mp4">
+        </video>
+        {% endif %}
+        <p
+          class="milli work-hover {% if include.data.portfolio_video4 or include.data.portfolio_gif4 %}work-hover-vid{% endif %} push-0">
+          {{include.data.portfolio_description4}}</p>
       </div>
     </div>
 
