@@ -1,15 +1,14 @@
 <section class="intro-section-3 text-center push-2">
   <video controls loop playsinline class="push">
-    <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
-    <track label="English" kind="subtitles" srclang="en"
-      src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
-  </video>
+      <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
+      <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
+    </video>
   <h3 class="giga push-2">I am Generation <span>{{include.data.ation_word}}</span></h3>
   <blockquote class="quote-accent text-center">
-    <p class="mega">“{{include.data.quote_text | strip}}”</p>
-    {% if include.data.quote_author %}
-    <footer><cite>{{include.data.quote_author}}</cite></footer>
-    {% endif %}
+      <p class="mega">“{{include.data.quote_text | strip}}”</p>
+      {% if include.data.quote_author %}
+          <footer><cite>{{include.data.quote_author}}</cite></footer>
+      {% endif %}
   </blockquote>
 </section>
 
@@ -32,9 +31,7 @@
         <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-1.mp4" type="video/mp4">
       </video>
       {% endif %}
-      <p
-        class="milli work-hover {% if include.data.portfolio_video1 or include.data.portfolio_gif1 %}work-hover-vid{% endif %} push-0">
-        {{include.data.portfolio_description1}}</p>
+      <p class="milli push-0">{{include.data.portfolio_description1}}{{include.data.portfolio_description1_link}}</p>
     </div>
 
     <div class="project-2-section-3">
@@ -53,9 +50,7 @@
         <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-2.mp4" type="video/mp4">
       </video>
       {% endif %}
-      <p
-        class="milli work-hover {% if include.data.portfolio_video2 or include.data.portfolio_gif2 %}work-hover-vid{% endif %} push-0">
-        {{include.data.portfolio_description2}}</p>
+      <p class="milli push-0">{{include.data.portfolio_description2}}{{include.data.portfolio_description2_link}}</p>
     </div>
   </div>
 </section>
@@ -78,11 +73,10 @@
         <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-3.mp4" type="video/mp4">
       </video>
       {% endif %}
-      <p
-        class="milli work-hover {% if include.data.portfolio_video3 or include.data.portfolio_gif3 %}work-hover-vid{% endif %} push-0">
-        {{include.data.portfolio_description3}}</p>
+      <p class="milli {% if include.data.portfolio_video3 or include.data.portfolio_gif3 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description3}}{{include.data.portfolio_description3_link}}</p>
     </div>
   </div>
+
   <div class="project-4-section-3 work-cards">
     <h4 class="push-1-4">{{include.data.portfolio_title4}}</h4>
     <div class="relative">
@@ -100,9 +94,7 @@
         <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-4.mp4" type="video/mp4">
       </video>
       {% endif %}
-      <p
-        class="milli work-hover {% if include.data.portfolio_video4 or include.data.portfolio_gif4 %}work-hover-vid{% endif %} push-0">
-        {{include.data.portfolio_description4}}</p>
+      <p class="milli {% if include.data.portfolio_video4 or include.data.portfolio_gif4 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description4}}{{include.data.portfolio_description4_link}}</p>
     </div>
   </div>
 </section>
