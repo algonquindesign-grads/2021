@@ -11,6 +11,12 @@ span {
   color: var(--color-tint);
 }
 
+/* Force rainbow lines to be a consistent height, so they stay the same width on the teacher and student cards */
+div.student-cards .rainbow-line,
+div.teacher-cards .rainbow-line {
+  height: 3px;
+}
+
 /* Define general shape of images and videos, excluding the SVG rainbow line */
 img:not(.rainbow-line) {
   background-color: var(--color-secondary);
