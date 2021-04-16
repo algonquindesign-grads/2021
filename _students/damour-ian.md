@@ -32,7 +32,7 @@ quote_text: |
   Unique, is probably the best word to describe both my work and my personality.
 portfolio_video1: "/projects/damour-ian-project-1.mp4"
 portfolio_image2: "/projects/damour-ian-project-2.jpg"
-portfolio_video3: "/projects/damour-ian-project-3.mp4"
+portfolio_gif3: "/projects/damour-ian-gif-3.mp4"
 portfolio_video4: "/projects/damour-ian-project-4.mp4"
 portfolio_title1: "Damour Design Motion Reel 2021"
 portfolio_description1: |
