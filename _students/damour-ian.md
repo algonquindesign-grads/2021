@@ -32,7 +32,7 @@ quote_text: |
   Unique, is probably the best word to describe both my work and my personality.
 portfolio_video1: "/projects/damour-ian-project-1.mp4"
 portfolio_image2: "/projects/damour-ian-project-2.jpg"
-portfolio_video3: "/projects/damour-ian-project-3.mp4"
+portfolio_gif3: "/projects/damour-ian-gif-3.mp4"
 portfolio_video4: "/projects/damour-ian-project-4.mp4"
 portfolio_title1: "Damour Design Motion Reel 2021"
 portfolio_description1: |
@@ -40,7 +40,7 @@ portfolio_description1: |
 portfolio_title2: "Swizzles Branding guide"
 portfolio_description2: |
    A complete branding guide for a local bar complete with logo, stationary set, and branding guidelines.
-portfolio_description2_link: <a href="https://drive.google.com/file/d/1saUF1TR3W8G_aJOWQ5_f9rkJ9tRkPLpZ/view?usp=sharing" target="_blank">Link here!</a>
+portfolio_description2_link: <a href="https://drive.google.com/file/d/1saUF1TR3W8G_aJOWQ5_f9rkJ9tRkPLpZ/view?usp=sharing" target="_blank">Full guide here!</a>
 portfolio_title3: "Illustrated Album Cover Reel"
 portfolio_description3: |
   An album cover for a single song that was then turned into a reel to repeate on platforms like spotify when the song is playing.

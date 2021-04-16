@@ -37,7 +37,7 @@ quote_text: |
 quote_author: |
   — Tasmyn Clark
 portfolio_video1: "/projects/clark-tasmyn-project-1.mp4"
-portfolio_video2: "/projects/clark-tasmyn-project-2.mp4"
+portfolio_gif2: "/projects/clark-tasmyn-gif-2.mp4"
 portfolio_video3: "/projects/clark-tasmyn-project-3.mp4"
 portfolio_video4: "/projects/clark-tasmyn-project-4.mp4"
 portfolio_title1: "2021 Motion Reel"

@@ -35,7 +35,7 @@ quote_text: |
 portfolio_image1: "/projects/caudle-ali-project-1.jpg"
 portfolio_image2: "/projects/caudle-ali-project-2.jpg"
 portfolio_image3: "/projects/caudle-ali-project-3.jpg"
-portfolio_video4: "/projects/caudle-ali-project-4.mp4"
+portfolio_gif4: "/projects/caudle-ali-gif-4.mp4"
 portfolio_title1: "Euphoria Event Poster"
 portfolio_description1: |
   This piece is a part of a larger fictitious music festival event branding package. It was created in Adobe Illustrator.

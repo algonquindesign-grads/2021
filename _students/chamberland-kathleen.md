@@ -34,7 +34,7 @@ intro_text: |
    Hey! My name is Kathleen Chamberland, or Kat for short. I'm a graphic designer in Ottawa, Ontario.I've always loved the thought of being a graphic designer, even from a young age; you cold find me playing around with Photoshop. When I graduated from high school I thought if this is something I like to do why not get paid for it?
 quote_text: |
   Things aren't always #000000 and #FFFFFF
-portfolio_video1: "/projects/chamberland-kathleen-project-1.mp4"
+portfolio_gif1: "/projects/chamberland-kathleen-gif-1.mp4"
 portfolio_image2: "/projects/chamberland-kathleen-project-2.jpg"
 portfolio_image3: "/projects/chamberland-kathleen-project-3.jpg"
 portfolio_video4: "/projects/chamberland-kathleen-project-4.mp4"

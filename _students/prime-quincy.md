@@ -31,7 +31,7 @@ intro_text: |
   Hey, I’m Quincy Prime. Unfortunately, I’m not an Autobot. Or a rack of ribs. But I am a Graphic Designer! I really enjoy motion graphics and I’m working towards moving my career in that direction. While my main passion in design is motion graphics, I also specialize in image retouching, and logo/icon design. I've also been commissioned for hundreds of social media pieces such as YouTube thumbnails and Twitch channel works.
 quote_text: |
   To be a designer is to think outside the box, turn around, and bust it open for everyone else.
-portfolio_video1: "/projects/prime-quincy-project-1.mp4"
+portfolio_gif1: "/projects/prime-quincy-gif-1.mp4"
 portfolio_image2: "/projects/prime-quincy-project-2.jpg"
 portfolio_image3: "/projects/prime-quincy-project-3.jpg"
 portfolio_image4: "/projects/prime-quincy-project-4.jpg"

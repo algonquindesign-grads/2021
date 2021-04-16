@@ -1,6 +1,5 @@
 /* Define general use classes for colouring sections based on specialty */
-span,
-.quote-accent {
+span {
   color: var(--color-accent);
 }
 
@@ -10,6 +9,12 @@ span,
 
 .color-separator-tint {
   color: var(--color-tint);
+}
+
+/* Force rainbow lines to be a consistent height, so they stay the same width on the teacher and student cards */
+div.student-cards .rainbow-line,
+div.teacher-cards .rainbow-line {
+  height: 3px;
 }
 
 /* Define general shape of images and videos, excluding the SVG rainbow line */
@@ -177,7 +182,6 @@ img:not(.rainbow-line).filtered-web:focus,
 .hp-welcome {
   text-transform: uppercase;
   text-align: center;
-  font-weight: bold;
 }
 
 .hp-logo {
@@ -287,13 +291,22 @@ img:not(.rainbow-line).filtered-web:focus,
   position: inherit;
   opacity: 1;
   transition: all .15s ease-in;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
   line-height: 1.3;
   margin-bottom: 1.5rem;
   display: block;
+  opacity: 0;
 }
 
-.work-cards:hover .work-hover {
+.work-hover > p,
+.work-hover-vid > p,
+p.max-length-description {
+  max-width: 36em;
+  line-height: 1.25;
+}
+
+.work-cards:hover .work-hover,
+.work-cards:hover .work-hover-vid {
   opacity: 1;
 }
 
