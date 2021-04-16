@@ -4,8 +4,8 @@
       <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
     </video>
   <h3 class="giga push-2">I am Generation <span>{{include.data.ation_word}}</span></h3>
-  <blockquote class="quote-accent text-center">
-      <p class="mega">“{{include.data.quote_text | strip}}”</p>
+  <blockquote class="text-center">
+      <p class="mega push-1-2">“{{include.data.quote_text | strip}}”</p>
       {% if include.data.quote_author %}
           <footer><cite>{{include.data.quote_author}}</cite></footer>
       {% endif %}
@@ -73,7 +73,9 @@
         <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-3.mp4" type="video/mp4">
       </video>
       {% endif %}
-      <p class="milli {% if include.data.portfolio_video3 or include.data.portfolio_gif3 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description3}}{{include.data.portfolio_description3_link}}</p>
+      <div class="work-hover {% if include.data.portfolio_video3 or include.data.portfolio_gif3 %}work-hover-vid{% endif %}">
+        <p class="milli push-0">{{include.data.portfolio_description3}}{{include.data.portfolio_description3_link}}</p>
+      </div>
     </div>
   </div>
 
@@ -94,7 +96,9 @@
         <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-4.mp4" type="video/mp4">
       </video>
       {% endif %}
-      <p class="milli {% if include.data.portfolio_video4 or include.data.portfolio_gif4 %}work-hover-vid{% endif %} push-0">{{include.data.portfolio_description4}}{{include.data.portfolio_description4_link}}</p>
+      <div class="work-hover {% if include.data.portfolio_video4 or include.data.portfolio_gif4 %}work-hover-vid{% endif %}">
+        <p class="milli push-0">{{include.data.portfolio_description4}}{{include.data.portfolio_description4_link}}</p>
+      </div>
     </div>
   </div>
 </section>

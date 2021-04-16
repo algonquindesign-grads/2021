@@ -1,6 +1,5 @@
 /* Define general use classes for colouring sections based on specialty */
-span,
-.quote-accent {
+span {
   color: var(--color-accent);
 }
 
@@ -292,6 +291,11 @@ img:not(.rainbow-line).filtered-web:focus,
   margin-bottom: 1.5rem;
   display: block;
   opacity: 0;
+}
+
+.work-hover > p,
+.work-hover-vid > p {
+  max-width: 36em;
 }
 
 .work-cards:hover .work-hover,
