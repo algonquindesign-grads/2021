@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+.label-1 {
+  width: 200px;
+}
+
 .quiz-content {
   font-family: 'Barlow', sans-serif;
   align-items: center;
@@ -100,10 +104,15 @@ html {
     transition: all .2s;
 }
 
+.label {
+  width: 500px;
+}
+
 .quiz-content .label {
-    padding: 8px 12px;
-    cursor: pointer;
-    padding-right: 2em;
+  width: 320px;
+  padding: 8px 12px;
+  cursor: pointer;
+  padding-right: 2em;
 }
 
 .label::before {
