@@ -60,7 +60,7 @@
     <h4 class="push-1-4">{{include.data.portfolio_title3}}</h4>
     <div class="relative">
       {% if include.data.portfolio_image3 %}
-      <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg"
+      <img class="img-flex" style="margin-bottom: .35rem;" src="{{site.cdn}}/projects/{{include.data.filename}}-project-3.jpg"
         alt="{{include.data.portfolio_description3}}">
       {% endif %}
       {% if include.data.portfolio_video3 %}
@@ -73,7 +73,7 @@
         <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-3.mp4" type="video/mp4">
       </video>
       {% endif %}
-      <div class="work-hover {% if include.data.portfolio_video3 or include.data.portfolio_gif3 %}work-hover-vid{% endif %}">
+      <div class="work-hover">
         <p class="milli push-0">{{include.data.portfolio_description3}}{{include.data.portfolio_description3_link}}</p>
       </div>
     </div>
@@ -83,7 +83,7 @@
     <h4 class="push-1-4">{{include.data.portfolio_title4}}</h4>
     <div class="relative">
       {% if include.data.portfolio_image4 %}
-      <img class="img-flex" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg"
+      <img class="img-flex" style="margin-bottom: .35rem;" src="{{site.cdn}}/projects/{{include.data.filename}}-project-4.jpg"
         alt="{{include.data.portfolio_description4}}">
       {% endif %}
       {% if include.data.portfolio_video4 %}
@@ -96,7 +96,7 @@
         <source src="{{site.cdn}}/projects/{{include.data.filename}}-gif-4.mp4" type="video/mp4">
       </video>
       {% endif %}
-      <div class="work-hover {% if include.data.portfolio_video4 or include.data.portfolio_gif4 %}work-hover-vid{% endif %}">
+      <div class="work-hover">
         <p class="milli push-0">{{include.data.portfolio_description4}}{{include.data.portfolio_description4_link}}</p>
       </div>
     </div>
