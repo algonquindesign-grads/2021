@@ -1,141 +1,77 @@
-/*jshint browser:true, undef: true, unused: true, jquery: true */
+function toggle_visibility(id) {
+   var e = document.getElementById(id);
+   if(e.style.display == 'block')
+      e.style.display = 'none';
+   else
+      e.style.display = 'block';
+  }
+  function toggle_invisibility(id) {
+     var e = document.getElementById(id);
+     if(e.style.display == 'block')
+        e.style.display = 'none';
+     else
+        e.style.display = 'none';
+    }
 
-var $container;
-var filters = {};
+    function toggle_selected(button) {
+      if (button.style.color == 'grey') {
+        button.style.color = 'green';
+        button.style.backgroundColor = "rgba(132, 194, 126, .3)";
+      }
+      else { button.style.color = 'grey';
+      button.style.backgroundColor = "rgba(255, 255, 255, .9)";
 
-$(function(){
-
-  $container = $('#container');
-
-  createContent();
-
-  var $filterDisplay = $('#filter-display');
-
-  $container.isotope();
-  // do stuff when checkbox change
-  $('#options').on( 'change', function( jQEvent ) {
-    var $checkbox = $( jQEvent.target );
-    manageCheckbox( $checkbox );
-
-    var comboFilter = getComboFilter( filters );
-
-    $container.isotope({ filter: comboFilter });
-
-    $filterDisplay.text( comboFilter );
-  });
-
-});
-
-
-var data = {
-  brands: 'brand1 brand2 brand3 brand4'.split(' '),
-  productTypes: 'type1 type2 type3 type4'.split(' '),
-  colors: 'red blue yellow green'.split(' '),
-  sizes: 'uk-size8 uk-size9 uk-size10 uk-size11'.split(' ')
-};
-
-function createContent() {
-  var brand, productType, color, size;
-  var items = '';
-  // dynamically create content
-  for (var i=0, len1 = data.brands.length; i < len1; i++) {
-    brand = data.brands[i];
-    for (var j=0, len2 = data.productTypes.length; j < len2; j++) {
-      productType = data.productTypes[j];
-        for (var l=0, len3 = data.colors.length; l < len3; l++) {
-        color = data.colors[l];
-        for (var k=0, len4 = data.sizes.length; k < len4; k++) {
-          size = data.sizes[k];
-          var itemHtml = '<div class="item ' + brand + ' ' +
-            productType + ' ' + color + ' ' + size + '">' +
-            '<p>' + brand + '</p>' +
-            '<p>' + productType + '</p>' +
-            '<p>' + size + '</p>' +
-            '</div>';
-            items += itemHtml;
-        }
       }
     }
-  }
 
-  $container.append( items );
-}
-
-
-function getComboFilter( filters ) {
-  var i = 0;
-  var comboFilters = [];
-  var message = [];
-
-  for ( var prop in filters ) {
-    message.push( filters[ prop ].join(' ') );
-    var filterGroup = filters[ prop ];
-    // skip to next filter group if it doesn't have any values
-    if ( !filterGroup.length ) {
-      continue;
-    }
-    if ( i === 0 ) {
-      // copy to new array
-      comboFilters = filterGroup.slice(0);
-    } else {
-      var filterSelectors = [];
-      // copy to fresh array
-      var groupCombo = comboFilters.slice(0); // [ A, B ]
-      // merge filter Groups
-      for (var k=0, len3 = filterGroup.length; k < len3; k++) {
-        for (var j=0, len2 = groupCombo.length; j < len2; j++) {
-          filterSelectors.push( groupCombo[j] + filterGroup[k] ); // [ 1, 2 ]
+    function show_results() {
+      // I am defining both sets of all available/potential button choices here
+      var selections1 = document.getElementsByClassName('question-1');
+      var selections2 = document.getElementsByClassName('question-2');
+      var selections3 = document.getElementsByClassName('question-3');
+      // here I am defining a list of all the potential results, unfiltered
+      var designers = document.getElementsByClassName('designer');
+      var resultcount = 0;
+      // here I start my for big for loop, it walks through each designer and tests that they met all available selections
+      for (var designer_index=0; designer_index<designers.length; designer_index++) {
+        // as I walk through each designer one at a time, this indicates/defines the current designer being checked
+        var currentdesigner = designers[designer_index];
+        // here assume all designers are hidden by default
+        currentdesigner.style.display = 'none';
+        // this loop checks to see if you meet 1 or more of the first criterias
+        for (var selection1_index=0; selection1_index<selections1.length; selection1_index++) {
+          // again I'm walking through each button one at a time, this indicates/defines my current position. "where are you along the path?"
+          var currentbutton1 = selections1[selection1_index];
+          // compare the current designer against the first set of criteria that have been selected in red
+          // comparing class name and button 'value' (defined at the button level to match a class name THIS IS IMPORTANT)
+          if (currentbutton1.style.color == 'green' && $(currentdesigner).hasClass(currentbutton1.value)) {
+            // First ones made the grade, success! Will they also pass against this one? Let's find out.
+            // Now we filter even further, testing the second criteria against the new available options selected above.
+            // I am using this for loop to walk through my array one at a time, my counter is selection2_index, initialized at 0, it's value increases by 1 until it's bigger than the size of my array, running my function over and over
+            for (var selection2_index=0; selection2_index<selections2.length; selection2_index++) {
+              // this variable that I'm defining tells me what button I'm looking at right now in the loop and tests it against my conditions below
+              var currentbutton2 = selections2[selection2_index];
+              if (currentbutton2.style.color == 'green' && $(currentdesigner).hasClass(currentbutton2.value)) {
+                // If I had a third criteria to check, I would nest a for loop here!! REMEMBER THIS
+                for (var selection3_index=0; selection3_index<selections3.length; selection3_index++) {
+                  var currentbutton3 = selections3[selection3_index];
+                  if (currentbutton3.style.color == 'green' && $(currentdesigner).hasClass(currentbutton3.value)) {
+                    // Finally I show you the list that passed both the criteria checked!
+                      currentdesigner.style.display = 'block';
+                      resultcount=resultcount+1;
+                      console.log(resultcount);
+                      // this break jumps you out the current for loop (Sufficient for Code 101)
+                      break;
+                  }
+                }
+              }
+            }
+          }
         }
-
       }
-      // apply filter selectors to combo filters for next group
-      comboFilters = filterSelectors;
+      var x = document.getElementById('noresults');
+      if(resultcount == 0)
+        x.style.display = 'block';
+        else
+          x.style.display = 'none';
     }
-    i++;
-  }
-
-  var comboFilter = comboFilters.join(', ');
-  return comboFilter;
-}
-
-function manageCheckbox( $checkbox ) {
-  var checkbox = $checkbox[0];
-
-  var group = $checkbox.parents('.option-set').attr('data-group');
-  // create array for filter group, if not there yet
-  var filterGroup = filters[ group ];
-  if ( !filterGroup ) {
-    filterGroup = filters[ group ] = [];
-  }
-
-  var isAll = $checkbox.hasClass('all');
-  // reset filter group if the all box was checked
-  if ( isAll ) {
-    delete filters[ group ];
-    if ( !checkbox.checked ) {
-      checkbox.checked = 'checked';
-    }
-  }
-  // index of
-  var index = $.inArray( checkbox.value, filterGroup );
-
-  if ( checkbox.checked ) {
-    var selector = isAll ? 'input' : 'input.all';
-    $checkbox.siblings( selector ).removeAttr('checked');
-
-
-    if ( !isAll && index === -1 ) {
-      // add filter to group
-      filters[ group ].push( checkbox.value );
-    }
-
-  } else if ( !isAll ) {
-    // remove filter from group
-    filters[ group ].splice( index, 1 );
-    // if unchecked the last box, check the all
-    if ( !$checkbox.siblings('[checked]').length ) {
-      $checkbox.siblings('input.all').attr('checked', 'checked');
-    }
-  }
-
-}

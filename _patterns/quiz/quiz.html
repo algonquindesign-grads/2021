@@ -4,69 +4,95 @@
       <h2 class="h3" style="line-height:1em">Match With A Designer Quiz</h2>
       <p class="psquish">This quiz was designed to help you connect with our designers.</p>
       <p class="psquish">Find a designer who is available for work, interested in networking, or requesting a portfolio review. By the end of the quiz, you will have a list of designers that match what you’re looking for!</p>
-      <button class="next-btn" id="btnIntro"  onClick="toggle_visibility('question1'), toggle_invisibility('intro')">Get Started</button>
+      <button class="next-btn" id="btnIntro"  onClick="toggle_visibility('question1'), toggle_invisibility('intro')"><label for="btnIntro">Get Started</label></button>
     </div>
   </div>
 
   <div id="options">
+
     <div id="question1" class="option-set card" data-group="brand" style="display:none">
       <div class="card-content">
         <h4>Question 1</h4>
         <p>What is your goal?<br><sub>(you may select multiple options)</sub></p>
         <div class="button-group">
-          <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".review" id="review" /><label class="label" for="review">Providing a Portfolio Review</label></button>
-          <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".job" id="job" /><label class="label" for="job">Looking to Hire</label></button>
-          <button class="ks-cboxtags ks-cboxtags-1"><input type="checkbox" value=".networking" id="networking" /><label class="label" for="networking">Networking</label></button>
+          <button type="button" name="review" value="review" class="question-1" onClick="toggle_selected(this)" style="color:grey"><label for="review">Providing a Portfolio Review</label></button>
+
+          <button type="button" name="job" value="job" class="question-1" onClick="toggle_selected(this)" style="color:grey"><label for="job">Looking to Hire</label></button>
+
+          <button type="button" name="networking" value="networking" class="question-1" onClick="toggle_selected(this)" style="color:grey"><label for="networking">Networking</label></button>
         </div>
+
         <div>
           <button class="next-btn" id="question-1-btn" onClick="toggle_visibility('question2'), toggle_invisibility('question1')">Continue</button>
         </div>
       </div>
     </div>
+
     <div id="question2" class="option-set card" data-group="type" style="display:none">
       <div class="card-content">
         <h4>Question 2</h4>
         <p>What design specialization are you in search of?<br><sub>(you may select multiple options)</sub></p>
-        <button class="ks-cboxtags"><input type="checkbox" value=".web" id="web" /><label class="label" for="web">Web Design</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".ui" id="ui" /><label class="label" for="ui">UI & UX</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".branding" id="branding" /><label class="label" for="branding">Branding</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".motion" id="motion" /><label class="label" for="motion">Motion Design</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".illustration" id="illustration" /><label class="label" for="illustration">Illustration</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".print" id="print" /><label class="label" for="print">Print Design</label></button>
+
+        <button class="question-2" type="button" value="web" name="web" onClick="toggle_selected(this)" style="color:grey"><label  for="web">Web Design</label></button>
+
+        <button class="question-2" type="button" value="ui" name="ui" onClick="toggle_selected(this)" style="color:grey"><label  for="ui">UI & UX</label></button>
+
+        <button class="question-2" type="button" value="branding" name="branding" onClick="toggle_selected(this)" style="color:grey"><label  for="branding">Branding</label></button>
+
+        <button class="question-2" type="button" value="motion" name="motion" onClick="toggle_selected(this)" style="color:grey"><label  for="motion">Motion Design</label></button>
+
+        <button class="question-2" type="button" value="illustration" name="illustration" onClick="toggle_selected(this)" style="color:grey"><label  for="illustration">Illustration</label></button>
+
+        <button class="question-2" type="button" value="print" name="print" onClick="toggle_selected(this)" style="color:grey"><label  for="print">Print Design</label></button>
+
         <div>
           <button class="next-btn" id="question-2-btn" onClick="toggle_visibility('question3'), toggle_invisibility('question2')">Continue</button>
         </div>
       </div>
     </div>
+
     <div id="question3" class="option-set card" data-group="color" style="display:none">
       <div class="card-content">
         <h4>Question 3</h4>
         <p>What key attributes are you looking for in a designer?<br><sub>(you may select multiple options)</sub></p>
-        <button class="ks-cboxtags"><input type="checkbox" value=".alt" id="alt" /><label class="label" for="alt">Altruistic</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".com" id="com" /><label class="label" for="com">Communicative</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".con" id="con" /><label class="label" for="con">Conscientious</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".cont" id="cont" /><label class="label" for="cont">Continuous Learner</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".det" id="det" /><label class="label" for="det">Detail-oriented</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".eff" id="eff" /><label class="label" for="eff">Efficient</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".ent" id="ent" /><label class="label" class="label" for="ent">Enthusiastic</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".fle" id="fle" /><label class="label" for="fle">Flexible</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".goal" id="goal" /><label class="label" for="goal">Goal-oriented</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".ind" id="ind" /><label class="label" for="ind">Independent</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".str" id="str" /><label class="label" for="str">Strategic</label></button>
-        <button class="ks-cboxtags"><input type="checkbox" value=".team" id="team" /><label class="label" for="team">Team-oriented</label></button>
+
+      <button class="question-3" name="alt" value="alt" onClick="toggle_selected(this)" style="color:grey"><label  for="alt">Altruistic</label></button>
+
+      <button class="question-3" name="com" value="com" onClick="toggle_selected(this)" style="color:grey"><label  for="com">Communicative</label></button>
+
+      <button class="question-3" name="con" value="con" onClick="toggle_selected(this)" style="color:grey"><label  for="con">Conscientious</label></button>
+
+      <button class="question-3" name="cont" value="cont" onClick="toggle_selected(this)" style="color:grey"><label  for="cont">Continuous Learner</label></button>
+
+      <button class="question-3" name="det" value="det" onClick="toggle_selected(this)" style="color:grey"><label  for="det">Detail-oriented</label></button>
+
+      <button class="question-3" name="eff" value="eff" onClick="toggle_selected(this)" style="color:grey"><label  for="eff">Efficient</label></button>
+
+      <button class="question-3" name="ent" value="ent" onClick="toggle_selected(this)" style="color:grey"><label   for="ent">Enthusiastic</label></button>
+
+      <button class="question-3" name="fle" value="fle" onClick="toggle_selected(this)" style="color:grey"><label  for="fle">Flexible</label></button>
+
+      <button class="question-3" name="goal" value="goal" onClick="toggle_selected(this)" style="color:grey"><label  for="goal">Goal-oriented</label></button>
+
+      <button class="question-3" name="ind" value="ind" onClick="toggle_selected(this)" style="color:grey"><label  for="ind">Independent</label></button>
+
+      <button class="question-3" name="str" value="str" onClick="toggle_selected(this)" style="color:grey"><label  for="str">Strategic</label></button>
+
+      <button class="question-3" name="team" value="team" onClick="toggle_selected(this)" style="color:grey"><label  for="team">Team-oriented</label></button>
+
+
         <div>
-          <button class="next-btn" id="question-3-btn" onClick="toggle_visibility('results'), toggle_invisibility('question3')">Continue</button>
+          <button class="next-btn" id="question-3-btn" onClick="toggle_visibility('results'), toggle_invisibility('question3'), show_results()">Continue</button>
         </div>
       </div>
     </div>
   </div>
 
-<div id="results" class="card">
+<div id="results" class="card" style="display:none">
   <div class="card-content results-card">
     <h3 class="results-title">Results</h3>
-      <div id="container" class="results-card">
 
-        <div class="designer branding com con det ent job networking designer-card">
+        <div class="designer branding illustration motion com con det ent job networking" style="display:none">
           <h5 class="center-text push-0">Ali Caudle</h5>
           <img src="https://grads.images.algonquindesign.ca/2021/headshots/caudle-ali-headshot.jpg" alt="The headshot of Ali Caudle.">
           <div class="link-buttons">
@@ -75,785 +101,527 @@
           </div>
         </div>
 
-        <div class="designer branding alt com cont ent team review job networking">
-          <div class="designer-card">
-            <h5 class="center-text push-0">Alison Doyle</h5>
-            <img src="https://grads.images.algonquindesign.ca/2021/headshots/doyle-alison-headshot.jpg" alt="The headshot of Alison Doyle.">
-            <div class="link-buttons">
-              {% pattern buttons/quiz-portfolio-button student-username="doyle-alison" portfolio-url="#" aria="This button links to this student's portfolio site" %}
-              {% pattern buttons/quiz-calendly-button student-username="doyl0186" calendly-url="https://calendly.com/doyl0186" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
-            </div>
+        <div class="designer branding print illustration alt com cont ent team review job networking" style="display:none">
+          <h5 class="center-text push-0">Alison Doyle</h5>
+          <img src="https://grads.images.algonquindesign.ca/2021/headshots/doyle-alison-headshot.jpg" alt="The headshot of Alison Doyle.">
+          <div class="link-buttons">
+            {% pattern buttons/quiz-portfolio-button student-username="doyle-alison" portfolio-url="#" aria="This button links to this student's portfolio site" %}
+            {% pattern buttons/quiz-calendly-button student-username="doyl0186" calendly-url="https://calendly.com/doyl0186" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
           </div>
         </div>
 
-        <div class="designer motion cont eff ent fle goal networking">
-          <div class="designer-card">
+        <div class="designer motion branding ui cont eff ent fle goal networking" style="display:none">
             <h5 class="center-text push-0">Ana Martins</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/martins-ana-headshot.jpg" alt="The headshot of Ana Martins.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="martins-ana" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="mend0131" calendly-url="https://calendly.com/mend0131" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding con eff det fle ind job">
-          <div class="designer-card">
+        <div class="designer branding illustration print con eff det fle ind job" style="display:none">
             <h5 class="center-text push-0">Anna Hendry</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/hendry-anna-headshot.jpg" alt="The headshot of Anna Hendry.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="hendry-anna" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="hend0298" calendly-url="https://calendly.com/hend0298" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion com con cont ent goal job networking">
-          <div class="designer-card">
+        <div class="designer motion illustration branding com con cont ent goal job networking" style="display:none">
             <h5 class="center-text push-0">Avery Dion</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/dion-avery-headshot.jpg" alt="The headshot of Avery Dion.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="dion-avery" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="dion0114" calendly-url="https://calendly.com/dion0114" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion con cont det ent ind job networking">
-          <div class="designer-card">
+        <div class="designer motion con cont det ent ind job networking" style="display:none">
             <h5 class="center-text push-0">Ayla Labelle</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/labelle-ayla-headshot.jpg" alt="The headshot of Ayla Labellee.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="labelle-ayla" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="labe0235" calendly-url="https://calendly.com/labe0235" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding alt cont det eff team review job networking">
-          <div class="designer-card">
+        <div class="designer motion branding ui alt ent ind fle con review job networking" style="display:none">
+            <h5 class="center-text push-0">Brett Richmond</h5>
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/richmond-brett-headshot.jpg" alt="The headshot of Brett Richmond.">
+            <div class="link-buttons">
+              {% pattern buttons/quiz-portfolio-button student-username="richmond-brett" portfolio-url="#" aria="This button links to this student's portfolio site" %}
+              {% pattern buttons/quiz-calendly-button student-username="brettrichmond" calendly-url="https://calendly.com/brettrichmond" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
+            </div>
+        </div>
+
+        <div class="designer branding illustration print alt cont det eff team review job networking" style="display:none">
             <h5 class="center-text push-0">Bria Kenlock-Sherman</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/kenlocksherman-bria-headshot.jpg" alt="The headshot of Bria Kenlock-Sherman.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="kenlocksherman-bria" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="briaksherman" calendly-url="https://calendly.com/briaksherman" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding cont det team review networking">
-          <div class="designer-card">
+        <div class="designer branding print illustration cont det team review networking  " style="display:none">
             <h5 class="center-text push-0">Brianna Beauchamp</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/beauchamp-brianna-headshot.jpg" alt="The headshot of Brianna Beauchamp.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="beauchamp-brianna" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="briannabeauchamp" calendly-url="https://calendly.com/briannabeauchamp" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer illustration alt cont det eff ent review job networking">
-          <div class="designer-card">
+        <div class="designer illustration branding motion alt cont det eff ent review job networking" style="display:none">
             <h5 class="center-text push-0">Catherine Wilkie</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/wilkie-catherine-headshot.jpg" alt="The headshot of Catherine Wilkie.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="wilkie-catherine" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="cathy-design" calendly-url="https://calendly.com/cathy-design" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion alt com det fle str job networking">
-          <div class="designer-card">
+        <div class="designer motion web ui alt com det fle str job networking" style="display:none">
             <h5 class="center-text push-0">Cedric Robitaille</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/robitaille-cedric-headshot.jpg" alt="The headshot of Cedric Robitaille.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="robitaille-cedric" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="cedricrobitaillealgonquin" calendly-url="https://calendly.com/cedricrobitaillealgonquin" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion com con cont det str job networking">
-          <div class="designer-card">
+        <div class="designer motion print branding com con cont det str job networking" style="display:none">
             <h5 class="center-text push-0">Chris Holmes</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/holmes-chris-headshot.jpg" alt="The headshot of Chris Holmes.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="holmes-chris" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="chrisholmesdesign" calendly-url="https://calendly.com/chrisholmesdesign" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding alt com cont eff ind review job networking">
-          <div class="designer-card">
+        <div class="designer branding print motion alt com cont eff ind review job networking" style="display:none">
             <h5 class="center-text push-0">Chris Paul</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/paul-christofer-headshot.jpg" alt="The headshot of Chris Paul.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="paul-christofer" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="paul0259" calendly-url="https://calendly.com/paul0259" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer print con cont det eff fle review job networking">
-          <div class="designer-card">
+        <div class="designer print ui web con cont det eff fle review job networking" style="display:none">
             <h5 class="center-text push-0">Christine Volden</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/volden-christine-headshot.jpg" alt="The headshot of Christine Volden.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="volden-christine" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="christinevolden" calendly-url="https://calendly.com/christinevolden" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding cont eff ent fle ind review networking">
-          <div class="designer-card">
+        <div class="designer branding print ui cont eff ent fle ind review networking" style="display:none">
             <h5 class="center-text push-0">Cindy Garzon</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/garzon-cindy-headshot.jpg" alt="The headshot of Cindy Garzon.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="garzon-cindy" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="cindygarzon" calendly-url="https://calendly.com/cindygarzon" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion com con cont eff str networking">
-          <div class="designer-card">
+        <div class="designer motion branding illustration com con cont eff str networking" style="display:none">
             <h5 class="center-text push-0">Cola Lovan</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/lovan-cola-headshot.jpg" alt="The headshot of Cola Lovan.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="lovan-cola" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="coladesigns" calendly-url="https://calendly.com/coladesigns" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion ent fle ind review job networking">
-          <div class="designer-card">
+        <div class="designer motion branding ent fle ind review job networking" style="display:none">
             <h5 class="center-text push-0">Cole Allen</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/allen-cole-headshot.jpg" alt="The headshot of Cole Allen.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="allen-cole" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="cole-allen-gd" calendly-url="https://calendly.com/cole-allen-gd" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer illustration eff ent fle job">
-          <div class="designer-card">
+        <div class="designer illustration motion branding eff ent fle job" style="display:none">
             <h5 class="center-text push-0">Daniela Fuentes</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/fuentes-daniela-headshot.jpg" alt="The headshot of Daniela Fuentes.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="fuentes-daniela" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="fuen0015" calendly-url="https://calendly.com/fuen0015" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer ui alt cont det ent fle review job">
-          <div class="designer-card">
+        <div class="designer ui print branding alt cont det ent fle review job" style="display:none">
             <h5 class="center-text push-0">Danielle Galacio</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/galacio-danielle-headshot.jpg" alt="The headshot of Danielle Galacio.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="galacio-danielle" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="daniellegalacio" calendly-url="https://calendly.com/daniellegalacio" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer web com cont det eff ent networking">
-          <div class="designer-card">
+        <div class="designer web branding ui com cont det eff ent networking" style="display:none">
             <h5 class="center-text push-0">Dawson Adams</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/adams-dawson-headshot.jpg" alt="The headshot of Dawson Adams.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="adams-dawson" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="dawson-design" calendly-url="https://calendly.com/dawson-design" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding det eff fle str team review job networking">
-          <div class="designer-card">
-            <h5 class="center-text push-0">Deborah Ekuma</h5>
-            <img src="https://grads.images.algonquindesign.ca/2021/headshots/ekuma-deborah-headshot.jpg" alt="The headshot of Deborah Ekuma.">
+        <div class="designer branding motion ui det eff fle str team review job networking" style="display:none">
+            <h5 class="center-text push-0">Deborah Ibe Ekuma</h5>
+            <img src="https://grads.images.algonquindesign.ca/2021/headshots/ekuma-deborah-headshot.jpg" alt="The headshot of Deborah Ibe Ekuma.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="ekuma-deborah" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="ekum0001" calendly-url="https://calendly.com/ekum0001" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer web alt con cont ent goal review job networking">
-          <div class="designer-card">
+        <div class="designer web branding illustration alt con cont ent goal review job networking" style="display:none">
             <h5 class="center-text push-0">Hannah Brown</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/brown-hannah-headshot.jpg" alt="The headshot of Hannah Brown.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="brown-hannah" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="brow1234" calendly-url="https://calendly.com/brow1234" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding com eff ent fle goal review job networking">
-          <div class="designer-card">
+        <div class="designer branding illustration print com eff ent fle goal review job networking" style="display:none">
             <h5 class="center-text push-0">Hannah Reed</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/reed-hannah-headshot.jpg" alt="The headshot of Hannah Reed.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="reed-hannah" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="reed0054" calendly-url="https://calendly.com/reed0054" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion cont det ent fle str job networking">
-          <div class="designer-card">
+        <div class="designer motion branding cont det ent fle str job networking" style="display:none">
             <h5 class="center-text push-0">Ian D'Amour</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/damour-ian-headshot.jpg" alt="The headshot of Ian D'Amour.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="damour-ian" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="damo0021" calendly-url="https://calendly.com/damo0021" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding fle goal ind str team review job networking">
-          <div class="designer-card">
+        <div class="designer branding illustration print fle goal ind str team review job networking" style="display:none">
             <h5 class="center-text push-0">Jacob Bradley</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/bradley-jacob-headshot.jpg" alt="The headshot of Jacob Bradley.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="bradley-jacob" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="brad0351" calendly-url="https://calendly.com/brad0351" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer print com det eff ind str review job networking">
-          <div class="designer-card">
+        <div class="designer print illustration motion com det eff ind str review job networking" style="display:none">
             <h5 class="center-text push-0">Jen Power</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/power-jen-headshot.jpg" alt="The headshot of Jen Power.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="power-jen" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="jen-power" calendly-url="https://calendly.com/jen-power" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer ui cont ent det fle team review job networking">
-          <div class="designer-card">
+        <div class="designer ui web print cont ent det fle team review job networking" style="display:none">
             <h5 class="center-text push-0">Jess Jodoin</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/jodoin-jess-headshot.jpg" alt="The headshot of Jess Jodoin.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="jodoin-jess" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="jess-jodoin" calendly-url="https://calendly.com/jess-jodoin" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion com det eff ent ind review job networking">
-          <div class="designer-card">
+        <div class="designer motion illustration ui com det eff ent ind review job networking" style="display:none">
             <h5 class="center-text push-0">Jesse Mann-Williams</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/mannwilliams-jesse-headshot.jpg" alt="The headshot of Jesse Mann-Williams.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="mannwilliams-jesse" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="mann0168" calendly-url="https://calendly.com/mann0168" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer illustration cont eff goal ind str networking">
-          <div class="designer-card">
+        <div class="designer illustration motion branding cont eff goal ind str networking" style="display:none">
             <h5 class="center-text push-0">Jude Marchildon</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/marchildon-jude-headshot.jpg" alt="The headshot of Jude Marchildon.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="marchildon-jude" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="judemarchildon" calendly-url="https://calendly.com/judemarchildon" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding com con det goal str job networking">
-          <div class="designer-card">
+        <div class="designer branding print com con det goal str job networking" style="display:none">
             <h5 class="center-text push-0">Julia Prokipcak</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/prokipcak-julia-headshot.jpg" alt="The headshot of Julia Prokipcak.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="prokipcak-julia" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="prok0018" calendly-url="https://calendly.com/prok0018" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer illustration con cont det ent str job networking">
-          <div class="designer-card">
+        <div class="designer illustration branding print con cont det ent str job networking" style="display:none">
             <h5 class="center-text push-0">Julianna Stephanson</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/stephanson-julianna-headshot.jpg" alt="The headshot of Julianna Stephanson.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="stephanson-julianna" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="juliannamstephanson" calendly-url="https://calendly.com/juliannamstephanson" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer illustration cont det eff review job networking">
-          <div class="designer-card">
+        <div class="designer illustration motion branding cont det eff review job networking" style="display:none">
             <h5 class="center-text push-0">Kaitlyn Norquay</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/norquay-kaitlyn-headshot.jpg" alt="The headshot of Kaitlyn Norquay.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="norquay-kaitlyn" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="norq0002" calendly-url="https://calendly.com/norq0002" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer illustration com det eff ent goal review networking">
-          <div class="designer-card">
+        <div class="designer illustration print branding com det eff ent goal review networking" style="display:none">
             <h5 class="center-text push-0">Kathleen Chamberland</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/chamberland-kathleen-headshot.jpg" alt="The headshot of Kathleen Chamberland.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="chamberland-kathleen" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="cham0387" calendly-url="https://calendly.com/cham0387" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding det eff ind str review">
-          <div class="designer-card">
+        <div class="designer branding illustration ui det eff ind str review" style="display:none">
             <h5 class="center-text push-0">Katia Ezdahmad</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/ezdahmad-katia-headshot.jpg" alt="The headshot of Katia Ezdahmad.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="ezdahmad-katia" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="ezda0002" calendly-url="https://calendly.com/ezda0002" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer ui con cont eff fle ind review job networking">
-          <div class="designer-card">
+        <div class="designer ui web illustration con cont eff fle ind review job networking" style="display:none">
             <h5 class="center-text push-0">Khoi Nguyen</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/nguyen-khoi-headshot.jpg" alt="The headshot of Khoi Nguyen.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="nguyen-khoi" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="nguy0780" calendly-url="https://calendly.com/nguy0780" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding eff ent ind str team review job networking">
-          <div class="designer-card">
+        <div class="designer branding motion print eff ent ind str team review job networking" style="display:none">
             <h5 class="center-text push-0">Kyle Ellis</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/ellis-kyle-headshot.jpg" alt="The headshot of Kyle Ellis.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="ellis-kyle" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="elli0389" calendly-url="https://calendly.com/elli0389" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding com cont ent fle team review job networking">
-          <div class="designer-card">
+        <div class="designer branding illustration motion com cont ent fle team review job networking  " style="display:none">
             <h5 class="center-text push-0">Linda Breitenstein</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/breitenstein-linda-headshot.jpg" alt="The headshot of Linda Breitenstein.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="breitenstein-linda" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="lindabreitenstein" calendly-url="https://calendly.com/lindabreitenstein" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer illustration eff ent fle goal str review job networking">
-          <div class="designer-card">
+        <div class="designer illustration branding ui eff ent fle goal str review job networking" style="display:none">
             <h5 class="center-text push-0">Lucas Stenta</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/stenta-lucas-headshot.jpg" alt="The headshot of Lucas Stenta.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="stenta-lucas" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="lucasstenta" calendly-url="https://calendly.com/lucasstenta" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer web com cont ent ind team job networking">
-          <div class="designer-card">
+        <div class="designer web ui branding com cont ent ind team job networking" style="display:none">
             <h5 class="center-text push-0">MacKenzie Bulkowski-Rose</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/bulkowskirose-mackenzie-headshot.jpg" alt="The headshot of MacKenzie Bulkowski-Rose.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="bulkowskirose-mackenzie" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="mackenzie-bulkowski-rose" calendly-url="https://calendly.com/mackenzie-bulkowski-rose" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer web det ind goal str team review networking">
-          <div class="designer-card">
+        <div class="designer web motion branding det ind goal str team review networking" style="display:none">
             <h5 class="center-text push-0">Maggie Hotte</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/hotte-maggie-headshot.jpg" alt="The headshot of Maggie Hotte.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="hotte-maggie" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="maggiehotte-design" calendly-url="https://calendly.com/maggiehotte-design" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer ui alt com con cont goal job">
-          <div class="designer-card">
+        <div class="designer ui alt com con cont goal job" style="display:none">
             <h5 class="center-text push-0">Monica Davis</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/davis-monica-headshot.jpg" alt="The headshot of Monica Davis.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="davis-monica" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="monicadavis" calendly-url="https://calendly.com/monicadavis" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding com cont eff goal ind job networking">
-          <div class="designer-card">
+        <div class="designer branding print ui com cont eff goal ind job networking" style="display:none">
             <h5 class="center-text push-0">Nadia da Silva Otake</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/dasilvaotake-nadia-headshot.jpg" alt="The headshot of Nadia da Silva Otake.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="dasilvaotake-nadia" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="nadiaotake" calendly-url="https://calendly.com/nadiaotake" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding det eff fle ind str networking">
-          <div class="designer-card">
+        <div class="designer branding illustration motion det eff fle ind str networking" style="display:none">
             <h5 class="center-text push-0">Nathaniel Grenon</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/grenon-nathaniel-headshot.jpg" alt="The headshot of Nathaniel Grenon.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="grenon-nathaniel" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="gren0087" calendly-url="https://calendly.com/gren0087" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding com con cont str networking">
-          <div class="designer-card">
+        <div class="designer branding motion illustration com con cont str networking" style="display:none">
             <h5 class="center-text push-0">Niall Boyd</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/boyd-niall-headshot.jpg" alt="The headshot of Niall Boyd.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="boyd-niall" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="niallboyd" calendly-url="https://calendly.com/niallboyd" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion det eff fle goal ind networking">
-          <div class="designer-card">
+        <div class="designer motion branding illustration det eff fle goal ind networking" style="display:none">
             <h5 class="center-text push-0">Quincy Prime</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/prime-quincy-headshot.jpg" alt="The headshot of Quincy Prime.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="prime-quincy" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="prim0062" calendly-url="https://calendly.com/prim0062" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer illustration cont ent fle goal team review job networking">
-          <div class="designer-card">
+        <div class="designer illustration print motion cont ent fle goal team review job networking" style="display:none">
             <h5 class="center-text push-0">Rukiya Sherman</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/sherman-rukiya-headshot.jpg" alt="The headshot of Rukiya Sherman.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="sherman-rukiya" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="rukiya" calendly-url="https://calendly.com/rukiya" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer web cont str team review networking">
-          <div class="designer-card">
+        <div class="designer web ui motion cont str team review networking" style="display:none">
             <h5 class="center-text push-0">Sabrina Madore</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/madore-sabrina-headshot.jpg" alt="The headshot of Sabrina Madore.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="madore-sabrina" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="sabrinamadore" calendly-url="https://calendly.com/sabrinamadore" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding det fle ind team review job">
-          <div class="designer-card">
+        <div class="designer branding print illustration det fle ind team review job" style="display:none">
             <h5 class="center-text push-0">Sam Cossar</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/cossar-samantha-headshot.jpg" alt="The headshot of Sam Cossar.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="cossar-samantha" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="samanthacossar" calendly-url="https://calendly.com/samanthacossar" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding alt com con cont det review job networking">
-          <div class="designer-card">
+        <div class="designer branding print web alt com con cont det review job networking" style="display:none">
             <h5 class="center-text push-0">Sarah Desmarais</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/desmarais-sarah-headshot.jpg" alt="The headshot of Sarah Desmarais.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="desmarais-sarah" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="desm0044" calendly-url="https://calendly.com/desm0044" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding alt com cont str networking">
-          <div class="designer-card">
+        <div class="designer branding print alt com cont str networking" style="display:none">
             <h5 class="center-text push-0">Sheri Thomson</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/thomson-sheri-headshot.jpg" alt="The headshot of Sheri Thomson.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="thomson-sheri" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="thom0610" calendly-url="https://calendly.com/thom0610" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion alt com cont eff ent review job networking">
-          <div class="designer-card">
+        <div class="designer motion branding print alt com cont eff ent review job networking" style="display:none">
             <h5 class="center-text push-0">Sophie Langman</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/langman-sophie-headshot.jpg" alt="The headshot of Sophie Langman.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="langman-sophie" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="sophielangman" calendly-url="https://calendly.com/sophielangman" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding com det eff ind str job">
-          <div class="designer-card">
+        <div class="designer branding print com det eff ind str job" style="display:none">
             <h5 class="center-text push-0">Sydney Luchies</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/luchies-sydney-headshot.jpg" alt="The headshot of Sydney Luchies.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="luchies-sydney" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="luch0010" calendly-url="https://calendly.com/luch0010" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion com cont det ent goal job">
-          <div class="designer-card">
+        <div class="designer motion illustration branding com cont det ent goal job  " style="display:none">
             <h5 class="center-text push-0">Tasmyn Clark</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/clark-tasmyn-headshot.jpg" alt="The headshot of Tasmyn Clark.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="clark-tasmyn" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="clar0606" calendly-url="https://calendly.com/clar0606" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding cont ent goal ind str review job networking">
-          <div class="designer-card">
+        <div class="designer branding ui web cont ent goal ind str review job networking" style="display:none">
             <h5 class="center-text push-0">Hong Nguyen</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/nguyen-hong-headshot.jpg" alt="The headshot of Hong Nguyen.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="nguyen-hong" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="nguy0779" calendly-url="https://calendly.com/nguy0779" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
-            </div>
-          </div>
+            </div
         </div>
 
-        <div class="designer branding con cont det fle goal review job networking">
-          <div class="designer-card">
+        <div class="designer branding web ui con cont det fle goal review job networking" style="display:none">
             <h5 class="center-text push-0">Treawna Harvey</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/harvey-treawna-headshot.jpg" alt="The headshot of Treawna Harvey.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="harvey-treawna" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="harv0084" calendly-url="https://calendly.com/harv0084" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer motion con cont det fle team review">
-          <div class="designer-card">
+        <div class="designer motion branding illustration con cont det fle team review" style="display:none">
             <h5 class="center-text push-0">Vanessa Rosevold</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/rosevold-vanessa-headshot.jpg" alt="The headshot of Vanessa Rosevold.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="rosevold-vanessa" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="rose0244" calendly-url="https://calendly.com/rose0244" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding com cont eff ent networking">
-          <div class="designer-card">
+        <div class="designer branding motion com cont eff ent networking" style="display:none">
             <h5 class="center-text push-0">Veraj Patel</h5>
             <img src="https://grads.images.algonquindesign.ca/2021/headshots/patel-veraj-headshot.jpg" alt="The headshot of Veraj Patel.">
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="patel-veraj" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="pate0517" calendly-url="https://calendly.com/pate0517" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
             </div>
-          </div>
         </div>
 
-        <div class="designer branding alt cont ent ind goal job networking">
-          <div class="designer-card">
-            <h5 class="center-text push-0">Zach Zwicker</h5>
-            <img src="https://grads.images.algonquindesign.ca/2021/headshots/zwicker-zach-headshot.jpg" alt="The headshot of Zach Zwicker.">
-            <div class="link-buttons">
-              {% pattern buttons/quiz-portfolio-button student-username="zwicker-zach" portfolio-url="#" aria="This button links to this student's portfolio site" %}
-              {% pattern buttons/quiz-calendly-button student-username="zwic0014" calendly-url="https://calendly.com/zwic0014" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
-            </div>
+        <div class="designer branding motion ui alt cont ent ind goal job networking" style="display:none">
+          <h5 class="center-text push-0">Zach Zwicker</h5>
+          <img src="https://grads.images.algonquindesign.ca/2021/headshots/zwicker-zach-headshot.jpg" alt="The headshot of Zach Zwicker.">
+          <div class="link-buttons">
+            {% pattern buttons/quiz-portfolio-button student-username="zwicker-zach" portfolio-url="#" aria="This button links to this student's portfolio site" %}
+            {% pattern buttons/quiz-calendly-button student-username="zwic0014" calendly-url="https://calendly.com/zwic0014" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
           </div>
         </div>
 
       </div>
+      <div id="noresults" style="display:none">
+        <h5>No Results</h5>
+      </div>
+      <div style="display:block; margin-top: 1.5em; margin-bottom: 2em;">
+        <button type="button" name="try-again" onClick="getElementById('results').style.display='none'; getElementById('intro').style.display='block'"><label for="try-again">Try Quiz Again</label></button>
+      </div>
+
     </div>
 
 </div>
-
-<script type="text/javascript">
-  function toggle_visibility(id) {
-     var e = document.getElementById(id);
-     if(e.style.display == 'block')
-        e.style.display = 'none';
-     else
-        e.style.display = 'block';
-    }
-    function toggle_invisibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'none';
-      }
-</script>
-
-<script>
-  /*jshint browser:true, undef: true, unused: true, jquery: true */
-
-  var $container;
-  var filters = {};
-
-  $(function(){
-
-    $container = $('#container');
-
-    createContent();
-
-    var $filterDisplay = $('#filter-display');
-
-    $container.isotope();
-    // do stuff when checkbox change
-    $('#options').on( 'change', function( jQEvent ) {
-      var $checkbox = $( jQEvent.target );
-      manageCheckbox( $checkbox );
-
-      var comboFilter = getComboFilter( filters );
-
-      $container.isotope({ filter: comboFilter });
-
-      $filterDisplay.text( comboFilter );
-    });
-
-  });
-
-
-  var data = {
-    brands: 'brand1 brand2 brand3 brand4'.split(' '),
-    productTypes: 'type1 type2 type3 type4'.split(' '),
-    colors: 'red blue yellow green'.split(' '),
-    sizes: 'uk-size8 uk-size9 uk-size10 uk-size11'.split(' ')
-  };
-
-  function createContent() {
-    var brand, productType, color, size;
-    var items = '';
-    // dynamically create content
-    for (var i=0, len1 = data.brands.length; i < len1; i++) {
-      brand = data.brands[i];
-      for (var j=0, len2 = data.productTypes.length; j < len2; j++) {
-        productType = data.productTypes[j];
-          for (var l=0, len3 = data.colors.length; l < len3; l++) {
-          color = data.colors[l];
-          for (var k=0, len4 = data.sizes.length; k < len4; k++) {
-            size = data.sizes[k];
-            var itemHtml = '<div class="item ' + brand + ' ' +
-              productType + ' ' + color + ' ' + size + '">' +
-              '<p>' + brand + '</p>' +
-              '<p>' + productType + '</p>' +
-              '<p>' + size + '</p>' +
-              '</div>';
-              items += itemHtml;
-          }
-        }
-      }
-    }
-
-    $container.append( items );
-  }
-
-
-  function getComboFilter( filters ) {
-    var i = 0;
-    var comboFilters = [];
-    var message = [];
-
-    for ( var prop in filters ) {
-      message.push( filters[ prop ].join(' ') );
-      var filterGroup = filters[ prop ];
-      // skip to next filter group if it doesn't have any values
-      if ( !filterGroup.length ) {
-        continue;
-      }
-      if ( i === 0 ) {
-        // copy to new array
-        comboFilters = filterGroup.slice(0);
-      } else {
-        var filterSelectors = [];
-        // copy to fresh array
-        var groupCombo = comboFilters.slice(0); // [ A, B ]
-        // merge filter Groups
-        for (var k=0, len3 = filterGroup.length; k < len3; k++) {
-          for (var j=0, len2 = groupCombo.length; j < len2; j++) {
-            filterSelectors.push( groupCombo[j] + filterGroup[k] ); // [ 1, 2 ]
-          }
-
-        }
-        // apply filter selectors to combo filters for next group
-        comboFilters = filterSelectors;
-      }
-      i++;
-    }
-
-    var comboFilter = comboFilters.join(', ');
-    return comboFilter;
-  }
-
-  function manageCheckbox( $checkbox ) {
-    var checkbox = $checkbox[0];
-
-    var group = $checkbox.parents('.option-set').attr('data-group');
-    // create array for filter group, if not there yet
-    var filterGroup = filters[ group ];
-    if ( !filterGroup ) {
-      filterGroup = filters[ group ] = [];
-    }
-
-    var isAll = $checkbox.hasClass('all');
-    // reset filter group if the all box was checked
-    if ( isAll ) {
-      delete filters[ group ];
-      if ( !checkbox.checked ) {
-        checkbox.checked = 'checked';
-      }
-    }
-    // index of
-    var index = $.inArray( checkbox.value, filterGroup );
-
-    if ( checkbox.checked ) {
-      var selector = isAll ? 'input' : 'input.all';
-      $checkbox.siblings( selector ).removeAttr('checked');
-
-
-      if ( !isAll && index === -1 ) {
-        // add filter to group
-        filters[ group ].push( checkbox.value );
-      }
-
-    } else if ( !isAll ) {
-      // remove filter from group
-      filters[ group ].splice( index, 1 );
-      // if unchecked the last box, check the all
-      if ( !$checkbox.siblings('[checked]').length ) {
-        $checkbox.siblings('input.all').attr('checked', 'checked');
-      }
-    }
-
-  }
-
-</script>
