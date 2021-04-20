@@ -4,7 +4,7 @@
       <h2 class="h3" style="line-height:1em">Match With A Designer Quiz</h2>
       <p class="psquish">This quiz was designed to help you connect with our designers.</p>
       <p class="psquish">Find a designer who is available for work, interested in networking, or requesting a portfolio review. By the end of the quiz, you will have a list of designers that match what you’re looking for!</p>
-      <button class="next-btn" id="btnIntro"  onClick="toggle_visibility('question1'), toggle_invisibility('intro')"><label for="btnIntro">Get Started</label></button>
+      <button class="next-btn" id="btnIntro"  onClick="getElementById('intro').style.display='none'; getElementById('question1').style.display='block'"><label for="btnIntro">Get Started</label></button>
     </div>
   </div>
 
@@ -23,7 +23,7 @@
         </div>
 
         <div>
-          <button class="next-btn" id="question-1-btn" onClick="toggle_visibility('question2'), toggle_invisibility('question1')">Continue</button>
+          <button class="next-btn" id="question-1-btn" onClick="getElementById('question1').style.display='none'; getElementById('question2').style.display='block'">Continue</button>
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@
         <button class="question-2" type="button" value="print" name="print" onClick="toggle_selected(this)" style="color:grey"><label  for="print">Print Design</label></button>
 
         <div>
-          <button class="next-btn" id="question-2-btn" onClick="toggle_visibility('question3'), toggle_invisibility('question2')">Continue</button>
+          <button class="next-btn" id="question-2-btn" onClick="getElementById('question2').style.display='none'; getElementById('question3').style.display='block'">Continue</button>
         </div>
       </div>
     </div>
@@ -82,7 +82,8 @@
 
 
         <div>
-          <button class="next-btn" id="question-3-btn" onClick="toggle_visibility('results'), toggle_invisibility('question3'), show_results()">Continue</button>
+          <button class="next-btn" id="question-3-btn" onClick="getElementById('question3').style.display='none';getElementById('results').style.display='block', show_results()">Continue</button>
+          <!-- ;  -->
         </div>
       </div>
     </div>
@@ -575,7 +576,7 @@
             <div class="link-buttons">
               {% pattern buttons/quiz-portfolio-button student-username="nguyen-hong" portfolio-url="#" aria="This button links to this student's portfolio site" %}
               {% pattern buttons/quiz-calendly-button student-username="nguy0779" calendly-url="https://calendly.com/nguy0779" meeting-length="15min" aria="This button allows you to book a virtual meeting with this student" %}
-            </div
+            </div>
         </div>
 
         <div class="designer branding web ui con cont det fle goal review job networking" style="display:none">
@@ -615,13 +616,93 @@
         </div>
 
       </div>
-      <div id="noresults" style="display:none">
+      <div id="noresults" style="display:none; text-align: center;">
         <h5>No Results</h5>
       </div>
-      <div style="display:block; margin-top: 1.5em; margin-bottom: 2em;">
+      <div style="display:block; margin-top: 1.5em; margin-bottom: 2em; text-align: center;">
         <button type="button" name="try-again" onClick="getElementById('results').style.display='none'; getElementById('intro').style.display='block'"><label for="try-again">Try Quiz Again</label></button>
       </div>
 
     </div>
 
 </div>
+<script type="text/javascript">
+
+  function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    if(e.style.display == 'block')
+        e.style.display = 'none';
+    else
+        e.style.display = 'block';
+    }
+    function toggle_invisibility(id) {
+      var f = document.getElementById(id);
+      if(f.style.display == 'block')
+          f.style.display = 'none';
+      else
+          f.style.display = 'none';
+      }
+
+  function toggle_selected(button) {
+    if (button.style.color == 'grey') {
+      button.style.color = 'green';
+      button.style.backgroundColor = "rgba(132, 194, 126, .3)";
+    }
+    else { button.style.color = 'grey';
+    button.style.backgroundColor = "rgba(255, 255, 255, .9)";
+
+    }
+  }
+
+  function show_results() {
+    // I am defining both sets of all available/potential button choices here
+    var selections1 = document.getElementsByClassName('question-1');
+    var selections2 = document.getElementsByClassName('question-2');
+    var selections3 = document.getElementsByClassName('question-3');
+    // here I am defining a list of all the potential results, unfiltered
+    var designers = document.getElementsByClassName('designer');
+    var resultcount = 0;
+    // here I start my for big for loop, it walks through each designer and tests that they met all available selections
+    for (var designer_index=0; designer_index<designers.length; designer_index++) {
+      // as I walk through each designer one at a time, this indicates/defines the current designer being checked
+      var currentdesigner = designers[designer_index];
+      // here assume all designers are hidden by default
+      currentdesigner.style.display = 'none';
+      // this loop checks to see if you meet 1 or more of the first criterias
+      for (var selection1_index=0; selection1_index<selections1.length; selection1_index++) {
+        // again I'm walking through each button one at a time, this indicates/defines my current position. "where are you along the path?"
+        var currentbutton1 = selections1[selection1_index];
+        // compare the current designer against the first set of criteria that have been selected in red
+        // comparing class name and button 'value' (defined at the button level to match a class name THIS IS IMPORTANT)
+        if (currentbutton1.style.color == 'green' && $(currentdesigner).hasClass(currentbutton1.value)) {
+          // First ones made the grade, success! Will they also pass against this one? Let's find out.
+          // Now we filter even further, testing the second criteria against the new available options selected above.
+          // I am using this for loop to walk through my array one at a time, my counter is selection2_index, initialized at 0, it's value increases by 1 until it's bigger than the size of my array, running my function over and over
+          for (var selection2_index=0; selection2_index<selections2.length; selection2_index++) {
+            // this variable that I'm defining tells me what button I'm looking at right now in the loop and tests it against my conditions below
+            var currentbutton2 = selections2[selection2_index];
+            if (currentbutton2.style.color == 'green' && $(currentdesigner).hasClass(currentbutton2.value)) {
+              // If I had a third criteria to check, I would nest a for loop here!! REMEMBER THIS
+              for (var selection3_index=0; selection3_index<selections3.length; selection3_index++) {
+                var currentbutton3 = selections3[selection3_index];
+                if (currentbutton3.style.color == 'green' && $(currentdesigner).hasClass(currentbutton3.value)) {
+                  // Finally I show you the list that passed both the criteria checked!
+                    currentdesigner.style.display = 'block';
+                    resultcount=resultcount+1;
+                    console.log(resultcount);
+                    // this break jumps you out the current for loop (Sufficient for Code 101)
+                    break;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    var x = document.getElementById('noresults');
+    if(resultcount == 0)
+      x.style.display = 'block';
+      else
+        x.style.display = 'none';
+  }
+</script>
