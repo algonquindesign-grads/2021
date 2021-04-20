@@ -215,8 +215,7 @@ img:not(.rainbow-line).filtered-web:focus,
   text-decoration: underline;
   color: var(--color-web);
   font-weight: bold;
-  outline: 3px solid var(--color-primary);
-  outline-offset: 3px;
+  outline: none
 }
 
 /* MOBILE TEMPLATE STYLING START */
