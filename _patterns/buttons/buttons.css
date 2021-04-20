@@ -10,12 +10,19 @@
 /* This code styles the hover and focus states for both the primary and secondary social icons */
 .icon-box-shadow {
   padding: 4px;
-  border-radius: 2px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .icon-box-shadow:hover,
-.icon-box-shadow:focus {
-box-shadow: 0 0 0 2pt var(--color-primary);
+.icon-box-shadow:focus,
+.icon-box-shadow:active {
+box-shadow: 0 0 0 3px var(--color-primary);
+}
+
+.icon-box-shadow a:active,
+.icon-box-shadow a:focus {
+  outline: none;
 }
 
 /* This code applies the accent colour to the primary buttons, pulling from the html class for the colour */
@@ -68,8 +75,11 @@ box-shadow: 0 0 0 2pt var(--color-primary);
   border-color: var(--color-secondary);
 }
 
-.btn-q:hover {
+.btn-q:hover,
+.btn-q:active,
+.btn-q:focus {
   color: var(--color-primary);
   background-color: var(--color-motion);
   border-color: var(--color-motion);
+  padding: .375em .75em .42em;
 }
