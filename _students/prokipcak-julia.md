@@ -30,7 +30,7 @@ facebook_link: "https://www.facebook.com/julia.prokipcak"
 intro_text: |
   My name is Julia Prokipcak and I am a graphic designer, among many other things. Doing what I love is the most important rule to live by and I’m always excited to take on new challenges.
 quote_text: |
-  The goal of my design work is to solve problems and create business solutions.
+  “The goal of my design work is to solve problems and create business solutions.”
 portfolio_image1: "/projects/prokipcak-julia-project-1.jpg"
 portfolio_image2: "/projects/prokipcak-julia-project-2.jpg"
 portfolio_image3: "/projects/prokipcak-julia-project-3.jpg"
