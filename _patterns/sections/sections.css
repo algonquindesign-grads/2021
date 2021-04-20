@@ -394,31 +394,37 @@ ul.about-section-3-specialties > li:last-child{
 .about-section-3 > .gradient-branding {
   background: linear-gradient(180deg, var(--color-motion) 0, var(--color-branding) 60% 100%);
   color: var(--color-secondary-primary);
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, .3);
 }
 
 .about-section-3 > .gradient-illustration {
   background: linear-gradient(180deg, var(--color-secondary) 0, var(--color-illustration) 60% 100%);
   color: var(--color-secondary-primary);
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, .3);
 }
 
 .about-section-3 > .gradient-motion {
   background: linear-gradient(180deg, var(--color-secondary) 0, var(--color-motion) 60% 100%);
   color: var(--color-secondary-primary);
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, .3);
 }
 
 .about-section-3 > .gradient-print {
   background: linear-gradient(180deg, var(--color-secondary) 0, var(--color-print) 60% 100%);
   color: var(--color-secondary-primary);
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, .3);
 }
 
 .about-section-3 > .gradient-uxui {
   background: linear-gradient(180deg, var(--color-illustration) 0, var(--color-uxui) 60% 100%);
   color: var(--color-secondary-light);
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, .3);
 }
 
 .about-section-3 > .gradient-web {
   background: linear-gradient(180deg, var(--color-branding) 0, var(--color-web) 60% 100%);
   color: var(--color-secondary-light);
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, .3);
 }
 
 .about-section-3 img {
