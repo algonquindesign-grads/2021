@@ -89,7 +89,7 @@ html {
 }
 
 .question-1:hover, .question-2:hover, .question-3:hover {
-  background-color: rgba(139, 139, 139, .05)!important;
+  background-color: rgba(132, 194, 126, .15)!important;
 }
 
 .question-1:focus, .question-2:focus, .question-3:focus {

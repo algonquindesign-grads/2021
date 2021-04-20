@@ -1,9 +1,8 @@
 <section class="wrapper gutter pad-t push">
   <div>
-    <video controls loop playsinline class="push">
+    <video controls loop preload="auto" playsinline class="push">
       <source
-        src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4"
-        srcset="{{site.cdn}}/footage/intros/{{include.data.filename}}-video-small.mp4 800w, {{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4 1920w"
+        srcset="{{site.cdn}}/footage/intros/{{include.data.filename}}-video-small.mp4 1280w, {{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4 1920w"
         sizes="(min-width: 38em) 70vw, 100vw"
         type="video/mp4">
       <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
