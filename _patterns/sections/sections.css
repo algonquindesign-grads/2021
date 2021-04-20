@@ -420,6 +420,11 @@ ul.about-section-3-specialties > li:last-child{
   background: linear-gradient(180deg, var(--color-branding) 0, var(--color-web) 60% 100%);
   color: var(--color-secondary-light);
 }
+
+.about-section-3 img {
+  color: var(--color-primary);
+}
+
 /* END TEMPLATE 3 */
 
 /* DESKTOP TEMPLATE STYLING START */
