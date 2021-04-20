@@ -5,14 +5,6 @@
   color: var(--color-primary);
 }
 
-.selected-filter,
-.filter-btn:hover,
-.filter-btn:focus,
-.filter-btn:active {
-  outline: 3px solid var(--color-primary);
-  outline-offset: 3px;
-}
-
 .filtered-student-photo {
   filter: blur(2px) grayscale(1);
 }
