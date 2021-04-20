@@ -1,9 +1,6 @@
 <section class="intro-section-3 text-center push-2">
   <video controls loop playsinline preload="auto" class="push">
-    <source
-      srcset="{{site.cdn}}/footage/intros/{{include.data.filename}}-video-small.mp4 1280w, {{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4 1920w"
-      sizes="(min-width: 38em) 70vw, 100vw"
-      type="video/mp4">
+    <source src="{{site.cdn}}/footage/intros/{{include.data.filename}}-video-small.mp4" data-hd="{{site.cdn}}/footage/intros/{{include.data.filename}}-video.mp4" type="video/mp4">
     <track label="English" kind="subtitles" srclang="en" src="{{site.cdn}}/footage/intro-transcripts/{{include.data.filename}}-transcripts-en.vtt" default>
   </video>
   <h3 class="giga push-2">I am Generation <span>{{include.data.ation_word}}</span></h3>
