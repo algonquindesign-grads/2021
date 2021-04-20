@@ -32,7 +32,7 @@ instagram_link: "https://www.instagram.com/cbraholmes/"
 intro_text: |
   My design strengths primarily lie in typography and motion. My personal strengths lie in my empathy, honesty, and openness.
 quote_text: |
-  I can't look at a title without kerning it anymore.
+  “I can't look at a title without kerning it anymore.”
 portfolio_video1: "/projects/holmes-chris-project-1.mp4"
 portfolio_image2: "/projects/holmes-chris-project-2.jpg"
 portfolio_image3: "/projects/holmes-chris-project-3.jpg"

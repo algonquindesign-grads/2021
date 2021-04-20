@@ -31,7 +31,7 @@ facebook_link: "https://www.facebook.com/KE.DESIGN.CA/"
 intro_text: |
    Specializing in Identity Development & Branding. I’m quite a curious soul, as a result, I am able to discover novel ways of doing things or solving minor issues before they become major problems.
 quote_text: |
-  I enjoy playing with colours and searching for delusional, abstract meaning.
+  “I enjoy playing with colours and searching for delusional, abstract meaning.”
 portfolio_image1: "/projects/ezdahmad-katia-project-1.jpg"
 portfolio_image2: "/projects/ezdahmad-katia-project-2.jpg"
 portfolio_image3: "/projects/ezdahmad-katia-project-3.jpg"

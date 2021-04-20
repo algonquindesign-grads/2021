@@ -26,7 +26,7 @@ calendly_link: ""
 intro_text: |
   I am a designer that loves branding, publishing, and typography; working with a company to bring out the best in their brand through brainstorming, and challenges is why I am a graphic designer.
 quote_text: |
-  As a designer, I strive to produce visionary designs, that are passion-powered, with rigorous results.
+  “As a designer, I strive to produce visionary designs, that are passion-powered, with rigorous results.”
 portfolio_image1: "/projects/luchies-sydney-project-1.jpg"
 portfolio_image2: "/projects/luchies-sydney-project-2.jpg"
 portfolio_image3: "/projects/luchies-sydney-project-3.jpg"

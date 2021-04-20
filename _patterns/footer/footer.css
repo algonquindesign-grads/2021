@@ -43,14 +43,6 @@
   text-decoration: none;
 }
 
-.icon-white:hover,
-.icon-white:focus,
-.nav-white a:hover,
-.nav-white a:focus {
-  outline: 3px solid var(--color-primary);
-  outline-offset: 3px;
-}
-
 .text-white {
   color: var(--color-secondary-light);
 }
@@ -60,14 +52,6 @@
 .nav-black a {
   color: var(--color-primary);
   text-decoration: none;
-}
-
-.icon-black:hover,
-.icon-black:focus,
-.nav-black a:hover,
-.nav-black a:focus {
-  outline: 3px solid var(--color-primary);
-  outline-offset: 3px;
 }
 
 .text-black {

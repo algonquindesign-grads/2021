@@ -29,7 +29,7 @@ linkedin_link: "https://www.linkedin.com/in/brianna-beauchamp-103170207/"
 intro_text: |
   Hey there! To put it simply, I'm a small town graphic designer near Ottawa who would love to continue adding to my knowledge of branding, print, and package design.
 quote_text: |
-  I want to make people’s design visions come to life.
+  “I want to make people’s design visions come to life.”
 portfolio_image1: "/projects/beauchamp-brianna-project-1.jpg"
 portfolio_image2: "/projects/beauchamp-brianna-project-2.jpg"
 portfolio_image3: "/projects/beauchamp-brianna-project-3.jpg"

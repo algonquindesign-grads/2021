@@ -30,7 +30,7 @@ instagram_link: "https://www.instagram.com/natgrenon/"
 intro_text: |
    My name is Nathaniel Grenon and I'm a Digital designer based in Ottawa, On. I'v been creative all my life, been drawing since I can remember, whether its sitting down to actually create something or doodling in my homework. Now I enjoy working on branding, illustration and motion.
 quote_text: |
-  I love working digitaly and I work hard at it. I love picking up new skills and learning new tricks to enhance my design capabilities.
+  “I love working digitaly and I work hard at it. I love picking up new skills and learning new tricks to enhance my design capabilities.”
 portfolio_image1: "/projects/grenon-nathaniel-project-1.jpg"
 portfolio_video2: "/projects/grenon-nathaniel-project-2.mp4"
 portfolio_image3: "/projects/grenon-nathaniel-project-3.jpg"

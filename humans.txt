@@ -7,10 +7,10 @@ Site: https://thomasjbradley.ca/
 GitHub: https://github.com/thomasjbradley
 Location: Ottawa, Canada
 
-Designer & Developer: Mackenzie Bulkowski-Rose <email>
-Site:
+Designer & Developer: MacKenzie Bulkowski-Rose <hello@kenzie.design>
+Site: https://kenzie.design
 GitHub: https://github.com/MacKenzieRose
-Instagram:
+Instagram: https://www.instagram.com/kenzie_design/
 Location: Ottawa, Canada
 
 Designer & Developer: Jess Jodoin <hey@jessjodoin.ca>
@@ -20,27 +20,28 @@ Instagram: https://www.instagram.com/jessjodoindesign/
 Location: Ottawa, Canada
 
 Designer & Developer: Jen Power <email>
-Site:
+Site: https://www.jenpower.ca/
 GitHub: https://github.com/jen-power
-Instagram:
 Location: Ottawa, Canada
 
 Designer & Developer: Maggie Hotte <email>
-Site:
+Site: https://www.maggiehotte.design/
 GitHub: https://github.com/Maggie2744
-Instagram:
 Location: Ottawa, Canada
 
 Designer & Developer: Treawna Harvey <email>
-Site:
+Site: https://treawnaharvey.ca/
 GitHub: https://github.com/trebird
-Instagram:
 Location: Ottawa, Canada
 
 Designer & Developer: Khoi Nguyen <email>
-Site:
+Site: https://khoinguyen.design/
 GitHub: https://github.com/akhoinguyen
-Instagram:
+Location: Ottawa, Canada
+
+Designer & Developer: Sabrina Madore <hello@sabrinamadore.design>
+Site: https://www.sabrinamadore.design/
+GitHub: https://github.com/missmadore
 Location: Ottawa, Canada
 
 ---

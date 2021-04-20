@@ -33,7 +33,7 @@ instagram_link: "https://www.instagram.com/briaksherman.design/"
 intro_text: |
   (she/her) I have a knack for branding, illustration, and hand-lettering, as well as a passion for sustainability. Bringing beautiful solutions to your design obstacles with empathy always in mind. Plants, yoga, and horror movies are the way to my heart!
 quote_text: |
-  Imperfect action is better than perfect inaction.
+  “Imperfect action is better than perfect inaction.”
 quote_author: |
   — Harry Truman
 portfolio_image1: "/projects/kenlocksherman-bria-project-1.jpg"
