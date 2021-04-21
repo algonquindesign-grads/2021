@@ -44,7 +44,7 @@ portfolio_gif4: "/projects/bulkowskirose-mackenzie-gif-4.mp4"
 portfolio_title1: "People Like Me — App"
 portfolio_description1: |
   What does it mean to be someone like you? This application was designed to promote social advocacy, and features some of the United Nations' 17 Goals for Sustainable Development. I'd love for you to 
-portfolio_description1_link: <a href="https://xd.adobe.com/view/6d15530a-710c-4549-8cb8-f0e3b2fbfbbf-3846/?fullscreen" target="_blank">try it here!</a>
+portfolio_description1_link: <a href="https://xd.adobe.com/view/6d15530a-710c-4549-8cb8-f0e3b2fbfbbf-3846/?fullscreen">try it here!</a>
 portfolio_title2: "Eaj Web Banners — Branding"
 portfolio_description2: |
   This for-fun branding project involved creating three distinct visual identities for a musical artist (Eaj). The concepts center on his life experiences, and were created to flexibly adapt to a variety of contexts, including responsive YouTube banners.
