@@ -104,12 +104,17 @@ h4,
 }
 
 /* styles the inner div in active/focus states; cannot think of a way to fix this atm */
-div > a:focus,
-div > a:active {
-  padding: 4px;
+div > a:focus {
+  /* padding: 4px; */
   border-radius: 5px;
   display: inline-block;
   box-shadow: 0 0 0 2pt var(--color-primary);
+  outline: none;
+}
+
+div > a:active {
+  border-radius: 5px;
+  display: inline-block;
   outline: none;
 }
 
