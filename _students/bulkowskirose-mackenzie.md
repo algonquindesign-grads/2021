@@ -32,7 +32,7 @@ linkedin_link: "https://www.linkedin.com/in/mackenzie-bulkowski-rose/"
 instagram_link: "https://www.instagram.com/kenzie_design/"
 github_link: "https://github.com/MacKenzieRose"
 intro_text: |
-   I'm MacKenzie, and I'm a data driven designer/wannabe frontend developer. Let's find innovative visual solutions that are accessible, strategic, and beautiful.
+   Hey, I'm MacKenzie! I'm a data-driven designer & wannabe frontend developer.
 quote_text: |
   If it ain't broke, don't fix it.
 quote_author: |

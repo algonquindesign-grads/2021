@@ -28,7 +28,7 @@ specialty2: "Illustration"
 specialty3: "Print"
 portfolio_site: "https://briaksherman.design"
 calendly_link: "https://calendly.com/briaksherman"
-linkedin_link: "https://www.instagram.com/briaksherman.design/"
+linkedin_link: "https://www.linkedin.com/in/bria-sherman-2097b1122/"
 instagram_link: "https://www.instagram.com/briaksherman.design/"
 intro_text: |
   (she/her) I have a knack for branding, illustration, and hand-lettering, as well as a passion for sustainability. Bringing beautiful solutions to your design obstacles with empathy always in mind. Plants, yoga, and horror movies are the way to my heart!
