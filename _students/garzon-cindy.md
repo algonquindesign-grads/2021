@@ -31,7 +31,7 @@ instagram_link: "https://www.instagram.com/cindygarzon.design/"
 intro_text: |
    Hi! My name is Cindy Garzon, I am from Colombia and am currently based in Ottawa, Canada. I discovered that graphic design is my true passion.
 quote_text: |
-  No masterpiece was ever created by a lazy artist.
+  “No masterpiece was ever created by a lazy artist.”
 quote_author: |
   — Salvador Dalí
 portfolio_image1: "/projects/garzon-cindy-project-1.jpg"

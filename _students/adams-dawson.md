@@ -31,7 +31,7 @@ instagram_link: "https://www.instagram.com/dawson.creates/?hl=en"
 intro_text: |
   My passion for web design began back in the Tumblr days, when designing custom themes was just for fun. Flash forward to today and I've turned those skills into a career path!
 quote_text: |
-  A user interface is like a joke. If you have to explain it, it's not that good.
+  “A user interface is like a joke. If you have to explain it, it's not that good.”
 portfolio_image1: "/projects/adams-dawson-project-1.jpg"
 portfolio_image2: "/projects/adams-dawson-project-2.jpg"
 portfolio_image3: "/projects/adams-dawson-project-3.jpg"

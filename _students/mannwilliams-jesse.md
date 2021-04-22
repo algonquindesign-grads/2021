@@ -34,7 +34,7 @@ dribble_link: "https://dribbble.com/jmann_design"
 intro_text: |
   I like to create simple and fun pieces of work that tell stories, as well as wanting to be able to create things that help and bring joy to others in the process.
 quote_text: |
-  Good design is actually a lot harder to notice than poor design
+  “Good design is actually a lot harder to notice than poor design”
 quote_author: |
   — Don Norman
 portfolio_video1: "/projects/mannwilliams-jesse-project-1.mp4"

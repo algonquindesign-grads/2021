@@ -33,7 +33,7 @@ instagram_link: "https://www.instagram.com/voldendesign"
 intro_text: |
    I have a background in Business and Psychology which have come together wonderfully in the field of Graphic Design. I am efficient in my processes, and aware of the details and big picture. I believe designers can make a difference.
 quote_text: |
-  Quality and purpose over everything else.
+  “Quality and purpose over everything else.”
 portfolio_image1: "/projects/volden-christine-project-1.jpg"
 portfolio_image2: "/projects/volden-christine-project-2.jpg"
 portfolio_image3: "/projects/volden-christine-project-3.jpg"
