@@ -31,7 +31,7 @@ instagram_link: "https://www.instagram.com/anamartins.design/"
 intro_text: |
   As a designer, I appreciate the simplest possible working solutions. To me, Graphic Design is a full toolbox I use to bring up ideas while solving  problems.
 quote_text: |
-  I work moved by an eagerness to find solutions through different mediums.
+  “I work moved by an eagerness to find solutions through different mediums.”
 portfolio_image1: "/projects/martins-ana-project-1.jpg"
 portfolio_image2: "/projects/martins-ana-project-2.jpg"
 portfolio_image3: "/projects/martins-ana-project-3.jpg"

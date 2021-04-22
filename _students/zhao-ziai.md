@@ -1,10 +1,11 @@
 ---
-layout: template-1
+layout: template-2
 filename: "zhao-ziai"
 first_name: "Ziai"
 last_name: "Zhao"
 headshot_alt: |
   The headshot of Zhao Ziai. It features a person wearing octagonal glasses and a necklace staring serenely at the camera. The person is young and has long, brown hair.
+ation_word: "Adaptation"
 meeting_type:
   - "Networking"
   - "Portfolio Review"

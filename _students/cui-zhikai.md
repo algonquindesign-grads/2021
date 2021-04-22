@@ -60,7 +60,7 @@ meta_sitename: |
   Generation Adaptation
 meta_title: |
   Zhikai Cui
-meta_url: students/cui-zhikai
+meta_url: "#"
 meta_previewimage: headshots/cui-zhikai-headshot.png
 meta_alt: |
   A placeholder graphic with a computer illustration.
