@@ -634,7 +634,12 @@ ul.about-section-3-specialties > li:last-child{
   /* HOME PAGE SECTIONS STYLING */
   .hp-intro-grid {
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1.5rem;
+    grid-gap: 0;
+  }
+
+  .hp-intro-grid > div.center-text {
+    grid-column: 2/3;
+    text-align: left;
   }
 
 }
