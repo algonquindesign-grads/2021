@@ -177,6 +177,7 @@ img:not(.rainbow-line).filtered-web:focus,
 .hp-intro-grid {
   display: grid;
   grid-template-columns: 1fr;
+  column-gap: 1.5rem;
 }
 
 .hp-welcome {
