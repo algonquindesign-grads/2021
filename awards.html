@@ -9,3 +9,68 @@ meta_alt: The Generation Adaptation logo in white text, placed on a rainbow grad
 meta_description: This is a record of the student-nominated awards for the graduating class of 2021.
 highlight_nav:
 ---
+
+{% pattern header/secondary-header gradient="gradient-rainbow" nav_color="nav-white" icon_color="icon-white" %}
+
+<main>
+
+  <section class="pad-t wrapper gutter">
+    <h2 class="h3 text-center pad-t-2">Graduate Awards</h2>
+    <p class="push-2 text-center max-length">The following awards are presented to students demonstrating academic excellence and service to the Algonquin Graphic Design program.</p>
+    <div class="graduate-award-grid pad-t pad-b-2">
+      {% for student in site.students %}
+        {% if student.award == "bruce-rawlins-award" %}
+          <div class="icon-box-shadow graduate-award-1">
+            {% pattern sections/graduate-award-card data=student%}
+          </div>
+        {% endif %}
+        {% if student.award == "rgd-student-award" %}
+          <div class="icon-box-shadow graduate-award-2">
+            {% pattern sections/graduate-award-card data=student%}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="push-2">
+    <div class="hp-quiz-banner pad-t-2 pad-b text-center">
+      <h2 class="h3 gutter push" style="color: var(--color-secondary-light);">Student-Nominated Awards</h2>
+      <p class="gutter" style="color: var(--color-secondary-light)">The following awards are presented to students based on the support of the 2021 graduating class.</p>
+    </div>
+    <svg class="img-flex" id="section-separator" width="1920" height="100" viewBox="0 0 1920 100" style="transform: translateY(-1px);">
+      <path d="M1920 38.7h-910l-50.3 59.4L910 38.7H0V0h1920v38.7z"/>
+    </svg>
+  </div>
+
+  <div class="wrapper gutter">
+    {% pattern sections/award-card student_filename="power-jen" student_full_name="Jen Power" award_filename="best-work-ethic" award_name="Best Work Ethic" specialty_color="print" text_color="black" %}
+
+    {% pattern sections/award-card student_filename="kenlocksherman-bria" student_full_name="Bria Kenlock-Sherman" award_filename="branding-boss" award_name="Branding Boss" specialty_color="branding" text_color="black" %}
+
+    {% pattern sections/award-card student_filename="mannwilliams-jesse" student_full_name="Jesse Mann-Williams" award_filename="destined-for-greatness" award_name="Destined for Greatness" specialty_color="motion" text_color="black" %}
+
+    {% pattern sections/award-card student_filename="breitenstein-linda" student_full_name="Linda Breitenstein" award_filename="font-finagler" award_name="Font Finagler" specialty_color="branding" text_color="black" %}
+
+    {% pattern sections/award-card student_filename="boyd-niall" student_full_name="Niall Boyd" award_filename="friendliest" award_name="Friendliest" specialty_color="branding" text_color="black" %}
+
+    {% pattern sections/award-card student_filename="doyle-alison" student_full_name="Alison Doyle" award_filename="funniest-designer" award_name="Funniest Designer" specialty_color="branding" text_color="black" %}
+
+    {% pattern sections/award-card student_filename="wilkie-catherine" student_full_name="Catherine Wilkie" award_filename="illustration-idol" award_name="Illustration Idol" specialty_color="illustration" text_color="black" %}
+
+    {% pattern sections/award-card student_filename="brown-hannah" student_full_name="Hannah Brown" award_filename="most-enthusiastic" award_name="Most Enthusiastic" specialty_color="web" text_color="white" %}
+
+    {% pattern sections/award-card student_filename="labelle-ayla" student_full_name="Ayla Labelle" award_filename="motion-master" award_name="Motion Master" specialty_color="motion" text_color="black" %}
+
+    {% pattern sections/award-card student_filename="madore-sabrina" student_full_name="Sabrina Madore" award_filename="proven-leadership" award_name="Proven Leadership" specialty_color="web" text_color="white" %}
+
+    {% pattern sections/award-card student_filename="ellis-kyle" student_full_name="Kyle Ellis" award_filename="side-hustle-champ" award_name="Side-Hustle Champ" specialty_color="branding" text_color="black" %}
+
+    {% pattern sections/award-card student_filename="galacio-danielle" student_full_name="Danielle Galacio" award_filename="ui-ux-unicorn" award_name="UI/UX Unicorn" specialty_color="uiux" text_color="white" %}
+
+    {% pattern sections/award-card student_filename="bulkowskirose-mackenzie" student_full_name="MacKenzie Bulkowski-Rose" award_filename="web-wizard" award_name="Web Wizard" specialty_color="web" text_color="white" %}
+  </div>
+  
+</main>
+
+{% pattern footer/primary gradient="gradient-gray" nav_color="nav-black" icon_color="icon-black" text_color="text-black" %}
