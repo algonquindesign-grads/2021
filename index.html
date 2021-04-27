@@ -73,11 +73,13 @@ highlight_nav:
     <h2 class="h3 text-center">Meet our Mentors</h2>
     <p class="text-center" style="max-width: 550px; margin: 0 auto 1.5rem;">We got through it all with the help of these amazing folks. We are grateful for their support, encouragement, and guidance.</p>
 
-    <div class="wrapper home-card-grid pad-t">
+    <div class="wrapper home-card-grid pad-t pad-b-2">
       {% for professor in site.professors %}
         {% pattern sections/teacher-cards data=professor number=forloop.index %}
       {% endfor %}
     </div>
+
+    <p class="text-center gutter max-length">Thank you also to the incredible <span class="bold">Brad St. Jean</span>, our Media and Design Technologist, and <span class="bold">Mike Stacey</span>, our Media and Design Technician, who tirelessly worked to give us technical (and emotional) support.</p>
   </div>
 
   <div class="wrapper gutter pad-b push-2 hp-meteor-grid">
