@@ -1,0 +1,15 @@
+<div class="award-cards-grid push-2 pad-t-2"> 
+  <div class="award-card">
+    <img class="img-flex" src="{{site.cdn}}/awards/{{include.award_filename}}-award.jpg" alt="This is the card for the {{include.award_name}} Award.">
+  </div>
+  <div class="awarded-student icon-box-shadow gutter">
+    <a class="icon-link" href="https://2021.grads.algonquindesign.ca/students/{{include.student_filename}}" aria-label="This card navigates you to {{include.student_full_name}}'s designer profile.">
+      <img class="img-flex" src="{{site.cdn}}/headshots/{{include.student_filename}}-headshot.jpg" alt="This is the headshot of {{include.student_full_name}}">
+      <img class="img-flex rainbow-line" src="/images/line-break-gradient.svg" alt="" role="presentation">
+      <p class="island-1-4 push-0">See Designer Profile</p>
+    </a>
+  </div>
+  <div class="center-text icon-box-shadow">
+    <a class="btn accent-color-{{include.specialty_color}} text-color-{{include.text_color}} center-text" href="https://2021.grads.algonquindesign.ca/students/{{include.student_filename}}" aria-label="This card navigates you to {{include.student_full_name}}'s designer profile." tabindex="0">See Designer Profile</a>
+  </div>
+</div>
