@@ -36,6 +36,11 @@
   color: var(--color-primary);
 }
 
+/* Style current class */
+.current a {
+  text-decoration: underline;
+}
+
 /* Start styling for toggle navigation */
 .header-shape {
   border-radius: 0 0 10px 10px;
