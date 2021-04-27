@@ -36,6 +36,11 @@
   color: var(--color-primary);
 }
 
+/* Style current class */
+.current a {
+  text-decoration: underline;
+}
+
 /* Start styling for toggle navigation */
 .header-shape {
   border-radius: 0 0 10px 10px;
@@ -106,7 +111,7 @@
   flex-direction: column;
 }
 
-@media only screen and (min-width: 608px) {
+@media only screen and (min-width: 700px) {
 
   .header-flex {
     align-items: center;

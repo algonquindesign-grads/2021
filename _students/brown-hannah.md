@@ -70,4 +70,6 @@ nav_color: "nav-white"
 icon_color: "icon-white"
 social_icon_color: "icon-black"
 text_color: "text-white"
+award: "bruce-rawlins-award"
+award_title: "Bruce Rawlins Award"
 ---
