@@ -70,4 +70,6 @@ nav_color: "nav-white"
 icon_color: "icon-white"
 social_icon_color: "icon-white"
 text_color: "text-white"
+award: "rgd-student-award"
+award_title: "RGD Student Award"
 ---
