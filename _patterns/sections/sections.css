@@ -23,8 +23,7 @@ div.graduate-award-grid .rainbow-line {
 }
 
 /* Define general shape of images and videos, excluding the SVG rainbow line */
-img:not(.rainbow-line),
-img:not(.awarded-student > img) {
+img:not(.rainbow-line) {
   background-color: var(--color-secondary);
   border-radius: 10px;
 }
