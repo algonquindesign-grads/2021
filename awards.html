@@ -20,7 +20,7 @@ highlight_nav: awards
     <div class="graduate-award-grid pad-t pad-b-2">
       {% for student in site.students %}
         {% if student.award == "bruce-rawlins-award" %}
-          <div class="icon-box-shadow graduate-award-1">
+          <div class="icon-box-shadow">
             {% pattern sections/graduate-award-card data=student%}
           </div>
         {% endif %}
