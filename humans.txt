@@ -7,12 +7,6 @@ Site: https://thomasjbradley.ca/
 GitHub: https://github.com/thomasjbradley
 Location: Ottawa, Canada
 
-Designer & Developer: MacKenzie Bulkowski-Rose <hello@kenzie.design>
-Site: https://kenzie.design
-GitHub: https://github.com/MacKenzieRose
-Instagram: https://www.instagram.com/kenzie_design/
-Location: Ottawa, Canada
-
 Designer & Developer: Jess Jodoin <hey@jessjodoin.ca>
 Site: https://jessjodoin.ca
 GitHub: https://github.com/JessJodoin
