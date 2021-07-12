@@ -20,7 +20,12 @@ highlight_nav: awards
     <div class="graduate-award-grid pad-t pad-b-2">
       {% for student in site.students %}
         {% if student.award == "bruce-rawlins-award" %}
-          <div class="icon-box-shadow">
+          <div class="icon-box-shadow graduate-award-1">
+            {% pattern sections/graduate-award-card data=student%}
+          </div>
+        {% endif %}
+        {% if student.award == "rgd-student-award" %}
+          <div class="icon-box-shadow graduate-award-2">
             {% pattern sections/graduate-award-card data=student%}
           </div>
         {% endif %}
@@ -62,6 +67,8 @@ highlight_nav: awards
     {% pattern sections/award-card student_filename="ellis-kyle" student_full_name="Kyle Ellis" award_filename="side-hustle-champ" award_name="Side-Hustle Champ" specialty_color="branding" text_color="black" %}
 
     {% pattern sections/award-card student_filename="galacio-danielle" student_full_name="Danielle Galacio" award_filename="ui-ux-unicorn" award_name="UI/UX Unicorn" specialty_color="uiux" text_color="white" %}
+
+    {% pattern sections/award-card student_filename="bulkowskirose-mackenzie" student_full_name="MacKenzie Bulkowski-Rose" award_filename="web-wizard" award_name="Web Wizard" specialty_color="web" text_color="white" %}
   </div>
   
 </main>
